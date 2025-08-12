@@ -1,13 +1,18 @@
 
-<!DOCTYPE html>
+<!doctype html>
 <link rel="stylesheet" href="estilo.css">
-<div class="borde11"><div class="page">	
+<div class="borde11"><div class="page">
 <body>
 <?php
 session_start();
 
-$dir = "../general/";
+// include("../general/funcion/basica.php");
+// include("../general/consultas/pagos.php");
+// include("../general/consultas/basic.php");
+// include("../general/consultas/puclicidad.php");
+// include("letras.php");
 
+$dir = "../general/";
 include($dir."db/pagos.php");
 include($dir."db/basica.php");
 include($dir."db/publicidad.php");
@@ -15,12 +20,14 @@ include($dir."php/alumno.php");
 
 include("letras.php");
 
+
 carga_estilo('../');
 echo "
-	<meta name='description' content='Es una plataforma educativa que te permite estudiar tu Preparatoria en línea con reconocimiento oficial de la SEP mediante CENEVAL (acuerdo 286) o Prepa Abierta'>
-	<link rel='stylesheet' href='../general/estilo/recibo.css'>
+<meta name='description' content='Es una plataforma educativa que te permite estudiar tu Preparatoria en línea con reconocimiento oficial de la SEP mediante CENEVAL (acuerdo 286) o Prepa Abierta'>
+<link rel='stylesheet' href='../general/estilo/recibo.css'>
+
 </head>
-<body onload=\"cambia('m1');\">";
+<body>";
 
 if ($_GET){
 	$idPago = $_GET['pago'];
@@ -107,26 +114,116 @@ if ($_GET){
 	}
 }
 
-echo "
-	<table align='center' width='100%'>
-	<p><h2> <font color='#ff1100'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Conoce más de nuestros servicios!</font></h2></p>
-	<tr>
-";
 
-echo "
-	<td>&nbsp;&nbsp;&nbsp;<img class='mar ul' width='210px'   src='../general/imagen/publicidad-r/administracion.png'></td>
-";
+/*
 
-echo "
-	<td>&nbsp;&nbsp;&nbsp;<img class='mar ul' width='210px'   src='../general/imagen/publicidad-r/industrial.png'></td>
-";
+menu_i();
 
-echo "
-	<td>&nbsp;&nbsp;&nbsp;<img class='mar ul' width='210px'   src='../general/imagen/publicidad-r/pedagogia.png'></td>
-";
+$i=1;
+$j=0;
+$datos=b_pagos($_SESSION["g_id"]);
 
-echo "</tr></table>";
+$ce=1;
+$cp=0;
+$cc=0;
+$pendientes="";
+$pagados="";
+$condonados="";
+
+while($fila=mysqli_fetch_assoc($datos)){
+	if($fila['tipo']==1){
+		$ce=$ce+1;
+		$pendientes="";
+	}
+
+	if($fila['tipo']==2){
+		$cp=$cp+1;
+		$pagados=$pagados."<tr>
+			<td>$cp</td>
+			<td>".$fila['fecha_solicitud']." al ".$fila['fecha_caducidad']."</td>
+			<td>".$fila['fecha_pago']."</td>
+			<td>".$fila['referencia']."</td>
+			<td align='center'>".$fila['cantidad']."</td>
+		</tr>";
+		$cpt=$cpt+$fila['cantidad'];
+	}
+
+	if($fila['tipo']==3){
+		$cc=$cc+1;
+		$condonados=$condonados."<tr>
+			<td>$cp</td>
+			<td>".$fila['fecha_solicitud']." al ".$fila['fecha_caducidad']."</td>
+			<td>".$fila['fecha_pago']."</td>
+			<td>".$fila['referencia']."</td>
+			<td align='center'>".$fila['cantidad']."</td>
+		</tr>";
+		$cct=$cct+$fila['cantidad'];
+	}
+	
+	
+}
+
+echo "<div id='mensaje'>HISTÓRICO DE PAGOS</div><br><br>";
+
+if ($ce>=0){
+	echo "<div id='titulo2'>Adeudos</div><br><table border='1'><tr><td>Tienes 200 semanas de adeudo</td><td>realiza tu pago por $2000</td><td>Ver ficha de pago</td></tr></table><br><br>";
+}
+
+if ($cc>=0){
+	echo "<div id='titulo2'>Apoyo por contingencia santitaria</div><br>
+		<table border='1'>
+		<tr><th>#</th>
+		<th>Periodo</th>
+		<th>Fecha</th>
+		<th>Concepto</th>
+		<th>Cantidad</th>
+	</tr>$condonados
+	<tr><th colspan='4'>TOTAL</th><th>$cct</th></tr></table><br><br>";
+}
+
+if ($cp>=0){
+	echo "<div id='titulo2'>Pagos realizados</div><br>
+	<table border='1'>
+		<tr><th>#</th>
+		<th>Periodo</th>
+		<th>Fecha de pago</th>
+		<th>Concepto</th>
+		<th>Cantidad</th>
+		<th>Recibo de pago</th>
+	</tr>$pagados<tr><th colspan='4'>TOTAL</th><th>$cpt</th></tr></table><br><br>";
+}
+
+*/
+
+// $datos = busca_pu($id_usuario);
+// if ($datos) {
+	echo "
+		<table align='center' width='100%'>
+		<p><h2> <font color='#ff1100'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Conoce más de nuestros servicios!</font></h2></p>
+		<tr>
+	";
+
+	// while ($fila = mysqli_fetch_assoc($datos)) {
+	// 	$imagen = $fila['imagen'];
+
+		echo "
+			<td>&nbsp;&nbsp;&nbsp;<img class='mar ul' width='210px'   src='../general/imagen/publicidad-r/administracion.png'></td>
+		";
+
+		echo "
+			<td>&nbsp;&nbsp;&nbsp;<img class='mar ul' width='210px'   src='../general/imagen/publicidad-r/industrial.png'></td>
+		";
+
+		echo "
+			<td>&nbsp;&nbsp;&nbsp;<img class='mar ul' width='210px'   src='../general/imagen/publicidad-r/pedagogia.png'></td>
+		";
+	// }
+
+	echo "</tr></table>";
+// }
+
 ?>
+
 	</body></div></div>
 </html>
 
