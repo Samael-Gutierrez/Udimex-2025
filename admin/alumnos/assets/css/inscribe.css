@@ -1,0 +1,227 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+    color: #333;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.modal.show {
+    opacity: 1;
+}
+
+.modal.show .modal-content {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.05);
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
+    color: #aaa;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: black;
+}
+
+.table-groups {
+    width: 70%;
+    border-bottom: 4px solid #009688;
+}
+
+.resultado {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #009688;
+    border-radius: 3px;
+    border-collapse: collapse;
+    color: white;
+}
+
+.dfrc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aviso {
+    border-bottom: 2px solid #009688;
+}
+
+.openModal, .crearGrupo {
+    background-color: #009688;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+
+.openModal:hover, .crearGrupo:hover {
+    background-color: #018174;
+    scale: 1.1;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+input[type="radio"]:checked {
+    background-color: #ccc;
+    border-color: #009688;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+}
+
+.crearGrupo {
+    margin-bottom: 20px;
+}
+
+.close {
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: #aaa;
+    border-radius: 1000px;
+    box-shadow: 3px 3px 3px rgba(0, 150, 136, 0.4);
+    transition: all ease 0.3s;
+}
+
+.close:hover {
+    background-color: #009688;
+    color: white;
+    scale: 1.1;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+}
+
+.separador {
+    width: 100%;
+    background-color: #009688;
+    height: 3px;
+}
+
+#sendGroup .style-box:checked {
+    background-color: #009688;
+}
+
+/* ------ CheckBox ------ */
+.custom-checkbox {
+    position: relative;
+    display: inline-block;
+    padding-left: 25px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .custom-checkbox input {
+    display: none;
+  }
+  
+  .custom-checkbox span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    background-color: #ccc;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+    margin-left: 5px;
+  }
+  .custom-checkbox input:checked + span {
+    background-color: #009688;
+    border: 2px solid #018174;
+  }
+
+  .custom-checkbox span::before,
+  .custom-checkbox span::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 14px;
+    height: 2px;
+    background-color: white;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .custom-checkbox span::before {
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  
+  .custom-checkbox span::after {
+    transform: translate(-50%, -50%) rotate(-45deg);
+    opacity: 0;
+  }
+
+  .custom-checkbox input:checked + span::before {
+    transform: translate(-50%, -50%) rotate(45deg) scale(1);
+  }
+  
+  .custom-checkbox input:checked + span::after {
+    transform: translate(-50%, -50%) rotate(-45deg) scale(1);
+    opacity: 1;
+  }
+  
+  .custom-checkbox:hover span {
+    background-color: #b2dfdb;
+  }
+
+  .title-groups {
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+
+  .file-table tr th {
+    text-align: center;
+  }

@@ -1,0 +1,436 @@
+
+		
+		
+		<link rel="stylesheet" href="estilo/ed_estilo.css">&nbsp;<span style="color: rgb(36, 31, 31); font-family: Arial, sans-serif; font-size: 11.5pt;">A las </span><b style="color: rgb(36, 31, 31); font-family: Arial, sans-serif; font-size: 11.5pt;">medidas de
+dispersión </b><span style="color: rgb(36, 31, 31); font-family: Arial, sans-serif; font-size: 11.5pt;">también se llama </span><b style="color: rgb(36, 31, 31); font-family: Arial, sans-serif; font-size: 11.5pt;">medidas de variabilidad</b><span style="color: rgb(36, 31, 31); font-family: Arial, sans-serif; font-size: 11.5pt;">, porque nos
+señalan la variabilidad de una distribución y están indicadas por medio de un
+número. Este tipo de medidas nos muestran la información de la muestra o serie
+de datos, indicándonos sobre la magnitud del alejamiento de la distribución de
+datos en relación a un valor central. Estas medidas son: </span><b style="color: rgb(36, 31, 31); font-family: Arial, sans-serif; font-size: 11.5pt;">rango</b><span style="color: rgb(36, 31, 31); font-family: Arial, sans-serif; font-size: 11.5pt;">, </span><b style="color: rgb(36, 31, 31); font-family: Arial, sans-serif; font-size: 11.5pt;">desviación
+típica </b><span style="color: rgb(36, 31, 31); font-family: Arial, sans-serif; font-size: 11.5pt;">y </span><b style="color: rgb(36, 31, 31); font-family: Arial, sans-serif; font-size: 11.5pt;">varianza</b><span style="color: rgb(36, 31, 31); font-family: Arial, sans-serif; font-size: 11.5pt;">.</span><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:
+11.5pt;font-family:" arial",sans-serif;color:#241f1f"=""><o:p></o:p></span></p><div><font color="#241f1f" face="Arial, sans-serif"><span style="font-size: 15.3333px;"><img src="http://www.udimex.net/alf/im/img123.jpg" widt=""></span></font></div><div><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:
+11.5pt;font-family:" arial",sans-serif;mso-fareast-font-family:"times="" new="" roman";="" mso-fareast-theme-font:minor-fareast;color:#241f1f"="">El <b>rango </b>lo podemos entender como la amplitud existente entre una
+serie de datos, es decir, mide cuán lejos está el valor más pequeño y el valor
+más grande de la muestra o población. La fórmula que se utiliza es:</span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-layout-grid-align:none;text-autospace:none"><span style="color: rgb(36, 31, 31); font-family: Arial, sans-serif; font-size: 11.5pt; text-align: center;">Dato más
+grande o el mayor - Dato más pequeño o menor</span></p>
+
+<p class="MsoNormal" style="margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:141.6pt;margin-bottom:.0001pt;text-indent:35.4pt;line-height:normal;
+mso-layout-grid-align:none;text-autospace:none"><span style="font-size:11.5pt;
+font-family:" arial",sans-serif;mso-fareast-font-family:"times="" new="" roman";="" mso-fareast-theme-font:minor-fareast;color:#241f1f"="">( X<sub>2</sub> - X<sub>1 </sub>)<o:p></o:p></span></p>
+
+<span style="font-size:11.5pt;line-height:115%;font-family:" arial",sans-serif;="" mso-fareast-font-family:calibri;mso-fareast-theme-font:minor-latin;color:#241f1f;="" mso-ansi-language:es-mx;mso-fareast-language:en-us;mso-bidi-language:ar-sa"="">La <b>desviación
+estándar o típica </b>es la medida de dispersión de mayor utilidad práctica, se
+representa normalmente por el símbolo </span><i><span style="font-size:13.5pt;
+line-height:115%;font-family:TimesNewRomanPS-ItalicMT;mso-fareast-font-family:
+Calibri;mso-fareast-theme-font:minor-latin;mso-bidi-font-family:TimesNewRomanPS-ItalicMT;
+color:#241F1F;mso-ansi-language:ES-MX;mso-fareast-language:EN-US;mso-bidi-language:
+AR-SA">σ </span></i><span style="font-size:11.5pt;line-height:115%;font-family:
+ArialMT;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;
+mso-bidi-font-family:ArialMT;color:#241F1F;mso-ansi-language:ES-MX;mso-fareast-language:
+EN-US;mso-bidi-language:AR-SA">(sigma) y nos da una idea de la</span><span style="font-size:11.5pt;line-height:115%;font-family:" arial",sans-serif;="" mso-fareast-font-family:calibri;mso-fareast-theme-font:minor-latin;color:#241f1f;="" mso-ansi-language:es-mx;mso-fareast-language:en-us;mso-bidi-language:ar-sa"="">
+variación de los datos respecto a la media. La <b>desviación estándar o típica </b>es
+la medida de dispersión de mayor utilidad práctica, se representa normalmente
+por el símbolo </span><i><span style="font-size:13.5pt;line-height:115%;
+font-family:TimesNewRomanPS-ItalicMT;mso-fareast-font-family:Calibri;
+mso-fareast-theme-font:minor-latin;mso-bidi-font-family:TimesNewRomanPS-ItalicMT;
+color:#241F1F;mso-ansi-language:ES-MX;mso-fareast-language:EN-US;mso-bidi-language:
+AR-SA">σ </span></i><span style="font-size:11.5pt;line-height:115%;font-family:
+ArialMT;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;
+mso-bidi-font-family:ArialMT;color:#241F1F;mso-ansi-language:ES-MX;mso-fareast-language:
+EN-US;mso-bidi-language:AR-SA">(sigma) y nos da una idea de la</span><span style="font-size:11.5pt;line-height:115%;font-family:" arial",sans-serif;="" mso-fareast-font-family:calibri;mso-fareast-theme-font:minor-latin;color:#241f1f;="" mso-ansi-language:es-mx;mso-fareast-language:en-us;mso-bidi-language:ar-sa"="">
+variación de los datos respecto a la media La fórmula de desviación típica es:</span></div><div style="text-align: left;"><font color="#241f1f" face="Arial, sans-serif"><span style="font-size: 15.3333px;"><img src="http://www.udimex.net/alf/im/img124.jpg" widt=""></span></font></div><div style="text-align: left;"><font color="#241f1f" face="Arial, sans-serif"><span style="font-size: 15.3333px;"><br></span></font></div><div style="text-align: center;"><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:
+11.5pt;font-family:" arial",sans-serif;color:#241f1f"="">Con el ejemplo que
+mencionamos anteriormente, analizaremos la dispersión o variabilidad de los
+datos obtenidos en la tabla de distribución de frecuencias.<o:p></o:p></span></p>
+
+<table class="MsoTableLightListAccent4" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none;mso-border-alt:solid #8064A2 1.0pt;
+ mso-border-themecolor:accent4;mso-yfti-tbllook:96;mso-padding-alt:0cm 5.4pt 0cm 5.4pt">
+ <tbody><tr>
+  <td width="599" colspan="2" style="width:448.9pt;border:solid #8064A2 1.0pt;
+  mso-border-themecolor:accent4;border-bottom:none;background:#8064A2;
+  mso-background-themecolor:accent4;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal;mso-layout-grid-align:none;text-autospace:
+  none;mso-yfti-cnfc:17"><b><span style="font-size:11.5pt;font-family:" arial",sans-serif;="" color:#241f1f"="">La variable es: lugar de origen<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="299" valign="top" style="width:224.45pt;border:solid #8064A2 1.0pt;
+  mso-border-themecolor:accent4;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none;mso-yfti-cnfc:80"><b><span style="font-size:11.5pt;font-family:
+  " arial",sans-serif;color:#241f1f"="">Estados <o:p></o:p></span></b></p>
+  </td>
+  <td width="299" valign="top" style="width:224.45pt;border:solid #8064A2 1.0pt;
+  mso-border-themecolor:accent4;border-left:none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none;mso-yfti-cnfc:64"><b><span style="font-size:11.5pt;font-family:
+  " arial",sans-serif;color:#241f1f"="">Frecuencias (número de respuestas)<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="299" valign="top" style="width:224.45pt;border-top:none;border-left:
+  solid #8064A2 1.0pt;mso-border-left-themecolor:accent4;border-bottom:none;
+  border-right:solid #8064A2 1.0pt;mso-border-right-themecolor:accent4;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none;mso-yfti-cnfc:16"><span style="font-size:11.5pt;font-family:" arial",sans-serif;color:#241f1f"="">Guerrero
+  <o:p></o:p></span></p>
+  </td>
+  <td width="299" valign="top" style="width:224.45pt;border:none;border-right:solid #8064A2 1.0pt;
+  mso-border-right-themecolor:accent4;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:11.5pt;font-family:" arial",sans-serif;color:#241f1f"="">432<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="299" valign="top" style="width:224.45pt;border:solid #8064A2 1.0pt;
+  mso-border-themecolor:accent4;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none;mso-yfti-cnfc:80"><span style="font-size:11.5pt;font-family:" arial",sans-serif;color:#241f1f"="">San
+  Luis Potosí<o:p></o:p></span></p>
+  </td>
+  <td width="299" valign="top" style="width:224.45pt;border:solid #8064A2 1.0pt;
+  mso-border-themecolor:accent4;border-left:none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none;mso-yfti-cnfc:64"><span style="font-size:11.5pt;font-family:" arial",sans-serif;color:#241f1f"="">176<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="299" valign="top" style="width:224.45pt;border-top:none;border-left:
+  solid #8064A2 1.0pt;mso-border-left-themecolor:accent4;border-bottom:none;
+  border-right:solid #8064A2 1.0pt;mso-border-right-themecolor:accent4;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none;mso-yfti-cnfc:16"><span style="font-size:11.5pt;font-family:" arial",sans-serif;color:#241f1f"="">Puebla <o:p></o:p></span></p>
+  </td>
+  <td width="299" valign="top" style="width:224.45pt;border:none;border-right:solid #8064A2 1.0pt;
+  mso-border-right-themecolor:accent4;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:11.5pt;font-family:" arial",sans-serif;color:#241f1f"="">85<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="299" valign="top" style="width:224.45pt;border:solid #8064A2 1.0pt;
+  mso-border-themecolor:accent4;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none;mso-yfti-cnfc:80"><span style="font-size:11.5pt;font-family:" arial",sans-serif;color:#241f1f"="">Nayarit
+  <o:p></o:p></span></p>
+  </td>
+  <td width="299" valign="top" style="width:224.45pt;border:solid #8064A2 1.0pt;
+  mso-border-themecolor:accent4;border-left:none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none;mso-yfti-cnfc:64"><span style="font-size:11.5pt;font-family:" arial",sans-serif;color:#241f1f"="">365<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="299" valign="top" style="width:224.45pt;border-top:none;border-left:
+  solid #8064A2 1.0pt;mso-border-left-themecolor:accent4;border-bottom:none;
+  border-right:solid #8064A2 1.0pt;mso-border-right-themecolor:accent4;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none;mso-yfti-cnfc:16"><span style="font-size:11.5pt;font-family:" arial",sans-serif;color:#241f1f"="">Guanajuato
+  <o:p></o:p></span></p>
+  </td>
+  <td width="299" valign="top" style="width:224.45pt;border:none;border-right:solid #8064A2 1.0pt;
+  mso-border-right-themecolor:accent4;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:11.5pt;font-family:" arial",sans-serif;color:#241f1f"="">784<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="299" valign="top" style="width:224.45pt;border:solid #8064A2 1.0pt;
+  mso-border-themecolor:accent4;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none;mso-yfti-cnfc:80"><span style="font-size:11.5pt;font-family:" arial",sans-serif;color:#241f1f"="">Veracruz
+  <o:p></o:p></span></p>
+  </td>
+  <td width="299" valign="top" style="width:224.45pt;border:solid #8064A2 1.0pt;
+  mso-border-themecolor:accent4;border-left:none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none;mso-yfti-cnfc:64"><span style="font-size:11.5pt;font-family:" arial",sans-serif;color:#241f1f"="">112<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="299" valign="top" style="width:224.45pt;border-top:none;border-left:
+  solid #8064A2 1.0pt;mso-border-left-themecolor:accent4;border-bottom:none;
+  border-right:solid #8064A2 1.0pt;mso-border-right-themecolor:accent4;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none;mso-yfti-cnfc:16"><span style="font-size:11.5pt;font-family:" arial",sans-serif;color:#241f1f"="">Durango
+  <o:p></o:p></span></p>
+  </td>
+  <td width="299" valign="top" style="width:224.45pt;border:none;border-right:solid #8064A2 1.0pt;
+  mso-border-right-themecolor:accent4;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:11.5pt;font-family:" arial",sans-serif;color:#241f1f"="">112<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="299" valign="top" style="width:224.45pt;border:solid #8064A2 1.0pt;
+  mso-border-themecolor:accent4;border-top:double #8064A2 2.25pt;mso-border-top-themecolor:
+  accent4;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none;mso-yfti-cnfc:18"><b><span style="font-size:11.5pt;font-family:" arial",sans-serif;color:#241f1f"="">Total <o:p></o:p></span></b></p>
+  </td>
+  <td width="299" valign="top" style="width:224.45pt;border-top:double #8064A2 2.25pt;
+  mso-border-top-themecolor:accent4;border-left:none;border-bottom:solid #8064A2 1.0pt;
+  mso-border-bottom-themecolor:accent4;border-right:solid #8064A2 1.0pt;
+  mso-border-right-themecolor:accent4;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none;mso-yfti-cnfc:2"><b><span style="font-size:11.5pt;font-family:" arial",sans-serif;color:#241f1f"="">2066
+  personas <o:p></o:p></span></b></p>
+  </td>
+ </tr>
+</tbody></table>
+
+<p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:
+11.5pt;font-family:" arial",sans-serif;color:#241f1f"="">&nbsp;</span></p>
+
+<p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:
+11.5pt;font-family:" arial",sans-serif;color:#241f1f"="">Para aplicar las medidas
+de dispersión se utilizarán resultados de las medidas de tendencia central,
+como se muestra en seguida:<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-layout-grid-align:none;text-autospace:none"><b><span style="font-size:11.5pt;font-family:" arial",sans-serif;color:#241f1f"="">Rango </span></b><span style="font-size:11.5pt;font-family:" arial",sans-serif;color:#241f1f"="">de
+personas foráneas que llegan al DF:<o:p></o:p></span></p>
+
+<p class="MsoNormal" align="center" style="margin-bottom: 0.0001pt; line-height: normal;"><i><span style="font-size:11.5pt;font-family:" arial-italicmt",sans-serif;="" mso-bidi-font-family:arial-italicmt;color:#241f1f"="">(X<sub>2</sub></span></i><i><span style="font-size:7.0pt;font-family:" arial-italicmt",sans-serif;mso-bidi-font-family:="" arial-italicmt;color:#241f1f"=""> </span></i><i><span style="font-size:11.5pt;
+font-family:" arial-italicmt",sans-serif;mso-bidi-font-family:arial-italicmt;="" color:#241f1f"="">- X</span></i><i><span style="font-size:7.0pt;font-family:" arial-italicmt",sans-serif;="" mso-bidi-font-family:arial-italicmt;color:#241f1f"="">1</span></i><i><span style="font-size:11.5pt;font-family:" arial-italicmt",sans-serif;mso-bidi-font-family:="" arial-italicmt;color:#241f1f"="">)<o:p></o:p></span></i></p>
+
+<p class="MsoNormal" align="center" style="margin-bottom: 0.0001pt; line-height: normal;"><i><span style="font-size:11.5pt;font-family:" arial-italicmt",sans-serif;="" mso-bidi-font-family:arial-italicmt;color:#241f1f"="">784 – 85 = 699<o:p></o:p></span></i></p>
+
+<p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-layout-grid-align:none;text-autospace:none"><b><span style="font-size:11.5pt;font-family:" arial",sans-serif;color:#241f1f"="">Desviación
+estándar o típica (</span></b><i><span style="font-size:11.5pt;font-family:
+TimesNewRomanPS-ItalicMT;mso-bidi-font-family:TimesNewRomanPS-ItalicMT;
+color:#241F1F">σ</span></i><b><span style="font-size:11.5pt;font-family:" arial",sans-serif;="" color:#241f1f"="">)</span></b><span style="color: rgb(36, 31, 31); font-family: Arial, sans-serif; font-size: 13.5pt;">&nbsp;</span></p><p class="MsoNormal" style="text-align: left; margin-bottom: 0.0001pt; line-height: normal;"><font color="#241f1f" face="Arial, sans-serif"><span style="font-size: 18px;"><img src="http://www.udimex.net/alf/im/img125.jpg" widt=""></span></font></p><p class="MsoNormal" style="text-align: left; margin-bottom: 0.0001pt; line-height: normal;"><font color="#241f1f" face="Arial, sans-serif"><span style="font-size: 18px;">Donde:</span></font></p><p class="MsoNormal" style="text-align: left; margin-bottom: 0.0001pt; line-height: normal;"><font color="#241f1f" face="Arial, sans-serif"><span style="font-size: 18px;"><img src="http://www.udimex.net/alf/im/img126.jpg" widt=""></span></font></p><p class="MsoNormal" align="center" style="margin-bottom: 0.0001pt; line-height: normal;"><i><b><span style="font-size: 11.5pt; line-height: 115%; font-family: TimesNewRomanPS-ItalicMT; color: rgb(36, 31, 31);">σ</span><span style="font-size: 11.5pt; line-height: 115%; color: rgb(36, 31, 31);"><font face="Arial, sans-serif" style="">=360.69</font></span></b></i></p><p class="MsoNormal" style="text-align: left; margin-bottom: 0.0001pt; line-height: normal;"><span style="font-size:
+11.5pt;font-family:" arial",sans-serif;color:#241f1f"="">Tenemos que en promedio
+llegan al DF 295.14 personas de 7 estados a trabajar pero existe una desviación
+típica y pueden llegar hasta 360.69 personas foráneas a trabajar.<o:p></o:p></span></p><p class="MsoNormal" style="text-align: left; margin-bottom: 0.0001pt; line-height: normal;"><span style="font-size:
+11.5pt;font-family:" arial",sans-serif;color:#241f1f"="">La<b> varianza</b> es la medida de dispersión que nos permite identificar la
+diferencia promedio que existe entre cada uno de los valores respecto a su
+punto central. Se representa por el símbolo σ2 (sigma cuadrada).<o:p></o:p></span></p><p class="MsoNormal" style="text-align: left; margin-bottom: 0.0001pt; line-height: normal;"><span style="font-size:
+11.5pt;font-family:" arial",sans-serif;color:#241f1f"="">&nbsp;</span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-layout-grid-align:none;text-autospace:none">
+
+
+
+
+
+
+
+</p><p class="MsoNormal" style="text-align: left; margin-bottom: 0.0001pt; line-height: normal;"><span style="font-size:
+11.5pt;font-family:" arial",sans-serif;color:#241f1f"="">&nbsp;<b>Varianza<o:p></o:p></b></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-layout-grid-align:none;text-autospace:none"><font color="#241f1f" face="Arial, sans-serif"><span style="font-size: 18px;"><img src="http://www.udimex.net/alf/im/img127.jpg" widt=""></span></font></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:
+11.5pt;font-family:" arial",sans-serif;color:#241f1f"="">Puede variar el promedio
+de las personas que llegan a trabajar al DF, es decir, pueden llegar al DF
+369.69 personas.<o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-layout-grid-align:none;text-autospace:none"><b><span style="font-size:11.5pt;font-family:" arial",sans-serif;color:#2367af"="">&nbsp;</span></b></p><p class="MsoNormal" style="text-align: left; margin-bottom: 0.0001pt; line-height: normal;"><b><span style="font-size:11.5pt;font-family:" arial",sans-serif;color:#2367af"="">ETAPA 4<o:p></o:p></span></b></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-layout-grid-align:none;text-autospace:none">
+
+
+
+
+
+</p><p class="MsoNormal" style="text-align: left; margin-bottom: 0.0001pt; line-height: normal;"><b><span style="font-size:11.5pt;font-family:Arial-BoldMT;mso-bidi-font-family:Arial-BoldMT;
+color:#241F1F">Representación gráfica de los datos. </span></b><span style="font-size:11.5pt;font-family:" arial",sans-serif;color:#241f1f"="">Es
+frecuente usar representaciones visuales complementarias para presentar los
+resultados de los análisis de la información </span><span style="font-size:
+11.5pt;font-family:ArialMT;mso-bidi-font-family:ArialMT;color:#241F1F">de los
+estudios estadísticos, para ello existen diferentes tipos de gráficas:<o:p></o:p></span></p><table class="MsoTableLightGridAccent4" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none;mso-border-alt:solid #8064A2 1.0pt;
+ mso-border-themecolor:accent4;mso-yfti-tbllook:1024;mso-padding-alt:0cm 5.4pt 0cm 5.4pt">
+ <tbody><tr>
+  <td width="299" valign="top" style="width:224.45pt;border:solid #8064A2 1.0pt;
+  mso-border-themecolor:accent4;background:#DFD8E8;mso-background-themecolor:
+  accent4;mso-background-themetint:63;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none;mso-yfti-cnfc:64"><b><span style="font-size:10.5pt;font-family:" arial",sans-serif;color:#241f1f"="">Diagramas
+  de barras.<o:p></o:p></span></b></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none;mso-yfti-cnfc:64"><span style="font-size:10.5pt;font-family:" arial",sans-serif;color:#241f1f"="">Muestran
+  los valores de las frecuencias absolutas sobre un sistema de ejes
+  cartesianos.<o:p></o:p></span></p>
+  </td>
+  <td width="299" valign="top" style="width:224.45pt;border:solid #8064A2 1.0pt;
+  mso-border-themecolor:accent4;border-left:none;mso-border-left-alt:solid #8064A2 1.0pt;
+  mso-border-left-themecolor:accent4;background:#DFD8E8;mso-background-themecolor:
+  accent4;mso-background-themetint:63;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none;mso-yfti-cnfc:64"><br></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="299" valign="top" style="width:224.45pt;border:solid #8064A2 1.0pt;
+  mso-border-themecolor:accent4;border-top:none;mso-border-top-alt:solid #8064A2 1.0pt;
+  mso-border-top-themecolor:accent4;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none;mso-yfti-cnfc:128"><b><span style="font-size:10.5pt;font-family:" arial",sans-serif;color:#241f1f"="">Histogramas.
+  </span></b><span style="font-size:10.5pt;font-family:" arial",sans-serif;="" color:#241f1f"="">Formas especiales<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none;mso-yfti-cnfc:128"><span style="font-size:10.5pt;font-family:" arial",sans-serif;color:#241f1f"="">de
+  diagramas de barras para distribuciones<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none;mso-yfti-cnfc:128"><span style="font-size:10.5pt;font-family:" arial",sans-serif;color:#241f1f"="">cuantitativas
+  continuas</span><span style="font-size:11.5pt;font-family:" arial",sans-serif;="" color:#241f1f"=""><o:p></o:p></span></p>
+  </td>
+  <td width="299" valign="top" style="width:224.45pt;border-top:none;border-left:
+  none;border-bottom:solid #8064A2 1.0pt;mso-border-bottom-themecolor:accent4;
+  border-right:solid #8064A2 1.0pt;mso-border-right-themecolor:accent4;
+  mso-border-top-alt:solid #8064A2 1.0pt;mso-border-top-themecolor:accent4;
+  mso-border-left-alt:solid #8064A2 1.0pt;mso-border-left-themecolor:accent4;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none;mso-yfti-cnfc:128"><img src="http://www.udimex.net/alf/im/img128.jpg" widt=""></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="299" valign="top" style="width:224.45pt;border:solid #8064A2 1.0pt;
+  mso-border-themecolor:accent4;border-top:none;mso-border-top-alt:solid #8064A2 1.0pt;
+  mso-border-top-themecolor:accent4;background:#DFD8E8;mso-background-themecolor:
+  accent4;mso-background-themetint:63;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none;mso-yfti-cnfc:64"><b><span style="font-size:10.5pt;font-family:" arial",sans-serif;color:#241f1f"="">Polígonos
+  de frecuencias.<o:p></o:p></span></b></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none;mso-yfti-cnfc:64"><span style="font-size:10.5pt;font-family:" arial",sans-serif;color:#241f1f"="">Formados
+  por líneas poligonales abiertas sobre un sistema de ejes cartesianos.<o:p></o:p></span></p>
+  </td>
+  <td width="299" valign="top" style="width:224.45pt;border-top:none;border-left:
+  none;border-bottom:solid #8064A2 1.0pt;mso-border-bottom-themecolor:accent4;
+  border-right:solid #8064A2 1.0pt;mso-border-right-themecolor:accent4;
+  mso-border-top-alt:solid #8064A2 1.0pt;mso-border-top-themecolor:accent4;
+  mso-border-left-alt:solid #8064A2 1.0pt;mso-border-left-themecolor:accent4;
+  background:#DFD8E8;mso-background-themecolor:accent4;mso-background-themetint:
+  63;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none;mso-yfti-cnfc:64"><img src="http://www.udimex.net/alf/im/img129.jpg" widt=""></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="299" valign="top" style="width:224.45pt;border:solid #8064A2 1.0pt;
+  mso-border-themecolor:accent4;border-top:none;mso-border-top-alt:solid #8064A2 1.0pt;
+  mso-border-top-themecolor:accent4;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none;mso-yfti-cnfc:128"><b><span style="font-size:10.5pt;font-family:" arial",sans-serif;color:#241f1f"="">Pirámides
+  de población.<o:p></o:p></span></b></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none;mso-yfti-cnfc:128"><span style="font-size:10.5pt;font-family:ArialMT;mso-bidi-font-family:ArialMT;
+  color:#241F1F">Para clasificaciones de </span><span style="font-size:10.5pt;
+  font-family:" arial",sans-serif;color:#241f1f"="">grupos de población por</span><span style="font-size:10.5pt;font-family:ArialMT;mso-bidi-font-family:ArialMT;
+  color:#241F1F"> </span><span style="font-size:10.5pt;font-family:" arial",sans-serif;="" color:#241f1f"="">sexo y edad.</span><span style="font-size:10.5pt;font-family:
+  ArialMT;mso-bidi-font-family:ArialMT;color:#241F1F"><o:p></o:p></span></p>
+  </td>
+  <td width="299" valign="top" style="width:224.45pt;border-top:none;border-left:
+  none;border-bottom:solid #8064A2 1.0pt;mso-border-bottom-themecolor:accent4;
+  border-right:solid #8064A2 1.0pt;mso-border-right-themecolor:accent4;
+  mso-border-top-alt:solid #8064A2 1.0pt;mso-border-top-themecolor:accent4;
+  mso-border-left-alt:solid #8064A2 1.0pt;mso-border-left-themecolor:accent4;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none;mso-yfti-cnfc:128"><img src="http://www.udimex.net/alf/im/img130.jpg" widt=""></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="299" valign="top" style="width:224.45pt;border:solid #8064A2 1.0pt;
+  mso-border-themecolor:accent4;border-top:none;mso-border-top-alt:solid #8064A2 1.0pt;
+  mso-border-top-themecolor:accent4;background:#DFD8E8;mso-background-themecolor:
+  accent4;mso-background-themetint:63;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none;mso-yfti-cnfc:64"><b><span style="font-size:10.5pt;font-family:" arial",sans-serif;color:#241f1f"="">Pictogramas.
+  </span></b><span style="font-size:10.5pt;font-family:" arial",sans-serif;="" color:#241f1f"="">Son representaciones<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none;mso-yfti-cnfc:64"><span style="font-size:10.5pt;font-family:" arial",sans-serif;color:#241f1f"="">Visua</span><span style="font-size:10.5pt;font-family:ArialMT;mso-bidi-font-family:ArialMT;
+  color:#241F1F">les figurativas. En rea</span><span style="font-size:10.5pt;
+  font-family:" arial",sans-serif;color:#241f1f"="">lidad</span><span style="font-size:10.5pt;font-family:ArialMT;mso-bidi-font-family:ArialMT;
+  color:#241F1F"><o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none;mso-yfti-cnfc:64"><span style="font-size:10.5pt;font-family:" arial",sans-serif;color:#241f1f"="">son
+  diagramas de barras en los que las barras se sustituyen con dibujos alusivos
+  a la variable.<o:p></o:p></span></p>
+  </td>
+  <td width="299" valign="top" style="width:224.45pt;border-top:none;border-left:
+  none;border-bottom:solid #8064A2 1.0pt;mso-border-bottom-themecolor:accent4;
+  border-right:solid #8064A2 1.0pt;mso-border-right-themecolor:accent4;
+  mso-border-top-alt:solid #8064A2 1.0pt;mso-border-top-themecolor:accent4;
+  mso-border-left-alt:solid #8064A2 1.0pt;mso-border-left-themecolor:accent4;
+  background:#DFD8E8;mso-background-themecolor:accent4;mso-background-themetint:
+  63;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none;mso-yfti-cnfc:64"><img src="http://www.udimex.net/alf/im/img131.jpg" widt=""></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="299" valign="top" style="width:224.45pt;border:solid #8064A2 1.0pt;
+  mso-border-themecolor:accent4;border-top:none;mso-border-top-alt:solid #8064A2 1.0pt;
+  mso-border-top-themecolor:accent4;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none;mso-yfti-cnfc:128"><b><span style="font-size:10.5pt;font-family:Arial-BoldMT;mso-bidi-font-family:Arial-BoldMT;
+  color:#241F1F">Gráficos de sectores. </span></b><span style="font-size:10.5pt;
+  font-family:" arial",sans-serif;color:#241f1f"="">Circulares o de tarta, dividen un
+  círculo en porciones proporcionales según el valor de las frecuencias
+  relativas.<o:p></o:p></span></p>
+  </td>
+  <td width="299" valign="top" style="width:224.45pt;border-top:none;border-left:
+  none;border-bottom:solid #8064A2 1.0pt;mso-border-bottom-themecolor:accent4;
+  border-right:solid #8064A2 1.0pt;mso-border-right-themecolor:accent4;
+  mso-border-top-alt:solid #8064A2 1.0pt;mso-border-top-themecolor:accent4;
+  mso-border-left-alt:solid #8064A2 1.0pt;mso-border-left-themecolor:accent4;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none;mso-yfti-cnfc:128"><img src="http://www.udimex.net/alf/im/img132.jpg" widt=""></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="299" valign="top" style="width:224.45pt;border:solid #8064A2 1.0pt;
+  mso-border-themecolor:accent4;border-top:none;mso-border-top-alt:solid #8064A2 1.0pt;
+  mso-border-top-themecolor:accent4;background:#DFD8E8;mso-background-themecolor:
+  accent4;mso-background-themetint:63;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none;mso-yfti-cnfc:64"><b><span style="font-size:10.5pt;font-family:" arial",sans-serif;color:#241f1f"="">Cartogramas.
+  </span></b><span style="font-size:10.5pt;font-family:" arial",sans-serif;="" color:#241f1f"="">Expresiones </span><span style="font-size:10.5pt;font-family:
+  ArialMT;mso-bidi-font-family:ArialMT;color:#241F1F">gráficas a modo de mapa.</span><span style="font-size:10.5pt;font-family:" arial",sans-serif;color:#241f1f"=""><o:p></o:p></span></p>
+  </td>
+  <td width="299" valign="top" style="width:224.45pt;border-top:none;border-left:
+  none;border-bottom:solid #8064A2 1.0pt;mso-border-bottom-themecolor:accent4;
+  border-right:solid #8064A2 1.0pt;mso-border-right-themecolor:accent4;
+  mso-border-top-alt:solid #8064A2 1.0pt;mso-border-top-themecolor:accent4;
+  mso-border-left-alt:solid #8064A2 1.0pt;mso-border-left-themecolor:accent4;
+  background:#DFD8E8;mso-background-themecolor:accent4;mso-background-themetint:
+  63;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none;mso-yfti-cnfc:64"><img src="http://www.udimex.net/alf/im/img133.jpg" widt=""></p>
+  </td>
+ </tr>
+</tbody></table><table class="MsoTableLightGridAccent4" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none;mso-border-alt:solid #8064A2 1.0pt;
+ mso-border-themecolor:accent4;mso-yfti-tbllook:1024;mso-padding-alt:0cm 5.4pt 0cm 5.4pt">
+ <tbody><tr>
+  <td width="299" valign="top" style="width:224.45pt;border:solid #8064A2 1.0pt;
+  mso-border-themecolor:accent4;background:#DFD8E8;mso-background-themecolor:
+  accent4;mso-background-themetint:63;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none;mso-yfti-cnfc:64"><b><span style="font-size:10.5pt;font-family:" arial",sans-serif;color:#241f1f"="">Cartogramas.
+  </span></b><span style="font-size:10.5pt;font-family:" arial",sans-serif;="" color:#241f1f"="">Expresiones </span><span style="font-size:10.5pt;font-family:
+  ArialMT;mso-bidi-font-family:ArialMT;color:#241F1F">gráficas a modo de mapa.</span><span style="font-size:10.5pt;font-family:" arial",sans-serif;color:#241f1f"=""><o:p></o:p></span></p>
+  </td>
+  <td width="299" valign="top" style="width:224.45pt;border:solid #8064A2 1.0pt;
+  mso-border-themecolor:accent4;border-left:none;mso-border-left-alt:solid #8064A2 1.0pt;
+  mso-border-left-themecolor:accent4;background:#DFD8E8;mso-background-themecolor:
+  accent4;mso-background-themetint:63;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none;mso-yfti-cnfc:64"><img src="http://www.udimex.net/alf/im/img134.jpg" widt=""></p>
+  </td>
+ </tr>
+</tbody></table><br><br><br><div style="text-align: left;"><b><font size="5">Ejemplo:</font></b></div><div style="text-align: left;"><font size="5"><b><img src="http://www.udimex.net/alf/im/img135.jpg" widt=""></b></font></div><p class="MsoNormal" style="text-align: left; margin-bottom: 0.0001pt; line-height: normal;"><span style="font-size:
+11.5pt;font-family:ArialMT;mso-bidi-font-family:ArialMT;color:#241F1F"><br></span></p></div>
+	
+	

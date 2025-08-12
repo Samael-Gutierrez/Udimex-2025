@@ -1,0 +1,132 @@
+
+/*
+body{ 
+    
+ width: 21.59cm; min-height: 27.94cm; padding: 1.5cm; margin: 1.20cm auto; border: 1px #D3D3D3 solid; border-radius: 5px; background: white;
+
+ padding: 1cm;  height: 256mm; }
+  @page { size: A4; margin: 1px; }
+
+ 
+  */
+
+
+  /*body { margin: 0; padding: 0; background-color: #FAFAFA; font: 10pt 'Tahoma';*/
+  
+
+  
+  .page { width: 21.59cm; min-height: 27.94cm; padding: 1%; margin: 0cm auto; border: 1px #ffffff solid; border-radius: 0px; background: white; ;}
+ /* @page { size: A4; margin: 20px; } @media print { .page { margin: 10px; border: initial; border-radius: initial; width: initial; min-height: initial; box-shadow: initial; background: initial; page-break-after: always; }
+
+}*/
+  
+  
+
+
+
+
+
+
+
+
+
+   /*
+   body { margin: 0; padding: 0; background-color: #ffffff; font: 10pt 'Tahoma';
+      align-items: center; align-content: center;
+   }
+   * { box-sizing: border-box; -moz-box-sizing: border-box;
+   }
+   body { width: 21.59cm; min-height: 27.94cm; padding: 1.5cm; margin: 1.20cm auto; border: 1px #D3D3D3 solid; border-radius: 5px; background: white; box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+   }*/
+   #linea1{
+      height:10px;
+   }
+   
+   #linea2{
+   
+      height:10px;
+   }
+   #linea3{
+      height:2px;
+   }
+   #linea4{
+      height:8px;
+   }
+   .fondo_azul {
+      background-color:#0e3b83;
+      color:#0e3b83;
+   }
+   .fondo_n {
+      background-color:#000000;
+      color:#000000;
+   }
+   
+.borde1{
+	padding:2px 2px 2px 2px;
+	border: solid 2px;
+	border-radius:10px;
+	border-color:#0e3b83;
+}
+
+.borde2{
+	padding:2px 2px 2px 2px;
+	border: solid 2px;
+   border-radius:10px;
+	
+	border-color:#db0c4b;
+}
+.borde3{
+	padding:1px 1px 1px 1px;
+	border: solid 0.5px;
+   border-radius:10px;
+	
+	border-color:#000000;
+}
+.fondo_rojo {background-color:#db0c4b;
+	color:#db0c4b;
+}
+
+.mar {
+   background-size: cover;
+   background-position: center;
+   margin: 0;
+   text-align: center;
+   
+ }
+ 
+ section {
+   padding-bottom: 3%;
+ }
+ .article {
+   padding-bottom: 100%;
+   width: 80%;
+   max-width: 75rem;
+   margin: auto;
+   position: relative;
+ }
+
+ .ul  {
+   list-style-type: none;
+   padding: 0;
+ }
+ 
+ .ul .li  {
+   display: inline;
+   position: initial;  
+   z-index: 0;
+  
+ 
+ }
+ p {
+   font: oblique bold  60% cursive ;
+  
+  
+ }
+ /*table {
+   border: rgb(0, 0, 0) 5px solid;
+ }*/
+ td {
+   border: #000000a4 2px solid;
+
+  
+ }

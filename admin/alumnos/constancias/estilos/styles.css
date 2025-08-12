@@ -1,0 +1,175 @@
+:root{
+    --primary: #0C2E6B;
+    --secondary: #D9D9D9;
+    --primario: rgb(15, 57, 133);
+    --secundario: rgb(221, 11, 72); 
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.encabezado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+.encabezado img {
+    width: 85%;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+
+.fecha {
+    text-align: right;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.titulo {
+    width: 80%;
+    margin: auto;
+}
+
+.titulo h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.titulo p {
+    text-align: justify;
+    vertical-align: 3rem;
+    font-size: 17px;
+}
+
+.titulo strong {
+    font-weight: bold;
+}
+
+.firma {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    gap: 0px 60px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.tabla {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 50px;
+}
+
+.firmaTinta {
+    position: absolute;
+    top: 10px;
+    width: 70%;
+}
+
+.codigo {
+    width: 45%;
+}
+
+.tabla p {
+    margin-top: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    border-top: 2px solid black;
+}
+
+.codigo .qr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.codigo img {
+    width: 60%;
+}
+
+.sello {
+    width: 80%;
+    border: 2px solid black;
+    margin: auto;
+    box-sizing: border-box;
+    font-size: 12px;
+    border-radius: 8px;
+    padding: 5px;
+    margin-bottom: 50px;
+}
+
+.footer {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+/* Opciones */
+.opciones {
+    width: 100%;
+    border: 1px var(--primary) solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px 20px;
+    flex-direction: row;
+}
+
+.formulario {
+    padding: 5px;
+    width: 30%;
+}
+
+.promedio {
+    width: 30%;
+}
+
+.botones {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px 50px;
+}
+
+.botones a {
+    background-color: var(--secundario);
+    padding: 5px;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.promedio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px 20px;
+}
+
+.btn-promedio {
+    background-color: var(--secundario);
+    padding: 5px;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;    
+}
+
+.mayusculas {
+    text-transform: uppercase;
+}

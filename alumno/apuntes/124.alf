@@ -1,0 +1,33 @@
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<link rel="stylesheet" href="estilo/ed_estilo.css">&nbsp;Una proporción es indirecta cuando al aumentar un dato, el otro disminuye o al disminuir un dato el otro aumenta. Pon atención en la forma de acomodar los datos ya que es una diferencia importante entre la proporción directa e indirecta. Por ejemplo:<div><br></div><div><br></div><div id="mensaje1">Tres personas pintan una casa en 8 horas, ¿Cuánto tiempo tardaran en pintar la misma casa 5 personas?</div>
+	<div><br></div><div><ol><li>Identifica que tipo de proporción es:&nbsp;<br>Si&nbsp;<font color="#6b24b2"><b><u>aumentas</u></b></font>&nbsp;el número de personas entonces se tardarán menos en pintar la casa, por lo tanto el tiempo <font color="#6b24b2"><b><u>disminuirá</u></b></font>&nbsp; (Proporción indirecta).<br><br></li><li>Ordena la primer razón de forma cruzada (<font color="#e60000"><b>3</b></font> personas pintan una casa en <b><font color="#e60000">8</font></b> horas):<br><table border="0"><tbody><tr><th>h &nbsp;&nbsp;<br>o &nbsp;&nbsp;<br>r &nbsp;&nbsp;<br>a &nbsp;&nbsp;<br>s &nbsp;&nbsp;</th><td><canvas id="l490" height="40" width="11">a/b</canvas><script>fraccion("8","-","l490");</script>&nbsp;</td><td><img src="http://ciberschool.org/alf/im/im026.png" align="left" width="30px"></td><td><canvas id="l855" height="40" width="11">a/b</canvas><script>fraccion("-","3","l855");</script> </td><th>&nbsp; &nbsp;p<br>&nbsp; &nbsp;e<br>&nbsp; &nbsp;r<br>&nbsp; &nbsp;s<br>&nbsp; &nbsp;o<br>&nbsp; &nbsp;n<br>&nbsp; &nbsp;a<br>&nbsp; &nbsp; &nbsp;s &nbsp;</th></tr></tbody></table><br><br></li><li>Ordena la segunda razón. Del lado izquierdo están las horas (8 , x) y del lado derecho están las personas (5 , 3).<br><table border="0"><tbody><tr><th>h &nbsp;&nbsp;<br>o &nbsp;&nbsp;<br>r &nbsp;&nbsp;<br>a &nbsp;&nbsp;<br>s &nbsp;&nbsp;</th><td><canvas id="l491" height="40" width="11">a/b</canvas><script>fraccion("8","x","l491");</script>&nbsp;</td><td>=</td><td><canvas id="l492" height="40" width="11">a/b</canvas><script>fraccion("5","3","l492");</script></td><th>&nbsp; &nbsp;p<br>&nbsp; &nbsp;e<br>&nbsp; &nbsp;r<br>&nbsp; &nbsp;s<br>&nbsp; &nbsp;o<br>&nbsp; &nbsp;n<br>&nbsp; &nbsp;a<br>&nbsp; &nbsp;s</th></tr></tbody></table><br></li><li>Igual que en la proporción directa, comenzamos por el lado en donde esta la variable <b><font color="#e60000">x</font></b>, multiplicamos el valor que si conocemos de forma cruzada:<table border="0"><tbody><tr><td><canvas id="l499" height="40" width="11">a/b</canvas><script>fraccion("8","x","l499");</script>&nbsp;<br></td><td><img src="http://ciberschool.org/alf/im/im026.png" align="left" width="30px"></td><td><canvas id="l400" height=" 40" =""="" width="11">a/b</canvas><script>fraccion("5","3","l400");</script></td><td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b><font color="#003700" size="4">(8) (3) </font><font size="4" color="#6b24b2">=</font><font color="#003700" size="4"> </font><font size="4" color="#e60000">24</font></b></td></tr></tbody></table><br><br></li><li>Y por último dividimos el resultado anterior entre el valor que no hemos utilizado, en este caso el de arriba (5).<table border="0"><tbody><tr><td><canvas id="l555" height="40" width="11">a/b</canvas><script>fraccion("8","x","l555");</script>&nbsp;<br></td><td>=</td><td><canvas id="l666" height=" 40" =""="" width="11">a/b</canvas><script>fraccion("5","3","l666");</script></td><td><img src="http://ciberschool.org/alf/im/im021.png" align="left" height="30px"></td><td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b><font color="#003700" size="4">24&nbsp;</font><b><font><span style="font-family: verdana, arial, sans-serif; background-color: rgb(248, 245, 239);"><font color="#6b24b2">÷</font></span><font size="4" style="color: rgb(0, 55, 0);">&nbsp;5&nbsp;</font></font><font size="4" color="#6b24b2" style="color: rgb(0, 55, 0); font-size: large;">=</font><font color="#003700" size="4" style="color: rgb(0, 55, 0); font-size: large;"> </font><font size="4" color="#e60000" style="font-size: large;">4.80 hrs.</font></b></b></td></tr></tbody></table></li></ol></div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

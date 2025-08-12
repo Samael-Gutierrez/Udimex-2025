@@ -1,0 +1,99 @@
+
+#chat{
+	background-color:#ffffff;
+	width:350px;
+	height:450px;
+	position:absolute;
+}
+
+
+#atiende{
+	background-image: linear-gradient(to right, #50cdcc , #47b2ce);
+	right:0px;
+	top:0px;
+	padding:10px;
+	border-radius:15px 15px 0px 0px;
+}
+
+.promotor{
+	width:260px;
+	background-color:#eaf0f7;
+	left:0px;
+	margin: 10px 5px 0px 5px;
+	padding:10px 20px;
+	border-radius:0px 15px 15px 15px;
+	display:inline-table
+}
+
+
+
+
+.avt_prom{
+	margin: 10px 5px 0px 10px;
+	display:inline-block;
+}
+
+.prospecto{
+	color:#ffffff;
+	width:260px;
+	background-color:#01a5bd;
+	right:0px;
+	margin: 10px 5px 0px 5px;
+	padding:10px 20px;
+	border-radius:15px 0px 15px 15px;
+	display:inline-table
+}
+
+.avt_pros{
+	right:0px;
+	margin: 10px 5px 0px 10px;
+	display:inline-block;
+}
+
+#mensaje{
+	height:50px;
+	position:absolute;
+	background-image: linear-gradient(to right, #50cdcc , #47b2ce);
+	width:100%;
+	bottom:0px;
+	padding:10px;
+	border-radius:0px 0px 15px 15px ;
+}
+
+#mensajes{
+	height:330px;
+	overflow:auto;
+}
+
+.op{
+	padding:2px 12px;
+	margin :10px 10px;
+	background-color:#0f3985;
+	color:#ffffff;
+	border-radius:10px;
+}
+
+
+.adm_chat{
+	background-color:#ffffff;
+	width:350px;
+	height:450px;
+	right:5px;
+	box-shadow: 0px 0px 5px rgba(0,0,0,1);
+	border-radius: 15px;
+	padding:0px;
+	display:inline-block;
+}
+
+.adm_msg{
+	height:330px;
+	overflow:auto;
+}
+
+#espera{
+	margin:80px 124px;
+}
+
+
+
+

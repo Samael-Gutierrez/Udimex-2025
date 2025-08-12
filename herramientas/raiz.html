@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Raíz Cuadrada como Imagen en Div Editable</title>
+  <style>
+    canvas {
+      display: none;
+    }
+    #contenedorEditable {
+      border: 1px solid #aaa;
+      padding: 10px;
+      font-size: 18px;
+      min-height: 100px;
+      background-color: #f9f9f9;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Raíz cuadrada como imagen editable</h2>
+
+  <label for="numero">Ingresa un número:</label>
+  <input type="number" id="numero" step="any">
+  <button onclick="dibujarRaizComoImagen()">Generar</button>
+
+  <canvas id="miCanvas" width="600" height="100"></canvas>
+
+  <div id="contenedorEditable" contenteditable="true">
+  </div>
+
+  <script>
+    function dibujarRaizComoImagen() {
+      const numero = document.getElementById('numero').value;
+      const canvas = document.getElementById('miCanvas');
+      const contenedor = document.getElementById('contenedorEditable');
+
+      const ctx = canvas.getContext('2d');
+      ctx.font = "30px Arial";
+
+      if (numero === "" || isNaN(numero)) {
+        alert("Por favor, ingresa un número válido.");
+        return;
+      }
+
+      const valor = parseFloat(numero);
+      if (valor < 0) {
+        alert("No se puede calcular la raíz cuadrada de un número negativo.");
+        return;
+      }
+
+      const raiz = Math.sqrt(valor).toFixed(4);
+      const numeroTexto = numero.toString();
+      const numeroAncho = ctx.measureText(numeroTexto).width;
+
+      // Ajuste dinámico del ancho y alto del canvas
+      const padding = 30;
+      const totalAncho = 50 + numeroAncho + padding;
+      const totalAlto = 100;
+
+      // Ajustar tamaño del canvas
+      canvas.width = totalAncho;
+      canvas.height = totalAlto;
+
+      const nuevoCtx = canvas.getContext('2d');
+      nuevoCtx.font = "30px Arial";
+
+      // Coordenadas base
+      const startX = 10;
+      const startY = 60;
+      const textYOffset = 10;
+
+      // Dibujar símbolo de raíz
+      nuevoCtx.beginPath();
+      nuevoCtx.moveTo(startX, startY);
+      nuevoCtx.lineTo(startX + 10, startY + 20);
+      nuevoCtx.lineTo(startX + 20, startY - 20);
+      nuevoCtx.lineTo(startX + 40, startY - 20);
+      nuevoCtx.lineTo(startX + 50 + numeroAncho, startY - 20);
+      nuevoCtx.strokeStyle = "black";
+      nuevoCtx.lineWidth = 3;
+      nuevoCtx.stroke();
+
+      // Dibujar número dentro del radical
+      nuevoCtx.fillStyle = "blue";
+      nuevoCtx.fillText(numeroTexto, startX + 50, startY + textYOffset);
+
+      // Convertir a imagen base64
+      const imagenBase64 = canvas.toDataURL("image/png");
+      const imagenHTML = `<img src="${imagenBase64}" alt="raíz de ${numero}" style="vertical-align: middle;">`;
+
+      // Agregar la imagen al final del contenido en el div editable
+      contenedor.insertAdjacentHTML('beforeend', imagenHTML);
+    }
+  </script>
+</body>
+</html>

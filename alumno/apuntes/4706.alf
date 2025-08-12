@@ -1,0 +1,6 @@
+
+		
+		
+		<link rel="stylesheet" href="../general/estilo/ed_estilo.css">&nbsp;Para entrega final deberás entregar una pagina web que se con un formulario, en donde tendrá 2 formularios, en la misma hoja, el primer formulario deberás de registrar a nuevos clientes (nombre, apellido paterno, apellido materno, fecha de nacimiento) y el otro formulario tendrá que registrar automóviles (nombre, marca, modelo, año, precio) y las funciones que se necesitan realizar son, añadir usuario y auto, eliminar usuario y auto, reset form de usuario y auto, mostrar alertas para cada acción y 2 funciones adicionales, una función que elimine únicamente todos los usuario o todos los autos y la segunda es una función que elimine todos los datos de ambos formularios, usuarios y autos.<div>Para la entrega se tendrá que crear el repositorio y añadir este correo (al221911279@gmail.com) y subir todos tus commits a la nube. El estilo de la aplicación es libre.</div>
+	
+	

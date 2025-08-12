@@ -1,0 +1,75 @@
+
+		<link rel="stylesheet" href="estilo/ed_estilo.css">&nbsp;<span style="text-align: justify;">La Naturaleza y tu día a día
+están llenos de ejemplos de&nbsp;</span><strong style="text-align: justify;"><span style="font-size:10.0pt;
+line-height:107%;font-family:" candara",sans-serif;mso-bidi-font-family:arial"="">movimientos
+circulares uniformes (m.c.u.)</span></strong><span style="text-align: justify;">. La propia Tierra es uno de
+ellos: da una vuelta sobre su eje cada 24 horas. Los viejos tocadiscos o un
+ventilador son otros buenos ejemplos de m.c.u.&nbsp;</span><p class="MsoNormal" style="text-align:justify"><o:p></o:p></p>
+
+<p class="MsoNormal" style="text-align:justify">El&nbsp;<strong><span style="font-size:10.0pt;line-height:107%;font-family:" candara",sans-serif;="" mso-bidi-font-family:arial"="">movimiento circular uniforme (m.c.u.)</span></strong>&nbsp;es
+un movimiento de<em><b><span style="font-size:10.0pt;line-height:107%;
+font-family:" candara",sans-serif;mso-bidi-font-family:arial"="">&nbsp;trayectoria
+circular&nbsp;</span></b></em>en el que&nbsp;<em><b><span style="font-size:
+10.0pt;line-height:107%;font-family:" candara",sans-serif;mso-bidi-font-family:="" arial"="">la velocidad angular&nbsp;es constante</span></b></em>. Esto implica
+que&nbsp;<em><span style="font-size:10.0pt;line-height:107%;font-family:" candara",sans-serif;="" mso-bidi-font-family:arial"="">describe ángulos iguales en tiempos iguales</span></em>.
+En él, el&nbsp;<a href="https://www.fisicalab.com/apartado/velocidad-instantanea"><span style="font-size:10.0pt;line-height:107%;font-family:" candara",sans-serif;="" mso-bidi-font-family:arial"="">vector velocidad</span></a>&nbsp;no cambia de módulo
+pero sí de dirección (es tangente&nbsp;<em><span style="font-size:10.0pt;
+line-height:107%;font-family:" candara",sans-serif;mso-bidi-font-family:arial"="">en
+cada punto</span></em>&nbsp;a la trayectoria). Esto quiere decir que no
+tiene&nbsp;<a href="https://www.fisicalab.com/apartado/aceleracion-tangencial"><span style="font-size:10.0pt;line-height:107%;font-family:" candara",sans-serif;="" mso-bidi-font-family:arial"="">aceleración tangencial</span></a>&nbsp;ni&nbsp;<a href="https://www.fisicalab.com/apartado/magnitudes-angulares#aceleracion_angular"><span style="font-size:10.0pt;line-height:107%;font-family:" candara",sans-serif;="" mso-bidi-font-family:arial"="">aceleración angular</span></a>,&nbsp;&nbsp;aunque
+sí<a href="https://www.fisicalab.com/apartado/aceleracion-centripeta"><span style="font-size:10.0pt;line-height:107%;font-family:" candara",sans-serif;="" mso-bidi-font-family:arial"="">&nbsp;aceleración normal</span></a>.<o:p></o:p></p>
+
+<p class="MsoNormal" style="text-align:justify">Eligiendo el origen de
+coordenadas para estudiar el movimiento en el centro de la circunferencia, y
+conociendo su radio&nbsp;<em><span style="font-size:10.0pt;line-height:107%;
+font-family:" candara",sans-serif;mso-bidi-font-family:arial"="">R</span></em>,
+podemos expresar el&nbsp;<a href="https://www.fisicalab.com/apartado/vector-posicion"><span style="font-size:10.0pt;line-height:107%;font-family:" candara",sans-serif;="" mso-bidi-font-family:arial"="">vector de posición</span></a>&nbsp;en la forma:<o:p></o:p></p>
+
+<p class="MsoNormal" align="center" style="text-align:center;background:white"><font size="4"><span class="mi"><span style="line-height: 107%; font-family: Candara, sans-serif; border: 1pt none windowtext; padding: 0cm;">r</span></span><span class="mo"><span style="line-height: 107%; font-family: Arial, sans-serif; border: 1pt none windowtext; padding: 0cm;">→</span></span><span class="mo"><span style="line-height: 107%; font-family: Candara, sans-serif; border: 1pt none windowtext; padding: 0cm;">=</span></span><span class="mi"><span style="line-height: 107%; font-family: Candara, sans-serif; border: 1pt none windowtext; padding: 0cm;">x</span></span><span class="mo"><span style="line-height: 107%; font-family: " cambria="" math",="" serif;="" border:="" 1pt="" none="" windowtext;="" padding:="" 0cm;"="">⋅</span></span><span class="mi"><span style="line-height: 107%; font-family: Candara, sans-serif; border: 1pt none windowtext; padding: 0cm;">i</span></span><span class="mo"><span style="line-height: 107%; font-family: Arial, sans-serif; border: 1pt none windowtext; padding: 0cm;">→</span></span><span class="mo"><span style="line-height: 107%; font-family: Candara, sans-serif; border: 1pt none windowtext; padding: 0cm;">+</span></span><span class="mi"><span style="line-height: 107%; font-family: Candara, sans-serif; border: 1pt none windowtext; padding: 0cm;">y</span></span><span class="mo"><span style="line-height: 107%; font-family: " cambria="" math",="" serif;="" border:="" 1pt="" none="" windowtext;="" padding:="" 0cm;"="">⋅</span></span><span class="mi"><span style="line-height: 107%; font-family: Candara, sans-serif; border: 1pt none windowtext; padding: 0cm;">j</span></span><span class="mo"><span style="line-height: 107%; font-family: Arial, sans-serif; border: 1pt none windowtext; padding: 0cm;">→</span></span><span class="mo"><span style="line-height: 107%; font-family: Candara, sans-serif; border: 1pt none windowtext; padding: 0cm;">=</span></span><span class="mi"><span style="line-height: 107%; font-family: Candara, sans-serif; border: 1pt none windowtext; padding: 0cm;">R</span></span><span class="mo"><span style="line-height: 107%; font-family: " cambria="" math",="" serif;="" border:="" 1pt="" none="" windowtext;="" padding:="" 0cm;"="">⋅</span></span><span class="mi"><span style="line-height: 107%; font-family: Candara, sans-serif; border: 1pt none windowtext; padding: 0cm;">cos</span></span><span class="mo"><span style="line-height: 107%; font-family: Candara, sans-serif; border: 1pt none windowtext; padding: 0cm;">(</span></span><span class="mi"><span style="line-height: 107%; font-family: Candara, sans-serif; border: 1pt none windowtext; padding: 0cm;">φ</span></span><span class="mo"><span style="line-height: 107%; font-family: Candara, sans-serif; border: 1pt none windowtext; padding: 0cm;">)</span></span><span class="mo"><span style="line-height: 107%; font-family: " cambria="" math",="" serif;="" border:="" 1pt="" none="" windowtext;="" padding:="" 0cm;"="">⋅</span></span><span class="mi"><span style="line-height: 107%; font-family: Candara, sans-serif; border: 1pt none windowtext; padding: 0cm;">i</span></span><span class="mo"><span style="line-height: 107%; font-family: Arial, sans-serif; border: 1pt none windowtext; padding: 0cm;">→</span></span><span class="mo"><span style="line-height: 107%; font-family: Candara, sans-serif; border: 1pt none windowtext; padding: 0cm;">+</span></span><span class="mi"><span style="line-height: 107%; font-family: Candara, sans-serif; border: 1pt none windowtext; padding: 0cm;">R</span></span><span class="mo"><span style="line-height: 107%; font-family: " cambria="" math",="" serif;="" border:="" 1pt="" none="" windowtext;="" padding:="" 0cm;"="">⋅</span></span><span class="mi"><span style="line-height: 107%; font-family: Candara, sans-serif; border: 1pt none windowtext; padding: 0cm;">sin</span></span><span class="mo"><span style="line-height: 107%; font-family: Candara, sans-serif; border: 1pt none windowtext; padding: 0cm;">(</span></span><span class="mi"><span style="line-height: 107%; font-family: Candara, sans-serif; border: 1pt none windowtext; padding: 0cm;">φ</span></span><span class="mo"><span style="line-height: 107%; font-family: Candara, sans-serif; border: 1pt none windowtext; padding: 0cm;">)</span></span><span class="mo"><span style="line-height: 107%; font-family: " cambria="" math",="" serif;="" border:="" 1pt="" none="" windowtext;="" padding:="" 0cm;"="">⋅</span></span><span class="mi"><span style="line-height: 107%; font-family: Candara, sans-serif; border: 1pt none windowtext; padding: 0cm;">j</span></span><span class="mo"><span style="line-height: 107%; font-family: Arial, sans-serif; border: 1pt none windowtext; padding: 0cm;">→<br><br></span></span></font></p><p class="MsoNormal" style="background:white"><span style="line-height: 107%; font-family: Candara, sans-serif;">De esta manera, la posición y el resto de
+magnitudes cinemáticas quedan definidas por el valor de φ en cada instante.</span><span style="font-size:10.0pt;line-height:107%;font-family:" candara",sans-serif;="" mso-bidi-font-family:arial"=""><o:p></o:p></span></p><p class="MsoNormal" style="background:white"><span style="line-height: 107%; font-family: Candara, sans-serif;"><img src="http://www.udimex.net/alf/im/img330.png"></span></p><p class="MsoNormal" style="background:white"><span style="line-height: 107%; font-family: Candara, sans-serif;"><br></span></p><p style="margin-top:0cm;margin-right:0cm;margin-bottom:15.0pt;margin-left:
+0cm;line-height:18.0pt;background:white"><span style="font-size: 10pt; font-family: Candara, sans-serif;">Algunas de las principales características de m<strong>ovimiento
+circular uniforme (m.c.u.)&nbsp;</strong>son las siguientes:</span><span style="font-size:10.0pt;font-family:&quot;Candara&quot;,sans-serif;mso-bidi-font-family:
+Arial"><o:p></o:p></span></p><p class="MsoNormal" style="background:white"><span style="line-height: 107%; font-family: Candara, sans-serif;">
+
+</span></p><ol start="1" type="1">
+ <li class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     line-height:18.0pt;mso-list:l0 level1 lfo1;tab-stops:list 36.0pt;
+     background:white"><span style="font-size: 10pt; font-family: Candara, sans-serif;">La<em>&nbsp;velocidad
+     angular&nbsp;</em>es constante&nbsp;<em>(ω = cte)</em></span><span style="font-size:10.0pt;font-family:&quot;Candara&quot;,sans-serif;mso-bidi-font-family:
+     Arial"><o:p></o:p></span></li>
+ <li class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     line-height:18.0pt;mso-list:l0 level1 lfo1;tab-stops:list 36.0pt;
+     background:white"><span style="font-size: 10pt; font-family: Candara, sans-serif;">El&nbsp;<em>vector
+     velocidad</em>&nbsp;es&nbsp;<em>tangente</em>&nbsp;en cada punto a la
+     trayectoria y su sentido es el del movimiento. Esto implica que el
+     movimiento cuenta con&nbsp;<em>aceleración normal</em></span><span style="font-size:10.0pt;font-family:&quot;Candara&quot;,sans-serif;mso-bidi-font-family:
+     Arial"><o:p></o:p></span></li>
+ <li class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     line-height:18.0pt;mso-list:l0 level1 lfo1;tab-stops:list 36.0pt;
+     background:white"><span style="font-size: 10pt; font-family: Candara, sans-serif;">Tanto
+     la&nbsp;<em>aceleración angular (α)</em>&nbsp;como la&nbsp;<em>aceleración
+     tangencial (a<sub>t</sub>)</em>&nbsp;son nulas, ya que la rapidez o
+     celeridad (módulo del vector velocidad) es constante</span><span style="font-size:10.0pt;font-family:&quot;Candara&quot;,sans-serif;mso-bidi-font-family:
+     Arial"><o:p></o:p></span></li>
+ <li class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     line-height:18.0pt;mso-list:l0 level1 lfo1;tab-stops:list 36.0pt;
+     background:white"><span style="font-size: 10pt; font-family: Candara, sans-serif;">Existe
+     un&nbsp;<em>periodo (T)</em>, que es el tiempo que el cuerpo emplea en
+     dar una vuelta completa. Esto implica que las características del
+     movimiento son las mismas cada T segundos. La expresión para el cálculo
+     del periodo es&nbsp;<span class="mi"><span style="border:none windowtext 1.0pt;
+     mso-border-alt:none windowtext 0cm;padding:0cm">T</span></span><span class="mo"><span style="border:none windowtext 1.0pt;mso-border-alt:none windowtext 0cm;
+     padding:0cm">=</span></span><span class="mn"><span style="border:none windowtext 1.0pt;
+     mso-border-alt:none windowtext 0cm;padding:0cm">2</span></span><span class="mi"><span style="border:none windowtext 1.0pt;mso-border-alt:none windowtext 0cm;
+     padding:0cm">π</span></span><span class="mo"><span style="border:none windowtext 1.0pt;
+     mso-border-alt:none windowtext 0cm;padding:0cm">/</span></span><span class="mi"><span style="border:none windowtext 1.0pt;mso-border-alt:none windowtext 0cm;
+     padding:0cm">ω</span></span>&nbsp;y es sólo válida en el caso de los
+     movimientos circulares uniformes (m.c.u.)</span><span style="font-size:
+     10.0pt;font-family:&quot;Candara&quot;,sans-serif;mso-bidi-font-family:Arial"><o:p></o:p></span></li>
+ <li class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     line-height:18.0pt;mso-list:l0 level1 lfo1;tab-stops:list 36.0pt;
+     background:white"><span style="font-size: 10pt; font-family: Candara, sans-serif;">Existe
+     una<em>&nbsp;frecuencia (f)</em>, que es el número de vueltas que
+     da el cuerpo en un segundo. Su valor&nbsp;</span><b><span style="font-size:
+     10.0pt;font-family:&quot;Candara&quot;,sans-serif;mso-bidi-font-family:Arial"><o:p></o:p></span></b></li>
+</ol>

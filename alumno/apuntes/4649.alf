@@ -1,0 +1,232 @@
+
+		<link rel="stylesheet" href="../general/estilo/ed_estilo.css">&nbsp;<span style="font-family: Arial, sans-serif; font-size: 12pt;">Los parámetros y estadísticos se refieren a dos conceptos
+fundamentales que ayudan a describir y analizar datos de poblaciones y
+muestras, respectivamente.</span><p class="MsoNormal"><b><span style="font-size:12.0pt;line-height:107%;font-family:&quot;Arial&quot;,sans-serif;
+color:#548235;mso-themecolor:accent6;mso-themeshade:191;mso-style-textfill-fill-color:
+#548235;mso-style-textfill-fill-themecolor:accent6;mso-style-textfill-fill-alpha:
+100.0%;mso-style-textfill-fill-colortransforms:lumm=75000">Parámetros<o:p></o:p></span></b></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;line-height:107%;font-family:
+&quot;Arial&quot;,sans-serif">Un parámetro es una medida numérica que describe alguna
+característica de una población completa. Los parámetros son valores fijos,
+aunque en la práctica rara vez conocemos su valor exacto, porque suelen ser
+difíciles o imposibles de calcular para poblaciones grandes.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;line-height:107%;font-family:
+&quot;Arial&quot;,sans-serif;color:#00B0F0">Ejemplos Comunes:<o:p></o:p></span></p>
+
+<p class="MsoListParagraphCxSpFirst" style="text-indent:-18.0pt;mso-list:l2 level1 lfo1"><!--[if !supportLists]--><span style="font-size:12.0pt;line-height:107%;font-family:Symbol;mso-fareast-font-family:
+Symbol;mso-bidi-font-family:Symbol">·<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><!--[endif]--><span style="font-size:12.0pt;line-height:107%;
+font-family:&quot;Arial&quot;,sans-serif;color:#BF9000;mso-themecolor:accent4;mso-themeshade:
+191;mso-style-textfill-fill-color:#BF9000;mso-style-textfill-fill-themecolor:
+accent4;mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:
+lumm=75000">Media poblacional (μ): </span><span style="font-size:12.0pt;
+line-height:107%;font-family:&quot;Arial&quot;,sans-serif">El promedio de todos los datos
+en la población.<o:p></o:p></span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l2 level1 lfo1"><!--[if !supportLists]--><span style="font-size:12.0pt;line-height:107%;font-family:Symbol;mso-fareast-font-family:
+Symbol;mso-bidi-font-family:Symbol">·<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><!--[endif]--><span style="font-size:12.0pt;line-height:107%;
+font-family:&quot;Arial&quot;,sans-serif;color:#BF9000;mso-themecolor:accent4;mso-themeshade:
+191;mso-style-textfill-fill-color:#BF9000;mso-style-textfill-fill-themecolor:
+accent4;mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:
+lumm=75000">Varianza poblacional (σ²): </span><span style="font-size:12.0pt;
+line-height:107%;font-family:&quot;Arial&quot;,sans-serif">La medida de la dispersión de
+los datos en la población.<o:p></o:p></span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l2 level1 lfo1"><!--[if !supportLists]--><span style="font-size:12.0pt;line-height:107%;font-family:Symbol;mso-fareast-font-family:
+Symbol;mso-bidi-font-family:Symbol">·<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><!--[endif]--><span style="font-size:12.0pt;line-height:107%;
+font-family:&quot;Arial&quot;,sans-serif;color:#BF9000;mso-themecolor:accent4;mso-themeshade:
+191;mso-style-textfill-fill-color:#BF9000;mso-style-textfill-fill-themecolor:
+accent4;mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:
+lumm=75000">Desviación estándar poblacional (σ):</span><span style="font-size:
+12.0pt;line-height:107%;font-family:&quot;Arial&quot;,sans-serif"> La raíz cuadrada de la
+varianza poblacional.<o:p></o:p></span></p>
+
+<p class="MsoListParagraphCxSpLast" style="text-indent:-18.0pt;mso-list:l2 level1 lfo1"><!--[if !supportLists]--><span style="font-size:12.0pt;line-height:107%;font-family:Symbol;mso-fareast-font-family:
+Symbol;mso-bidi-font-family:Symbol">·<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><!--[endif]--><span style="font-size:12.0pt;line-height:107%;
+font-family:&quot;Arial&quot;,sans-serif;color:#BF9000;mso-themecolor:accent4;mso-themeshade:
+191;mso-style-textfill-fill-color:#BF9000;mso-style-textfill-fill-themecolor:
+accent4;mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:
+lumm=75000">Proporción poblacional (P):</span><span style="font-size:12.0pt;
+line-height:107%;font-family:&quot;Arial&quot;,sans-serif"> La proporción de individuos
+en la población con una característica específica.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;line-height:107%;font-family:
+&quot;Arial&quot;,sans-serif;color:#002060">Uso:</span><span style="font-size:12.0pt;
+line-height:107%;font-family:&quot;Arial&quot;,sans-serif"> Los parámetros son
+fundamentales en inferencia estadística, ya que son los valores que queremos
+estimar a partir de muestras.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><b><span style="font-size:12.0pt;line-height:107%;font-family:&quot;Arial&quot;,sans-serif;
+color:#548235;mso-themecolor:accent6;mso-themeshade:191;mso-style-textfill-fill-color:
+#548235;mso-style-textfill-fill-themecolor:accent6;mso-style-textfill-fill-alpha:
+100.0%;mso-style-textfill-fill-colortransforms:lumm=75000">Estadísticos<o:p></o:p></span></b></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;line-height:107%;font-family:
+&quot;Arial&quot;,sans-serif">Un estadístico es una medida numérica que describe alguna
+característica de una muestra. A diferencia de los parámetros, los estadísticos
+varían dependiendo de la muestra que se tome. Los estadísticos se utilizan para
+hacer inferencias sobre los parámetros poblacionales.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;line-height:107%;font-family:
+&quot;Arial&quot;,sans-serif;color:#00B0F0">Ejemplos Comunes:<o:p></o:p></span></p>
+
+<p class="MsoListParagraphCxSpFirst" style="text-indent:-18.0pt;mso-list:l1 level1 lfo2"><!--[if !supportLists]--><span style="font-size:12.0pt;line-height:107%;font-family:Symbol;mso-fareast-font-family:
+Symbol;mso-bidi-font-family:Symbol">·<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><!--[endif]--><span style="font-size:12.0pt;line-height:107%;
+font-family:&quot;Arial&quot;,sans-serif;color:#BF9000;mso-themecolor:accent4;mso-themeshade:
+191;mso-style-textfill-fill-color:#BF9000;mso-style-textfill-fill-themecolor:
+accent4;mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:
+lumm=75000">Media muestral (x̄): </span><span style="font-size:12.0pt;
+line-height:107%;font-family:&quot;Arial&quot;,sans-serif">El promedio de los datos en la
+muestra.<o:p></o:p></span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l1 level1 lfo2"><!--[if !supportLists]--><span style="font-size:12.0pt;line-height:107%;font-family:Symbol;mso-fareast-font-family:
+Symbol;mso-bidi-font-family:Symbol">·<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><!--[endif]--><span style="font-size:12.0pt;line-height:107%;
+font-family:&quot;Arial&quot;,sans-serif;color:#BF9000;mso-themecolor:accent4;mso-themeshade:
+191;mso-style-textfill-fill-color:#BF9000;mso-style-textfill-fill-themecolor:
+accent4;mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:
+lumm=75000">Varianza muestral (s²): </span><span style="font-size:12.0pt;
+line-height:107%;font-family:&quot;Arial&quot;,sans-serif">La medida de la dispersión de
+los datos en la muestra.<o:p></o:p></span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l1 level1 lfo2"><!--[if !supportLists]--><span style="font-size:12.0pt;line-height:107%;font-family:Symbol;mso-fareast-font-family:
+Symbol;mso-bidi-font-family:Symbol">·<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><!--[endif]--><span style="font-size:12.0pt;line-height:107%;
+font-family:&quot;Arial&quot;,sans-serif;color:#BF9000;mso-themecolor:accent4;mso-themeshade:
+191;mso-style-textfill-fill-color:#BF9000;mso-style-textfill-fill-themecolor:
+accent4;mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:
+lumm=75000">Desviación estándar muestral (s): </span><span style="font-size:
+12.0pt;line-height:107%;font-family:&quot;Arial&quot;,sans-serif">La raíz cuadrada de la
+varianza muestral.<o:p></o:p></span></p>
+
+<p class="MsoListParagraphCxSpLast" style="text-indent:-18.0pt;mso-list:l1 level1 lfo2"><!--[if !supportLists]--><span style="font-size:12.0pt;line-height:107%;font-family:Symbol;mso-fareast-font-family:
+Symbol;mso-bidi-font-family:Symbol">·<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><!--[endif]--><span style="font-size:12.0pt;line-height:107%;
+font-family:&quot;Arial&quot;,sans-serif;color:#BF9000;mso-themecolor:accent4;mso-themeshade:
+191;mso-style-textfill-fill-color:#BF9000;mso-style-textfill-fill-themecolor:
+accent4;mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:
+lumm=75000">Proporción muestral (p̂): </span><span style="font-size:12.0pt;
+line-height:107%;font-family:&quot;Arial&quot;,sans-serif">La proporción de individuos en
+la muestra con una característica específica.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;line-height:107%;font-family:
+&quot;Arial&quot;,sans-serif;color:#002060">Uso:</span><span style="font-size:12.0pt;
+line-height:107%;font-family:&quot;Arial&quot;,sans-serif"> Los estadísticos se calculan
+directamente de la muestra y se utilizan para estimar los parámetros de la
+población. Por ejemplo, la media muestral (x̄) se utiliza como una estimación
+de la media poblacional (μ).<o:p></o:p></span></p>
+
+<p class="MsoNormal" align="center" style="text-align:center"><b><span style="font-size:14.0pt;mso-bidi-font-size:12.0pt;line-height:
+107%;font-family:&quot;Arial&quot;,sans-serif;color:#C55A11;mso-themecolor:accent2;
+mso-themeshade:191;mso-style-textfill-fill-color:#C55A11;mso-style-textfill-fill-themecolor:
+accent2;mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:
+lumm=75000">Relación entre Parámetros y Estadísticos<o:p></o:p></span></b></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;line-height:107%;font-family:
+&quot;Arial&quot;,sans-serif;color:#548235;mso-themecolor:accent6;mso-themeshade:191;
+mso-style-textfill-fill-color:#548235;mso-style-textfill-fill-themecolor:accent6;
+mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:
+lumm=75000">Inferencia Estadística: </span><span style="font-size:12.0pt;
+line-height:107%;font-family:&quot;Arial&quot;,sans-serif">La principal función de los
+estadísticos es proporcionar estimaciones de los parámetros. Por ejemplo, si
+tomamos una muestra aleatoria de una población y calculamos la media muestral
+(x̄), usamos ese valor para inferir el valor de la media poblacional (μ).<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;line-height:107%;font-family:
+&quot;Arial&quot;,sans-serif;color:#548235;mso-themecolor:accent6;mso-themeshade:191;
+mso-style-textfill-fill-color:#548235;mso-style-textfill-fill-themecolor:accent6;
+mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:
+lumm=75000">Estimaciones:</span><span style="font-size:12.0pt;line-height:107%;
+font-family:&quot;Arial&quot;,sans-serif"> En general, los estadísticos son estimaciones
+de los parámetros poblacionales. Por ejemplo:<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;line-height:107%;font-family:
+&quot;Arial&quot;,sans-serif;color:#00B0F0">x̄ es una estimación de μ.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;line-height:107%;font-family:
+&quot;Arial&quot;,sans-serif;color:#00B0F0">s² es una estimación de σ².<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;line-height:107%;font-family:
+&quot;Arial&quot;,sans-serif;color:#00B0F0">p̂ es una estimación de P.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;line-height:107%;font-family:
+&quot;Arial&quot;,sans-serif;color:#002060">Ejemplos<o:p></o:p></span></p>
+
+<p class="MsoListParagraph" style="text-indent:-18.0pt;mso-list:l0 level1 lfo3"><!--[if !supportLists]--><span style="font-size:12.0pt;line-height:107%;font-family:&quot;Arial&quot;,sans-serif;
+mso-fareast-font-family:Arial">1.<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp;&nbsp;&nbsp; </span></span><!--[endif]--><span style="font-size:12.0pt;line-height:107%;font-family:&quot;Arial&quot;,sans-serif;
+color:#548235;mso-themecolor:accent6;mso-themeshade:191;mso-style-textfill-fill-color:
+#548235;mso-style-textfill-fill-themecolor:accent6;mso-style-textfill-fill-alpha:
+100.0%;mso-style-textfill-fill-colortransforms:lumm=75000">Contexto:</span><span style="font-size:12.0pt;line-height:107%;font-family:&quot;Arial&quot;,sans-serif"> Imagina
+que estás estudiando la altura promedio de los estudiantes de una universidad:<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;line-height:107%;font-family:
+&quot;Arial&quot;,sans-serif;color:#00B0F0">Parámetro:</span><span style="font-size:12.0pt;
+line-height:107%;font-family:&quot;Arial&quot;,sans-serif"> La media poblacional (μ)
+sería la altura promedio de todos los estudiantes de la universidad.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;line-height:107%;font-family:
+&quot;Arial&quot;,sans-serif;color:#00B0F0">Estadístico: </span><span style="font-size:
+12.0pt;line-height:107%;font-family:&quot;Arial&quot;,sans-serif">La media muestral (x̄)
+sería la altura promedio de un grupo seleccionado de estudiantes (muestra).<o:p></o:p></span></p>
+
+<p class="MsoListParagraph" style="text-indent:-18.0pt;mso-list:l0 level1 lfo3"><!--[if !supportLists]--><span style="font-size:12.0pt;line-height:107%;font-family:&quot;Arial&quot;,sans-serif;
+mso-fareast-font-family:Arial">2.<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp;&nbsp;&nbsp; </span></span><!--[endif]--><span style="font-size:12.0pt;line-height:107%;font-family:&quot;Arial&quot;,sans-serif;
+color:#548235;mso-themecolor:accent6;mso-themeshade:191;mso-style-textfill-fill-color:
+#548235;mso-style-textfill-fill-themecolor:accent6;mso-style-textfill-fill-alpha:
+100.0%;mso-style-textfill-fill-colortransforms:lumm=75000">Contexto:</span><span style="font-size:12.0pt;line-height:107%;font-family:&quot;Arial&quot;,sans-serif">
+Supongamos que quieres investigar la altura promedio de todos los estudiantes
+en una universidad que tiene 10,000 estudiantes.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;line-height:107%;font-family:
+&quot;Arial&quot;,sans-serif;color:#00B0F0">Parámetro (Población Completa):<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;line-height:107%;font-family:
+&quot;Arial&quot;,sans-serif;color:#00B0F0">Media poblacional (μ):</span><span style="font-size:12.0pt;line-height:107%;font-family:&quot;Arial&quot;,sans-serif"> La
+altura promedio de todos los 10,000 estudiantes en la universidad.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;line-height:107%;font-family:
+&quot;Arial&quot;,sans-serif">Ejemplo: Si midieras la altura de cada estudiante y
+calcularas la media, tal vez encontrarías que μ = 170 cm.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;line-height:107%;font-family:
+&quot;Arial&quot;,sans-serif;color:#00B0F0">Estadístico (Muestra):<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;line-height:107%;font-family:
+&quot;Arial&quot;,sans-serif;color:#00B0F0">Media muestral (x̄): </span><span style="font-size:12.0pt;line-height:107%;font-family:&quot;Arial&quot;,sans-serif">Como
+es difícil medir a todos los estudiantes, tomas una muestra aleatoria de 100
+estudiantes y calculas la media de sus alturas.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;line-height:107%;font-family:
+&quot;Arial&quot;,sans-serif">Ejemplo: Supongamos que la media de tu muestra es x̄ = 168
+cm. Este es un estadístico que estimaría la media poblacional.<o:p></o:p></span></p>
+
+<p class="MsoListParagraph" style="text-indent:-18.0pt;mso-list:l0 level1 lfo3"><!--[if !supportLists]--><span style="font-size:12.0pt;line-height:107%;font-family:&quot;Arial&quot;,sans-serif;
+mso-fareast-font-family:Arial">3.<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp;&nbsp;&nbsp; </span></span><!--[endif]--><span style="font-size:12.0pt;line-height:107%;font-family:&quot;Arial&quot;,sans-serif;
+color:#548235;mso-themecolor:accent6;mso-themeshade:191;mso-style-textfill-fill-color:
+#548235;mso-style-textfill-fill-themecolor:accent6;mso-style-textfill-fill-alpha:
+100.0%;mso-style-textfill-fill-colortransforms:lumm=75000">Contexto:</span><span style="font-size:12.0pt;line-height:107%;font-family:&quot;Arial&quot;,sans-serif">
+Deseas saber qué porcentaje de los ciudadanos de una ciudad utilizan
+smartphones.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;line-height:107%;font-family:
+&quot;Arial&quot;,sans-serif;color:#00B0F0">Parámetro (Población Completa):<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;line-height:107%;font-family:
+&quot;Arial&quot;,sans-serif;color:#00B0F0">Proporción poblacional (P): </span><span style="font-size:12.0pt;line-height:107%;font-family:&quot;Arial&quot;,sans-serif">Supón
+que la proporción real de los ciudadanos de la ciudad que usan smartphones es P
+= 85%. Este es el parámetro que describe a toda la población.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;line-height:107%;font-family:
+&quot;Arial&quot;,sans-serif;color:#00B0F0">Estadístico (Muestra):<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;line-height:107%;font-family:
+&quot;Arial&quot;,sans-serif;color:#00B0F0">Proporción muestral (p̂):</span><span style="font-size:12.0pt;line-height:107%;font-family:&quot;Arial&quot;,sans-serif"> No
+puedes encuestar a todos los ciudadanos, así que encuestas a 500 personas y
+encuentras que el 80% de los encuestados usan smartphones. Este 80% (p̂ = 0.80)
+es un estadístico que sirve como una estimación de la proporción poblacional.<o:p></o:p></span></p>

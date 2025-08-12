@@ -1,0 +1,152 @@
+
+		
+		<link rel="stylesheet" href="../general/estilo/ed_estilo.css">&nbsp;<span style="font-family: Arial, sans-serif; font-size: 12pt;">Existe
+una fórmula para calcular el tamaño de la muestra cuando se desea realizar un
+estudio o una encuesta sobre una población. La fórmula más comúnmente utilizada
+es la del </span><b style="font-family: Arial, sans-serif; font-size: 12pt;"><span style="color:#548235;mso-themecolor:accent6;mso-themeshade:
+191;mso-style-textfill-fill-color:#548235;mso-style-textfill-fill-themecolor:
+accent6;mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:
+lumm=75000">tamaño de muestra para una proporción</span></b><span style="font-family: Arial, sans-serif; font-size: 12pt;">, que es útil
+cuando se busca estimar una proporción en una población (por ejemplo, el
+porcentaje de personas que prefieren un producto).</span><p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:normal"><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;
+mso-fareast-font-family:&quot;Times New Roman&quot;;mso-fareast-language:ES-MX">La
+fórmula es:<o:p></o:p></span></p>
+
+<p class="MsoNormal" align="center" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;text-align:center;line-height:normal"><img src="data:image/png;base64,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" alt=""><br></p>
+
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:normal"><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;
+mso-fareast-font-family:&quot;Times New Roman&quot;;mso-fareast-language:ES-MX">Donde:<o:p></o:p></span></p>
+
+<ul type="circle">
+ <li class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     line-height:normal;mso-list:l0 level1 lfo1;tab-stops:list 36.0pt"><b><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:
+     &quot;Times New Roman&quot;;color:#00B050;mso-fareast-language:ES-MX">n</span></b><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:
+     &quot;Times New Roman&quot;;mso-fareast-language:ES-MX"> es el tamaño de la muestra.<o:p></o:p></span></li>
+ <li class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     line-height:normal;mso-list:l0 level1 lfo1;tab-stops:list 36.0pt"><b><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:
+     &quot;Times New Roman&quot;;color:#00B050;mso-fareast-language:ES-MX">Z</span></b><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:
+     &quot;Times New Roman&quot;;mso-fareast-language:ES-MX"> es el valor del estadístico
+     Z asociado al nivel de confianza deseado (por ejemplo, 1.96 para un nivel
+     de confianza del 95%).<o:p></o:p></span></li>
+ <li class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     line-height:normal;mso-list:l0 level1 lfo1;tab-stops:list 36.0pt"><b><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:
+     &quot;Times New Roman&quot;;color:#00B050;mso-fareast-language:ES-MX">p</span></b><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:
+     &quot;Times New Roman&quot;;mso-fareast-language:ES-MX"> es la proporción estimada
+     de la población que tiene la característica de interés (si no se conoce,
+     se suele usar 0.5, que es el valor más conservador).<o:p></o:p></span></li>
+ <li class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     line-height:normal;mso-list:l0 level1 lfo1;tab-stops:list 36.0pt"><b><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:
+     &quot;Times New Roman&quot;;color:#00B050;mso-fareast-language:ES-MX">E</span></b><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:
+     &quot;Times New Roman&quot;;mso-fareast-language:ES-MX"> es el margen de error o
+     precisión deseada (es decir, cuánto se está dispuesto a que los resultados
+     muestren un error respecto a la población real).<o:p></o:p></span></li>
+</ul>
+
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:normal;mso-outline-level:3"><b><span style="font-size:13.5pt;
+font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:&quot;Times New Roman&quot;;
+color:#BF9000;mso-themecolor:accent4;mso-themeshade:191;mso-style-textfill-fill-color:
+#BF9000;mso-style-textfill-fill-themecolor:accent4;mso-style-textfill-fill-alpha:
+100.0%;mso-style-textfill-fill-colortransforms:lumm=75000;mso-fareast-language:
+ES-MX">Ejemplo:<o:p></o:p></span></b></p>
+
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:normal"><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;
+mso-fareast-font-family:&quot;Times New Roman&quot;;mso-fareast-language:ES-MX">Si
+quieres estimar la proporción de personas que prefieren un tipo de pan en una
+panadería, con un nivel de confianza del <span style="color:red">95%</span> (<b><span style="color:#2F5597;mso-themecolor:
+accent5;mso-themeshade:191;mso-style-textfill-fill-color:#2F5597;mso-style-textfill-fill-themecolor:
+accent5;mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:
+lumm=75000">Z = 1.96</span></b>), una precisión del <span style="color:red">5%</span>
+(<b><span style="color:#2F5597;mso-themecolor:
+accent5;mso-themeshade:191;mso-style-textfill-fill-color:#2F5597;mso-style-textfill-fill-themecolor:
+accent5;mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:
+lumm=75000">E = 0.05</span></b>), y supones que aproximadamente el <span style="color:red">50%</span> <span style="color:#002060">(<b>p = 0.5</b></span>) de las personas prefieren ese pan, el tamaño de la
+muestra sería:<o:p></o:p></span></p>
+
+<p class="MsoNormal" align="center" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;text-align:center;line-height:normal"><img src="data:image/png;base64,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" alt=""><br></p>
+
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:normal"><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;
+mso-fareast-font-family:&quot;Times New Roman&quot;;mso-fareast-language:ES-MX">Esto
+significa que necesitarías encuestar al menos <b><span style="color:red">384 personas</span></b><span style="color:red">
+</span>para obtener una estimación confiable.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><b><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:107%;font-family:
+&quot;Arial&quot;,sans-serif;color:red">*Tarea*<o:p></o:p></span></b></p>
+
+<p class="MsoNormal" style="margin-bottom:18.0pt;text-align:justify;line-height:
+normal;background:white"><b><span style="font-family:&quot;Arial&quot;,sans-serif;color:#0070C0">*Instrucciones*<o:p></o:p></span></b></p>
+
+<p class="MsoNormal" style="margin-top:0cm;margin-right:0cm;margin-bottom:18.0pt;
+margin-left:18.0pt;text-align:justify;line-height:150%;background:white"><span style="font-family: Arial, sans-serif; color: rgb(34, 34, 34); background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">En tu
+cuaderno, realiza los siguientes ejercicios:<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;
+line-height:107%;font-family:&quot;Arial&quot;,sans-serif;color:#002060">Un grupo de
+científicos realizó un estudio acerca del color rojo en los ojos de la mosca de
+la fruta. Para ello, observaron el color de los ojos de 100 moscas.<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:18.0pt"><span style="font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:107%;font-family:&quot;Arial&quot;,sans-serif">¿Cuál
+es la población de estudio? &nbsp;<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:18.0pt"><span style="font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:107%;font-family:&quot;Arial&quot;,sans-serif">¿Cuál
+es la muestra? <o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:18.0pt"><span style="font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:107%;font-family:&quot;Arial&quot;,sans-serif">¿Cuál
+es la variable estadística a estudiar? <o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:18.0pt"><span style="font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:107%;font-family:&quot;Arial&quot;,sans-serif">¿Cuál
+podría ser un conjunto de datos?&nbsp;&nbsp; <o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;
+line-height:107%;font-family:&quot;Arial&quot;,sans-serif;color:#002060">De un total de
+5500 personas encuestadas en México, se escogió a diferentes personas pertenecientes
+a cada región para preguntarles acerca de a cuál red social pertenecen. <o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:18.0pt"><span style="font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:107%;font-family:&quot;Arial&quot;,sans-serif">¿Cuál
+es la población de estudio? &nbsp;&nbsp;&nbsp;<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:18.0pt"><span style="font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:107%;font-family:&quot;Arial&quot;,sans-serif">¿Cuál
+es la variable estadística a estudiar? &nbsp;&nbsp;<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:18.0pt"><span style="font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:107%;font-family:&quot;Arial&quot;,sans-serif">¿Cuál
+podría ser un conjunto de datos? &nbsp;&nbsp;<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;
+line-height:107%;font-family:&quot;Arial&quot;,sans-serif;color:#002060">Para conocer el
+deporte preferido de los alumnos de su colegio, Rolando pregunta a sus tres
+mejores amigos cuál prefieren. Como todos escogen el fútbol, Rolando concluye
+que en el colegio el deporte favorito es ese. <o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;
+line-height:107%;font-family:&quot;Arial&quot;,sans-serif">¿Cuál es la población de este
+estudio? <o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;
+line-height:107%;font-family:&quot;Arial&quot;,sans-serif">¿Cuál es la variable estadística
+a estudiar? <o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;
+line-height:107%;font-family:&quot;Arial&quot;,sans-serif">¿Cuál fue la muestra escogida
+por Rolando? <o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;
+line-height:107%;font-family:&quot;Arial&quot;,sans-serif">¿Por qué la conclusión que
+saca Rolando es errónea? <o:p></o:p></span></p>
+
+<p class="MsoNormal"><b><span style="font-family:&quot;Arial&quot;,sans-serif;color:red">&nbsp;</span></b></p>
+
+<p class="MsoNormal"><b><span style="font-family:&quot;Arial&quot;,sans-serif;color:red">*Entrega:</span></b><span style="font-family:&quot;Arial&quot;,sans-serif;color:red"> </span><span style="font-family:&quot;Arial&quot;,sans-serif">Toma una foto de la página de tu
+cuaderno donde hiciste tu tarea y súbela en formato de imagen. 31/agosto<o:p></o:p></span></p>

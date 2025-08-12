@@ -1,0 +1,345 @@
+:root {
+    --primario: rgb(15, 57, 133);
+    --secundario: rgb(221, 11, 72);
+}
+
+h1,h2,h3,h4,h5,h6 {font-family: 'Roboto', sans-serif;}
+
+h1{
+	font-size:2.5em;
+}
+
+#mats{
+	background:#000000;
+	position:fixed;
+	width:100%;
+	height:100%;
+	top:0%;
+	opacity: 0.5;
+	display:none;
+}
+
+#cont{
+	position:absolute;
+	top:20%;
+	background:#ffffff;
+	text-align:left;
+	padding:2% 10%;
+	border-radius: 10px;
+	box-shadow: 1px 1px 10px rgba(0,0,100,0.8);
+	display:none;
+	left:25%;
+	width:50%;
+}
+
+#bcerrar{
+	position:absolute;
+	top:25px;
+	right:25px;
+}
+
+.texto_gris{
+	color:#A1A1A1;
+}
+
+.tiempo{
+	animation-delay:0.2s;
+}
+
+
+.azul_oficial{
+	color:#0f3985;
+}
+
+.gris_oscuro{
+	background:#2e2e30;
+	color:#ffffff;
+}
+
+.fondo_azul_oficial{
+	background:#0f3985;
+	color:#ffffff;
+}
+
+.rojo_oficial{
+	color:#dd0b48;
+}
+
+.fondo_rojo_oficial{
+	background:#dd0b48;
+	color:#ffffff;
+}
+
+.amarillo_oficial{
+	color:#e3c72f;
+}
+
+.fondo_amarillo_oficial{
+	background:#e3c72f;
+	color:#2f313e;
+}
+
+.gris_oficial{
+	color:#2f313e;
+}
+
+.fondo_gris_oficial{
+	background:#2f313e;
+}
+
+
+.sin_margen{
+	margin:0px;
+	
+}
+
+#planes{
+	position: relative;
+	top:-16px;
+	padding: 30px;
+}
+
+a{
+	text-decoration:none;
+}
+
+.linea{
+	display:inline;
+}
+
+.linea2{
+	display:inline-block;
+}
+
+.caja_informe{
+	padding: 8px 20px;
+	margin: 2% 2% 1%;
+}
+
+.cuadro{
+	text-align:center;
+	font-size: 2em;
+	color:#5ba5b9;
+	font-family:"Trebuchet MS";
+	height: 60px;
+	margin: 3% 2%;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-ms-border-radius: 10px;
+}
+
+.c_chico{
+	width:210px;
+}
+
+.c_mediano{
+	width:310px;
+}
+
+.caja_roja{
+	box-shadow: 5px 10px 7px rgba(255,81,85,0.5);
+}
+
+.caja_verde{
+	box-shadow: 5px 10px 7px rgba(81,255,85,0.5);
+}
+
+#login{
+	width:30%; 
+	float:right;
+}
+
+#slide{
+	width:100%; 
+	z-index:0;
+}
+
+
+#m1{
+	display:none;
+	
+}
+
+#m2{
+	font-family: sans-serif;
+	font-size:18px;
+	padding:0;
+	right:0px;
+	position:absolute;
+	top:0px;
+	z-index:2;
+}
+
+
+
+#m3{
+	z-index:1;
+	display:block;
+}
+
+#chat{
+	display:none;
+	right:0px;
+	position:fixed;
+	bottom:0px;
+	margin:10px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-ms-border-radius: 10px;
+	box-shadow: 1px 1px 10px rgba(0,100,0,0.8);
+	z-index:100;
+}
+
+.espacio{
+	margin: 8%;
+	display:inline;
+}
+
+.espacio_corto{
+	margin: 4%;
+	display:inline;
+}
+
+
+
+#menu_movil{
+	display:inline;
+}
+
+#logo{	
+	font-size:45px;
+}
+
+/* Estilos de tareas */
+.container-tareas {
+	width: 95%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    padding: 10px 0px;
+    gap: 30px 0px;
+}
+
+.container-tareas .titulo-container {
+	color: rgb(15, 57, 133);
+}
+
+.container-cards {
+	width: 100%;
+	display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+	gap: 30px 0px;
+}
+
+.card {
+	min-width: 300px;
+	max-width: 80%;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+    border: 2px solid rgb(221, 11, 72);
+}
+
+.card h2 {
+	color: rgb(15, 57, 133);
+	font-size: 20px;
+}
+
+.card .fecha {
+	color: rgb(15, 57, 133);
+}
+
+.card .entrega {
+	color: rgb(221, 11, 72);
+	font-weight: bold;
+}
+
+#b_tarea {
+	background-color: rgb(15, 57, 133); 
+	color: white;
+	border: none;
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+	border-radius: 10px;
+	font-size: 18px;
+	padding: 10px;
+	margin-top: 50px;
+
+	background: linear-gradient(to right, var(--primario) 50%, var(--secundario) 50%);
+    background-size: 200%;
+    background-position: right;
+    transition: background-position 0.5s;
+}
+
+#b_tarea:hover {
+    background-position: left;
+}
+
+
+
+@media screen and (max-width: 900px) {
+	#m2, #m3{
+		display:none;
+	}
+
+	#m1{
+		display:inline;
+	}
+	#logo{
+		float: right;
+		vertical-align:middle;
+	}
+	#login{
+		width:100%; 
+		clear: left;
+	}
+	#slide{
+		width:100%; 
+		clear: left;
+	}
+	#cont{
+		left:10%;
+		width:80%;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.espacio{
+		display:none;
+	}
+	#cont{
+		width:96%;
+		left:2%;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	#cont{
+		width:80%;
+		left:20%;
+	}
+
+}
+
+
+
+@media screen and (min-width: 851px) {
+	#imagen_logo{
+		margin: 0 0 0 5%;
+		vertical-align:middle;
+	}
+}
+
+
+#m_fon{
+	position: fixed;
+	bottom:0px;
+	width:100%;
+	height:100px;
+	background-position: center;
+	background-image: url('../../general/imagen/menu_fondo.png');
+	background-repeat: no-repeat;
+}
+
+

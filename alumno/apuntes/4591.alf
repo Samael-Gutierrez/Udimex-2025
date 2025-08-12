@@ -1,0 +1,12 @@
+
+		
+		
+		
+		
+		<font color="#e60000" size="7">
+		Este ya es un fichero y guarda estilos</font><div><font color="#e60000"><br></font></div><div><center><br></center><br></div>
+	
+	&nbsp;<canvas id="l567" height="40" width="11">a/b</canvas><script>fraccion("2","4","l567");</script>&nbsp;
+	&nbsp;<canvas id="l643" height="40" width="68">a/b</canvas><script>raiz("4567","l643");</script>&nbsp;
+	
+	

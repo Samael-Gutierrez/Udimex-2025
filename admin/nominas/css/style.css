@@ -1,0 +1,14 @@
+.cflex {
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.cform {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

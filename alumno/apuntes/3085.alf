@@ -1,0 +1,89 @@
+
+		
+		<img src="http://www.udimex.net/alf/im/img106.jpg" style="float:left"><span style="font-size:12.0pt;line-height:115%;
+font-family:" calibri",sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:="" calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;="" mso-bidi-font-family:"times="" new="" roman";mso-bidi-theme-font:minor-bidi;="" mso-ansi-language:es-mx;mso-fareast-language:en-us;mso-bidi-language:ar-sa"="">En
+estadística, un <b>fenómeno aleatorio</b>
+es aquel que bajo el mismo conjunto aparente de condiciones iniciales, puede
+presentar resultados diferentes, es decir, no se puede predecir el resultado
+exacto de cada experiencia particular. (Ej: Lanzamiento de un dado).</span><div><span style="line-height: 115%;" calibri",sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:="" calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;="" mso-bidi-font-family:"times="" new="" roman";mso-bidi-theme-font:minor-bidi;="" mso-ansi-language:es-mx;mso-fareast-language:en-us;mso-bidi-language:ar-sa"=""><p class="MsoNormal" style="font-size: 12pt; text-align: justify; line-height: normal;"><span style="font-size:12.0pt">Este tipo de fenómeno es opuesto al <b>fenómeno determinista</b>, en el que
+conocer todos los factores de un experimento nos hace predecir exactamente el
+resultado del mismo.<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; text-align: justify; line-height: normal;"><span style="font-size:12.0pt">Por ejemplo, conociendo la altura desde la que se
+arroja un móvil es posible saber exactamente el tiempo que tardará en llegar al
+suelo en condiciones de vacío.&nbsp;</span><span style="font-family: " times="" new="" roman";="" font-size:="" medium;"=""><img src="http://www.udimex.net/alf/im/img107.jpg" style="float:right"></span><span style="font-size: 12pt;">&nbsp;</span></p><p class="MsoNormal" style="font-size: 12pt; text-align: justify; line-height: normal;"><i><span style="font-size:12.0pt">Un
+experimento se dice aleatorio si verifica las siguientes condiciones: <o:p></o:p></span></i></p><p class="MsoListParagraphCxSpFirst" style="text-align: justify; text-indent: -18pt; line-height: normal;"><span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; line-height: normal;"><font face="Symbol">&nbsp; &nbsp; &nbsp;*</font></span><span style="font-family: " times="" new="" roman";="" font-size:="" 7pt;="" font-variant-numeric:="" normal;="" font-variant-east-asian:="" font-stretch:="" line-height:="" normal;"=""> &nbsp;</span><!--[endif]--><span style="font-size: 12pt;">Es posible
+conocer previamente todos los posibles resultados asociados al experimento (el
+espacio maestral, constituido por diferentes sucesos). <o:p></o:p></span></p><p class="MsoListParagraphCxSpLast" style="font-size: 12pt; text-align: justify; text-indent: -18pt; line-height: normal;"><!--[if !supportLists]--><span style="font-size:12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol">·<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: " times="" new="" roman";"="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><!--[endif]--><span style="font-size:12.0pt">Es imposible
+predecir el resultado exacto del mismo antes de realizarlo.<o:p></o:p></span></p><h2 style="font-size: 12pt; text-align: justify; line-height: normal;"><span style="font-size:12.0pt;
+font-family:" calibri",sans-serif;mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:="" minor-latin;mso-bidi-font-family:"times="" new="" roman";mso-bidi-theme-font:major-bidi"="">Nociones
+básicas sobre sucesos<o:p></o:p></span></h2><p class="MsoNormal" style="font-size: 12pt; text-align: justify; line-height: normal;"><span style="font-size:12.0pt">El <b>espacio de
+resultados</b> o<b> espacio muestral</b>,
+Ω, es el conjunto de todos los posibles resultados de un experimento aleatorio.<o:p></o:p></span></p><p class="MsoNormal" style="font-size: 12pt; text-align: justify; line-height: normal;"><span style="font-size:12.0pt">Llamaremos suceso a cualquier subconjunto de Ω. Un
+suceso A ocurre si el resultado del experimento aleatorio es uno de los
+elementos de A.<o:p></o:p></span></p><p class="MsoNormal" style="font-size: 12pt; text-align: justify; text-indent: 35.4pt; line-height: normal;"><b><span style="font-size:12.0pt">Suceso
+complementario</span></b><span style="font-size:12.0pt"> <b>de A (A¯):</b> ocurre cuando el resultado del experimento no es un
+elemento de A.<b><o:p></o:p></b></span></p><p class="MsoNormal" style="font-size: 12pt; text-align: justify; text-indent: 35.4pt; line-height: normal;"><b><span style="font-size:12.0pt">Suceso
+unión de A y B (A </span></b><b><span style="font-size:12.0pt;font-family:" cambria="" math",serif;mso-bidi-font-family:="" "cambria="" math""="">∪</span></b><b><span style="font-size:12.0pt"> B):</span></b><span style="font-size:12.0pt"> ocurre
+cuando </span><span style="font-size:12.0pt;mso-bidi-font-family:Calibri">ó</span><span style="font-size:12.0pt"> bien sucede A </span><span style="font-size:12.0pt;
+mso-bidi-font-family:Calibri">ó</span><span style="font-size:12.0pt"> bien
+sucede B.<o:p></o:p></span></p><p class="MsoNormal" style="font-size: 12pt; text-align: justify; text-indent: 35.4pt; line-height: normal;"><b><span style="font-size:12.0pt">Suceso
+intersección de A y B (A ∩ B</span></b><span style="font-size:12.0pt">): ocurre
+cuando A y B suceden simultáneamente<o:p></o:p></span></p><p class="MsoNormal" style="font-size: 12pt; text-align: justify; line-height: normal;"><span style="font-size:12.0pt">Cada uno de los elementos de Ω constituye un suceso. A
+estos sucesos se les denomina sucesos elementales. El propio Ω también constituye
+un suceso, al que se denomina suceso seguro.<o:p></o:p></span></p><p class="MsoNormal" style="font-size: 12pt; text-align: justify; line-height: normal;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span style="font-size:12.0pt;line-height:115%;font-family:" calibri",sans-serif;="" mso-ascii-theme-font:minor-latin;mso-fareast-font-family:calibri;mso-fareast-theme-font:="" minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"times="" new="" roman";="" mso-bidi-theme-font:minor-bidi;mso-ansi-language:es-mx;mso-fareast-language:="" en-us;mso-bidi-language:ar-sa"="">Ejemplo</span></p><p class="MsoNormal" style="font-size: 12pt; text-align: justify; line-height: normal;"><span style="font-size:12.0pt;line-height:115%;font-family:" calibri",sans-serif;="" mso-ascii-theme-font:minor-latin;mso-fareast-font-family:calibri;mso-fareast-theme-font:="" minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"times="" new="" roman";="" mso-bidi-theme-font:minor-bidi;mso-ansi-language:es-mx;mso-fareast-language:="" en-us;mso-bidi-language:ar-sa"=""></span></p><p class="MsoNormal" style="text-align:justify;line-height:normal"><span style="font-size:12.0pt">Se lanzan dos dados, uno rojo y otro azul. El espacio
+de resultados Ω estará constituido por los 36 posibles resultados del
+experimento, es decir:&nbsp;<o:p></o:p></span></p><p class="MsoNormal" style="text-align: center; line-height: normal;"><span style="font-size: 16px;"><img src="http://www.udimex.net/alf/im/img108.jpg"></span></p><p class="MsoNormal" style="text-align:justify;line-height:normal"><span style="font-size:12.0pt">Los sucesos elementales son (1, 1), (1, 2), etc., es
+decir, cada uno de los 36 elementos de Ω.<o:p></o:p></span></p><p class="MsoNormal" style="text-align: center; line-height: normal;">
+
+</p><p class="MsoNormal" style="text-align:justify;line-height:normal"><span style="font-size:12.0pt">A = {rojo = 4} = {(4, 1),(4, 2),(4, 3),(4, 4),(4,
+5),(4, 6)}<o:p></o:p></span></p><p class="MsoNormal" style="text-align: center; line-height: normal;"><img src="http://www.udimex.net/alf/im/img109.jpg"><span style="font-size:12.0pt"><o:p></o:p></span></p><p class="MsoNormal" style="text-align:justify;line-height:normal"><span style="font-size:12.0pt">B = {rojo + azul = 10} = {(4, 6),(5, 5),(6, 4)}</span></p><p class="MsoNormal" style="text-align: center; line-height: normal;"><img src="http://www.udimex.net/alf/im/img110.jpg"><span style="font-size:12.0pt">&nbsp;<o:p></o:p></span></p><p class="MsoNormal" style="text-align:justify;line-height:normal"><span style="font-size:12.0pt">A </span><span style="font-size:12.0pt;font-family:
+" cambria="" math",serif;mso-bidi-font-family:"cambria="" math""="">∪</span><span style="font-size:12.0pt"> B = {(4, 1),(4, 2),(4, 3),(4, 4),(4, 5),(4, 6),(5,
+5),(6, 4)}<o:p></o:p></span></p><p class="MsoNormal" style="text-align: center; line-height: normal;"><span style="font-size:12.0pt"><img src="http://www.udimex.net/alf/im/img111.jpg"></span></p><p class="MsoNormal" style="text-align:justify;line-height:normal"><span style="font-size:12.0pt">A ∩ B = {(4, 6)}<o:p></o:p></span></p><p class="MsoNormal" align="center" style="text-align:center;line-height:normal"><img src="http://www.udimex.net/alf/im/img112.jpg"><span style="font-size:12.0pt"><o:p></o:p></span></p><h2 style="text-align:justify;line-height:normal"><span style="font-size:12.0pt;
+font-family:" calibri",sans-serif;mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:="" minor-latin;mso-bidi-font-family:"times="" new="" roman";mso-bidi-theme-font:major-bidi"="">Definición
+clásica de probabilidad<o:p></o:p></span></h2><p class="MsoNormal" style="text-align:justify;line-height:normal"><b><span style="font-size:12.0pt">Probabilidad:</span></b><span style="font-size:12.0pt"> La probabilidad es una medida para cuantificar la
+seguridad que tenemos de que ocurra cada uno de los sucesos de un experimento
+aleatorio. A cada suceso A se le asocia un valor, P(A), con 0 ≤ P(A) ≤ 1. Si P(A)
+= 0, el suceso A no va a ocurrir. Si P(A) = 1, el suceso A va a ocurrir con
+toda seguridad. Conforme mayor sea el número P(A) más verosímil es el suceso A<o:p></o:p></span></p><p class="MsoNormal" align="center" style="text-align:center;line-height:normal">
+
+
+
+</p><p class="MsoNormal" style="text-align:justify;line-height:normal"><b><span style="font-size:12.0pt">Definición
+clásica</span></b><span style="font-size:12.0pt"> En la definición clásica de
+probabilidad, todos los resultados del experimento nos resultan igualmente
+verosímiles, por lo que tendrán igual probabilidad. De este modo, la
+probabilidad de un suceso A podrá ser calculada del siguiente modo:<o:p></o:p></span></p><p class="MsoNormal" align="center" style="text-align:center;line-height:normal"><img src="http://www.udimex.net/alf/im/img113.jpg"><span style="font-size:12.0pt"><o:p></o:p></span></p><p class="MsoNormal" style="text-align:justify;line-height:normal"><span style="font-size:12.0pt">es decir, mediante el cociente entre el número de
+casos favorables y el número de casos posibles.<o:p></o:p></span></p><p class="MsoNormal" style="text-align:justify;line-height:normal"><b><span style="font-size:12.0pt">Ejemplo <o:p></o:p></span></b></p><p class="MsoNormal" style="text-align:justify;line-height:normal"><span style="font-size:12.0pt">El espacio de muestral Ω estaba constituido por los 36
+posibles resultados del experimento, es decir: <o:p></o:p></span></p><p class="MsoNormal" align="center" style="text-align:center;line-height:normal">
+
+
+
+
+
+</p><p class="MsoNormal" style="text-align:justify;line-height:normal"><span style="font-size:12.0pt">Ω = {(1, 1),(1, 2), . . . ,(1, 6),(2, 1), . . . ,(6,
+6)}<o:p></o:p></span></p><p class="MsoNormal" align="center" style="text-align:center;line-height:normal"><img src="http://www.udimex.net/alf/im/img113.1.jpg"><span style="font-size:12.0pt"><o:p></o:p></span></p></span></div>
+	
+	

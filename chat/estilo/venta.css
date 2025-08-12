@@ -1,0 +1,234 @@
+:root {
+    --ancho: 70%;
+    --margen: 8px;
+    --margen_chat: 0% 14%;
+    --alto: 95%;
+    --letra: 15px;
+    --color-primario: #0f3985;
+    --color-secundario: #01a5bd;
+    --color-fondo: #f0f4f8;
+    --color-texto: #333;
+}
+
+html, body {
+    margin: var(--margen);
+    font-size: var(--letra);
+    font-family: Verdana, sans-serif;
+    line-height: 1.5;
+    overflow-x: hidden;
+    background-color: var(--color-fondo);
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="%23e0e7ff" opacity="0.3"/><circle cx="20" cy="20" r="15" fill="%23d1e0ff" opacity="0.3"/><circle cx="80" cy="80" r="15" fill="%23d1e0ff" opacity="0.3"/></svg>');
+    background-repeat: repeat;
+}
+
+
+#chat {
+    margin: var(--margen_chat);
+    width: var(--ancho);
+    height: var(--alto);
+    background-color: #ffffff;
+    position: absolute;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#atiende {
+    background-image: linear-gradient(to right, #000, rgb(15, 57, 133));
+    right: 0px;
+    top: 0px;
+    padding: 0px;
+    border-radius: 15px 15px 0px 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0px 20px;
+}
+
+#atiende p {
+    display: inline-block;
+}
+
+#atiende img {
+    width: 40px;
+}
+
+.promotor {
+    max-width: 60%;
+    background-color: #eaf0f7;
+    left: 0px;
+    margin: 10px 5px 0px 5px;
+    padding: 10px 20px;
+    border-radius: 0px 15px 15px 15px;
+    display: inline-table;
+    color: var(--color-texto);
+    font-size: 18px;
+}
+
+.avt_prom {
+    margin: 10px 5px 0px 10px;
+    display: inline-block;
+    left: 0px;
+}
+
+.avt_prom img {
+    width: 30px;
+}
+
+.prospecto {
+    position: relative;
+    color: #ffffff;
+    max-width: 60%;
+    background-color: var(--color-secundario);
+    right: 15px;
+    margin: 10px 5px 0px 5px;
+    padding: 10px 20px;
+    border-radius: 15px 0px 15px 15px;
+    display: inline-table;
+    font-size: 18px;
+}
+
+.avt_pros {
+    position: relative;
+    right: 20px;
+    margin: 10px 5px 0px 10px;
+    display: inline-block;
+}
+
+.avt_pros img {
+    width: 30px;
+}
+
+#mensaje {
+    height: 30px;
+    position: absolute;
+    background-image: linear-gradient(to right, #000, rgb(15, 57, 133));
+    width: 100%;
+    bottom: 0px;
+    padding: 10px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+#mensajes {
+    width: 100%;
+    height: 75%;
+    overflow: auto;
+    padding: 10px;
+}
+
+/* Estilos para los botones */
+.op {
+    padding: 5px 8px;
+    margin: 2px;
+    background-color: var(--color-primario);
+    color: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block; /* Botones en horizontal */
+    text-align: center;
+    border: none; /* Eliminamos el borde */
+    font-size: 15px;
+}
+
+.op:hover {
+    background-color: #1a4da6;
+}
+
+.adm_chat {
+    background-color: #ffffff;
+    width: 350px;
+    height: 450px;
+    right: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+    border-radius: 15px;
+    padding: 0px;
+    display: inline-block;
+}
+
+.adm_msg {
+    height: 300px;
+    overflow: auto;
+}
+
+#espera {
+    margin: 80px 124px;
+}
+
+.dato {
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.sig {
+    color: #ffffff;
+    background-color: #b235bd;
+    border-radius: 10px;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block; /* Botones en horizontal */
+    text-align: center;
+    border: none; /* Eliminamos el borde */
+    font-size: var(--letra);
+}
+
+.sig:hover {
+    background-color: #9a2aa5;
+}
+
+.inicio {
+    margin: 10px 10px 10px 80px;
+}
+
+.campos {
+    display: none;
+}
+
+#ins {
+    border: 0px;
+    overflow: hidden;
+    width: 100%;
+    height: 80%;
+    left: 0px;
+}
+
+/* Responsive Design */
+@media (max-width: 1000px) {
+    :root {
+        --ancho: 100%;
+        --margen: 0px;
+        --margen_chat: 0%;
+        --letra: 25px; /* Aumentamos el tamaño de la fuente en un 50% (18px * 1.5 = 27px) */
+        --alto: 100%;
+    }
+
+    #chat {
+        width: var(--ancho);
+        margin: var(--margen_chat);
+    }
+
+    .promotor, .prospecto {
+        max-width: 75%;
+        font-size: 13px;
+        margin: 0px 0px 8px 0px;
+        padding: 5px;
+    }
+
+    #atiende {
+        font-size: 18px; /* Aumentamos el tamaño de la fuente en el encabezado */
+    }
+
+    .op, .sig {
+        padding: 5px 8px; /* Aumentamos el padding para que los botones sean más grandes */
+        margin: 5px;
+        font-size: 15px; /* Aumentamos el tamaño de la fuente en los botones */
+    }
+    #mensaje {
+        height: 1px;
+    }
+    
+}

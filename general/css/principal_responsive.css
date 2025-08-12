@@ -1,0 +1,472 @@
+/* Estilos Responsive */
+:root {
+    --primary: #0f3985;
+    --secondary: #dd0b48;
+}
+@media (min-width:320px) and (max-width:374px){
+    .popup {
+        width: 310px;
+    }
+
+    .main {
+        margin-bottom: 0;
+    }
+
+    .s2-carrusel-container img {
+        height: 250px;
+    }
+
+    .s3-cards-materias .s3-info h2 {
+        font-size: 25px;
+    }
+
+    .s3-cards-materias .s3-info h3 {
+        font-size: 15px;
+        line-height: 25px;
+        text-align: justify;
+    }
+
+    .s4-beneficios .s4-beneficios-part1 {
+        padding: 0px 15px;
+    }
+
+    .s4-beneficios .s4-beneficios-part1 p{
+        font-size: 18px;
+    }
+
+    .s4-beneficios .s4-beneficios-part2 .beneficios {
+        width: 300px;
+        padding: 0px 10px;
+        gap: 5px;
+    }
+
+    .s4-beneficios .s4-beneficios-part2 .beneficios .inciso {
+        width: 40px;
+        height: 30px;
+    }
+
+    .s4-banner .s4-banner-part1 h2 {
+        font-size: 22px;
+    }
+
+    .s5-testimonial .swiper-wrapper .s5-slide span {
+        text-align: center;
+    }
+
+    .s6-ubicacion .s6-container .s6-datos h2 {
+        font-size: 16px;
+    }
+
+    .s6-ubicacion .s6-container .s6-datos p {
+        font-size: 12px;
+        padding: 0px 20px;
+    }
+
+    .s6-ubicacion .s6-container .s6-mapa iframe{
+        height: 280px;
+    }
+
+    .s6-ubicacion .s6-container .s6-datos i {
+        font-size: 12px;
+    }
+
+    .s7-banner h2 {
+        font-size: 25px;
+    }
+
+    .s8-team h2 {
+        font-size: 15px;
+    }
+
+    .s8-team h3 {
+        font-size: 18px;
+    }
+
+    .s8-team .s8-card-container .s8-card {
+        width: 300px;
+    }
+
+    .s8-team .s8-card-container .s8-card .s8-card-content .s8-content {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .s8-team .s8-card-container .s8-card .s8-card-content img {
+        margin: 0;
+    }
+
+    .s8-team .s8-card-container .s8-card .s8-card-title h2 {
+        font-size: 20px;
+    }
+
+    .s8-team .s8-card-container .s8-card .s8-card-content h3 {
+        font-size: 16px;
+    }
+}
+
+@media (min-width:375px) and (max-width:429px){
+    .popup {
+        width: 360px;
+    }
+
+    .main {
+        margin-bottom: 0px;
+    }
+
+    .s2-carrusel-container img {
+        height: 220px;
+    }
+
+    .s3-cards-materias .s3-info h2 {
+        font-size: 25px;
+    }
+
+    .s3-cards-materias .s3-info h3 {
+        font-size: 20px;
+        line-height: 25px;
+        text-align: justify;
+    }
+
+    .s4-beneficios .s4-beneficios-part1 {
+        padding: 0px 20px;
+    }
+
+    .s4-beneficios .s4-beneficios-part1 p{
+        font-size: 18px;
+    }
+
+    .s4-beneficios .s4-beneficios-part2 .beneficios {
+        width: 340px;
+        padding: 0px 10px;
+        gap: 10px;
+    }
+
+    .s4-beneficios .s4-beneficios-part2 .beneficios .inciso {
+        width: 45px;
+        height: 35px;
+    }
+
+    .s4-banner .s4-banner-part1 h2 {
+        font-size: 22px;
+    }
+
+    .s6-ubicacion .s6-container .s6-datos p {
+        padding: 0px 20px;
+    }
+
+    .s6-ubicacion .s6-container .s6-datos i {
+        font-size: 20px;
+    }
+
+    .s7-banner h2 {
+        font-size: 28px;
+    }
+
+    .s8-team h2 {
+        font-size: 18px;
+    }
+
+    .s8-team .s8-card-container .s8-card {
+        width: 360px;
+    }
+}
+
+@media (min-width:430px) and (max-width:539px){
+    .s2-carrusel-container img {
+        height: 250px;
+    }
+
+    .s3-cards-materias .s3-info h2{
+        font-size: 28px;
+    }
+
+    .s3-cards-materias .s3-info h3{
+        font-size: 18px;
+    }
+
+    .s4-banner .s4-banner-part1 h2{
+        font-size: 25px;
+    }
+
+    .s6-container .s6-datos .s6-horarios i{
+        font-size: 20px;
+    }
+
+    .s7-banner h2 {
+        font-size: 35px;
+    }
+
+    .s8-team h2 {
+        font-size: 20px;
+    }
+
+    .s9-footer h2 {
+        font-size: 25px;
+    }
+}
+
+@media (min-width:540px) and (max-width:767px){
+    .s2-carrusel-container img {
+        height: 290px;
+    }
+
+    .s3-cards-materias .s3-info {
+        padding: 0px 20px;
+    }
+
+    .s3-cards-materias .s3-info h2{
+        font-size: 30px;
+    }
+
+    .s4-banner-part2 .s4-banner-2 h2 {
+        font-size: 30px;
+    }
+
+    .s5-testimonios .s5-nosotros p {
+        line-height: 30px;
+    }
+
+    .s7-banner h2 {
+        font-size: 40px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1023px){
+    .s2-carrusel-container img {
+        height: 400px;
+    }
+
+    .s3-cards-materias .s3-info h2{
+        padding: 0px 50px;
+        font-size: 40px;
+    }
+
+    .s3-cards-materias .s3-info h3 {
+        padding: 0px 50px;
+    }
+
+    .s3-cards-container {
+        gap: 50px;
+    }
+
+    .s4-beneficios-part1 {
+        padding: 0px 10px;
+        margin-bottom: 10px;
+    }
+
+    .s5-testimonios .s5-nosotros h2 {
+        font-size: 40px;
+    }
+}
+
+/* Generales hasta 375 */
+@media (max-width:375px){
+    .s9-footer h2 {
+        font-size: 18px;
+        margin-bottom: 50px;
+    }
+
+    .s9-footer .s9-redes {
+        justify-content: center;
+        margin: 0 0 20px 0;
+    }
+}
+
+/* Generales hasta 430 */
+@media (max-width:430px){
+    .main img {
+        width: 90%;
+    }
+
+    .main .main-img-2 {
+        margin-top: -50px;
+    }
+
+    .s3-cards-materias .s3-info {
+        padding: 0px 20px;
+    }
+
+    .s3-cards-materias .s3-info {
+        padding: 0px 25px;
+    }
+
+
+    .s4-banner .s4-banner-part1 {
+        padding: 0px 20px;
+    }
+
+    .s9-footer {
+        padding: 0px 20px;
+    }
+}
+
+/* Generales hasta 540  */
+@media (max-width:540px) {
+    .s4-banner .s4-banner-part2 {
+        flex-direction: column;
+    }
+}
+
+/* Generales hasta 820 */
+@media (max-width:768px) {
+    .popup {
+        top: -150%;
+        left: 50%;
+    }
+
+    .popup.active {
+        top: 50%;
+        transform: translate(-50%, -50%) scale(1);
+        transition: top 0ms ease-in-out 0ms,
+                    opacity 200ms ease-in-out 0ms,
+                    transform 200ms ease-in-out 0ms;
+    }
+
+    .main {
+        gap: 10px;
+        flex-direction: column-reverse;
+    }
+    
+    .main .main-img-2 {
+        width: 70%;
+    }
+
+    .s4-banner-part2{ 
+        gap: 30px;
+        padding: 0px 20px;
+        padding-top: 10px;
+    }
+
+    .s4-banner-part2 .s4-banner-2 {
+        text-align: center;
+    }
+
+    .s5-testimonios {
+        flex-direction: column;
+    }
+
+    .s5-testimonios .s5-nosotros {
+        border-bottom: solid 2px var(--primary);
+    }
+
+    .s6-ubicacion {
+        height: auto;
+        padding: 10px 0px 0px 0px;
+    }
+
+    .s6-ubicacion .s6-container {
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    .s6-ubicacion .s6-datos {
+        width: 85%;
+        height: auto;
+    }
+
+    .s6-ubicacion .s6-mapa {
+        width: 85%;
+        height: auto;
+    }
+
+    .s8-team .s8-card-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+/* Menu Hamburguesa */
+@media screen and (max-width: 768px){
+    .container-cerrar {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        width: 100%;
+        padding: 0rem 1rem;
+    }
+
+    .icon-tab {
+        display: inline-block;
+        color: #fff;
+    }
+
+    .abrir-menu, .cerrar-menu {
+        display: block;
+        border: 0;
+        font-size: 1.25rem;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .abrir-menu {
+        padding: 5px 8px;
+        background-color: white;
+        box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        border: 1px solid rgb(217, 217, 217);
+    }
+
+    .cerrar-menu {
+        padding: 5px 10px 5px 6px;
+        background-color: white;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        margin-right: -30px;
+    }
+
+    .nav {
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(3, 42, 139, 0.8);
+        padding: 3rem;
+        width: 100%;
+        height: 100vh;
+        border-radius: 0px 0px 0px 15px;
+        transform: translateX(100%);
+        transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+
+    .nav.visible {
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(0);
+    }
+
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .nav-list li a {
+        color: #ececec;
+        text-align: start;
+        font-size: 20px;
+        position: relative;
+        padding-bottom: 5px;
+    }
+
+    .nav-list li a i{
+        font-size: 25px;
+    }
+
+    .nav-list li a::before {
+        content: '';
+        position: absolute;
+        top: 95%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 200px;
+        height: 2px;
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.2) 0%, rgb(255, 0, 0) 50%, rgba(255, 255, 255, 0.2) 100%);
+    }
+}

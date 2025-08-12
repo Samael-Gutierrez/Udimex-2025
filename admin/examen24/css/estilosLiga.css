@@ -1,0 +1,170 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif; 
+}
+
+.contenedor {
+    width: 85%; 
+    max-width: 850px; 
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    padding: 80px 30px; 
+    text-align: center;
+    position: relative;
+}
+
+.lineas {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 10px;
+    background-color: transparent;
+}
+
+.linea-roja {
+    height: 8px;
+    width: 50%;
+    background-color: #db0c4b;
+}
+
+.linea-azul {
+    height: 8px;
+    width: 50%;
+    background-color: #043b8d;
+    margin-bottom: 20px; 
+}
+
+h1 {
+    color: black;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+p {
+    color: black;
+    margin-bottom: 35px; 
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+a.liga-examen {
+    color: #050505; 
+    display: inline-block;
+    margin-bottom: 23px; 
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.subtitulo {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+
+.sesion {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: black;
+    position: absolute;
+    top: 25px; 
+    left: 20px; 
+}
+
+.avatar {
+    background-color: #043b8d;
+    color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.nombre-profesor {
+    font-family: 'Georgia', serif; 
+}
+
+.iconos {
+    font-size: 24px;
+    color: black;
+    position: absolute;
+    top: 30px; 
+    right: 20px; 
+}
+
+.iconos i {
+    font-size: 28px; 
+    margin-right: 10px;
+    text-align: justify;
+}
+
+.logout {
+    position: absolute;
+    bottom: 35px; 
+    right: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.logout .logout-button {
+    padding: 8px 16px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #043b8d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.logout .logout-button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.lineas-inferiores {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 10px;
+    background-color: transparent;
+}
+
+.linea-roja-inferior {
+    height: 8px;
+    width: 50%;
+    background-color: #db0c4b;
+}
+
+.linea-azul-inferior {
+    height: 8px;
+    width: 50%;
+    background-color: #043b8d;
+}

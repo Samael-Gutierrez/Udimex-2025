@@ -1,0 +1,335 @@
+
+		
+		
+		<link rel="stylesheet" href="../general/estilo/ed_estilo.css">&nbsp;<span style="font-family: Arial, sans-serif; font-size: 12pt;">Las medidas de tendencia
+central son valores que resumen un conjunto de datos al indicar el punto
+alrededor del cual los datos tienden a agruparse. Las tres medidas más comunes
+son la media, la mediana y la moda.</span><p class="MsoNormal"><b><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:107%;font-family:
+&quot;Arial&quot;,sans-serif;color:#548235;mso-themecolor:accent6;mso-themeshade:191;
+mso-style-textfill-fill-color:#548235;mso-style-textfill-fill-themecolor:accent6;
+mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:
+lumm=75000">Media<o:p></o:p></span></b></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;
+line-height:107%;font-family:&quot;Arial&quot;,sans-serif">La media es el valor promedio
+de un conjunto de datos, obtenida sumando todos los valores y dividiendo esa
+suma por el número total de datos.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;
+line-height:107%;font-family:&quot;Arial&quot;,sans-serif;color:#C55A11;mso-themecolor:
+accent2;mso-themeshade:191;mso-style-textfill-fill-color:#C55A11;mso-style-textfill-fill-themecolor:
+accent2;mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:
+lumm=75000">Fórmula de la media:<o:p></o:p></span></p>
+
+<p class="MsoNormal" align="center" style="text-align:center"><img src="data:image/png;base64,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" alt=""><br></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;
+line-height:107%;font-family:&quot;Arial&quot;,sans-serif;color:#0070C0">Donde:<o:p></o:p></span></p>
+
+<p class="MsoListParagraphCxSpFirst" style="margin-left:39.0pt;mso-add-space:
+auto;text-indent:-18.0pt;mso-list:l2 level1 lfo1"><!--[if !supportLists]--><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:107%;font-family:
+Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol">·<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><!--[endif]--><span style="font-size:12.0pt;mso-bidi-font-size:
+11.0pt;line-height:107%;font-family:&quot;Arial&quot;,sans-serif">∑X es la suma de todos
+los valores del conjunto de datos.<o:p></o:p></span></p>
+
+<p class="MsoListParagraphCxSpLast" style="margin-left:39.0pt;mso-add-space:auto;
+text-indent:-18.0pt;mso-list:l2 level1 lfo1"><!--[if !supportLists]--><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:107%;font-family:
+Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol">·<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><!--[endif]--><span style="font-size:12.0pt;mso-bidi-font-size:
+11.0pt;line-height:107%;font-family:&quot;Arial&quot;,sans-serif">n es el número total de
+datos.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;
+line-height:107%;font-family:&quot;Arial&quot;,sans-serif;color:#0070C0">Ejemplo:</span><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:107%;font-family:
+&quot;Arial&quot;,sans-serif"><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;
+line-height:107%;font-family:&quot;Arial&quot;,sans-serif">Considera los datos: 10, 15,
+20, 25, 30.<o:p></o:p></span></p>
+
+<p class="MsoNormal" align="center" style="text-align:center"><img src="data:image/png;base64,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" alt=""><br></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;
+line-height:107%;font-family:&quot;Arial&quot;,sans-serif">La media de este conjunto es
+20.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><b><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:107%;font-family:
+&quot;Arial&quot;,sans-serif;color:#548235;mso-themecolor:accent6;mso-themeshade:191;
+mso-style-textfill-fill-color:#548235;mso-style-textfill-fill-themecolor:accent6;
+mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:
+lumm=75000">Mediana<o:p></o:p></span></b></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;
+line-height:107%;font-family:&quot;Arial&quot;,sans-serif">La mediana es el valor central
+de un conjunto de datos cuando se ordenan de menor a mayor. Si hay un número
+impar de datos, la mediana es el valor del medio. Si el número de datos es par,
+se toma el promedio de los dos valores centrales.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;
+line-height:107%;font-family:&quot;Arial&quot;,sans-serif;color:#C55A11;mso-themecolor:
+accent2;mso-themeshade:191;mso-style-textfill-fill-color:#C55A11;mso-style-textfill-fill-themecolor:
+accent2;mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:
+lumm=75000">Pasos para calcular la mediana:<o:p></o:p></span></p>
+
+<p class="MsoListParagraphCxSpFirst" style="text-indent:-18.0pt;mso-list:l0 level1 lfo2"><!--[if !supportLists]--><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:107%;font-family:
+Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol">·<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><!--[endif]--><span style="font-size:12.0pt;mso-bidi-font-size:
+11.0pt;line-height:107%;font-family:&quot;Arial&quot;,sans-serif">Ordenar los datos de
+menor a mayor.<o:p></o:p></span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l0 level1 lfo2"><!--[if !supportLists]--><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:107%;font-family:
+Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol">·<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><!--[endif]--><span style="font-size:12.0pt;mso-bidi-font-size:
+11.0pt;line-height:107%;font-family:&quot;Arial&quot;,sans-serif">Si hay un número impar
+de datos, la mediana es el valor central.<o:p></o:p></span></p>
+
+<p class="MsoListParagraphCxSpLast" style="text-indent:-18.0pt;mso-list:l0 level1 lfo2"><!--[if !supportLists]--><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:107%;font-family:
+Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol">·<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><!--[endif]--><span style="font-size:12.0pt;mso-bidi-font-size:
+11.0pt;line-height:107%;font-family:&quot;Arial&quot;,sans-serif">Si hay un número par de
+datos, la mediana es el promedio de los dos valores centrales.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;
+line-height:107%;font-family:&quot;Arial&quot;,sans-serif;color:#0070C0">Ejemplo (número
+impar de datos):<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;
+line-height:107%;font-family:&quot;Arial&quot;,sans-serif">Datos: 12, 15, 20, 25, 30.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;
+line-height:107%;font-family:&quot;Arial&quot;,sans-serif">Ordenados: 12, 15, 20, 25, 30.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;
+line-height:107%;font-family:&quot;Arial&quot;,sans-serif">Mediana: El valor central es
+20.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;
+line-height:107%;font-family:&quot;Arial&quot;,sans-serif">Ejemplo (número par de datos):<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;
+line-height:107%;font-family:&quot;Arial&quot;,sans-serif">Datos: 12, 15, 20, 25.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;
+line-height:107%;font-family:&quot;Arial&quot;,sans-serif">Ordenados: 12, 15, 20, 25.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;
+line-height:107%;font-family:&quot;Arial&quot;,sans-serif">Mediana: 15+202=17.5\frac{15 +
+20}{2} = 17.5215+20​=17.5.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><b><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:107%;font-family:
+&quot;Arial&quot;,sans-serif;color:#548235;mso-themecolor:accent6;mso-themeshade:191;
+mso-style-textfill-fill-color:#548235;mso-style-textfill-fill-themecolor:accent6;
+mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:
+lumm=75000">Moda<o:p></o:p></span></b></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;
+line-height:107%;font-family:&quot;Arial&quot;,sans-serif">La moda es el valor que más
+veces se repite en un conjunto de datos. Un conjunto de datos puede tener una
+moda, varias modas o no tener ninguna si todos los valores son diferentes.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;
+line-height:107%;font-family:&quot;Arial&quot;,sans-serif;color:#0070C0">Ejemplo:<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;
+line-height:107%;font-family:&quot;Arial&quot;,sans-serif">Datos: 12, 15, 20, 15, 30.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;
+line-height:107%;font-family:&quot;Arial&quot;,sans-serif">Moda: El valor que se repite
+más es 15, por lo tanto, la moda es 15.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;
+line-height:107%;font-family:&quot;Arial&quot;,sans-serif;color:#C55A11;mso-themecolor:
+accent2;mso-themeshade:191;mso-style-textfill-fill-color:#C55A11;mso-style-textfill-fill-themecolor:
+accent2;mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:
+lumm=75000">Tipos de moda:<o:p></o:p></span></p>
+
+<p class="MsoListParagraphCxSpFirst" style="text-indent:-18.0pt;mso-list:l1 level1 lfo3"><!--[if !supportLists]--><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:107%;font-family:
+Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol">·<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><!--[endif]--><span style="font-size:12.0pt;mso-bidi-font-size:
+11.0pt;line-height:107%;font-family:&quot;Arial&quot;,sans-serif">Unimodal: Un solo valor
+es el más frecuente.<o:p></o:p></span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l1 level1 lfo3"><!--[if !supportLists]--><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:107%;font-family:
+Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol">·<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><!--[endif]--><span style="font-size:12.0pt;mso-bidi-font-size:
+11.0pt;line-height:107%;font-family:&quot;Arial&quot;,sans-serif">Bimodal: Dos valores
+tienen la misma frecuencia más alta.<o:p></o:p></span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="text-indent:-18.0pt;mso-list:l1 level1 lfo3"><!--[if !supportLists]--><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:107%;font-family:
+Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol">·<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><!--[endif]--><span style="font-size:12.0pt;mso-bidi-font-size:
+11.0pt;line-height:107%;font-family:&quot;Arial&quot;,sans-serif">Multimodal: Más de dos
+valores tienen la misma frecuencia más alta.<o:p></o:p></span></p>
+
+<p class="MsoListParagraphCxSpLast" style="text-indent:-18.0pt;mso-list:l1 level1 lfo3"><!--[if !supportLists]--><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:107%;font-family:
+Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol">·<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><!--[endif]--><span style="font-size:12.0pt;mso-bidi-font-size:
+11.0pt;line-height:107%;font-family:&quot;Arial&quot;,sans-serif">Amodal: No hay valores
+que se repitan.<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:36.0pt;line-height:normal"><span style="font-family:&quot;Arial&quot;,sans-serif">&nbsp;</span></p>
+
+<table class="MsoTable15Grid7ColorfulAccent1" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none;mso-border-alt:solid #9CC2E5 .5pt;
+ mso-border-themecolor:accent1;mso-border-themetint:153;mso-yfti-tbllook:1184;
+ mso-padding-alt:0cm 5.4pt 0cm 5.4pt">
+ <tbody><tr>
+  <td width="96" valign="top" style="width:72.0pt;border:none;border-bottom:solid #9CC2E5 1.0pt;
+  mso-border-bottom-themecolor:accent1;mso-border-bottom-themetint:153;
+  mso-border-bottom-alt:solid #9CC2E5 .5pt;mso-border-bottom-themecolor:accent1;
+  mso-border-bottom-themetint:153;background:white;mso-background-themecolor:
+  background1;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="right" style="margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:right;line-height:normal;mso-yfti-cnfc:517"><b><i><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:
+  &quot;Times New Roman&quot;;mso-fareast-language:ES-MX">&nbsp;</span></i></b></p>
+  </td>
+  <td width="264" valign="top" style="width:198.0pt;border:none;border-bottom:solid #9CC2E5 1.0pt;
+  mso-border-bottom-themecolor:accent1;mso-border-bottom-themetint:153;
+  mso-border-bottom-alt:solid #9CC2E5 .5pt;mso-border-bottom-themecolor:accent1;
+  mso-border-bottom-themetint:153;background:white;mso-background-themecolor:
+  background1;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-yfti-cnfc:1"><b><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;
+  mso-fareast-font-family:&quot;Times New Roman&quot;;mso-fareast-language:ES-MX">Ventajas<o:p></o:p></span></b></p>
+  </td>
+  <td width="229" valign="top" style="width:171.4pt;border:none;border-bottom:solid #9CC2E5 1.0pt;
+  mso-border-bottom-themecolor:accent1;mso-border-bottom-themetint:153;
+  mso-border-bottom-alt:solid #9CC2E5 .5pt;mso-border-bottom-themecolor:accent1;
+  mso-border-bottom-themetint:153;background:white;mso-background-themecolor:
+  background1;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-yfti-cnfc:1"><b><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;
+  mso-fareast-font-family:&quot;Times New Roman&quot;;mso-fareast-language:ES-MX">Desventajas<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="96" style="width:72.0pt;border-top:none;border-left:none;border-bottom:
+  solid #9CC2E5 1.0pt;mso-border-bottom-themecolor:accent1;mso-border-bottom-themetint:
+  153;border-right:solid #9CC2E5 1.0pt;mso-border-right-themecolor:accent1;
+  mso-border-right-themetint:153;mso-border-bottom-alt:solid #9CC2E5 .5pt;
+  mso-border-bottom-themecolor:accent1;mso-border-bottom-themetint:153;
+  mso-border-right-alt:solid #9CC2E5 .5pt;mso-border-right-themecolor:accent1;
+  mso-border-right-themetint:153;background:white;mso-background-themecolor:
+  background1;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal;mso-yfti-cnfc:68"><i><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:
+  &quot;Times New Roman&quot;;mso-fareast-language:ES-MX">Media<o:p></o:p></span></i></p>
+  </td>
+  <td width="264" style="width:198.0pt;border-top:none;border-left:none;
+  border-bottom:solid #9CC2E5 1.0pt;mso-border-bottom-themecolor:accent1;
+  mso-border-bottom-themetint:153;border-right:solid #9CC2E5 1.0pt;mso-border-right-themecolor:
+  accent1;mso-border-right-themetint:153;mso-border-top-alt:solid #9CC2E5 .5pt;
+  mso-border-top-themecolor:accent1;mso-border-top-themetint:153;mso-border-left-alt:
+  solid #9CC2E5 .5pt;mso-border-left-themecolor:accent1;mso-border-left-themetint:
+  153;mso-border-alt:solid #9CC2E5 .5pt;mso-border-themecolor:accent1;
+  mso-border-themetint:153;background:#DEEAF6;mso-background-themecolor:accent1;
+  mso-background-themetint:51;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal;mso-yfti-cnfc:64"><span style="font-family:&quot;Arial&quot;,sans-serif">Usa todos los datos, es fácil de
+  calcular.</span><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;
+  mso-fareast-font-family:&quot;Times New Roman&quot;;mso-fareast-language:ES-MX"><o:p></o:p></span></p>
+  </td>
+  <td width="229" style="width:171.4pt;border-top:none;border-left:none;
+  border-bottom:solid #9CC2E5 1.0pt;mso-border-bottom-themecolor:accent1;
+  mso-border-bottom-themetint:153;border-right:solid #9CC2E5 1.0pt;mso-border-right-themecolor:
+  accent1;mso-border-right-themetint:153;mso-border-top-alt:solid #9CC2E5 .5pt;
+  mso-border-top-themecolor:accent1;mso-border-top-themetint:153;mso-border-left-alt:
+  solid #9CC2E5 .5pt;mso-border-left-themecolor:accent1;mso-border-left-themetint:
+  153;mso-border-alt:solid #9CC2E5 .5pt;mso-border-themecolor:accent1;
+  mso-border-themetint:153;background:#DEEAF6;mso-background-themecolor:accent1;
+  mso-background-themetint:51;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal;mso-yfti-cnfc:64"><span style="font-family:&quot;Arial&quot;,sans-serif">Afectada por valores atípicos.</span><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:
+  &quot;Times New Roman&quot;;mso-fareast-language:ES-MX"><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="96" style="width:72.0pt;border-top:none;border-left:none;border-bottom:
+  solid #9CC2E5 1.0pt;mso-border-bottom-themecolor:accent1;mso-border-bottom-themetint:
+  153;border-right:solid #9CC2E5 1.0pt;mso-border-right-themecolor:accent1;
+  mso-border-right-themetint:153;mso-border-top-alt:solid #9CC2E5 .5pt;
+  mso-border-top-themecolor:accent1;mso-border-top-themetint:153;mso-border-top-alt:
+  solid #9CC2E5 .5pt;mso-border-top-themecolor:accent1;mso-border-top-themetint:
+  153;mso-border-bottom-alt:solid #9CC2E5 .5pt;mso-border-bottom-themecolor:
+  accent1;mso-border-bottom-themetint:153;mso-border-right-alt:solid #9CC2E5 .5pt;
+  mso-border-right-themecolor:accent1;mso-border-right-themetint:153;
+  background:white;mso-background-themecolor:background1;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal;mso-yfti-cnfc:4"><i><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:
+  &quot;Times New Roman&quot;;mso-fareast-language:ES-MX">Mediana<o:p></o:p></span></i></p>
+  </td>
+  <td width="264" style="width:198.0pt;border-top:none;border-left:none;
+  border-bottom:solid #9CC2E5 1.0pt;mso-border-bottom-themecolor:accent1;
+  mso-border-bottom-themetint:153;border-right:solid #9CC2E5 1.0pt;mso-border-right-themecolor:
+  accent1;mso-border-right-themetint:153;mso-border-top-alt:solid #9CC2E5 .5pt;
+  mso-border-top-themecolor:accent1;mso-border-top-themetint:153;mso-border-left-alt:
+  solid #9CC2E5 .5pt;mso-border-left-themecolor:accent1;mso-border-left-themetint:
+  153;mso-border-alt:solid #9CC2E5 .5pt;mso-border-themecolor:accent1;
+  mso-border-themetint:153;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal"><span style="font-family:&quot;Arial&quot;,sans-serif">No
+  afectada por valores extremos.</span><span style="font-size:12.0pt;
+  font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:&quot;Times New Roman&quot;;
+  mso-fareast-language:ES-MX"><o:p></o:p></span></p>
+  </td>
+  <td width="229" style="width:171.4pt;border-top:none;border-left:none;
+  border-bottom:solid #9CC2E5 1.0pt;mso-border-bottom-themecolor:accent1;
+  mso-border-bottom-themetint:153;border-right:solid #9CC2E5 1.0pt;mso-border-right-themecolor:
+  accent1;mso-border-right-themetint:153;mso-border-top-alt:solid #9CC2E5 .5pt;
+  mso-border-top-themecolor:accent1;mso-border-top-themetint:153;mso-border-left-alt:
+  solid #9CC2E5 .5pt;mso-border-left-themecolor:accent1;mso-border-left-themetint:
+  153;mso-border-alt:solid #9CC2E5 .5pt;mso-border-themecolor:accent1;
+  mso-border-themetint:153;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal"><span style="font-family:&quot;Arial&quot;,sans-serif">No
+  toma en cuenta todos los datos, solo los centrales.</span><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:
+  &quot;Times New Roman&quot;;mso-fareast-language:ES-MX"><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="96" style="width:72.0pt;border:none;border-right:solid #9CC2E5 1.0pt;
+  mso-border-right-themecolor:accent1;mso-border-right-themetint:153;
+  mso-border-top-alt:solid #9CC2E5 .5pt;mso-border-top-themecolor:accent1;
+  mso-border-top-themetint:153;mso-border-top-alt:solid #9CC2E5 .5pt;
+  mso-border-top-themecolor:accent1;mso-border-top-themetint:153;mso-border-right-alt:
+  solid #9CC2E5 .5pt;mso-border-right-themecolor:accent1;mso-border-right-themetint:
+  153;background:white;mso-background-themecolor:background1;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal;mso-yfti-cnfc:68"><i><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:
+  &quot;Times New Roman&quot;;mso-fareast-language:ES-MX">Moda<o:p></o:p></span></i></p>
+  </td>
+  <td width="264" style="width:198.0pt;border-top:none;border-left:none;
+  border-bottom:solid #9CC2E5 1.0pt;mso-border-bottom-themecolor:accent1;
+  mso-border-bottom-themetint:153;border-right:solid #9CC2E5 1.0pt;mso-border-right-themecolor:
+  accent1;mso-border-right-themetint:153;mso-border-top-alt:solid #9CC2E5 .5pt;
+  mso-border-top-themecolor:accent1;mso-border-top-themetint:153;mso-border-left-alt:
+  solid #9CC2E5 .5pt;mso-border-left-themecolor:accent1;mso-border-left-themetint:
+  153;mso-border-alt:solid #9CC2E5 .5pt;mso-border-themecolor:accent1;
+  mso-border-themetint:153;background:#DEEAF6;mso-background-themecolor:accent1;
+  mso-background-themetint:51;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal;mso-yfti-cnfc:64"><span style="font-family:&quot;Arial&quot;,sans-serif">Útil en datos cualitativos.</span><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:
+  &quot;Times New Roman&quot;;mso-fareast-language:ES-MX"><o:p></o:p></span></p>
+  </td>
+  <td width="229" style="width:171.4pt;border-top:none;border-left:none;
+  border-bottom:solid #9CC2E5 1.0pt;mso-border-bottom-themecolor:accent1;
+  mso-border-bottom-themetint:153;border-right:solid #9CC2E5 1.0pt;mso-border-right-themecolor:
+  accent1;mso-border-right-themetint:153;mso-border-top-alt:solid #9CC2E5 .5pt;
+  mso-border-top-themecolor:accent1;mso-border-top-themetint:153;mso-border-left-alt:
+  solid #9CC2E5 .5pt;mso-border-left-themecolor:accent1;mso-border-left-themetint:
+  153;mso-border-alt:solid #9CC2E5 .5pt;mso-border-themecolor:accent1;
+  mso-border-themetint:153;background:#DEEAF6;mso-background-themecolor:accent1;
+  mso-background-themetint:51;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal;mso-yfti-cnfc:64"><span style="font-family:&quot;Arial&quot;,sans-serif">Puede no existir o haber más de una
+  moda.</span><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;
+  mso-fareast-font-family:&quot;Times New Roman&quot;;mso-fareast-language:ES-MX"><o:p></o:p></span></p>
+  </td>
+ </tr>
+</tbody></table>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;line-height:107%;font-family:
+&quot;Arial&quot;,sans-serif;mso-fareast-font-family:&quot;Times New Roman&quot;;mso-fareast-language:
+ES-MX">&nbsp;</span></p>
+	

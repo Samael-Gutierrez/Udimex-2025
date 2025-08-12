@@ -1,0 +1,20 @@
+body{
+	margin:0 0 0 0; 
+}
+
+#h_prof{
+	margin:0 0 0 0;
+	padding:0;
+}
+
+
+
+#dibujo{
+	touch-action: none;
+	border:5px solid #d3d3d3; 
+	position: fixed;
+}
+
+#dibujo:active, #dibujo:focus { 
+    cursor: url(imagen/mouse.cur);
+}

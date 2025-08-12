@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Fracción como Imagen en Div Editable</title>
+  <style>
+    canvas {
+      display: none;
+    }
+    #contenedorEditable {
+      border: 1px solid #aaa;
+      padding: 10px;
+      font-size: 18px;
+      min-height: 100px;
+      background-color: #f9f9f9;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Fracción como imagen editable</h2>
+
+  <label for="numerador">Numerador:</label>
+  <input type="number" id="numerador" step="any">
+  <label for="denominador">Denominador:</label>
+  <input type="number" id="denominador" step="any">
+  <button onclick="dibujarFraccionComoImagen()">Generar</button>
+
+  <canvas id="miCanvas" width="300" height="150"></canvas>
+
+  <div id="contenedorEditable" contenteditable="true">
+  </div>
+
+  <script>
+    function dibujarFraccionComoImagen() {
+      const numerador = document.getElementById('numerador').value;
+      const denominador = document.getElementById('denominador').value;
+      const canvas = document.getElementById('miCanvas');
+      const contenedor = document.getElementById('contenedorEditable');
+
+      if (numerador === "" || denominador === "" || isNaN(numerador) || isNaN(denominador)) {
+        alert("Por favor, ingresa números válidos.");
+        return;
+      }
+
+      if (parseFloat(denominador) === 0) {
+        alert("El denominador no puede ser cero.");
+        return;
+      }
+
+      const ctx = canvas.getContext('2d');
+      ctx.font = "30px Arial";
+
+      const numText = numerador.toString();
+      const denText = denominador.toString();
+
+      const maxWidth = Math.max(ctx.measureText(numText).width, ctx.measureText(denText).width);
+      const padding = 20;
+      const totalAncho = maxWidth + padding * 2;
+      const totalAlto = 150;
+
+      // Ajustar tamaño del canvas
+      canvas.width = totalAncho;
+      canvas.height = totalAlto;
+
+      const nuevoCtx = canvas.getContext('2d');
+      nuevoCtx.font = "30px Arial";
+      nuevoCtx.textAlign = "center";
+      nuevoCtx.fillStyle = "black";
+
+      const centerX = totalAncho / 2;
+      const centerY = totalAlto / 2;
+
+      // Dibujar numerador
+      nuevoCtx.fillText(numText, centerX, centerY - 20);
+
+      // Dibujar línea de fracción
+      nuevoCtx.beginPath();
+      nuevoCtx.moveTo(centerX - maxWidth / 2, centerY);
+      nuevoCtx.lineTo(centerX + maxWidth / 2, centerY);
+      nuevoCtx.lineWidth = 2;
+      nuevoCtx.strokeStyle = "black";
+      nuevoCtx.stroke();
+
+      // Dibujar denominador
+      nuevoCtx.fillText(denText, centerX, centerY + 40);
+
+      // Convertir a imagen base64
+      const imagenBase64 = canvas.toDataURL("image/png");
+      const imagenHTML = `<img src="${imagenBase64}" alt="${numerador}/${denominador}" style="vertical-align: middle;">`;
+
+      // Agregar la imagen al final del contenido en el div editable
+      contenedor.insertAdjacentHTML('beforeend', imagenHTML);
+    }
+  </script>
+</body>
+</html>

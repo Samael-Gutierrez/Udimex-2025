@@ -1,0 +1,169 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin-top: 5%;
+}
+.infom{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    background-color:#0f3985ff; 
+    padding: 10px;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: 0 0 10px  #96a0b981;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+.infom h3{
+    margin: 0; 
+    padding: 5px;
+    flex: 1; 
+    color: #050505; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: #efeded;
+}
+.tabla_a{
+    display: flex;
+    justify-content: center;
+}
+table {
+    width: 100%;
+    max-width: 1000px;
+    border-color: #050505;
+    margin-top: 20px;
+    background-color: #e7e7e7;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.718);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+table thead th {
+    background-color: #dd0b48ff ;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+table tbody td {
+    padding: 1.7%;
+    border-bottom: 2px solid #e0e0e0;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    width: 15px;
+
+}
+table tbody tr:hover {
+    background-color: #cdcdcd;
+}
+.volver{
+    padding: 5px;
+    border-radius: 40px;
+    cursor: pointer;
+    text-align: center;
+    color: #ffffff;
+    background-color: rgb(12, 52, 145);
+    font-size: 40px;
+    margin-left: 60%;
+}
+button{
+    border: none;
+    background: none;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+input[type="int"]{
+    width: 15%;
+    padding: 0.5%;
+    margin-left: 10%;
+} 
+.cargar{
+    width: 10%;
+    padding: 0.8%;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    color: #ffffff;
+    background-color: rgb(12, 52, 145);
+    margin-left: 50%;
+    margin-top: 1%;
+    font-size:  15px;
+}
+.descargar{
+   font-size: 20px;
+   color: rgb(241, 236, 236);
+}
+button.descarga{
+    margin-left: 47.4%;
+    margin-top: 2%;
+    border: 2px solid #0c05d6be;
+    border-radius: 5px;
+    width: 8%;
+    background-color:rgb(12, 52, 145);
+    color:rgb(252, 251, 251);
+}
+.editar{
+    padding: 5px;
+    border-radius: 40px;
+    cursor: pointer;
+    text-align: center;
+    color: #ffffff;
+    background-color: rgb(12, 52, 145);
+    font-size: 20px;
+}
+
+.califica{
+    background-color: #e7e7e7;
+    color: rgb(22, 21, 21);
+    border-radius: 5px ;
+    text-align: center;
+    height: 55%;
+    margin-top: 15%;
+    margin-left: 7%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    box-shadow: 0 0 10px black;
+    border-bottom: 2px solid #e0e0e0;
+    margin-bottom: 1%;
+}
+.actualiza_b{
+    background-color: #dd0b48ff  ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: rgb(237, 238, 241);
+    border-radius: 2px;
+    padding: 5px;
+    margin-left: 21%;
+}
+.califica2{
+    background-color: #e7e7e7;
+    color: rgb(22, 21, 21);
+    border-radius: 5px ;
+    text-align: center;
+    height: 55%;
+    margin-top: 15%;
+    margin-left: 7%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    box-shadow: 0 0 10px black;
+    border-bottom: 2px solid #e0e0e0;
+    margin-bottom: 1%;
+}
+.actualiza_b2{
+    background-color: #dd0b48ff  ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: rgb(237, 238, 241);
+    border-radius: 2px;
+    padding: 5px;
+    margin-left: 23%;
+}

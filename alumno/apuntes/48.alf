@@ -1,0 +1,28 @@
+<div id="mensaje2"><center>¿Qué es un arco?</center></div><br>
+<img src="archivos/c38.gif" width="50%" align="right">
+Es un punto "P" que puede desplazarse sobre la circunferencia, iniciando cada desplazamiento en el punto A(1,0); en cada desplazamiento el punto "P" describe un arco de circunferencia, cada uno de estos arcos tiene una longitud <b>Î±</b> (Î± âˆˆ R). Representaremos por <b>Î±</b> (alfa) tanto al arco
+como a su longitud.<br><br>
+
+<table border="0"><tr>
+<td><font color="red"><b>Arco Positivo</b></font><br><img src="archivos/c39.png" width="50%"><br>Movimiento en contra de las manecillas del reloj (movimiento anti-horario)</td>
+<td><font color="red"><b>Arco Negativo</b></font><br><img src="archivos/c40.png" width="50%"><br>Movimiento a favor de las manecillas del reloj (movimiento horario)</td>
+</tr></table>
+
+El punto final del arco quedará en alguno de los cuatro cuadrantes del plano cartesiano y esto determinara si "X" ó "Y" es positiva o negativa es decir:
+<ul>
+<li>Cuadrante I: "X" positiva, "Y" positiva</li>
+<li>Cuadrante II: "X" negativa, "Y" positiva</li>
+<li>Cuadrante III: "X" negativa, "Y" negativa</li>
+<li>Cuadrante IV: "X" positiva, "Y" negativa</li>
+</ul>
+
+Ejemplo: Localizar en qué cuadrante se encuentra el punto terminal del arco con longitud Î± = 2, osea P(2).(P de dos).<br><br>
+
+Recuerda que el perí­metro de la circunferencia es igual a 2&pi;<br>
+El cuadrante I abarca de 0&pi; a &pi;/2. (0 a 1.5708)<br>
+El cuadrante II abarca de &pi;/2 a &pi;. (1.5708 a 3.1416)<br>
+El cuadrante III abarca de &pi; a 3&pi;/2. (3.1416 a 4.7124)<br>
+El cuadrante IV abarca de 3&pi;/2 a 2&pi;. (4.7124 a 6.2832)<br><br>
+
+Por lo tanto el punto de longitud <b>Î± = 2 se localiza en el cuadrante II</b>
+

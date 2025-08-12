@@ -1,0 +1,103 @@
+.oferta-educativa {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .oferta-educativa h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .oferta-educativa p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .oferta-educativa img {
+    max-width: 10%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .image-carousel {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+  }
+  
+  .image-carousel img {
+    width: 250px;
+    height: 250px;
+    display: none;
+  }
+  
+  .image-carousel img:first-child {
+    display: block;
+  }
+  .ofertas-educativas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a;
+    color: #000000;
+    padding: 50px 0;
+  }
+  
+  .oferta {
+    width: 200px; 
+    
+    margin: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .oferta:hover {
+    transform: translateY(-10px);
+  }
+  
+  .oferta img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .oferta h3 {
+    font-size: 20px;
+    margin: 20px 0 10px;
+  }
+  
+  .oferta p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 20px 20px;
+  }
+  
+  .oferta a {
+    display: inline-block;
+    background-color: #f33232;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .oferta a:hover {
+    background-color: #1d43ec;
+  }
+  .texto-oculto p {
+    display: none;
+  }
+  
+  .texto-oculto .flecha {
+    cursor: pointer;
+  }
+  .letra{
+    color: #fff;
+    
+  }

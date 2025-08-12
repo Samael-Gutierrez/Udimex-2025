@@ -1,0 +1,361 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.main-container {
+    width: 80%;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1cm;
+}
+
+.imagen img {
+    width: 250px;
+    height: auto;
+    margin-bottom: 8px;
+}
+
+.red-line, .blue-line {
+    width: 100%;
+    height: 7px;
+}
+
+.red-line {
+    background-color: #db0c4b;
+    margin-bottom: 7px;
+}
+
+.blue-line {
+    background-color: #0e3b83;
+}
+
+.titulo-materia {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Cambria, serif;
+    font-size: 28px;
+}
+
+.preguntas {
+    width: 100%;
+    margin-top: 0; 
+    padding: 0 20px;
+}
+
+.pregunta {
+    margin-bottom: 20px;
+    position: relative;
+    padding: 10px 21px 21px 21px; /* Se aumentó el padding superior */
+    background-color: #fff;
+    border-radius: 8px;
+    text-align: justify; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.opciones-multiples {
+    margin-left: 20px;
+}
+
+.respuesta-opcion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    text-align: justify;
+    position: relative;
+}
+
+.respuesta-opcion label {
+    display: flex;
+    align-items: center;
+    width: calc(100% - 50px);
+}
+
+.respuesta-opcion input[type='radio'] {
+    margin-right: 10px;
+}
+
+.editar-button {
+    background-color: #db0c4b;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.editar-button i {
+    font-size: 14px;
+}
+
+.imagen-button {
+    background-color: #10247e;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.imagen-button i {
+    font-size: 14px;
+}
+
+textarea {
+    width: 100%;
+    margin-top: 10px;
+    resize: none;
+    height: 80px;
+    border-radius: 5px;
+    border: 2px solid #a09f9f;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify; 
+}
+
+.relacion-columnas {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.columna-numeros, .columna-incisos {
+    width: 45%;
+}
+
+.numero, .inciso {
+    margin: 5px 0;
+    background-color: #f1f0f0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.columna-numeros .numero {
+    text-align: left;
+}
+
+.columna-incisos .inciso {
+    text-align: right;
+}
+
+.back-button {
+    position: absolute;
+    top: 40px; /* Ajusta hacia abajo */
+    left: 10px; /* Más cerca del borde izquierdo */
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.back-button .arrow {
+    margin-right: 5px;
+}
+
+.editar-leyenda {
+    font-size: 12px;
+    color: #f7f7f7;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.agregar-pregunta-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.agregar-pregunta-container .btn {
+    background-color: #0e3b83; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.agregar-pregunta-container .btn:hover {
+    background-color: #db0c4b; 
+}
+
+
+.contenedor-edicion {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    z-index: 1000; 
+}
+
+.container-div {
+    border: 2px solid #0e3b83;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+    padding: 5px 8px;
+    max-width: 100%;
+}
+
+.modal-title {
+    text-transform: uppercase;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.container-div {
+    border: solid 2px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+    color: #333;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.modal.show {
+    opacity: 1;
+}
+
+.modal.show .modal-content {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.05);
+}
+
+/* Botón de cierre */
+.close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
+    color: #aaa;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: black;
+}
+
+.openModal,
+.modal-btn {
+    background-color: #003da0;
+    padding: 5px 20px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+
+.openModal:hover,
+.modal-btn:hover {
+    background-color: #072e6d;
+    scale: 1.1;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.close {
+    width: 30px;
+    height: 30px;
+    background-color: #aaa;
+    border-radius: 1000px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+    transition: all ease 0.3s;
+    font-size: 12px;
+}
+
+.close:hover {
+    background-color: #db003e;
+    color: white;
+    scale: 1.1;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+}
+
+.dfrc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descripcion {
+    display: inline-block;
+    text-align: justify;
+    margin: 10px 20px;
+}
+    
+.separacion {
+    width: 80%;
+    height: 2px;
+    background-color: #b00c3b;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.separacion2 {
+    width: 50%;
+    height: 2px;
+    background-color: #072e6d;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}

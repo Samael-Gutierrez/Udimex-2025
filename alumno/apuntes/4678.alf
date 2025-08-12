@@ -1,0 +1,151 @@
+
+		
+		
+		<p class="MsoNormal" style="text-align:justify"><b><span style="font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:
+107%">1. Orígenes (1995)</span></b></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:107%">Creación: JavaScript fue
+desarrollado por Brendan Eich en 1995 mientras trabajaba en Netscape
+Communications Corporation. Originalmente llamado "Mocha", luego se
+renombró a "LiveScript" antes de adoptar el nombre de
+"JavaScript".<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:107%">Propósito: Su objetivo era agregar
+interactividad y dinamismo a las páginas web, permitiendo a los desarrolladores
+manipular el contenido y la estructura del HTML en tiempo real.<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:justify"><b><span style="font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:
+107%">2. Estándar ECMAScript (1997)<o:p></o:p></span></b></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:107%">Estandarización: En 1997, se
+estableció ECMAScript como un estándar para JavaScript, lo que permitió que
+múltiples navegadores implementaran el lenguaje de manera consistente.<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:107%">ECMAScript 3: Lanzado en 1999,
+introdujo mejoras como expresiones regulares, manejo de excepciones y una mejor
+manipulación del DOM.<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:justify"><b><span style="font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:
+107%">3. El "Año Oscuro" (2000-2005)<o:p></o:p></span></b></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:107%">Durante este período, JavaScript
+enfrentó problemas de compatibilidad entre navegadores y fue criticado por su
+falta de estructura.<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:107%">A pesar de estos desafíos, el
+lenguaje se utilizaba ampliamente, especialmente con el crecimiento de las
+aplicaciones web.<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:justify"><b><span style="font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:
+107%">4. AJAX y la Web 2.0 (2005)<o:p></o:p></span></b></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:107%">Reinvención: El concepto de AJAX
+(Asynchronous JavaScript and XML) permitió que JavaScript se utilizara para
+crear aplicaciones web más interactivas, como Gmail y Google Maps.<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:107%">Impacto: Este avance impulsó la
+popularidad de JavaScript, marcando el comienzo de la Web 2.0, donde las
+aplicaciones web se volvieron más dinámicas y centradas en el usuario.<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:justify"><b><span style="font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:
+107%">5. Evolución del Lenguaje (2009-2015)<o:p></o:p></span></b></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:107%">ECMAScript 5 (2009): Esta versión
+trajo importantes mejoras, incluyendo:<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:107%">Métodos para manipular arrays y
+objetos.<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:107%">Estrategias para manejar errores.<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:107%">Estrictas de modo, que permiten una
+codificación más segura.<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:107%">ECMAScript 6 (2015): También
+conocido como ES6 o ECMAScript 2015, fue una actualización monumental que
+introdujo:<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:107%">Clases: Permitieron la programación
+orientada a objetos de una manera más similar a otros lenguajes.<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:107%">Módulos: Facilitaron la
+organización del código.<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:107%">Promesas: Mejora del manejo de
+asincronía.<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:107%">Sintaxis mejorada: Incluyó flechas,
+destructuring, y plantillas literales.<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:justify"><b><span style="font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:
+107%">6. JavaScript en el Backend (2010-2015)<o:p></o:p></span></b></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:107%">Node.js: Lanzado en 2009, Node.js
+permitió el uso de JavaScript en el servidor, expandiendo enormemente sus
+aplicaciones y el ecosistema del lenguaje.<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:107%">Frameworks: Se desarrollaron
+frameworks como Angular, React y Vue.js, que facilitaron la creación de aplicaciones
+web modernas.<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:justify"><b><span style="font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:
+107%">7. Actualizaciones Continuas (2016-Presente)<o:p></o:p></span></b></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:107%">ECMAScript 2016 y más: Se han
+lanzado versiones anuales desde ES6, cada una introduciendo nuevas
+características y mejoras, como async/await, operadores de propagación, y
+mejoras en la sintaxis.<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:107%">Adopción generalizada: JavaScript
+se ha convertido en un pilar del desarrollo web, siendo utilizado en frontend y
+backend, así como en el desarrollo de aplicaciones móviles y de escritorio.<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:justify"><b><span style="font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:
+107%">8. Futuro de JavaScript<o:p></o:p></span></b></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:107%">Ecosistema en crecimiento: La
+comunidad de JavaScript sigue evolucionando, con nuevas herramientas,
+bibliotecas y mejores prácticas emergiendo constantemente.<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:107%">Adopción de TypeScript: TypeScript,
+un superconjunto de JavaScript, ha ganado popularidad por su capacidad para
+agregar tipado estático al lenguaje, mejorando la calidad y la mantenibilidad
+del código.<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:justify"><b><span style="font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:
+107%">Conclusiones<o:p></o:p></span></b></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:107%">JavaScript ha recorrido un largo
+camino desde su creación en 1995. De ser un simple lenguaje de scripting para
+navegadores, se ha transformado en uno de los lenguajes más poderosos y
+versátiles en el desarrollo de software moderno, con aplicaciones que abarcan
+desde la creación de páginas web interactivas hasta aplicaciones complejas en
+el servidor. Su evolución continua promete un futuro dinámico y emocionante
+para los desarrolladores.<o:p></o:p></span></p><iframe id="examenUdimex" title="Examen Udimex" width="100%" height="600" src="https://udimex.net/admin/examen24/vistaAlumno.php?id=4186"></iframe>
+	
+	
+	

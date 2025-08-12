@@ -1,0 +1,256 @@
+/* style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1a2a6c, #b21f1f, #1a2a6c);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.header {
+    background: #2c3e50;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.logo i {
+    color: #3498db;
+}
+
+.menu-bar {
+    background: #34495e;
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    padding: 10px 15px;
+    color: #ecf0f1;
+    cursor: pointer;
+    font-size: 0.9rem;
+    position: relative;
+}
+
+.menu-item:hover {
+    background: #71b7e6;
+}
+
+.menu-item.active {
+    background: #3498db;
+    font-weight: bold;
+}
+
+.menu-item.active::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #aaff88;
+}
+
+/* ... (código existente) ... */
+
+.toolbar {
+    background: #ecf0f1;
+    padding: 10px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    border-bottom: 1px solid #bdc3c7;
+}
+
+.tool-group {
+    display: flex;
+    border-right: 1px solid #bdc3c7;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+.tool-group:last-child {
+    border-right: none;
+}
+
+.tool-btn {
+    background: white;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.2s;
+    color: #2c3e50;
+}
+
+.tool-btn:hover {
+    background: #3498db;
+    color: white;
+    border-color: #2980b9;
+}
+
+.tool-btn.active {
+    background: #3498db;
+    color: white;
+    border-color: #2980b9;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 4px;
+    padding: 10px;
+    top: 100%;
+    left: 0;
+    z-index: 100;
+    min-width: 180px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.font-selector, .size-selector {
+    padding: 8px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    background: white;
+    color: #2c3e50;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.editor-container {
+    padding: 20px;
+}
+
+#editor {
+    min-height: 500px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    padding: 20px;
+    outline: none;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.status-bar {
+    background: #ecf0f1;
+    padding: 8px 15px;
+    display: flex;
+    justify-content: space-between;
+    color: #7f8c8d;
+    font-size: 0.9rem;
+    border-top: 1px solid #bdc3c7;
+}
+
+.word-count {
+    display: flex;
+    gap: 15px;
+}
+
+.color-palette {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    width: 150px;
+}
+
+.color-option {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    border-color:transparent;
+}
+
+@media (max-width: 768px) {
+    .toolbar {
+        justify-content: center;
+    }
+    
+    .tool-group {
+        margin-bottom: 5px;
+        border-right: none;
+    }
+    
+    .menu-bar {
+        justify-content: center;
+    }
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+#insertar{
+	display:none;
+}
+
+#inicio{
+	display:contents;
+}
+
+#archivo {
+    display: none;
+}
+
+
+#sub{
+    position:relative;
+    left:50%;
+    background-color: rgba(255,255,255,0.3);
+    width:40vw;
+    border-radius:10px;
+    padding: 2px 30px;
+    text-align:center;
+}
+
+#navega{
+    position:absolute;
+    top:20px;
+}

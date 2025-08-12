@@ -1,0 +1,90 @@
+@page {
+        size: portrait; /* Tamaño de media hoja carta */
+        margin: 0.5in; /* Márgenes de 0.5 pulgadas en cada lado */
+    }
+
+    body {
+       
+        margin: 0; /* Elimina los márgenes predeterminados del cuerpo de la página */
+        padding: 0;
+        background-image:url( "img/img.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 400px 400px;
+    }
+
+    header img{
+        width: 25%;
+    }
+
+    #texto1{
+        text-align: center;
+        float: center;
+        font-size: 15pt;
+    }
+    
+    .principal {
+        font-size: 12pt;
+        text-align: center;
+        float: center;
+	    line-height: 25px;
+
+    }
+
+    .tabla-container {
+        display: flex;
+        align-items: stretch; /* Alinear verticalmente */
+        /*justify-content: space-around; /* Espacio entre las tablas */
+      }
+      
+
+    .banco {
+        width: 50%;
+        height: 10px;
+        margin-top: .1in;
+        border-collapse: collapse;
+    }
+
+    .banco th, .banco td {
+        font-size: 10pt;
+        border: 1px solid black;
+        padding: 1px;
+    }
+
+    .banco th {
+        text-align: center;
+    }
+
+    .pago {
+        width: 40%;
+        height: 20px;
+        margin-top: .1in;
+        border-collapse: collapse;
+    }
+
+    .pago th, .pago td {
+        font-size: 10pt;
+        border: 1px solid black;
+        text-align: center;
+        padding: 2px;
+    }
+
+    .pago th {
+        text-align: center;
+    }
+    .sello{
+        margin-right: 80px;
+        margin-top: -180px;
+   }
+   
+
+
+
+    /* ocultar para imprimir */
+@media print {
+    .ocultar-al-imprimir {
+      display: none;
+    }
+  }
+    
+   

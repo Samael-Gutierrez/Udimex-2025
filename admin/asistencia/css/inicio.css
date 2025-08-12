@@ -1,0 +1,121 @@
+h1{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+}
+.busca{
+  border-color: hsl(226, 74%, 41%);
+  width:100%;
+  max-width: 150%;
+  padding: 6%;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  margin-left: 5%;
+  border-radius: 9px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+}
+.info{
+  display: flex;
+  flex-direction:column;
+  background-color: #dce0eb;
+  width: 18%;
+  text-align: center;
+  margin: 1%;
+  margin-bottom: 2%;
+  box-shadow: 0 0 15px  #353535c7;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+}
+.encabezado{
+  background-color: #0f3985ff;
+  border-radius: 5px;
+}
+.intermedio{
+  color: black;
+}
+.pase{
+  padding: 2px;
+  color: aliceblue;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  background-color: #dd0b48ff;
+  border-radius: 5px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.busca_b{
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  margin-left:12%;
+  width: 70%;
+}
+.agrega{
+  color:#0f3985ff;
+  font-size: 60px;
+  border:none;
+  background: none;
+}
+.volver{
+  padding: 5px;
+  border-radius: 40px;
+  cursor: pointer;
+  text-align: center;
+  color: #ffffff;
+  background-color: rgb(12, 52, 145);
+  font-size: 40px;
+}
+/* .button {
+  align-self: flex-end; 
+  margin-top: 10px; 
+  border: none;
+  background: none;
+  padding: 0;
+} */
+button{
+  border: none;
+  background: none;
+  padding: 0;
+}
+.re-direcciones{
+  display: flex;
+  margin-top: auto;
+  justify-content: space-between;
+ background-color:#dd0b48ff;
+ border-radius: 5px;
+}
+.links button{
+  display: block;
+  padding: 9px;
+}
+.links{
+  display: none;
+  position: absolute; 
+  bottom: 100%; 
+  left: 0; 
+  padding: 5px;
+  z-index: 15; 
+  }
+.desplegable:hover .links{
+  display: block;
+}
+.desplegable{
+  position:relative;
+}
+.parciales{
+  padding: 5px;
+  border-radius: 40px;
+  cursor: pointer;
+  text-align: center;
+  color: #ffffff;
+  background-color: #dd0b48ff;
+  font-size: 15px;
+}
+

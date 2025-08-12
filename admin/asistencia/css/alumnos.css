@@ -1,0 +1,118 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.infom{
+    display: flex;
+    justify-content: 1% space-between;
+    justify-content: center; 
+    background-color: #0f3985ff; 
+    padding: 10px;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-bottom: 20px;
+    width: 100%;
+}
+.infom h3{
+    margin: 0; 
+    padding: 5px;
+    flex: 1;
+    text-align: center;
+    color: #ffffff; 
+}
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+.alumno{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.registro {
+    background-color: #dce0eb;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin-bottom: 20px;
+    display: flex;
+    align-content: space-between;
+}
+
+.registro label {
+    font-weight: bold;
+    margin: 0.5%;
+}
+
+.registro input[type="text"] {
+    width: 14%;
+    padding: 6px;
+    margin-bottom: 10px;
+    border: 1px solid #a4a4a4;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button{
+    border: none;
+    background: none;
+    padding: 0;
+}
+.add {
+    color:#0f3985ff;
+    font-size: 40px;
+    border:none;
+    background: none;
+    cursor: pointer;   
+    margin-left: 40%; 
+}
+
+
+table {
+    width: 100%;
+    max-width: 900px;
+    border-color: #050505;
+    /* border-collapse: collapse; */
+    margin-top: 20px;
+    background-color: #f1f1f1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+table thead th {
+    background-color:#0f3985ff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+table tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+    text-align: center;
+}
+
+table tbody tr:hover {
+    background-color: #cdcdcd;
+}
+
+.volver{
+    padding: 5px;
+    border-radius: 40px;
+    cursor: pointer;
+    text-align: center;
+    color: #ffffff;
+    background-color: rgb(12, 52, 145);
+    font-size: 40px;
+    margin-left: 10%;
+}
+/* .mensaje{
+    background-color: rgb(1, 1, 1);
+    color: #ececec;
+} */

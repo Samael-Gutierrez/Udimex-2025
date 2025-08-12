@@ -1,0 +1,104 @@
+ /* div.demo-content{box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.20);color:#8d9090;} */ 
+#notification-header {
+	background: #ffffff;
+  padding: 6px;
+  text-align: right;
+  margin-top: 4px; 
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-right: 10px;
+  display: flex;
+}
+button#notification-icon {
+	background: transparent;
+	border: 0;
+	position:relative;
+	cursor:pointer;
+}
+#notification-count{
+	position: absolute;
+    left: -2px;
+    top: -8px;
+    font-size: 20px;
+    color: #de5050;
+    font-weight: bold;
+    
+}
+#form-header {
+	font-size:1.5em;
+}
+#frmNotification {
+	padding:80px 30px;
+  border-bottom: #ff0000 4px solid;
+}
+.form-row{
+	padding-bottom:40px;
+}
+#btn-send {
+	width:60px;
+  height:60px;
+  background-color:#009220;
+  margin: 5px;
+  padding:10px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  font-size:11px;
+  line-height:32px;
+  text-transform: uppercase;
+  float:right;
+}
+div.demo-content input[type='text'],textarea{
+	width: 100%;
+	padding: 90px 45px;
+  
+}
+#notification-latest {
+	color: #000000;
+  position: absolute;
+  background: #e3e7f3;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.20);
+  max-width: 1000px;  
+  max-height: 550px; 
+  text-align: left;
+  font-size: 10px;
+  overflow: scroll;  
+}
+.notification-item {
+	padding: 15px;
+  position: relative;
+	border-bottom: #000000 3px solid; 
+	cursor:pointer;
+}
+.notification-subject {		
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.notification-comment {		
+  
+  white-space: nowrap;
+  /* overflow: hidden; */
+  text-overflow: ellipsis;
+  font-style:italic;
+  bottom: 10px;
+}
+.notificaciones{
+  color: #000000;
+  position: absolute;
+  right: 0px;
+  background: #ffffff;
+  box-shadow: 5px 5px 5px rgba(0.2, 0.2, 0.2, 0.2);
+  /* max-width: 100px;  */
+  text-align: left;
+  font-size: 34px;
+
+}
+#boton-cambio{
+position: absolute;
+bottom: 10px;
+padding: 10px 20px;
+color:white;
+border-radius: 5px;
+cursor: pointer;
+}
+div.checador{}

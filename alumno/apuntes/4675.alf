@@ -1,0 +1,2 @@
+
+		<link rel="stylesheet" href="../general/estilo/ed_estilo.css">&nbsp;El estilo está en la carpeta general/css y tenemos de dos tipos<div><br></div><div><ul><li>Particular: coloca un estilo particular a algunos elementos de la página, estos se deben crear en hojas css con el fombre "e_" seguido del nombre del modulo y con extensión ".css".</li><li>General: coloca un estilo que será usado por todas las páginas , su nombre es "e_general.css"&nbsp;</li></ul></div>

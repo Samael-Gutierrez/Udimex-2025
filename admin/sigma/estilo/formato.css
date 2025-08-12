@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+	font-size:60px;
+}
+
+
+.linea1{
+	height:4.8px;
+	width: 25%;
+   background-color:#F87100;
+   position:absolute;
+	top:130px;
+	left:250px;
+	
+}
+
+.linea2{
+
+	height:5px;
+	width: 25%;
+	background-color:#000;
+	position:absolute;
+	top:130px;
+	right:250px;
+}
+.linea3{
+	height:4.8px;
+	width: 25%;
+   background-color:#F87100;
+   position:absolute;
+	bottom:-380px;
+	left:250px;
+	
+}
+.linea4{
+	height:5px;
+	width: 25%;
+	background-color:#000;
+	position:absolute;
+	bottom:-380px;
+	right:250px;
+}
+.logo{
+	
+	width: 200px;
+}
+img{
+	position:absolute;
+	top:20px;
+	right:550px;
+	background-position: center;
+	
+}
+	
+	
+}
+
+.borde{
+	padding:10px 10px 10px 10px;
+	border: solid 2px;
+	border-radius:10px;
+	border-color:#6278a5;
+}
+
+.borde1{
+	padding:2px 2px 2px 2px;
+	border: solid 2px;
+	border-radius:10px;
+	border-color:#6278a5;
+}
+.borde2{
+	padding:2px 2px 2px 2px;
+	border: solid 2px;
+	
+	border-color:#db0c4b;
+
+}
+.borde3{
+	padding:2px 2px 2px 2px;
+	border: solid 2px;
+	border-radius:5px;
+	border-color:#6278a5;
+}
+.borde4{
+	padding:2px 2px 2px 2px;
+	border: solid 2px;
+	border-radius:10px;
+	border-color:#008000;
+}
+.borde5{
+	padding:20px 50px 20px 50px;
+	border: solid 2px;
+	border-radius:10px;
+	border-color:#6278a5;
+}
+.borde6{
+	padding:10px 30px 20px 30px;
+	border: solid 3px;
+	border-radius:0px;
+	border-color:#6278a5;
+        
+}
+
+
+.table {
+   width: 100%;
+  
+}
+/*
+th, td {
+   width: 25%;   
+   margin: 0 auto;
+   border: 1px solid black;
+   border-spacing: 0;
+
+  
+}*/
+
+.table, th, td {
+  width: 250px; 
+  margin: 1 auto;
+  border: 1px solid black;
+ 
+  border-spacing: 0;
+  border-color: #000;
+  
+}
+
+
+
+
+ 
+
+
+.letra {background-color: #FFFF00; font: 20pt 'Tahoma';
+}
+body { margin: 0; padding: 0; background-color: #FAFAFA; font: 10pt 'Tahoma';
+ }
+ * { box-sizing: border-box; -moz-box-sizing: border-box;
+ }
+ .page { width: 21.59cm; min-height: 27.94cm; padding: 1.5cm; margin: 1.20cm auto; border: 1px #D3D3D3 solid; border-radius: 5px; background: white; box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+ }
+
+
+
+
+
+
+
+
+

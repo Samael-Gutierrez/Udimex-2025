@@ -1,0 +1,110 @@
+nav {
+    margin: 15px; /* Ajusta la distancia del nav con respecto a los bordes */
+    margin-top: 0px; /* Ajusta el margen superior para que no esté pegado muy arriba */
+    margin-bottom: 0%; /* Quita el espacio de abajo hacia arriba */
+    display: flex; /* Usa flexbox para alinear los elementos */
+    justify-content: flex-start; /* Alinea los elementos hacia la izquierda */
+}
+
+nav a {
+    margin: 10px;
+    padding: 8px;
+    text-decoration: none;
+    color: #0e3b83; 
+    background-color: transparent; /* Quita el fondo */
+    border: 1.5px solid #0e3b83; /* Contorno azul */
+    border-radius: 17px; /* Bordes redondeados */
+    line-height: 125%; /* Ajusta la altura de línea para centrar el texto verticalmente */
+    display: flex;
+    font-size: 17px; /* Tamaño de letra */
+    font-weight: bold; /* Negrita */
+}
+nav a::before {
+    content: '←'; /* Agrega la flecha */
+    margin-right: 0px;
+}
+
+.logo-container {
+    position: absolute;
+    top: 1px; /* Coloca el logo en la parte superior de la página */
+    left: 50%; /* Mueve el logo al 50% del ancho de la página */
+    transform: translateX(-50%); /* Ajusta el logo para que quede perfectamente centrado */
+    width: 150px; /* Ancho del logo */
+    padding: 0px; /* Espacio alrededor del logo */
+}
+
+.logo {
+    width: 150px; /* Ancho del logo */
+    margin: 0 0px; /* Espaciado entre el logo y las líneas */
+}
+
+.red-line {
+    position: absolute;
+    width: 580px; /* Ajusta el ancho según sea necesario */
+    height: 10px; /* Ajusta la altura según sea necesario */
+    background-color: #db0c4b;
+    top: 80px; /* Ajusta la distancia desde la parte superior */
+    left: calc(45% - 70px); /* Ajusta la posición para estar más a la izquierda del logotipo */
+    transform: translateX(-100%);
+}
+
+.red-line-2 {
+    position: absolute;
+    width: 580px; /* Ajusta el ancho según sea necesario */
+    height: 10px; /* Ajusta la altura según sea necesario */
+    background-color: #db0c4b;
+    top: 100px; /* Ajusta la distancia desde la parte superior */
+    left: calc(45% - 70px); /* Ajusta la posición para estar más a la izquierda del logotipo */
+    transform: translateX(-100%);
+}
+
+.blue-line {
+    position: absolute;
+    width: 580px; /* Ajusta el ancho según sea necesario */
+    height: 10px; /* Ajusta la altura según sea necesario */
+    background-color: #0e3b83;
+    top: 80px; /* Ajusta la distancia desde la parte superior */
+    left: calc(160% + 30px); /* Ajusta la posición para estar más a la derecha del logotipo */
+    transform: translateX(-20%);
+}
+
+.blue-line-2 {
+    position: absolute;
+    width: 580px; /* Ajusta el ancho según sea necesario */
+    height: 10px; /* Ajusta la altura según sea necesario */
+    background-color: #0e3b83;
+    top: 100px; /* Ajusta la distancia desde la parte superior */
+    left: calc(160% + 30px); /* Ajusta la posición para estar más a la derecha del logotipo */
+    transform: translateX(-20%);
+}
+
+
+
+
+
+
+
+
+form.p-3 {
+box-shadow: 0px 2px 4px #0e3b83; /* Ajusta el valor de la sombra según tus preferencias */
+border-radius: 10px; /* Opcional: Añade un borde redondeado */
+padding: 20px;
+background-color: #ffffff;/*color de nav*/
+}
+
+/* Estilo para ajustar el espacio entre las dos tablas */
+.container .row > div {
+    margin-bottom: 20px; 
+    padding-right: 15px; 
+    padding-left: 15px;  
+}
+
+.container .row > div:first-child {
+    padding-right: 25px; 
+}
+
+.container .row > div:last-child {
+    padding-left: 25px; 
+}
+
+

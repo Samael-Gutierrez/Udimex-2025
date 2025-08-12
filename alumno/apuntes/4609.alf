@@ -1,0 +1,63 @@
+
+		
+		<div style="text-align: center;"><font size="5"><b>¿Qué es?</b></font></div><div><br></div>La seguridad en la nube se refiere a las políticas, las prácticas recomendadas, los controles y las tecnologías de seguridad cibernética que se usan para proteger aplicaciones, infraestructura y datos en entornos de nube.&nbsp;<div>En particular, la seguridad de la nube trabaja para proporcionar almacenamiento y protección de red contra amenazas internas y externas, administración de accesos, cumplimiento y administración de datos, y recuperación ante desastres.</div><div><br></div><div style="text-align: center;"><b><font size="5">¿Cómo funciona la seguridad?</font></b></div><div><br></div><div>Se centra principalmente en cómo implementar políticas, procesos y tecnologías juntos a fin de garantizar la protección de datos, respaldar el cumplimiento de las normativas y proporcionar control sobre la privacidad, el acceso y la autenticación para los usuarios y dispositivos.</div><div>Los proveedores de servicios de la nube (CSP) suele seguir un <b>modelo de responsabilidad compartida</b>, lo que significa que la implementación de la seguridad de la computación en la nube es responsabilidad del proveedor de servicios en la nube y del cliente.</div><div><br></div><div><table border="0" cellpadding="0" cellspacing="0" width="900" style="border-collapse:
+ collapse;width:675pt;mso-yfti-tbllook:1536">
+ <colgroup><col width="300" span="3" style="mso-width-source:userset;width:225pt">
+ </colgroup><tbody><tr height="53" style="mso-height-source:userset;height:39.83pt">
+  <td height="53" class="oa1" width="300" style="height:39.83pt;width:225pt">
+  <p style="margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; vertical-align: top; word-break: normal;"><span style="font-size: 7pt; font-family: &quot;Google Sans&quot;; color: rgb(60, 64, 67);">Modelo de servicio de computación en la
+  nube</span></p>
+  </td>
+  <td class="oa2" width="300" style="width:225pt">
+  <p style="margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; vertical-align: top; word-break: normal;"><span style="font-size: 7pt; font-family: &quot;Google Sans&quot;; color: rgb(60, 64, 67);">Tu responsabilidad</span></p>
+  </td>
+  <td class="oa3" width="300" style="width:225pt">
+  <p style="margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; vertical-align: top; word-break: normal;"><span style="font-size: 7pt; font-family: &quot;Google Sans&quot;; color: rgb(60, 64, 67);">Responsabilidad del CSP</span></p>
+  </td>
+ </tr>
+ <tr height="118" style="mso-height-source:userset;height:88.27pt">
+  <td height="118" class="oa4" width="300" style="height:88.27pt;width:225pt">
+  <p style="margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; vertical-align: top; word-break: normal;"><span style="font-size: 7pt; font-family: &quot;Google Sans&quot;; color: rgb(60, 64, 67);">Infraestructura como servicio&nbsp;(</span><span style="font-size: 7pt; font-family: &quot;Google Sans&quot;; color: rgb(60, 64, 67);">IaaS</span><span style="font-size: 7pt; font-family: &quot;Google Sans&quot;; color: rgb(60, 64, 67);">)</span></p>
+  </td>
+  <td class="oa5" width="300" style="width:225pt">
+  <p style="margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; vertical-align: top; word-break: normal;"><span style="font-size: 7pt; font-family: &quot;Google Sans&quot;; color: rgb(60, 64, 67);">Proteges tus datos, aplicaciones,
+  controles de red virtual, sistema operativo y acceso de usuario.&nbsp;</span></p>
+  </td>
+  <td class="oa6" width="300" style="width:225pt">
+  <p style="margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; vertical-align: top; word-break: normal;"><span style="font-size: 7pt; font-family: &quot;Google Sans&quot;; color: rgb(60, 64, 67);">El proveedor de servicios en la nube
+  protege el procesamiento, el almacenamiento y la red física, incluidos todos
+  los parches y la configuración.&nbsp;&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr height="118" style="mso-height-source:userset;height:88.27pt">
+  <td height="118" class="oa1" width="300" style="height:88.27pt;width:225pt">
+  <p style="margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; vertical-align: top; word-break: normal;"><span style="font-size: 7pt; font-family: &quot;Google Sans&quot;; color: rgb(60, 64, 67);">Plataforma como servicio (</span><span style="font-size: 7pt; font-family: &quot;Google Sans&quot;; color: rgb(60, 64, 67);">PaaS</span><span style="font-size: 7pt; font-family: &quot;Google Sans&quot;; color: rgb(60, 64, 67);">)</span></p>
+  </td>
+  <td class="oa2" width="300" style="width:225pt">
+  <p style="margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; vertical-align: top; word-break: normal;"><span style="font-size: 7pt; font-family: &quot;Google Sans&quot;; color: rgb(60, 64, 67);">Proteges tus datos, el acceso de los
+  usuarios y las aplicaciones.</span></p>
+  </td>
+  <td class="oa3" width="300" style="width:225pt">
+  <p style="margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; vertical-align: top; word-break: normal;"><span style="font-size: 7pt; font-family: &quot;Google Sans&quot;; color: rgb(60, 64, 67);">El proveedor de servicios en la nube
+  protege el procesamiento, el almacenamiento, la red física, los controles de
+  redes virtuales y el sistema operativo.&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr height="144" style="mso-height-source:userset;height:107.64pt">
+  <td height="144" class="oa4" width="300" style="height:107.64pt;width:225pt">
+  <p style="margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; vertical-align: top; word-break: normal;"><span style="font-size: 7pt; font-family: &quot;Google Sans&quot;; color: rgb(60, 64, 67);">Software como servicio (SaaS)</span></p>
+  </td>
+  <td class="oa5" width="300" style="width:225pt">
+  <p style="margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; vertical-align: top; word-break: normal;"><span style="font-size: 7pt; font-family: &quot;Google Sans&quot;; color: rgb(60, 64, 67);">Eres responsable de proteger tus datos
+  y el acceso de los usuarios.&nbsp;</span></p>
+  </td>
+  <td class="oa6" width="300" style="width:225pt">
+  <p style="margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; vertical-align: top; word-break: normal;"><span style="font-size: 7pt; font-family: &quot;Google Sans&quot;; color: rgb(60, 64, 67);">El proveedor de servicios en la nube
+  protege el procesamiento, el almacenamiento, la red física, los controles de
+  redes virtuales, el sistema operativo, las aplicaciones y el
+  middleware.&nbsp;</span></p>
+  </td>
+ </tr>
+</tbody></table></div><div><br></div><div><br></div>
+	
+	

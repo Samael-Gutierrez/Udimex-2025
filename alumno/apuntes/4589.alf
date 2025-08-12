@@ -1,0 +1,45 @@
+ <title>Insertar PDF en HTML</title>
+</head>
+<body>
+  <div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Insertar PDF en HTML</title>
+      <br>
+      <embed src="https://udimex.net/archivos/GUIA%20DE%20ESTUDIO%20UDIMEX.pdf" type="application/pdf" width="100%" height="600px">
+      <br>
+    </div>
+    <br>
+  </div>
+
+  <!-- Botón de descarga -->
+  <button id="download-button"><a href="https://udimex.net/archivos/GUIA%20DE%20ESTUDIO%20UDIMEX.pdf" download="guia_de_estudio_udimex.pdf">Descargar Guía</a></button>
+
+  <script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script>
+  <script>
+    const url = 'https://udimex.net/archivos/GUIA%20DE%20ESTUDIO%20UDIMEX.pdf';
+
+    pdfjsLib.getDocument(url).then(pdf => {
+      for (let i = 1; i <= pdf.numPages; i++) {
+        pdf.getPage(i).then(page => {
+          const scale = 1.5;
+          const viewport = page.getViewport({ scale });
+
+          const canvas = document.createElement('canvas');
+          const context = canvas.getContext('2d');
+          canvas.height = viewport.height;
+          canvas.width = viewport.width;
+
+          document.getElementById('pdf-container').appendChild(canvas);
+
+          page.render({ canvasContext: context, viewport });
+        });
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,328 @@
+@media (max-width: 768px) {
+    .main-navbar {
+        height: auto;
+        padding: 20px 0px;
+    }
+
+    .links {
+        display: none;
+        width: 100%;
+        text-align: center;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .links.active {
+        display: flex;
+    }
+
+    .sesion {
+        margin-left: 10px;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+}
+
+@media (min-width:375px) and (max-width:429px){
+    .main {
+        margin: 30px 0px;
+        gap: 10px;
+        flex-direction: column-reverse;
+    }
+
+    .main .main-img-1, .main .main-img-2 {
+        width: 80%;
+    }
+
+    .main .main-img-1 {
+        margin-top: -30px;
+    }
+
+    .s2-carrucel .s2-carrusel-container .swiper-wrapper .swiper-slide .bs {
+        width: 90%;
+        height: 200px;
+    }
+
+    .s3-cards-materias .s3-info h2{
+        width: 90%;
+        font-size: 32px;
+    }
+
+    .s3-cards-materias .s3-info h3{
+        font-size: 18px;
+        width: 90%;
+    }
+
+    .s4-banner .s4-banner-part2 {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .s4-banner .s4-banner-part2 .s4-banner-1 p {
+        padding: 0px 15px;
+    }
+    
+    .s4-banner .s4-banner-part2 .s4-banner-2 h2{
+        font-size: 23px;
+        padding: 0px 15px;
+        text-align: center;
+    }
+
+    .s5-testimonios {
+        flex-direction: column;
+    }
+
+    .s5-testimonios .s5-nosotros {
+        border-bottom: 3px solid var(--primary);
+    }
+
+    .s6-ubicacion .s6-container {
+        gap: 30px;
+        flex-direction: column;
+    }
+
+    .s6-container .s6-datos {
+        width: 80%;
+        height: auto;
+        padding-bottom: 10px;
+    }
+
+    .s6-container .s6-mapa {
+        width: 80%;
+    }
+
+    .s7-banner h2 {
+        font-size: 28px;
+    }
+
+    .s8-team h2 {
+        font-size: 24px;
+    }
+
+    .s8-team .s8-card-container {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .s8-team .s8-card-container .s8-card {
+        width: 350px;
+    }
+
+    .s9-footer h2 {
+        text-align: center;
+        font-size: 20px;
+    }
+}
+
+@media (min-width:430px) and (max-width:575px){
+    .main {
+        margin: 30px 0px;
+        gap: 10px;
+        flex-direction: column-reverse;
+    }
+
+    .main .main-img-1, .main .main-img-2 {
+        width: 80%;
+    }
+
+    .main .main-img-1 {
+        margin-top: -30px;
+    }
+
+    .s2-carrucel .s2-carrusel-container .swiper-wrapper .swiper-slide .bs {
+        width: 90%;
+        height: 200px;
+    }
+
+    .s3-cards-materias .s3-info h2{
+        width: 90%;
+        font-size: 32px;
+    }
+
+    .s3-cards-materias .s3-info h3{
+        font-size: 18px;
+        width: 90%;
+    }
+
+    .s4-banner .s4-banner-part2 {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .s4-banner .s4-banner-part2 .s4-banner-1 p {
+        padding: 0px 15px;
+    }
+    
+    .s4-banner .s4-banner-part2 .s4-banner-2 h2{
+        font-size: 23px;
+        padding: 0px 15px;
+    }
+
+    .s5-testimonios {
+        flex-direction: column;
+    }
+
+    .s5-testimonios .s5-nosotros {
+        border-bottom: 3px solid var(--primary);
+    }
+
+    .s6-ubicacion .s6-container {
+        gap: 30px;
+        flex-direction: column;
+    }
+
+    .s6-container .s6-datos {
+        width: 80%;
+        height: auto;
+        padding-bottom: 10px;
+    }
+
+    .s6-container .s6-mapa {
+        width: 80%;
+    }
+
+    .s7-banner h2 {
+        font-size: 28px;
+    }
+
+    .s8-team h2 {
+        font-size: 24px;
+    }
+
+    .s8-team .s8-card-container {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .s9-footer h2 {
+        text-align: center;
+        font-size: 20px;
+    }
+}
+
+@media (min-width:540px) and (max-width:767px){
+    .main {
+        margin: 30px 0px;
+        gap: 10px;
+        flex-direction: column-reverse;
+    }
+
+    .main .main-img-1, .main .main-img-2 {
+        width: 80%;
+    }
+
+    .main .main-img-1 {
+        margin-top: -60px;
+    }
+
+    .s2-carrucel .s2-carrusel-container .swiper-wrapper .swiper-slide .bs {
+        width: 90%;
+        height: 260px;
+    }
+
+    .s3-cards-materias .s3-info h2{
+        font-size: 35px;
+    }
+
+    .s3-cards-materias .s3-info h3{
+        font-size: 22px;
+    }
+
+    .s4-banner .s4-banner-part2 .s4-banner-2 h2{
+        font-size: 26px;
+    }
+
+    .s5-testimonios {
+        flex-direction: column;
+    }
+
+    .s5-testimonios .s5-nosotros {
+        border-bottom: 3px solid var(--primary);
+    }
+
+    .s6-ubicacion .s6-container {
+        gap: 30px;
+    }
+
+    .s7-banner h2 {
+        font-size: 28px;
+    }
+
+    .s8-team h2 {
+        font-size: 24px;
+    }
+
+    .s9-footer h2 {
+        text-align: center;
+        font-size: 25px;
+    }
+}
+
+@media (min-width:540px) and (max-width:1023px){
+    .main img {
+        width: 35%;
+    }
+
+    .s2-carrusel-container img {
+        width: 90%;
+        height: 380px;
+    }
+
+    .s3-info h2, .s3-info h3 {
+        width: 85%;
+    }
+
+    .s4-banner-part1 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .s4-banner-part1 h2 {
+        width: 80%;
+    }
+
+    .s4-banner-part2 {
+        gap: 20px;
+        padding: 5px 40px;
+    }
+
+    .s5-testimonios .s5-nosotros p {
+        line-height: 23px;
+    }
+
+    .s6-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .s6-container .s6-datos {
+        width: 75%;
+    }
+
+    .s6-container .s6-mapa {
+        width: 75%;
+    }
+
+    .s8-team .s8-card-container {
+        flex-direction: column;
+        gap: 25px;
+    }
+}
+
+@media (min-width:1024px) {
+    .s3-info h3{
+        width: 80%;
+    }
+
+    .s4-banner-part1 {
+        width: 80%;
+    }
+
+    .s4-banner-part2 {
+        width: 90%;
+        gap: 80px;
+        padding-bottom: 10px;
+    }
+}

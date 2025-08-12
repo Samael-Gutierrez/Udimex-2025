@@ -1,0 +1,126 @@
+:root {
+    --primary: #0f3985;
+    --secondary: #dd0b48;
+    --Third: #f3f3f3;
+}
+
+.main-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.second-container {
+    width: 95%;
+    height: 95%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid var(--primary);
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.75);
+    gap: 20px;
+}
+
+.result-container {
+    width: 99%;
+    height: 95%;
+    margin-bottom: 20px;
+}
+
+.search-container {
+    width: 50%;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px 0px 50px;
+}
+
+.search-container p{
+    text-align: justify;
+}
+
+.search-container h3 {
+    text-transform: uppercase;
+    font-size: 30px;
+    border-bottom: 2px solid var(--secondary);
+    display: inline-block;
+    margin-bottom: -10px;
+}
+
+.campos {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+
+.campos:focus {
+border-color: var(--primary); 
+box-shadow: 0 0 5px rgba(74, 144, 226, 0.7);
+outline: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.encabezado {
+    background-color: var(--primary);
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    border-right: 1px solid rgb(255, 255, 255);
+    font-size: 12px;
+}
+
+.encabezado th {
+    padding: 10px;
+    border-right: 1px solid #f3f3f3;
+}
+
+.cuerpo {
+    border-bottom: 2px solid #0f3985;
+    text-align: left;
+    background-color: var(--Third);
+}
+
+.br1 {
+    border-radius: 10px 0px 0px 0px;
+}
+
+.br2 {
+    border-radius: 0px 10px 0px 0px;
+}
+
+.btn-submit {
+    background: linear-gradient(45deg, rgba(243, 243, 243, 1) 95%, rgba(221, 11, 72, 1) 90%);
+    border-radius: 5px;
+    border: 2px solid var(--secondary);
+}
+
+form select[name='tipo']{
+    text-align: center;
+    border: 2px solid var(--primary);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 5px;
+}
+ 
+form select[name='tipo']:focus {
+border-color: var(--primary); 
+box-shadow: 0 0 5px rgba(74, 144, 226, 0.7);
+outline: none;
+}
+
+form input[value='Generar']{
+    background: #F3F3F3;
+    background: linear-gradient(45deg, rgba(243, 243, 243, 1) 90%, rgb(158, 158, 158) 85%);
+    border-radius: 5px;
+    border: 2px solid rgb(158, 158, 158);
+}

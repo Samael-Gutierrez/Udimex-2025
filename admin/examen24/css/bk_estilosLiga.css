@@ -1,0 +1,136 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif; /* Cambia esta fuente si prefieres otra */
+}
+
+.contenedor {
+    width: 85%; /* Un poco más ancho */
+    max-width: 850px; /* Ajustado */
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    padding: 50px 30px; /* Un poco más largo */
+    text-align: center;
+    position: relative;
+}
+
+.lineas {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 10px;
+    background-color: transparent;
+}
+
+.linea-roja {
+    height: 8px;
+    width: 50%;
+    background-color: #db0c4b;
+}
+
+.linea-azul {
+    height: 8px;
+    width: 50%;
+    background-color: #043b8d;
+}
+
+h1 {
+    color: black;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+p {
+    color: black;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+a.liga-examen {
+    color: #050505; 
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.subtitulo {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.sesion {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: black;
+    margin-top: 10px; /* Baja el nombre del profesor */
+}
+
+.avatar {
+    background-color: #043b8d;
+    color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.nombre-profesor {
+    font-family: 'Georgia', serif; /* Cambia la fuente del nombre del profesor */
+}
+
+.iconos {
+    font-size: 24px;
+    color: black;
+}
+
+.iconos i {
+    font-size: 28px; /* Aumenta el tamaño del ícono */
+    margin-right: 10px;
+    text-align: justify;
+}
+
+.logout {
+    margin-top: 20px; /* Da espacio entre la liga y el botón */
+    text-align: right;
+}
+
+.logout .logout-button {
+    padding: 8px 16px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #043b8d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.logout .logout-button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+}

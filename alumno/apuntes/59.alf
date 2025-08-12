@@ -1,0 +1,41 @@
+<table border="0">
+<tr><th align="left">Inspecciona:</th><td>Es un proceso similar a hojear, con ello obtendrás una idea general del libro.</td></tr>
+<tr><th align="left">Interrógate:</th><td>¿Qué pretendes encontrár en el libro? ¿Te servirá llevar a cabo la lectura? ¿El libro será importante de leer?.</td></tr>
+<tr><th align="left">Lee:</th><td>Lleva a cabo la lectura lenta, posiblemente sea necesario una segunda lectura para comprender a fondo lo que el autor quiere decir.</td></tr>
+<tr><th align="left">Recuerda:</th><td>Analiza que tanto puedes recordar sobre lo que leí­ste, esto verificará tu comprensión.</td></tr>
+<tr><th align="left">Revisa:</th><td>Verifica que lo que recuerdas es lo mismo que lo que leí­ste.</td></tr>
+</table>
+<br><br>
+<center>
+<div id="mensaje1">Ejemplo: <b>En tu clase de historia, te piden hacer una investigación en la biblioteca sobre la Revolución Mexicana.</div></center><br>
+
+<table border=0 cellspacing="15px">
+<tr><th>Inspeccionas</th><td></td><th>Interrógate</th><td></td></tr>
+<tr>
+<td align="justify" width="30%">En la biblioteca encuentras infinidad de libros de historia, incluyendo Historia universal, Historia de México, Historia Moderna de Occidente,etc. Tu comienzas a hojear o por lo menos ver el titulo de cada libro</td>
+
+<td><img src="alf/im/im011.png"></td>
+
+<td align="justify" width="30%">Lo primero que piensas es: ¿En este libro encontraré mi tarea?, ¿Debo buscar en este libro o en otro?</td>
+
+<td></td>
+<th><img src="alf/im/im012.png"></th>
+</tr>
+<tr>
+<th><br>Revisa</th><td></td><th><br>Recuerda</th><td></td><th><br>Lee</th>
+</tr>
+<tr>
+
+<td align="justify">Ya que terminaste tu lectura, en tu memoria quedo grabada la información más importante que leí­ste del libro, es importante que te esfuerces por recordar lo más que te sea posible.</td>
+<td align="justify"><img src="alf/im/im013.png"></td>
+
+<td align="justify">Debes verificar que lo que recuerdas es lo mismo que está en el libro como son lugares, personajes, fechas, etc.</td>
+
+<td align="justify"><img src="alf/im/im013.png"></td>
+
+<td align="justify">Una vez que has encontrado el libro adecuado, comienzas a hacer la lectura, poniendo atención a los puntos importantes de tu tarea.</td>
+
+</tr>
+<tr><th colspan="5">Â¡ Felicidades, has aplicado la técnica 2IL2R !</th></tr>
+</table>
+<br>

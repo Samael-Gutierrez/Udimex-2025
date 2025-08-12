@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Candal&display=swap');
+
+*{
+    margin: 0;
+    font-family: system-ui, 
+    -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background: #a3a2a244;
+}
+section{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+.cubo{
+    background-color: #0f3985;
+    width: 650px;
+    height: 300px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 10px 20px 15px #000000;
+}
+h1{
+    font-size: 150%;
+    margin-bottom: 15px;
+}
+h1, label{
+    color:white;
+}
+label{
+    font-size: 32px;
+}
+input{
+    border-radius: 10px;
+    border: none;
+    width: 700px;
+    height: 35px;
+    margin-left: 5px;
+}
+.preguntas{
+    padding: 10px 30px;
+    border: none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width: 35px;
+    height: 35px;
+    margin-left: 35px ;
+    border-radius: 20px;
+    border: none;
+}
+.bi{
+    color: #0088cc;
+    display: flex;
+    text-align: center;
+}
+.tamaño{
+    font-size: 22px;
+}
+.textarea{
+    width: 400px;
+    height: 125px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    font-size: 10px;
+}
+.completo{
+    margin-top: 65px;
+}

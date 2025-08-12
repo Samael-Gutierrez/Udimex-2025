@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Temporizador MM:SS</title>
+  <style>
+    #temporizador {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      background-color: #222;
+      color: #fff;
+      padding: 10px 20px;
+      font-size: 24px;
+      font-family: 'Arial', sans-serif;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      z-index: 9999;
+      transition: color 0.3s;
+    }
+
+    /* Clase que se aplica cuando quedan < 30 segundos */
+    .alerta {
+      color: #ff0000; /* rojo brillante */
+    }
+  </style>
+</head>
+<body>
+  <div id="temporizador"></div>
+
+  <script>
+    let tiempo = 35;
+    const display = document.getElementById('temporizador');
+
+    function formatearTiempo(segundos) {
+      const horas = Math.floor(segundos / 3600);
+      const minutos = Math.floor((segundos % 3600) / 60);
+      const restoSegundos = segundos % 60;
+
+      const hh = horas.toString().padStart(2, '0');
+      const mm = minutos.toString().padStart(2, '0');
+      const ss = restoSegundos.toString().padStart(2, '0');
+
+      return `${hh}:${mm}:${ss}`;
+    }
+
+    const intervalo = setInterval(() => {
+      tiempo--;
+
+      display.textContent = formatearTiempo(tiempo);
+
+      // Cambiar color si quedan menos de 30 segundos
+      if (tiempo <= 30) {
+        display.classList.add('alerta');
+      }
+
+      if (tiempo <= 0) {
+        clearInterval(intervalo);
+        alert('termine');
+      }
+    }, 1000);
+  </script>
+
+</body>
+</html>

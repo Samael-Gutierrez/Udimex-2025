@@ -1,0 +1,951 @@
+
+		<div align="left"><link rel="stylesheet" href="estilo/ed_estilo.css"><!--[if gte mso 9]><xml>
+ <o:OfficeDocumentSettings>
+  <o:RelyOnVML/>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Normal</w:View>
+  <w:Zoom>0</w:Zoom>
+  <w:TrackMoves/>
+  <w:TrackFormatting/>
+  <w:HyphenationZone>21</w:HyphenationZone>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>ES-MX</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:EnableOpenTypeKerning/>
+   <w:DontFlipMirrorIndents/>
+   <w:OverrideTableStyleHps/>
+  </w:Compatibility>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
+  DefSemiHidden="false" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="371">
+  <w:LsdException Locked="false" Priority="0" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 9"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="header"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footer"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index heading"/>
+  <w:LsdException Locked="false" Priority="35" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of figures"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope return"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="line number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="page number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of authorities"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="macro"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="toa heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 5"/>
+  <w:LsdException Locked="false" Priority="10" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Closing"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Signature"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Message Header"/>
+  <w:LsdException Locked="false" Priority="11" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Salutation"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Date"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Note Heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Block Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="FollowedHyperlink"/>
+  <w:LsdException Locked="false" Priority="22" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Document Map"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Plain Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="E-mail Signature"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Top of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Bottom of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal (Web)"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Acronym"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Cite"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Code"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Definition"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Keyboard"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Preformatted"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Sample"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Typewriter"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Variable"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Table"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation subject"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="No List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Contemporary"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Elegant"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Professional"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Balloon Text"/>
+  <w:LsdException Locked="false" Priority="39" Name="Table Grid"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Theme"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" QFormat="true"
+   Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" QFormat="true"
+   Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" QFormat="true"
+   Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" QFormat="true"
+   Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" QFormat="true"
+   Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" QFormat="true"
+   Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
+  <w:LsdException Locked="false" Priority="41" Name="Plain Table 1"/>
+  <w:LsdException Locked="false" Priority="42" Name="Plain Table 2"/>
+  <w:LsdException Locked="false" Priority="43" Name="Plain Table 3"/>
+  <w:LsdException Locked="false" Priority="44" Name="Plain Table 4"/>
+  <w:LsdException Locked="false" Priority="45" Name="Plain Table 5"/>
+  <w:LsdException Locked="false" Priority="40" Name="Grid Table Light"/>
+  <w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="46" Name="List Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 6"/>
+ </w:LatentStyles>
+</xml><![endif]--><!--[if !mso]><object
+ classid="clsid:38481807-CA0E-42D2-BF39-B33AF135CC4D" id=ieooui></object>
+<style>
+st1:*{behavior:url(#ieooui) }
+</style>
+<![endif]-->&nbsp;
+	
+
+
+
+<p class="MsoNormal" style="margin-bottom:12.0pt;text-align:justify"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:107%">Existen
+Muchos formatos de análisis para textos literarios, sin embargo, uno de los más
+completos que permite concentrar gran cantidad de información relevante es la
+ficha de análisis literario. Algunas de sus partes más comunes son las
+siguientes:</span></p>
+
+<p class="MsoListParagraphCxSpFirst" style="margin-top:0cm;margin-right:0cm;
+margin-bottom:0cm;margin-left:142.2pt;margin-bottom:.0001pt;mso-add-space:auto;
+text-align:justify;text-indent:-142.2pt;mso-text-indent-alt:-18.0pt;mso-list:
+l0 level1 lfo1"><b style="mso-bidi-font-weight:normal"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:107%;mso-bidi-font-family:
+Calibri;mso-bidi-theme-font:minor-latin;color:#7030A0"><span style="mso-list:
+Ignore"><span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>I.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span></b><b style="mso-bidi-font-weight:normal"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:107%;color:#7030A0">Datos
+Generales.- </span></b><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;
+line-height:107%">información sobre el autor<b style="mso-bidi-font-weight:
+normal"><span style="color:#7030A0"></span></b></span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-top:0cm;margin-right:0cm;
+margin-bottom:0cm;margin-left:142.2pt;margin-bottom:.0001pt;mso-add-space:auto;
+text-align:justify;text-indent:-142.2pt;mso-text-indent-alt:-18.0pt;mso-list:
+l0 level1 lfo1"><b style="mso-bidi-font-weight:normal"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:107%;mso-bidi-font-family:
+Calibri;mso-bidi-theme-font:minor-latin;color:#7030A0"><span style="mso-list:
+Ignore"><span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>II.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span></b><b style="mso-bidi-font-weight:normal"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:107%;color:#7030A0">Análisis
+de la Forma.- </span></b><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;
+line-height:107%">características del texto que tratan sobre su distribución,
+lenguaje, vocabulario, etc.<b style="mso-bidi-font-weight:normal"><span style="color:#7030A0"></span></b></span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-top:0cm;margin-right:0cm;
+margin-bottom:0cm;margin-left:142.2pt;margin-bottom:.0001pt;mso-add-space:auto;
+text-align:justify;text-indent:-142.2pt;mso-text-indent-alt:-18.0pt;mso-list:
+l0 level1 lfo1"><span style="font-size:12.0pt;mso-bidi-font-size:
+11.0pt;line-height:107%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;
+color:#7030A0"><span style="mso-list:Ignore"><span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>III.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><b style="mso-bidi-font-weight:normal"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:107%;color:#7030A0">Análisis
+del Contenido.- </span></b><span style="font-size:12.0pt;mso-bidi-font-size:
+11.0pt;line-height:107%">información sobre la obra </span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-top:0cm;margin-right:0cm;
+margin-bottom:0cm;margin-left:142.2pt;margin-bottom:.0001pt;mso-add-space:auto;
+text-align:justify;text-indent:-142.2pt;mso-text-indent-alt:-18.0pt;mso-list:
+l0 level1 lfo1"><span style="font-size:12.0pt;mso-bidi-font-size:
+11.0pt;line-height:107%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;
+color:#7030A0"><span style="mso-list:Ignore"><span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>IV.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><b style="mso-bidi-font-weight:normal"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:107%;color:#7030A0">Conclusiones.-
+</span></b><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:
+107%">supuesto o idea central de la obra</span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-top:0cm;margin-right:0cm;
+margin-bottom:0cm;margin-left:142.2pt;margin-bottom:.0001pt;mso-add-space:auto;
+text-align:justify;text-indent:-142.2pt;mso-text-indent-alt:-18.0pt;mso-list:
+l0 level1 lfo1"><b style="mso-bidi-font-weight:normal"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:107%;mso-bidi-font-family:
+Calibri;mso-bidi-theme-font:minor-latin;color:#7030A0"><span style="mso-list:
+Ignore"><span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>V.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span></b><b style="mso-bidi-font-weight:normal"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:107%;color:#7030A0">Apreciación
+Crítica.- </span></b><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;
+line-height:107%">Exposición breve de la problemática o<span style="mso-spacerun:yes">&nbsp; </span>situación central de la obra<b style="mso-bidi-font-weight:normal"><span style="color:#7030A0"></span></b></span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-top:0cm;margin-right:0cm;
+margin-bottom:0cm;margin-left:142.2pt;margin-bottom:.0001pt;mso-add-space:auto;
+text-align:justify;text-indent:-142.2pt;mso-text-indent-alt:-18.0pt;mso-list:
+l0 level1 lfo1"><b style="mso-bidi-font-weight:normal"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:107%;mso-bidi-font-family:
+Calibri;mso-bidi-theme-font:minor-latin;color:#7030A0"><span style="mso-list:
+Ignore"><span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>VI.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span></b><b style="mso-bidi-font-weight:normal"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:107%;color:#7030A0">Bibliografía.-
+</span></b><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:
+107%">Concentra la información de la obra para facilitar su búsqueda,
+generalmente en formato de referencias APA<b style="mso-bidi-font-weight:normal"><span style="color:#7030A0"></span></b></span></p>
+
+<p class="MsoListParagraphCxSpLast" style="margin-left:142.2pt;mso-add-space:
+auto;text-align:justify;text-indent:-142.2pt;mso-text-indent-alt:-18.0pt;
+mso-list:l0 level1 lfo1"><span style="font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:107%;mso-bidi-font-family:Calibri;
+mso-bidi-theme-font:minor-latin;color:#7030A0"><span style="mso-list:Ignore"><span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>VII.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><b style="mso-bidi-font-weight:normal"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:107%;color:#7030A0">Datos
+de elaboración.- </span></b><span style="font-size:12.0pt;mso-bidi-font-size:
+11.0pt;line-height:107%">información de quién elaboró la ficha y la fecha</span></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:107%">A continuación, se expone un
+ejemplo para llenado de la ficha.</span></p>
+
+<table class="MsoTableMediumShading1Accent4" style="border-collapse:collapse;border:none;mso-border-alt:solid #FFCF40 1.0pt;
+ mso-border-themecolor:accent4;mso-border-themetint:191;mso-yfti-tbllook:1184;
+ mso-padding-alt:0cm 5.4pt 0cm 5.4pt" cellspacing="0" cellpadding="0" border="1">
+ <tbody><tr style="mso-yfti-irow:-1;mso-yfti-firstrow:yes;mso-yfti-lastfirstrow:yes">
+  <td style="width:505.6pt;border:solid #FFCF40 1.0pt;mso-border-themecolor:
+  accent4;mso-border-themetint:191;background:#FFC000;mso-background-themecolor:
+  accent4;padding:0cm 5.4pt 0cm 5.4pt" width="674">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal;mso-yfti-cnfc:5" align="center"><b><span style="mso-bidi-font-size:10.0pt;color:white;mso-themecolor:background1">Ficha
+  de análisis literario</span></b></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:0">
+  <td style="width:505.6pt;border:solid #FFCF40 1.0pt;
+  mso-border-themecolor:accent4;mso-border-themetint:191;border-top:none;
+  mso-border-top-alt:solid #FFCF40 1.0pt;mso-border-top-themecolor:accent4;
+  mso-border-top-themetint:191;background:#FFEFC0;mso-background-themecolor:
+  accent4;mso-background-themetint:63;padding:0cm 5.4pt 0cm 5.4pt" width="674" valign="top">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal;mso-outline-level:1;mso-yfti-cnfc:68"><b><u><span style="mso-bidi-font-size:10.0pt">I. Datos Generales. </span></u></b></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal;mso-yfti-cnfc:68"><u><span style="mso-bidi-font-size:
+  10.0pt;mso-bidi-font-weight:bold">Titulo de la obra</span></u><span style="mso-bidi-font-size:10.0pt;mso-bidi-font-weight:bold">: Los Perros
+  Hambrientos </span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal;mso-yfti-cnfc:68"><u><span style="mso-bidi-font-size:
+  10.0pt;mso-bidi-font-weight:bold">Autor:</span></u><span style="mso-bidi-font-size:
+  10.0pt;mso-bidi-font-weight:bold"> Ciro Alegría </span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal;mso-yfti-cnfc:68"><u><span style="mso-bidi-font-size:
+  10.0pt;mso-bidi-font-weight:bold"><span style="text-decoration:none">&nbsp;</span></span></u></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal;mso-yfti-cnfc:68"><u><span style="mso-bidi-font-size:
+  10.0pt;mso-bidi-font-weight:bold">Biografía</span></u><span style="mso-bidi-font-size:
+  10.0pt;mso-bidi-font-weight:bold">: Nace el 4 de noviembre de 1909 en
+  Sartimbamba, Huamachuco (La libertad), Perú. Vive con sus padres en la
+  hacienda Marcabal Grande, a orillas del río Marañon, hasta los 7 años. Marcha
+  entonces a Trujillo para asistir al colegio, pero es afectado por una malaria
+  y vuelve a la hacienda. </span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal;mso-yfti-cnfc:68"><span style="mso-bidi-font-size:
+  10.0pt;mso-bidi-font-weight:bold">Su actividad política y ser miembro
+  fundador del partido aprista le valen la expulsión de la universidad, algunos
+  años de prisión y ser desterrado a Chile. En l936 contrae tuberculosis y debe
+  internarse en un sanatorio. Posteriormente viaja a Puerto Rico y más tarde a La Habana. En l957
+  regresa al Perú. Muere en Lima en l967.</span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal;mso-yfti-cnfc:68"><u><span style="mso-bidi-font-size:
+  10.0pt;mso-bidi-font-weight:bold"><span style="text-decoration:none">&nbsp;</span></span></u></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal;mso-yfti-cnfc:68"><u><span style="mso-bidi-font-size:
+  10.0pt;mso-bidi-font-weight:bold">Producción literaria:</span></u><span style="mso-bidi-font-size:10.0pt;mso-bidi-font-weight:bold"> <i style="mso-bidi-font-style:normal">La serpiente de oro </i>(1935<i style="mso-bidi-font-style:normal">), Los perros hambrientos </i>(1939<i style="mso-bidi-font-style:normal">), El mundo es ancho y ajeno (</i>1941)<i style="mso-bidi-font-style:normal"> y Duelo de caballeros (</i>1962<i style="mso-bidi-font-style:normal">).</i></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal;mso-yfti-cnfc:68"><span style="mso-bidi-font-size:
+  10.0pt;mso-bidi-font-weight:bold">&nbsp;</span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal;mso-yfti-cnfc:68"><u><span style="mso-bidi-font-size:
+  10.0pt;mso-bidi-font-weight:bold">Contexto Histórico social</span></u><span style="mso-bidi-font-size:10.0pt;mso-bidi-font-weight:bold">: El autor, desarrolló
+  su obra literaria en la época de la contemporánea. Ciro Alegría es uno de los
+  representantes del neoindigenismo, corriente que intenta transmitir una
+  visión del indio desde su propio punto de vista. Esta visión de lo real
+  incluye como un factor principal lo mágico o maravilloso, pues no le resta
+  valor a visión mítica ni la considera un obstáculo para la inserción del
+  indio en la modernidad. El neoindigenismo presenta a los indios como seres
+  humanos reales: lloran, ríen sufren derrotas se resisten, se enamoran.</span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:1">
+  <td style="width:505.6pt;border:solid #FFCF40 1.0pt;
+  mso-border-themecolor:accent4;mso-border-themetint:191;border-top:none;
+  mso-border-top-alt:solid #FFCF40 1.0pt;mso-border-top-themecolor:accent4;
+  mso-border-top-themetint:191;padding:0cm 5.4pt 0cm 5.4pt" width="674" valign="top">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal;mso-outline-level:1;mso-yfti-cnfc:132"><b><u><span style="mso-bidi-font-size:10.0pt">II. Análisis de la Forma: </span></u></b></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal;mso-yfti-cnfc:132"><u><span style="mso-bidi-font-size:
+  10.0pt;mso-bidi-font-weight:bold">Estructura</span></u><span style="mso-bidi-font-size:10.0pt;mso-bidi-font-weight:bold">: Esta novela se
+  divide en 19 capítulos y 141 páginas<u>.</u></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal;mso-yfti-cnfc:132"><u><span style="mso-bidi-font-size:
+  10.0pt;mso-bidi-font-weight:bold">Forma de la expresión</span></u><span style="mso-bidi-font-size:10.0pt;mso-bidi-font-weight:bold">: Coloquial</span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal;mso-outline-level:1;mso-yfti-cnfc:132"><u><span style="mso-bidi-font-size:10.0pt;mso-bidi-font-weight:bold">Tipo de Lenguaje:</span></u><span style="mso-bidi-font-size:10.0pt;mso-bidi-font-weight:bold"> Informal </span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal;mso-yfti-cnfc:132"><u><span style="mso-bidi-font-size:
+  10.0pt;mso-bidi-font-weight:bold">Vocabulario</span></u><span style="mso-bidi-font-size:10.0pt;mso-bidi-font-weight:bold">:<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span><span style="mso-spacerun:yes">&nbsp;</span><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;</span>Minga: Trabajo agrícola colectivo y
+  gratuito con fines de utilidad social.</span></p>
+  <p class="MsoNormal" style="margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+  margin-left:35.4pt;margin-bottom:.0001pt;text-align:justify;text-indent:35.4pt;
+  line-height:normal;mso-yfti-cnfc:132"><span style="mso-bidi-font-size:10.0pt;
+  mso-bidi-font-weight:bold">Indulgencia: Inclinado a perdonar y disimular los
+  yerros o a conceder gracias.</span></p>
+  <p class="MsoNormal" style="margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+  margin-left:35.4pt;margin-bottom:.0001pt;text-align:justify;text-indent:35.4pt;
+  line-height:normal;mso-yfti-cnfc:132"><span style="mso-bidi-font-size:10.0pt;
+  mso-bidi-font-weight:bold">Mohín<i style="mso-bidi-font-style:normal">o</i>:
+  Triste, melancólico, disgustado.</span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:2">
+  <td style="width:505.6pt;border:solid #FFCF40 1.0pt;
+  mso-border-themecolor:accent4;mso-border-themetint:191;border-top:none;
+  mso-border-top-alt:solid #FFCF40 1.0pt;mso-border-top-themecolor:accent4;
+  mso-border-top-themetint:191;background:#FFEFC0;mso-background-themecolor:
+  accent4;mso-background-themetint:63;padding:0cm 5.4pt 0cm 5.4pt" width="674" valign="top">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal;mso-outline-level:1;mso-yfti-cnfc:68"><b><u><span style="mso-bidi-font-size:10.0pt">III. Análisis del Contenido</span></u></b><b><span style="mso-bidi-font-size:10.0pt">: </span></b></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal;mso-yfti-cnfc:68"><u><span style="mso-bidi-font-size:
+  10.0pt;mso-bidi-font-weight:bold">Género literario</span></u><span style="mso-bidi-font-size:10.0pt;mso-bidi-font-weight:bold">: Narrativa
+  latinoamericana</span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal;mso-yfti-cnfc:68"><u><span style="mso-bidi-font-size:
+  10.0pt;mso-bidi-font-weight:bold">Especie literaria</span></u><span style="mso-bidi-font-size:10.0pt;mso-bidi-font-weight:bold">: Novela
+  indigenista</span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal;mso-yfti-cnfc:68"><u><span style="mso-bidi-font-size:
+  10.0pt;mso-bidi-font-weight:bold">Tema</span></u><span style="mso-bidi-font-size:
+  10.0pt;mso-bidi-font-weight:bold">: Relata el abuso de los gamonales hacia
+  los campesinos o indígenas. </span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal;mso-yfti-cnfc:68"><u><span style="mso-bidi-font-size:
+  10.0pt;mso-bidi-font-weight:bold">Personajes</span></u><span style="mso-bidi-font-size:10.0pt;mso-bidi-font-weight:bold">: Principales:
+  Antuca, Simón Robles, Wanka, Güeso y Pellejo. </span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal;mso-yfti-cnfc:68"><span style="mso-bidi-font-size:
+  10.0pt;mso-bidi-font-weight:bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Secundarios: Fernan Frías
+  Y Cortés, Juan y Blas Cledonio.</span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal;mso-outline-level:1;mso-yfti-cnfc:68"><u><span style="mso-bidi-font-size:10.0pt;mso-bidi-font-weight:bold">Tiempo</span></u><span style="mso-bidi-font-size:10.0pt;mso-bidi-font-weight:bold">: 1939</span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal;mso-outline-level:1;mso-yfti-cnfc:68"><u><span style="mso-bidi-font-size:10.0pt;mso-bidi-font-weight:bold">Espacio</span></u><span style="mso-bidi-font-size:10.0pt;mso-bidi-font-weight:bold">: Huaira </span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal;mso-yfti-cnfc:68"><u><span style="mso-bidi-font-size:
+  10.0pt;mso-bidi-font-weight:bold">Argumento</span></u><span style="mso-bidi-font-size:
+  10.0pt;mso-bidi-font-weight:bold">: La acción se desarrolla en la puna, en el
+  pueblo de Huaira. Antuca, la pequeña y dulce pastora, hija de Simón Robles y
+  sus perros Wanka, Zambo, Güeso y Pellejo, verdaderos personajes de la novela.
+  Güeso es robado por unos bandoleros de la región y otros 2 murieron
+  violentamente. Se produce una terrible sequía y las desgracias suceden unas a
+  otras. Muere el niño Damián, su nieto de Simón Robles, y los perros
+  enloquecidos por el hambre, devoran la manada que antes custodiaban con amor
+  y fidelidad.</span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal;mso-yfti-cnfc:68"><span style="mso-bidi-font-size:
+  10.0pt;mso-bidi-font-weight:bold">El hambre y la despótica acción de un
+  gamonal vecino causan la extinción de Huaira comunidad. Los sobrevivientes
+  ruegan a otro hacendado por un lugar donde refugiarse porque ellos mismos son
+  como "perros hambrientos". Don Mashe, personero de los huarinos, cuenta
+  la tragedia de su comunidad "Y es así como hemos llegao a mendigar un
+  pequeño lugar más que seya un sitio chico en la grande tierra".
+  Finalmente la lluvia llega y los hombres y animales recobran la alegría. Los
+  perros vuelven a ser amigos del hombre y protectores de los animales bajo su
+  custodia. Sin embargo; el despojo y el abuso de los hacendados no ha
+  finalizado…</span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal;mso-yfti-cnfc:68"><span style="mso-bidi-font-size:
+  10.0pt;mso-bidi-font-weight:bold">&nbsp;</span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal;mso-yfti-cnfc:68"><u><span style="mso-bidi-font-size:
+  10.0pt;mso-bidi-font-weight:bold">Valores</span></u><span style="mso-bidi-font-size:
+  10.0pt;mso-bidi-font-weight:bold">: los valores que rescato de este libro son
+  el apoyo el compañerismo entre los indígenas y los antivalores son el abuso y
+  el egoísmo de los dueños de las tierras, así como también el olvido de las
+  zonas más pobres del Perú.</span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:3">
+  <td style="width:505.6pt;border:solid #FFCF40 1.0pt;
+  mso-border-themecolor:accent4;mso-border-themetint:191;border-top:none;
+  mso-border-top-alt:solid #FFCF40 1.0pt;mso-border-top-themecolor:accent4;
+  mso-border-top-themetint:191;padding:0cm 5.4pt 0cm 5.4pt" width="674" valign="top">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal;mso-outline-level:1;mso-yfti-cnfc:132"><b><u><span style="mso-bidi-font-size:10.0pt">IV. Conclusiones</span></u></b><b><span style="mso-bidi-font-size:10.0pt">: </span></b></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal;mso-yfti-cnfc:132"><span style="mso-bidi-font-size:
+  10.0pt;mso-bidi-font-weight:bold">En conclusión el libro trata sobre el
+  egoísmo y también la armonía del pueblo con la naturaleza.</span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:4">
+  <td style="width:505.6pt;border:solid #FFCF40 1.0pt;
+  mso-border-themecolor:accent4;mso-border-themetint:191;border-top:none;
+  mso-border-top-alt:solid #FFCF40 1.0pt;mso-border-top-themecolor:accent4;
+  mso-border-top-themetint:191;background:#FFEFC0;mso-background-themecolor:
+  accent4;mso-background-themetint:63;padding:0cm 5.4pt 0cm 5.4pt" width="674" valign="top">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal;mso-outline-level:1;mso-yfti-cnfc:68"><b><u><span style="mso-bidi-font-size:10.0pt">V. Apreciación Crítica</span></u></b><b><span style="mso-bidi-font-size:10.0pt">: </span></b></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal;mso-yfti-cnfc:68"><span style="mso-bidi-font-size:
+  10.0pt;mso-bidi-font-weight:bold">Es una obra indigenista sobre un pueblo que
+  se hunde en la extinción y la hambruna. También se aborda el conflicto entre
+  indígenas y grandes propietarios, problema cuya base es la posesión de la
+  tierra. Resalta la fidelidad de los perros hacia los humanos.</span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:5">
+  <td style="width:505.6pt;border:solid #FFCF40 1.0pt;
+  mso-border-themecolor:accent4;mso-border-themetint:191;border-top:none;
+  mso-border-top-alt:solid #FFCF40 1.0pt;mso-border-top-themecolor:accent4;
+  mso-border-top-themetint:191;padding:0cm 5.4pt 0cm 5.4pt" width="674" valign="top">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal;mso-outline-level:1;mso-yfti-cnfc:132"><b><u><span style="mso-bidi-font-size:10.0pt">VI. Bibliografía</span></u></b><b><span style="mso-bidi-font-size:10.0pt">: </span></b></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal;mso-yfti-cnfc:132"><span style="mso-bidi-font-size:
+  10.0pt;mso-bidi-font-weight:bold">Los perros hambrientos. </span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal;mso-yfti-cnfc:132"><span style="mso-bidi-font-size:
+  10.0pt;mso-bidi-font-weight:bold">Ciro Alegría</span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal;mso-yfti-cnfc:132"><span style="mso-bidi-font-size:
+  10.0pt;mso-bidi-font-weight:bold">Santiago de Chile.<span style="mso-spacerun:yes">&nbsp; </span></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal;mso-yfti-cnfc:132"><span style="mso-bidi-font-size:
+  10.0pt;mso-bidi-font-weight:bold">Editorial Zig-Zag</span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal;mso-yfti-cnfc:132"><span style="mso-bidi-font-size:
+  10.0pt;mso-bidi-font-weight:bold">1939</span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:6;mso-yfti-lastrow:yes">
+  <td style="width:505.6pt;border:solid #FFCF40 1.0pt;
+  mso-border-themecolor:accent4;mso-border-themetint:191;border-top:none;
+  mso-border-top-alt:solid #FFCF40 1.0pt;mso-border-top-themecolor:accent4;
+  mso-border-top-themetint:191;background:#FFEFC0;mso-background-themecolor:
+  accent4;mso-background-themetint:63;padding:0cm 5.4pt 0cm 5.4pt" width="674" valign="top">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal;mso-yfti-cnfc:68"><b><span style="mso-bidi-font-size:
+  10.0pt">Elaborado por:</span></b></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal;mso-yfti-cnfc:68"><span style="mso-bidi-font-size:
+  10.0pt;mso-bidi-font-weight:bold">Faustino Pérez Ruíz el 28 de marzo de 2007</span></p>
+  </td>
+ </tr>
+</tbody></table>
+
+</div>

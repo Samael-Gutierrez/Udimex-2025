@@ -1,0 +1,9 @@
+
+		
+		<link rel="stylesheet" href="estilo/ed_estilo.css"><div align="left">Vamos a aprender dos formas de escribir conjuntos, estas formas son: <b>Descriptiva</b> y <b>Enumerativa.</b></div><div><b><br></b><br><table border="1" align="center"><tbody><tr><th><font color="#002966">Forma Descriptiva</font></th><th><font color="#002966">Forma Enumerativa</font></th></tr><tr><td align="center"><b>A={x|x es una estación del 
+año}</b></td><td align="center"><b>A={primavera, otoño, verano, 
+invierno}</b></td></tr><tr><td>Se lee como "El conjunto A formado por el elemento x tal que x es una estación del año". Esta forma responde a la pregunta ¿Qué es? y puede contener o no una variable, en este caso "x".</td><td>Se lee como "El conjunto A formado por los elementos primavera, verano, otoño, invierno". Esta forma responde a la pregunta ¿Cuales son?.</td></tr></tbody></table><br><br>Los conjuntos se nombran con una letra mayúscula, ésta puede ser cualquier letra. Los elemntos del conjunto se nombran con letras minúsculas que se llaman variables, normalmente se ocupa la variable "x". Los elementos se colocan dentro de llaves "{ }".Otros ejemplos son:<br><br><table border="1" align="center"><tbody><tr><th><font color="#002966">Forma 
+Descriptiva</font></th><th><font color="#002966">Forma 
+Enumerativa</font></th></tr><tr><td>A={x|x es una vocal}<br>B={x|x es un medio de transporte}<br>C={x|x es un instrumento musical}<br></td><td>A={a,e,i,o,u}<br>B={bicicleta, camión, carro, patines, a pie}<br>C={guitarra, trompeta, piano, saxofón,violí­n}<br></td></tr></tbody></table><br></div>
+	
+	

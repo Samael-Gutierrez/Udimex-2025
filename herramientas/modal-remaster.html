@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal a pantalla completa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* El modal cubre toda la pantalla */
+    .modal {
+        display: none;
+        /* Inicialmente oculto */
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        /* Fondo semi-transparente */
+        z-index: 9999;
+        /* Asegura que esté encima de otros elementos */
+        opacity: 0;
+        /* Inicialmente invisible */
+        transition: opacity 0.5s ease;
+        /* Transición de opacidad */
+    }
+
+    /* El contenido del modal */
+    .modal-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        width: 80%;
+        max-width: 600px;
+        text-align: center;
+        color: #333;
+        opacity: 0;
+        /* Inicialmente invisible */
+        transition: opacity 0.5s ease, transform 0.5s ease;
+        /* Animación de opacidad y transformación */
+    }
+
+    /* Cuando el modal está visible */
+    .modal.show {
+        opacity: 1;
+        /* Aparece el modal */
+    }
+
+    .modal.show .modal-content {
+        opacity: 1;
+        /* Hace visible el contenido */
+        transform: translate(-50%, -50%) scale(1.05);
+        /* Efecto de suavizado de escalado */
+    }
+
+    /* Botón de cierre */
+    .close {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        font-size: 30px;
+        color: #aaa;
+        cursor: pointer;
+    }
+
+    .close:hover {
+        color: black;
+    }
+</style>
+
+<body>
+
+    <!-- Botón para abrir el modal -->
+    <p onclick="openModal(1)" class='openModal'>1</p>
+    <p onclick="openModal(2)" class='openModal'>2</p>
+
+
+    <div id="modal-for" class="modal">
+        <div class="modal-content">
+            <a onclick='closeModal()' class="close dfrc">x</a>
+            <div id="content-popup"></div>
+        </div>
+    </div>
+
+    <script>
+        const modal = document.getElementById('modal-for');
+        let content = document.getElementById("content-popup");
+
+        function openModal(tipo) {
+            if (tipo == 1) {
+                content.innerHTML += `
+                    <h2 class='modal-title'>1</h2>
+        `;
+            }
+
+            if (tipo == 2) {
+                content.innerHTML += `
+                    <h2 class='modal-title'>2</h2>
+        `;
+            }
+
+            if (tipo == 3) {
+                showImage();
+            }
+
+            modal.style.display = 'block';
+            setTimeout(() => modal.classList.add('show'), 10);
+        }
+
+
+        function closeModal() {
+            modal.classList.remove('show');
+            setTimeout(() => {
+                modal.style.display = 'none';
+            }, 500);
+
+            setTimeout(() => {
+                vaciar();
+                hiddeImage();
+            }, 1000);
+            document.getElementById("container-div").focus();
+        }
+
+        function vaciar() {
+            content.innerHTML = "";
+        }
+
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.classList.remove('show');
+                setTimeout(() => {
+                    modal.style.display = 'none';
+                }, 300);
+                setTimeout(() => {
+                    vaciar();
+                }, 100);
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Candal&display=swap');
+
+:root {
+    --primary: rgb(15, 57, 133);
+    --secondary: rgb(221, 11, 72);
+    --bg: rgb(12, 46, 107);
+}
+
+.dfcr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dfcc {
+    flex-direction: column;
+}
+
+.cs {
+    color: rgb(221, 11, 72);
+}
+
+.cp {
+    color: rgb(15, 57, 133);
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-color: rgb(12, 46, 107);
+    font-family: Candal;
+}
+
+body {
+    width: 99%;
+    height: 99%;
+}
+
+.container-main {
+    width: 100%;
+    height: 100%;
+}
+
+.container-main .login {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.container-main .login img {
+    width: 350px;
+    margin: 10px 75px;
+}
+
+.container-main .login .label-input {
+    width: 100%;
+    background-color: rgb(221, 11, 72);
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.container-main .login .label-input p {
+    margin: 10px 0px;
+    text-transform: uppercase;
+}
+
+.container-main .login .input-text input {
+    text-align: center;
+    width: 400px;
+    height: 50px;
+    border: 0px;
+    border-right: 2px solid rgb(15, 57, 133);
+    border-bottom: 2px solid rgb(15, 57, 133);
+    border-radius: 15px;
+    margin: 30px 0px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    font-size: 20px;
+    font-weight: 500;
+    /* text-transform: uppercase; */
+    outline: none;
+    color: rgb(15, 57, 133);
+}
+
+ .container-main .login .btn-ingresar {
+    border: 0px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    margin: 20px 0px 50px;
+    text-transform: uppercase;
+    font-family: Candal;
+    font-size: 20px;
+    cursor: pointer;
+    
+    background: linear-gradient(to right, rgb(15, 57, 133) 50%, rgb(221, 11, 72) 50%);
+    background-size: 200%;
+    background-position: right;
+    transition: background-position 0.5s;
+}
+
+.container-main .login .btn-ingresar:hover {
+    background-position: left;
+}
+
+
+@media (max-width: 576px) {
+    .container-main .login img {
+        width: 250px;
+        margin: 10px 50px;
+    }
+
+    .container-main .login .input-text input {
+        width: 275px;
+    }
+
+    .container-main .login .label-input p {
+        font-size: 23px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .container-main .login img {
+        width: 450px;
+    }
+
+    .container-main .login .input-text input {
+        width: 500px;
+    }
+}

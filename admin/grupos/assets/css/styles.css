@@ -1,0 +1,86 @@
+:root {
+    --primary: #0f3985;
+    --secondary: #dd0b48;
+    --Third: #f3f3f3;
+}
+
+#subtitulo {
+    background-color: var(--primary);
+    color: white;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+    font-size: x-large;
+    font-weight: bolder;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.table-main {
+    width: 75%;
+    border-collapse: collapse;
+    background-color: var(--Third);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.table-header {
+    border-radius: 10px;
+    background-color: var(--primary);
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.table-header th {
+    padding: 10px;
+}
+
+.table-header-left {
+   border-radius: 10px 0px 0px 0px; 
+}
+
+.table-header-right {
+    border-radius: 0px 10px 0px 0px; 
+ }
+
+ .delete button[type='submit']{
+    border: 0;
+    width: 100%;
+    background-color: var(--secondary);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 0px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.delete button[type='submit'] p {
+    display: inline-block;
+}
+
+.delete button[type='submit'] p:hover {
+    animation:rotate-center 2s
+}
+
+th .detalles {
+    background: #F3F3F3;
+    background: radial-gradient(circle, rgba(243, 243, 243, 1) 20%, rgba(15, 57, 133, 1) 100%);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    font-size: 17px;
+}
+
+.dfrc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes rotate-center{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}

@@ -1,0 +1,50 @@
+
+		<div id="subtitulo">Para la suma</div><br>
+<table border="1" width="90%" align="center" cellspacing="0" cellpadding="2" bordercolor="666699">
+<tbody><tr>
+<th width="38%">La suma de 2 números positivos</th>
+<th width="20%">3+4 = 7</th>
+<th>Resultado:<br>Se suman y el resultado será POSITIVO</th>
+</tr>
+
+<tr>
+<th>La suma de 2 números negativos</th>
+<th>(-3)+(-4) = -7 <br>ó<br> -3-4 = -7</th>
+<th>Resultado:<br>Se suman y el resultado será NEGATIVO</th>
+</tr>
+
+<tr>
+<th>La suma de 1 positivo con 1 negativo<br>ó<br>La suma de 1 negativo con 1 positivo</th>
+<th>3+(-7) = -4 <br>ó<br> -3+7 = 4</th>
+<th>Resultado:<br>Al número mayor se le resta el número menor, el signo será igual al del número mayor (Ley del más fuerte)</th>
+</tr>
+
+</tbody></table><br>
+Para la resta se aplican las mismas reglas.
+
+<br><br><br>
+
+<div id="subtitulo">Para la Multiplicación</div><br>
+<table border="1" width="90%" align="center" cellspacing="0" cellpadding="2" bordercolor="666699">
+<tbody><tr>
+<th width="38%">La multiplicación de 2 números positivos</th>
+<th width="20%">(3)(4) = 12</th>
+<th>Resultado:<br>Se multiplican y el resultado será POSITIVO</th>
+</tr>
+
+<tr>
+<th>La multiplicación de 2 números negativos</th>
+<th>(-3)(-4) = 12</th>
+<th>Resultado:<br>Se multiplican y el resultado será POSITIVO</th>
+</tr>
+
+<tr>
+<th>La multiplicación de 1 positivo y 1 negativo</th>
+<th>(3)(-4) = -12<br>ó<br>(-3)(4) = -12</th>
+<th>Resultado:<br>Se multiplican y el resultado será NEGATIVO</th>
+</tr>
+
+</tbody></table><br>
+En resumen, si los signos son iguales, el resultado será positivo. Si los signos son diferentes, el signo será negativo.
+Para la división se aplican las mismas reglas.
+	

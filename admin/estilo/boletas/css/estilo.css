@@ -1,0 +1,97 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos del encabezado */
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+header img {
+    width: 215px;
+    height: 80px;
+}
+
+/* Estilos de las etiquetas */
+label {
+    font-weight: bold;
+}
+
+/* Estilos de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #000;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Estilos de las imágenes de los bancos */
+table img {
+    max-width: 100px;
+    max-height: 60px;
+}
+
+/* Estilos de los botones y enlaces */
+a {
+    text-decoration: none;
+    color: #0073e6;
+    font-weight: bold;
+}
+
+.ver {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* Estilos para la tabla de la boleta de pago */
+#boleta-table {
+    margin-top: 20px;
+}
+
+#boleta-table th {
+    background-color: #0073e6;
+    color: #fff;
+}
+
+#boleta-table th, #boleta-table td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Estilos para el botón PDF */
+.pdf-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}

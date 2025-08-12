@@ -1,0 +1,15 @@
+
+		
+		
+		
+		
+		
+		
+		
+		<link rel="stylesheet" href="../general/estilo/ed_estilo.css">&nbsp;La plataforma de trabaja en 4 secciones que son:<div><ul><li>Sitio web informativo, contenido en la carpeta "info"</li><li>Sitio web del alumno, contenido en la carpeta "alumno"</li><li>Sitio web de administrativo, contenido en la carpeta "admin"<ul><li>Agenda</li><li>Grupos</li><li>Materias</li><li>Tareas</li><li>Contabilidad</li><li>Inversiones</li><li>Nómina</li><li>Notificaciones</li><li>Usuario</li><li>Promotores</li><li>Prospectos</li><li>Publicidad</li><li>Alumnos</li><li>Boleta de pagos</li><li>Inscripción</li><li>Pagos</li><li>Plan de estudios</li><li>Seguimiento de certificados</li><li>Seguimiento de exámenes</li></ul></li><li>Sitio web de herramientas, contenido en la carpeta "aplicaciones"</li><ul><li>Pizarrón en línea, contenido en aplicaciones/pizarron</li><li>Exámenes en línea, contenido en aplicaciones/examen</li><li>Chatbot, contenido en aplicaciones/chat</li></ul><li>Carpeta general que contendrá</li><ul><li>php</li><li>js</li><li>db</li><li>css</li><li>img</li></ul></ul><div>El index está directamente en la raiz y redirige a la carpeta de info</div></div>
+	
+	
+	
+	
+	
+	

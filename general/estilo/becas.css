@@ -1,0 +1,150 @@
+:root{
+    --primary: #0C2E6B;
+    --secondary: #D9D9D9;
+    --primario: rgb(15, 57, 133);
+    --secundario: rgb(221, 11, 72); 
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header img {
+    width: 35%;
+}
+
+.separacion {
+    background-color: var(--primario);
+    width: 100%;
+    height: 70px;
+    position: relative;
+    color: white;
+}
+
+.home {
+    position: absolute;
+    left: 50px;
+    top: 35%;
+}
+
+.title {
+    text-align: center;
+    font-size: 35px;
+}
+
+.container-becas {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 50px;
+    flex-wrap: wrap;
+}
+
+.card-becas {
+    margin: 20px 0;
+    width: 80%;
+    border-radius: 15px;
+    border: var(--secundario) solid 2px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    position: relative;
+}
+
+.tab-title {
+    position: absolute;
+    top: -15%;
+    background-color: white;
+    padding: 0px 10px;
+    text-transform: uppercase;
+}
+
+.santander {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.santander img {
+    width: 80%;
+}
+
+.parrafo-becas {
+    width: 45%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 25px 0px;
+    /* position: relative; */
+}
+
+.parrafo-becas i {
+    color: var(--primario);
+}
+
+.parrafo-becas p {
+    margin-left: 30%;
+    font-size: 18px;
+}
+
+.icons {
+    font-size: 25px;
+    /* position: absolute;
+    bottom: 30px;
+    left: -20px; */
+}
+
+@media screen and (max-width: 992px) {
+    .card-becas {
+        width: 95%;
+    }
+  }
+
+@media screen and (max-width: 775px) {
+    .parrafo-becas i {
+        color: var(--primario);
+        font-size: 15px;
+    }
+    
+    .parrafo-becas p {
+        margin-left: 30%;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 688px) {
+    .tab-title {
+        padding: 0px 5px;
+    }
+
+    .tab-title h3 {
+        font-size: 20px;
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width: 513px) {
+    .parrafo-becas p {
+        margin-left: 20%;
+        font-size: 10px;
+    }
+
+    .tab-title {
+        padding: 0px 2px;
+    }
+
+    .tab-title h3 {
+        font-size: 15px;
+        margin: 0px;
+    }
+}

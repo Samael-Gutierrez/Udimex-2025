@@ -1,0 +1,223 @@
+
+		
+		
+		
+		
+		
+		
+		<link rel="stylesheet" href="../general/estilo/ed_estilo.css"><b>&nbsp;<span style="font-size: 14pt; text-align: justify;">¿Qué es un sistema gestor de base
+de datos?</span></b><p class="MsoNormal" style="text-align:justify">Un sistema gestor de base de
+datos (SGBD) o Database Management System (DBMS) es un conjunto de programas invisibles
+para el usuario final con el que se administra y gestiona la información que
+incluye una base de datos.<o:p></o:p></p>
+
+<p class="MsoNormal" style="text-align:justify">Los gestores de datos o gestores
+de base de datos permiten administra todo acceso a la base de datos, pues
+tienen el objetivo de servir de interface entre esta, el usuario y las
+aplicaciones.<o:p></o:p></p>
+
+<p class="MsoNormal" style="text-align:justify">Entre sus funciones se encuentra
+la de permitir a los usuarios de algún negocio o de una empresa almacenar
+información, modificar datos y acceder a los archivos de conocimiento de la organización,
+de igual manera el gestor de la base de datos también se ocupa de realizar
+consultas y hacer análisis para generar informes.<o:p></o:p></p>
+
+<p class="MsoNormal" style="text-align:justify">Además, los sistemas de gestión de
+base de datos interrelacionados, estructurados y organizados en el ecosistema
+formado por dicho conjunto de programas que acceden a ellos y facilitan su gestión.<o:p></o:p></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt;
+mso-bidi-font-size:11.0pt;line-height:107%"><b>¿Qué permiten los SGBD?</b><o:p></o:p></span></p>
+
+<p class="MsoListParagraphCxSpFirst" style="text-align:justify;text-indent:-18.0pt;
+mso-list:l0 level1 lfo1"><!--[if !supportLists]-->-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -&nbsp;</span><!--[endif]-->El gestor de la base de datos controla cualquier
+operación ejecutada por el usuario contra la base de datos.<o:p></o:p></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-18.0pt;
+mso-list:l0 level1 lfo1"><!--[if !supportLists]-->-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -&nbsp;</span><!--[endif]-->Que la interacción con cualquier base de datos
+gestionada pueda desarrollarse siempre separadamente a los programas o
+aplicaciones que lo gestionan<o:p></o:p></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-18.0pt;
+mso-list:l0 level1 lfo1"><!--[if !supportLists]-->-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -&nbsp;</span><!--[endif]-->Manipulación de base de datos, garantizando su
+seguridad, integridad y consistencia.<o:p></o:p></p>
+
+<p class="MsoListParagraphCxSpLast" style="text-align:justify;text-indent:-18.0pt;
+mso-list:l0 level1 lfo1"><!--[if !supportLists]-->-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -&nbsp;</span><!--[endif]-->Definición de bases de datos a diferentes
+niveles de abstracción.<o:p></o:p></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt;
+mso-bidi-font-size:11.0pt;line-height:107%"><b>Tipos de sistemas gestores de bases
+de datos</b><o:p></o:p></span></p>
+
+<p class="MsoListParagraphCxSpFirst" style="text-align:justify;text-indent:-18.0pt;
+mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span style="font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:107%;mso-ascii-font-family:Calibri;
+mso-fareast-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:
+Calibri">-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp;-&nbsp;</span></span><b>Sistema jerárquico</b>:<span style="font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:107%"> </span>Basado en un esquema de árbol
+para organizar los datos representados en tablas (las filas se componen por
+cada registro y las columnas por cada atributo) relacionados por
+correspondencias.<span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;
+line-height:107%"><o:p></o:p></span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-18.0pt;
+mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span style="font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:107%;mso-ascii-font-family:Calibri;
+mso-fareast-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:
+Calibri">-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -&nbsp;</span></span><!--[endif]--><b>Sistema de red</b>: Estructura con relaciones
+complejas, ya que cada registro puede rastrearse desde diferentes caminos.<span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:107%"><o:p></o:p></span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-18.0pt;
+mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span style="font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:107%;mso-ascii-font-family:Calibri;
+mso-fareast-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:
+Calibri">-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -&nbsp;</span></span><!--[endif]--><b>Sistema relacional</b>: Almacena datos en filas y
+columnas formando tablas conectadas por claves comunes.<span style="font-size:
+12.0pt;mso-bidi-font-size:11.0pt;line-height:107%"><o:p></o:p></span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-18.0pt;
+mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span style="font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:107%;mso-ascii-font-family:Calibri;
+mso-fareast-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:
+Calibri">-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -<b>&nbsp;</b></span></span><!--[endif]--><b>Sistema multidimensional</b>: estructura con aspecto
+de hoja de cálculo donde los datos se almacenan como se ven.<span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:107%"><o:p></o:p></span></p>
+
+<p class="MsoListParagraphCxSpLast" style="text-align:justify;text-indent:-18.0pt;
+mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span style="font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:107%;mso-ascii-font-family:Calibri;
+mso-fareast-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:
+Calibri">-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -&nbsp;</span></span><!--[endif]--><b>Sistemas de objetos</b>: Almacenan cualquier tipo de
+dato gráfico, como imagen, audio o texto.<span style="font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:107%"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt;
+mso-bidi-font-size:11.0pt;line-height:107%">Funciones de un gestor de base de
+datos<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:107%">&nbsp;</span>Un SGBD permite definir los datos, además
+de manipularlos, aplicar medidas de seguridad e integtridad y recuperarlos o
+restaurarlos desde de producirse algún tipo de fallo.<o:p></o:p></p>
+
+<p class="MsoNormal" style="text-align:justify">Estas son las principales funciones:<o:p></o:p></p>
+
+<p class="MsoListParagraphCxSpFirst" style="text-align:justify;text-indent:-18.0pt;
+mso-list:l0 level1 lfo1"><!--[if !supportLists]-->-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -&nbsp;</span><!--[endif]-->Contribuyen con la creación de bases de satos más
+eficaces y consistentes.<o:p></o:p></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-18.0pt;
+mso-list:l0 level1 lfo1"><!--[if !supportLists]-->-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -&nbsp;</span><!--[endif]-->Determinan las estructuras de almacenamiento del
+sistema.<o:p></o:p></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-18.0pt;
+mso-list:l0 level1 lfo1"><!--[if !supportLists]-->-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -&nbsp;</span><!--[endif]-->Facilitan la búsqueda de datos de cualquier tipo
+y procedencia a los usuarios.<o:p></o:p></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-18.0pt;
+mso-list:l0 level1 lfo1"><!--[if !supportLists]-->-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -&nbsp;</span><!--[endif]-->Ayudan a mantener la integridad de los activos
+informales de la empresa.<o:p></o:p></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-18.0pt;
+mso-list:l0 level1 lfo1"><!--[if !supportLists]-->-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -&nbsp;</span><!--[endif]-->Introducen cambios en la información, si es
+requerido.<o:p></o:p></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-18.0pt;
+mso-list:l0 level1 lfo1"><!--[if !supportLists]-->-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -&nbsp;</span><!--[endif]-->Simplifican los procesos de consulta.<o:p></o:p></p>
+
+<p class="MsoListParagraphCxSpLast" style="text-align:justify;text-indent:-18.0pt;
+mso-list:l0 level1 lfo1"><!--[if !supportLists]-->-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -&nbsp;</span><!--[endif]-->Controla los movimientos que se observan en la
+base de datos.<o:p></o:p></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt;
+mso-bidi-font-size:11.0pt;line-height:107%">Ejemplos de Sistemas gestores de
+bases de datos<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:justify"><b>Sistemas gestores de bases de
+datos relacionales</b><o:p></o:p></p>
+
+<p class="MsoListParagraphCxSpFirst" style="text-align:justify;text-indent:-18.0pt;
+mso-list:l0 level1 lfo1"><!--[if !supportLists]-->-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -&nbsp;</span><!--[endif]-->MYSQL<o:p></o:p></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-18.0pt;
+mso-list:l0 level1 lfo1"><!--[if !supportLists]-->-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -&nbsp;</span><!--[endif]-->MICROSOFT SQL SERVE<o:p></o:p></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-18.0pt;
+mso-list:l0 level1 lfo1"><!--[if !supportLists]-->-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -&nbsp;</span><!--[endif]-->MARIA DB<o:p></o:p></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-18.0pt;
+mso-list:l0 level1 lfo1"><!--[if !supportLists]-->-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -&nbsp;</span><!--[endif]-->ORACLE<o:p></o:p></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-18.0pt;
+mso-list:l0 level1 lfo1"><!--[if !supportLists]-->-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -&nbsp;</span><!--[endif]-->POSTGRESQL<o:p></o:p></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-18.0pt;
+mso-list:l0 level1 lfo1"><!--[if !supportLists]-->-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -&nbsp;</span><!--[endif]-->SQLite<o:p></o:p></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-18.0pt;
+mso-list:l0 level1 lfo1"><!--[if !supportLists]-->-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -&nbsp;</span><!--[endif]-->IBM Db2<o:p></o:p></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-18.0pt;
+mso-list:l0 level1 lfo1"><!--[if !supportLists]-->-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -&nbsp;</span><!--[endif]-->SAP HANA<o:p></o:p></p>
+
+<p class="MsoListParagraphCxSpLast" style="text-align:justify;text-indent:-18.0pt;
+mso-list:l0 level1 lfo1"><!--[if !supportLists]-->-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -&nbsp;</span><!--[endif]-->FIREBIRD<o:p></o:p></p>
+
+<p class="MsoNormal" style="text-align:justify"><b>Sistemas gestores de bases de
+datos NoSQL</b><o:p></o:p></p>
+
+<p class="MsoListParagraphCxSpFirst" style="text-align:justify;text-indent:-18.0pt;
+mso-list:l0 level1 lfo1"><!--[if !supportLists]-->-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -&nbsp;</span><!--[endif]-->MONGO DB<o:p></o:p></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-18.0pt;
+mso-list:l0 level1 lfo1"><!--[if !supportLists]-->-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -&nbsp;</span><!--[endif]-->CASSANDRA<o:p></o:p></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-18.0pt;
+mso-list:l0 level1 lfo1"><!--[if !supportLists]-->-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -&nbsp;</span><!--[endif]-->REDIS<o:p></o:p></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-18.0pt;
+mso-list:l0 level1 lfo1"><!--[if !supportLists]-->-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -&nbsp;</span><!--[endif]-->COUCHBASE<o:p></o:p></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-18.0pt;
+mso-list:l0 level1 lfo1"><!--[if !supportLists]-->-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -&nbsp;</span><!--[endif]-->DYNAMO DB<o:p></o:p></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-18.0pt;
+mso-list:l0 level1 lfo1"><!--[if !supportLists]-->-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -&nbsp;</span><!--[endif]-->NEO4J<o:p></o:p></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-18.0pt;
+mso-list:l0 level1 lfo1"><!--[if !supportLists]-->-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -&nbsp;</span><!--[endif]-->ELASTICSEARCH<o:p></o:p></p>
+
+<p class="MsoListParagraphCxSpLast" style="text-align:justify;text-indent:-18.0pt;
+mso-list:l0 level1 lfo1"><!--[if !supportLists]-->-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -&nbsp;</span><!--[endif]-->FIREBASE REALTIME DATABSE<o:p></o:p></p>
+
+<p class="MsoNormal" style="margin-left:18.0pt;text-align:justify"><b>Otros gestores</b></p>
+
+<p class="MsoListParagraphCxSpFirst" style="text-align:justify;text-indent:-18.0pt;
+mso-list:l0 level1 lfo1"><!--[if !supportLists]-->-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -&nbsp;</span><!--[endif]-->Apache HBase<o:p></o:p></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-18.0pt;
+mso-list:l0 level1 lfo1"><!--[if !supportLists]-->-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -&nbsp;</span><!--[endif]-->Apache couchDB<o:p></o:p></p>
+
+<p class="MsoListParagraphCxSpLast" style="text-align:justify;text-indent:-18.0pt;
+mso-list:l0 level1 lfo1"><!--[if !supportLists]-->-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -&nbsp;</span><!--[endif]-->Microsoft Azure Cosmos DB<o:p></o:p></p>
+
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt;
+mso-bidi-font-size:11.0pt;line-height:107%">Conclusión<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:justify">Un sistema gestor de base de
+datos da una serie de servicios y lenguajes para la creación, configuración y
+manipulación de la base de datos, además de mecanismos de respaldo.<o:p></o:p></p>
+
+<p class="MsoNormal" style="text-align:justify">Las organizaciones que usen un
+sistema gestor de base de datos también pueden almacenar una descripción de
+dichos lenguajes en un diccionario de datos y también asegurar su mantenimiento
+y su propio manual de usuario.<o:p></o:p></p>
+
+<p class="MsoNormal" style="text-align:justify">Siempre es importante analizar cuál
+es la necesidad que necesitamos cubrir, ver muy bien las opciones y de ahí determinar
+cuál es sistema gestor de base de datos que más se ajuste.</p>
+	
+	
+	
+	
+	

@@ -1,0 +1,10 @@
+
+		
+		
+		
+		
+		<link rel="stylesheet" href="../general/estilo/ed_estilo.css">&nbsp;Cada página contiene una variable llamada $raiz la cual contendrá la ruta para llegar a la raíz del proyecto, acortando y facilitando el acceso a todas las rutas de los demas archivos<div>Es de <font color="#6b24b2"><b>ámbito global</b></font></div><div><font color="#6b24b2"><b><br></b></font></div><div><font color="#6b24b2"><b><br></b></font></div><div><font color="#6b24b2"><b><br></b></font></div><div><font color="#6b24b2"><b><br></b></font></div><div><font color="#6b24b2"><b>VARIABLES GLOBALES DE SESION</b></font></div><div><font color="#6b24b2"><b>$_SESSION["ad_id"]: Guarda el id del administrador</b></font></div>
+	
+	
+	
+	

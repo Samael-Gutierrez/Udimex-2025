@@ -1,0 +1,33 @@
+nav {
+    margin: 25px; /* Ajusta la distancia del nav con respecto a los bordes */
+    margin-top: 10px; /* Ajusta el margen superior */
+    display: flex; /* Usa flexbox para alinear los elementos */
+    justify-content: flex-start; /* Alinea el botón a la izquierda */
+}
+
+nav a {
+    display: flex; /* Para alinear el texto y la flecha en línea */
+    align-items: center; /* Centra verticalmente el contenido */
+    text-decoration: none; /* Quita el subrayado del texto */
+    color: #0e3b83; /* Color de letra */
+    padding: 15px 50px; /* Espaciado interno */
+    font-size: 19; /* Tamaño de letra */
+    font-weight: bold; /* Negrita */
+}
+
+nav a::before {
+    content: '←'; /* Flecha hacia la izquierda */
+    margin-right: 5px; /* Espaciado entre la flecha y el texto */
+    font-size: 25px; /* Tamaño de la flecha */
+}
+
+.main-container {
+    margin: 10px auto; /* Centra el contenedor horizontalmente */
+    padding: 10px; /* Añade espacio interno */
+    max-width: 870px; /* Limita el ancho máximo del contenedor */
+    background-color: #ffffff; /* Fondo claro para diferenciar el contenido */
+    box-shadow: 0 8px 10px #0e3b83; /* Sombra suave para resaltar el contenedor */
+    border-radius: 20px;
+    margin-top: 0px;
+}
+

@@ -1,0 +1,144 @@
+.body{
+    background-color: #f9f9f9;
+}
+
+.fondo{
+background-color: #f9f9f9;
+}
+.alinear{
+    display: flex;
+    align-items:center ;
+    flex-direction: column;
+    justify-content: center;
+}
+.letra{
+    color: #f0ffff;
+}
+.calif{
+    padding: 10px 10px 10px 10px;
+    border: 1cm;
+    border-radius: 10px;
+     color: #00ffff;
+    display: flex;
+    align-items:center ;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+
+}
+.cuadro{
+    width: 10px;
+    height: 10px;
+    color: #00ffff;
+}
+.borde{
+	padding:5px 10px 5px 5px;
+	border: solid 2px;
+	border-radius:10px;
+	background-color: #f9f9f9;
+	
+}
+.jeje{
+    padding:5px 10px 5px 5px;
+	border: solid 2px;
+	border-radius:10px;
+	background-color: #f9f9f9;
+}
+.je{
+    padding:5px 10px 5px 5px;
+	border: solid 2px;
+	border-radius:10px;
+	background-color: #f9f9f9;
+}
+
+
+.relleno{
+  padding:5px 10px 5px 5px;
+	border: solid 2px;
+	border-radius:10px;
+	background-color: #f9f9f9;
+    }
+.jiji{
+    padding:5px 10px 5px 5px;
+	border: solid 10px;
+	border-radius:10px;
+	background-color: #ff5185;
+}
+
+.btn{
+    border-radius: 3px;
+    display: inline-block;
+    padding: 20px 15px;
+    text-decoration: none;
+
+    text-shadow: 0 1px 0 rgba(127, 204, 27, 0.2);
+}
+
+.btn_1{
+    color:#ff9800 ;
+    background-color: #673ab7;
+
+}
+.btesfedn{
+   
+   padding:1px 1px 1px 1px;
+	border: solid 5px;
+	border-radius:11px;
+	background-color: #ff7300;
+
+}
+
+
+
+
+
+#conteiner{
+ padding-top: 200px;
+ text-align: center;   
+}
+
+
+
+
+
+
+
+#main-container{
+			padding-top: 200px;
+			text-align: center;
+		}
+
+		.btn{
+			border-radius: 3px;
+			display: inline-block;
+			padding: 20px 15px;
+			text-decoration: none;
+			
+		}
+		
+		
+
+		.btn-green{
+			color: white;
+			background-color: #3CC93F;
+		}
+		.btn-green:hover{
+			background-color: #37B839;	
+		}
+		.btn-green:active{
+			background-color: #29962A;
+		}
+
+		.btn-red{
+			color: #000000;
+			background-color: #4caf50;
+		}
+		.btn-red:hover{
+			background-color: #4caf50;	
+		}
+		.btn-red:active{
+			background-color: #4caf50;
+		}
+
+
+

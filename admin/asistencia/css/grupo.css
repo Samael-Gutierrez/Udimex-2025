@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color:#2f2e2ee8;
+}
+
+.formulario {
+    background-color: #dce0eb;
+    border: 1px solid #0f3985ff;
+    padding: 30px; 
+    width: 100%;
+    max-width: 900px;
+    border-radius: 8px;
+    box-shadow: 0 10px 60px  #0f3985ff; 
+    margin-bottom: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color:#252424e8;
+}
+
+.carrera, .seleccion_b{
+    border-radius: 4px;
+    width: 40%;
+    min-height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    border: 2px solid #0f3985ff;
+}
+
+label {
+    font-weight: bold;
+    width: 100%; 
+    margin-bottom: 5px; 
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+h1 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+.g_grupo{
+    background-color:#0f3985ff; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 100%; 
+    margin-top: 35px; 
+    font-size: 16px; 
+
+}
+
+input[type="checkbox"] {
+    width: 20px; 
+    height: 20px; 
+    margin-right: 10px;
+}
+button{
+    border: none;
+    background: none;
+    padding: 0;
+}
+
+.volver{
+    padding: 5px;
+    border-radius: 40px;
+    cursor: pointer;
+    text-align: center;
+    color: #ffffff;
+    background-color: rgb(12, 52, 145);
+    font-size: 40px; 
+}
+.checa{
+    border: 2px solid #0f3985ff;
+    background-color: #0f3985ff;;
+}

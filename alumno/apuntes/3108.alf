@@ -1,0 +1,864 @@
+
+		<link rel="stylesheet" href="estilo/ed_estilo.css">&nbsp;<b style="text-indent: -18pt;"><span style="font-size:14.0pt;mso-bidi-font-size:
+11.0pt;mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-font-family:
+Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:Calibri;
+mso-bidi-theme-font:minor-latin;color:#2A2A2A;mso-fareast-language:ES-MX">a)<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: normal; font-stretch: normal; font-size: 7pt; line-height: normal;">&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></b><span style="text-indent: -18pt; color: rgb(42, 42, 42);">Divide las siguientes palabras en sílabas y encierra con rojo la sílaba
+tónica.</span><div class="WordSection1">
+
+
+
+<div align="center">
+
+<table class="MsoNormalTable" border="1" cellspacing="0" cellpadding="0" width="0" style="width:430.5pt;background:white;border-collapse:collapse;border:none;
+ mso-border-alt:outset windowtext .75pt;mso-border-bottom-alt:solid #EDEDED .75pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0cm 0cm 0cm 0cm">
+ <tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;height:20.2pt">
+  <td width="143" style="width:112.5pt;border:inset 1.0pt;border-top:solid #EDEDED 1.0pt;
+  mso-border-alt:inset windowtext .75pt;mso-border-top-alt:solid #EDEDED .75pt;
+  padding:4.5pt 7.5pt 4.5pt 0cm;height:20.2pt">
+  <p class="MsoNormal" align="center" style="margin-bottom:15.0pt;text-align:center;
+  line-height:200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+  minor-latin;mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:="" calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;="" mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">Amor<o:p></o:p></span></p>
+  </td>
+  <td width="143" style="width:112.5pt;border-top:solid #EDEDED 1.0pt;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-left-alt:
+  inset windowtext .75pt;mso-border-alt:inset windowtext .75pt;mso-border-top-alt:
+  solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm;height:20.2pt">
+  <p class="MsoNormal" align="center" style="margin-bottom:15.0pt;text-align:center;
+  line-height:200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+  minor-latin;mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:="" calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;="" mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">Manzana<o:p></o:p></span></p>
+  </td>
+  <td width="145" style="width:112.5pt;border-top:solid #EDEDED 1.0pt;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-left-alt:
+  inset windowtext .75pt;mso-border-alt:inset windowtext .75pt;mso-border-top-alt:
+  solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm;height:20.2pt">
+  <p class="MsoNormal" align="center" style="margin-bottom:15.0pt;text-align:center;
+  line-height:200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+  minor-latin;mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:="" calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;="" mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">Mientras<o:p></o:p></span></p>
+  </td>
+  <td width="143" style="width:112.5pt;border-top:solid #EDEDED 1.0pt;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-left-alt:
+  inset windowtext .75pt;mso-border-alt:inset windowtext .75pt;mso-border-top-alt:
+  solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm;height:20.2pt">
+  <p class="MsoNormal" align="center" style="margin-bottom:15.0pt;text-align:center;
+  line-height:200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+  minor-latin;mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:="" calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;="" mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">Camión<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="143" style="width:112.5pt;border:inset 1.0pt;border-top:none;
+  mso-border-top-alt:solid #EDEDED .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" align="center" style="margin-bottom:15.0pt;text-align:center;
+  line-height:200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+  minor-latin;mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:="" calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;="" mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">Línea<o:p></o:p></span></p>
+  </td>
+  <td width="143" style="width:112.5pt;border-top:none;border-left:none;
+  border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:solid #EDEDED .75pt;
+  mso-border-left-alt:inset windowtext .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" align="center" style="margin-bottom:15.0pt;text-align:center;
+  line-height:200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+  minor-latin;mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:="" calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;="" mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">Estrella<o:p></o:p></span></p>
+  </td>
+  <td width="145" style="width:112.5pt;border-top:none;border-left:none;
+  border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:solid #EDEDED .75pt;
+  mso-border-left-alt:inset windowtext .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" align="center" style="margin-bottom:15.0pt;text-align:center;
+  line-height:200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+  minor-latin;mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:="" calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;="" mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">Colegio<o:p></o:p></span></p>
+  </td>
+  <td width="143" style="width:112.5pt;border-top:none;border-left:none;
+  border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:solid #EDEDED .75pt;
+  mso-border-left-alt:inset windowtext .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" align="center" style="margin-bottom:15.0pt;text-align:center;
+  line-height:200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+  minor-latin;mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:="" calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;="" mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">Vehículo<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="143" style="width:112.5pt;border:inset 1.0pt;border-top:none;
+  mso-border-top-alt:solid #EDEDED .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" align="center" style="margin-bottom:15.0pt;text-align:center;
+  line-height:200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+  minor-latin;mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:="" calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;="" mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">Vehículo<o:p></o:p></span></p>
+  </td>
+  <td width="143" style="width:112.5pt;border-top:none;border-left:none;
+  border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:solid #EDEDED .75pt;
+  mso-border-left-alt:inset windowtext .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" align="center" style="margin-bottom:15.0pt;text-align:center;
+  line-height:200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+  minor-latin;mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:="" calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;="" mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">Díaz<o:p></o:p></span></p>
+  </td>
+  <td width="145" style="width:112.5pt;border-top:none;border-left:none;
+  border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:solid #EDEDED .75pt;
+  mso-border-left-alt:inset windowtext .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" align="center" style="margin-bottom:15.0pt;text-align:center;
+  line-height:200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+  minor-latin;mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:="" calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;="" mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">Mentira<o:p></o:p></span></p>
+  </td>
+  <td width="143" style="width:112.5pt;border-top:none;border-left:none;
+  border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:solid #EDEDED .75pt;
+  mso-border-left-alt:inset windowtext .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" align="center" style="margin-bottom:15.0pt;text-align:center;
+  line-height:200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+  minor-latin;mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:="" calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;="" mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">Tema<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="143" style="width:112.5pt;border:inset 1.0pt;border-top:none;
+  mso-border-top-alt:solid #EDEDED .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" align="center" style="margin-bottom:15.0pt;text-align:center;
+  line-height:200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+  minor-latin;mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:="" calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;="" mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">Fiestas<o:p></o:p></span></p>
+  </td>
+  <td width="143" style="width:112.5pt;border-top:none;border-left:none;
+  border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:solid #EDEDED .75pt;
+  mso-border-left-alt:inset windowtext .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" align="center" style="margin-bottom:15.0pt;text-align:center;
+  line-height:200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+  minor-latin;mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:="" calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;="" mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">Vivienda<o:p></o:p></span></p>
+  </td>
+  <td width="145" style="width:112.5pt;border-top:none;border-left:none;
+  border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:solid #EDEDED .75pt;
+  mso-border-left-alt:inset windowtext .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" align="center" style="margin-bottom:15.0pt;text-align:center;
+  line-height:200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+  minor-latin;mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:="" calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;="" mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">Verdad<o:p></o:p></span></p>
+  </td>
+  <td width="143" style="width:112.5pt;border-top:none;border-left:none;
+  border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:solid #EDEDED .75pt;
+  mso-border-left-alt:inset windowtext .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" align="center" style="margin-bottom:15.0pt;text-align:center;
+  line-height:200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+  minor-latin;mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:="" calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;="" mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">Tomate<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="143" style="width:112.5pt;border:inset 1.0pt;border-top:none;
+  mso-border-top-alt:solid #EDEDED .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" align="center" style="margin-bottom:15.0pt;text-align:center;
+  line-height:200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+  minor-latin;mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:="" calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;="" mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">Raíz<o:p></o:p></span></p>
+  </td>
+  <td width="143" style="width:112.5pt;border-top:none;border-left:none;
+  border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:solid #EDEDED .75pt;
+  mso-border-left-alt:inset windowtext .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" align="center" style="margin-bottom:15.0pt;text-align:center;
+  line-height:200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+  minor-latin;mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:="" calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;="" mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">Pacífico<o:p></o:p></span></p>
+  </td>
+  <td width="145" style="width:112.5pt;border-top:none;border-left:none;
+  border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:solid #EDEDED .75pt;
+  mso-border-left-alt:inset windowtext .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" align="center" style="margin-bottom:15.0pt;text-align:center;
+  line-height:200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+  minor-latin;mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:="" calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;="" mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">Comprensión<o:p></o:p></span></p>
+  </td>
+  <td width="143" style="width:112.5pt;border-top:none;border-left:none;
+  border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:solid #EDEDED .75pt;
+  mso-border-left-alt:inset windowtext .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" align="center" style="margin-bottom:15.0pt;text-align:center;
+  line-height:200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+  minor-latin;mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:="" calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;="" mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">Frío<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="143" style="width:112.5pt;border:inset 1.0pt;border-top:none;
+  mso-border-top-alt:solid #EDEDED .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" align="center" style="margin-bottom:15.0pt;text-align:center;
+  line-height:200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+  minor-latin;mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:="" calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;="" mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">Mesa<o:p></o:p></span></p>
+  </td>
+  <td width="143" style="width:112.5pt;border-top:none;border-left:none;
+  border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:solid #EDEDED .75pt;
+  mso-border-left-alt:inset windowtext .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" align="center" style="margin-bottom:15.0pt;text-align:center;
+  line-height:200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+  minor-latin;mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:="" calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;="" mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">Fuente<o:p></o:p></span></p>
+  </td>
+  <td width="145" style="width:112.5pt;border-top:none;border-left:none;
+  border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:solid #EDEDED .75pt;
+  mso-border-left-alt:inset windowtext .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" align="center" style="margin-bottom:15.0pt;text-align:center;
+  line-height:200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+  minor-latin;mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:="" calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;="" mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">Paz<o:p></o:p></span></p>
+  </td>
+  <td width="143" style="width:112.5pt;border-top:none;border-left:none;
+  border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:solid #EDEDED .75pt;
+  mso-border-left-alt:inset windowtext .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" align="center" style="margin-bottom:15.0pt;text-align:center;
+  line-height:200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+  minor-latin;mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:="" calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;="" mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">Maestro<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="143" style="width:112.5pt;border:inset 1.0pt;border-top:none;
+  mso-border-top-alt:solid #EDEDED .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" align="center" style="margin-bottom:15.0pt;text-align:center;
+  line-height:200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+  minor-latin;mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:="" calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;="" mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">Escritorio<o:p></o:p></span></p>
+  </td>
+  <td width="143" style="width:112.5pt;border-top:none;border-left:none;
+  border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:solid #EDEDED .75pt;
+  mso-border-left-alt:inset windowtext .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" align="center" style="margin-bottom:15.0pt;text-align:center;
+  line-height:200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+  minor-latin;mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:="" calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;="" mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">Ambiente<o:p></o:p></span></p>
+  </td>
+  <td width="145" style="width:112.5pt;border-top:none;border-left:none;
+  border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:solid #EDEDED .75pt;
+  mso-border-left-alt:inset windowtext .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" align="center" style="margin-bottom:15.0pt;text-align:center;
+  line-height:200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+  minor-latin;mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:="" calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;="" mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">Libertad<o:p></o:p></span></p>
+  </td>
+  <td width="143" style="width:112.5pt;border-top:none;border-left:none;
+  border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:solid #EDEDED .75pt;
+  mso-border-left-alt:inset windowtext .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" align="center" style="margin-bottom:15.0pt;text-align:center;
+  line-height:200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+  minor-latin;mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:="" calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;="" mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">Inocente<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="143" style="width:112.5pt;border:inset 1.0pt;border-top:none;
+  mso-border-top-alt:solid #EDEDED .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" align="center" style="margin-bottom:15.0pt;text-align:center;
+  line-height:200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+  minor-latin;mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:="" calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;="" mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">Juez<o:p></o:p></span></p>
+  </td>
+  <td width="143" style="width:112.5pt;border-top:none;border-left:none;
+  border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:solid #EDEDED .75pt;
+  mso-border-left-alt:inset windowtext .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" align="center" style="margin-bottom:15.0pt;text-align:center;
+  line-height:200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+  minor-latin;mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:="" calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;="" mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">Audiencia<o:p></o:p></span></p>
+  </td>
+  <td width="145" style="width:112.5pt;border-top:none;border-left:none;
+  border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:solid #EDEDED .75pt;
+  mso-border-left-alt:inset windowtext .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" align="center" style="margin-bottom:15.0pt;text-align:center;
+  line-height:200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+  minor-latin;mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:="" calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;="" mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">Fiesta<o:p></o:p></span></p>
+  </td>
+  <td width="143" style="width:112.5pt;border-top:none;border-left:none;
+  border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:solid #EDEDED .75pt;
+  mso-border-left-alt:inset windowtext .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" align="center" style="margin-bottom:15.0pt;text-align:center;
+  line-height:200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+  minor-latin;mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:="" calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;="" mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">Escuela<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="143" style="width:112.5pt;border:inset 1.0pt;border-top:none;
+  mso-border-top-alt:solid #EDEDED .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" align="center" style="margin-bottom:15.0pt;text-align:center;
+  line-height:200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+  minor-latin;mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:="" calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;="" mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">Cien<o:p></o:p></span></p>
+  </td>
+  <td width="143" style="width:112.5pt;border-top:none;border-left:none;
+  border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:solid #EDEDED .75pt;
+  mso-border-left-alt:inset windowtext .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" align="center" style="margin-bottom:15.0pt;text-align:center;
+  line-height:200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+  minor-latin;mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:="" calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;="" mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">Entrevista<o:p></o:p></span></p>
+  </td>
+  <td width="145" style="width:112.5pt;border-top:none;border-left:none;
+  border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:solid #EDEDED .75pt;
+  mso-border-left-alt:inset windowtext .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" align="center" style="margin-bottom:15.0pt;text-align:center;
+  line-height:200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+  minor-latin;mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:="" calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;="" mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">Triunfo<o:p></o:p></span></p>
+  </td>
+  <td width="143" style="width:112.5pt;border-top:none;border-left:none;
+  border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:solid #EDEDED .75pt;
+  mso-border-left-alt:inset windowtext .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" align="center" style="margin-bottom:15.0pt;text-align:center;
+  line-height:200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+  minor-latin;mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:="" calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;="" mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">Noche<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="143" style="width:112.5pt;border:inset 1.0pt;border-top:none;
+  mso-border-top-alt:solid #EDEDED .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" align="center" style="margin-bottom:15.0pt;text-align:center;
+  line-height:200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+  minor-latin;mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:="" calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;="" mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">Mil<o:p></o:p></span></p>
+  </td>
+  <td width="143" style="width:112.5pt;border-top:none;border-left:none;
+  border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:solid #EDEDED .75pt;
+  mso-border-left-alt:inset windowtext .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" align="center" style="margin-bottom:15.0pt;text-align:center;
+  line-height:200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+  minor-latin;mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:="" calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;="" mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">Domicilio<o:p></o:p></span></p>
+  </td>
+  <td width="145" style="width:112.5pt;border-top:none;border-left:none;
+  border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:solid #EDEDED .75pt;
+  mso-border-left-alt:inset windowtext .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" align="center" style="margin-bottom:15.0pt;text-align:center;
+  line-height:200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+  minor-latin;mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:="" calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;="" mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">Derrota<o:p></o:p></span></p>
+  </td>
+  <td width="143" style="width:112.5pt;border-top:none;border-left:none;
+  border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:solid #EDEDED .75pt;
+  mso-border-left-alt:inset windowtext .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" align="center" style="margin-bottom:15.0pt;text-align:center;
+  line-height:200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+  minor-latin;mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:="" calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;="" mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">Día<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:10;height:24.7pt">
+  <td width="143" style="width:112.5pt;border-top:none;border-left:inset 1.0pt;
+  border-bottom:solid #EDEDED 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:
+  solid #EDEDED .75pt;mso-border-top-alt:solid #EDEDED;mso-border-left-alt:
+  inset windowtext;mso-border-bottom-alt:solid #EDEDED;mso-border-right-alt:
+  inset windowtext;mso-border-width-alt:.75pt;padding:4.5pt 7.5pt 4.5pt 0cm;
+  height:24.7pt">
+  <p class="MsoNormal" align="center" style="margin-bottom:15.0pt;text-align:center;
+  line-height:200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+  minor-latin;mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:="" calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;="" mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">Campana<o:p></o:p></span></p>
+  </td>
+  <td width="143" style="width:112.5pt;border-top:none;border-left:none;
+  border-bottom:solid #EDEDED 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:
+  solid #EDEDED .75pt;mso-border-left-alt:inset windowtext .75pt;mso-border-top-alt:
+  solid #EDEDED;mso-border-left-alt:inset windowtext;mso-border-bottom-alt:
+  solid #EDEDED;mso-border-right-alt:inset windowtext;mso-border-width-alt:
+  .75pt;padding:4.5pt 7.5pt 4.5pt 0cm;height:24.7pt">
+  <p class="MsoNormal" align="center" style="margin-bottom:15.0pt;text-align:center;
+  line-height:200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+  minor-latin;mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:="" calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;="" mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">Navidad<o:p></o:p></span></p>
+  </td>
+  <td width="145" style="width:112.5pt;border-top:none;border-left:none;
+  border-bottom:solid #EDEDED 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:
+  solid #EDEDED .75pt;mso-border-left-alt:inset windowtext .75pt;mso-border-top-alt:
+  solid #EDEDED;mso-border-left-alt:inset windowtext;mso-border-bottom-alt:
+  solid #EDEDED;mso-border-right-alt:inset windowtext;mso-border-width-alt:
+  .75pt;padding:4.5pt 7.5pt 4.5pt 0cm;height:24.7pt">
+  <p class="MsoNormal" align="center" style="margin-bottom:15.0pt;text-align:center;
+  line-height:200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+  minor-latin;mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:="" calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;="" mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">Dios<o:p></o:p></span></p>
+  </td>
+  <td width="143" style="width:112.5pt;border-top:none;border-left:none;
+  border-bottom:solid #EDEDED 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:
+  solid #EDEDED .75pt;mso-border-left-alt:inset windowtext .75pt;mso-border-top-alt:
+  solid #EDEDED;mso-border-left-alt:inset windowtext;mso-border-bottom-alt:
+  solid #EDEDED;mso-border-right-alt:inset windowtext;mso-border-width-alt:
+  .75pt;padding:4.5pt 7.5pt 4.5pt 0cm;height:24.7pt">
+  <p class="MsoNormal" align="center" style="margin-bottom:15.0pt;text-align:center;
+  line-height:200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+  minor-latin;mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:="" calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;="" mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">Luz<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:11;mso-yfti-lastrow:yes;height:24.7pt">
+  <td width="143" style="width:112.5pt;border:inset 1.0pt;border-top:none;
+  mso-border-top-alt:solid #EDEDED .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm;
+  height:24.7pt">
+  <p class="MsoNormal" align="center" style="margin-bottom:15.0pt;text-align:center;
+  line-height:200%"></p></td><td width="143" style="width:112.5pt;border-top:none;border-left:none;
+  border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:solid #EDEDED .75pt;
+  mso-border-left-alt:inset windowtext .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm;
+  height:24.7pt"><br></td><td width="145" style="width:112.5pt;border-top:none;border-left:none;
+  border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:solid #EDEDED .75pt;
+  mso-border-left-alt:inset windowtext .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm;
+  height:24.7pt"></td><td width="143" style="width:112.5pt;border-top:none;border-left:none;
+  border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:solid #EDEDED .75pt;
+  mso-border-left-alt:inset windowtext .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm;
+  height:24.7pt">
+  </td>
+ </tr>
+</tbody></table>
+
+</div>
+
+<p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><b>Clasifica
+las palabras anteriores según su número de sílabas<span style="display:none;
+mso-hide:all"><o:p></o:p></span></b></p>
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<div align="center">
+
+<table class="MsoNormalTable" border="1" cellspacing="0" cellpadding="0" width="0" style="width:430.5pt;background:white;border-collapse:collapse;border:none;
+ mso-border-alt:outset windowtext .75pt;mso-border-bottom-alt:solid #EDEDED .75pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0cm 0cm 0cm 0cm">
+ <tbody><tr>
+  <td width="145" valign="top" style="width:108.5pt;border:inset 1.0pt;border-top:
+  solid #EDEDED 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-top-alt:
+  solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" align="center" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:
+  auto;text-align:center;line-height:200%"><b><span style="mso-ascii-font-family:
+  Calibri;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:" times="" new="" roman";="" mso-hansi-font-family:calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:="" calibri;mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:="" es-mx"="">Monosílabas&nbsp; (1)</span></b><span style="mso-ascii-font-family:
+  Calibri;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:" times="" new="" roman";="" mso-hansi-font-family:calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:="" calibri;mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:="" es-mx"=""><o:p></o:p></span></p>
+  </td>
+  <td width="142" valign="top" style="width:106.6pt;border-top:solid #EDEDED 1.0pt;
+  border-left:none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;
+  mso-border-left-alt:inset windowtext .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" align="center" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:
+  auto;text-align:center;line-height:200%"><b><span style="mso-ascii-font-family:
+  Calibri;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:" times="" new="" roman";="" mso-hansi-font-family:calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:="" calibri;mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:="" es-mx"="">Bisílabas&nbsp; (2)</span></b><span style="mso-ascii-font-family:Calibri;
+  mso-ascii-theme-font:minor-latin;mso-fareast-font-family:" times="" new="" roman";="" mso-hansi-font-family:calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:="" calibri;mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:="" es-mx"=""><o:p></o:p></span></p>
+  </td>
+  <td width="143" valign="top" style="width:106.9pt;border-top:solid #EDEDED 1.0pt;
+  border-left:none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;
+  mso-border-left-alt:inset windowtext .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" align="center" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:
+  auto;text-align:center;line-height:200%"><b><span style="mso-ascii-font-family:
+  Calibri;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:" times="" new="" roman";="" mso-hansi-font-family:calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:="" calibri;mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:="" es-mx"="">Trisílabas&nbsp; &nbsp;(3)</span></b><span style="mso-ascii-font-family:
+  Calibri;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:" times="" new="" roman";="" mso-hansi-font-family:calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:="" calibri;mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:="" es-mx"=""><o:p></o:p></span></p>
+  </td>
+  <td width="145" valign="top" style="width:108.5pt;border-top:solid #EDEDED 1.0pt;
+  border-left:none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;
+  mso-border-left-alt:inset windowtext .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" align="center" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:
+  auto;text-align:center;line-height:200%"><b><span style="mso-ascii-font-family:
+  Calibri;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:" times="" new="" roman";="" mso-hansi-font-family:calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:="" calibri;mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:="" es-mx"="">Tetrasílabas&nbsp;&nbsp; (4)</span></b><span style="mso-ascii-font-family:
+  Calibri;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:" times="" new="" roman";="" mso-hansi-font-family:calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:="" calibri;mso-bidi-theme-font:minor-latin;color:#2a2a2a;mso-fareast-language:="" es-mx"=""><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="145" valign="top" style="width:108.5pt;border:inset 1.0pt;border-top:
+  none;mso-border-top-alt:solid #EDEDED .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;
+  mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:calibri;="" mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;mso-bidi-theme-font:="" minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">&nbsp;1.<o:p></o:p></span></p>
+  </td>
+  <td width="142" valign="top" style="width:106.6pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:
+  solid #EDEDED .75pt;mso-border-left-alt:inset windowtext .75pt;mso-border-alt:
+  inset windowtext .75pt;mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;
+  mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:calibri;="" mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;mso-bidi-theme-font:="" minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">&nbsp;1.<o:p></o:p></span></p>
+  </td>
+  <td width="143" valign="top" style="width:106.9pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:
+  solid #EDEDED .75pt;mso-border-left-alt:inset windowtext .75pt;mso-border-alt:
+  inset windowtext .75pt;mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;
+  mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:calibri;="" mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;mso-bidi-theme-font:="" minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">&nbsp;1.<o:p></o:p></span></p>
+  </td>
+  <td width="145" valign="top" style="width:108.5pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:
+  solid #EDEDED .75pt;mso-border-left-alt:inset windowtext .75pt;mso-border-alt:
+  inset windowtext .75pt;mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;
+  mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:calibri;="" mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;mso-bidi-theme-font:="" minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">&nbsp;1.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="145" valign="top" style="width:108.5pt;border:inset 1.0pt;border-top:
+  none;mso-border-top-alt:solid #EDEDED .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;
+  mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:calibri;="" mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;mso-bidi-theme-font:="" minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">&nbsp;2.<o:p></o:p></span></p>
+  </td>
+  <td width="142" valign="top" style="width:106.6pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:
+  solid #EDEDED .75pt;mso-border-left-alt:inset windowtext .75pt;mso-border-alt:
+  inset windowtext .75pt;mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;
+  mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:calibri;="" mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;mso-bidi-theme-font:="" minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">&nbsp;2.<o:p></o:p></span></p>
+  </td>
+  <td width="143" valign="top" style="width:106.9pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:
+  solid #EDEDED .75pt;mso-border-left-alt:inset windowtext .75pt;mso-border-alt:
+  inset windowtext .75pt;mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;
+  mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:calibri;="" mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;mso-bidi-theme-font:="" minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">&nbsp;2.<o:p></o:p></span></p>
+  </td>
+  <td width="145" valign="top" style="width:108.5pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:
+  solid #EDEDED .75pt;mso-border-left-alt:inset windowtext .75pt;mso-border-alt:
+  inset windowtext .75pt;mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;
+  mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:calibri;="" mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;mso-bidi-theme-font:="" minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">&nbsp;2.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="145" valign="top" style="width:108.5pt;border:inset 1.0pt;border-top:
+  none;mso-border-top-alt:solid #EDEDED .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;
+  mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:calibri;="" mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;mso-bidi-theme-font:="" minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">&nbsp;3.<o:p></o:p></span></p>
+  </td>
+  <td width="142" valign="top" style="width:106.6pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:
+  solid #EDEDED .75pt;mso-border-left-alt:inset windowtext .75pt;mso-border-alt:
+  inset windowtext .75pt;mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;
+  mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:calibri;="" mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;mso-bidi-theme-font:="" minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">&nbsp;3.<o:p></o:p></span></p>
+  </td>
+  <td width="143" valign="top" style="width:106.9pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:
+  solid #EDEDED .75pt;mso-border-left-alt:inset windowtext .75pt;mso-border-alt:
+  inset windowtext .75pt;mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;
+  mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:calibri;="" mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;mso-bidi-theme-font:="" minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">&nbsp;3.<o:p></o:p></span></p>
+  </td>
+  <td width="145" valign="top" style="width:108.5pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:
+  solid #EDEDED .75pt;mso-border-left-alt:inset windowtext .75pt;mso-border-alt:
+  inset windowtext .75pt;mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;
+  mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:calibri;="" mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;mso-bidi-theme-font:="" minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">&nbsp;3.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="145" valign="top" style="width:108.5pt;border:inset 1.0pt;border-top:
+  none;mso-border-top-alt:solid #EDEDED .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;
+  mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:calibri;="" mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;mso-bidi-theme-font:="" minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">&nbsp;4.<o:p></o:p></span></p>
+  </td>
+  <td width="142" valign="top" style="width:106.6pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:
+  solid #EDEDED .75pt;mso-border-left-alt:inset windowtext .75pt;mso-border-alt:
+  inset windowtext .75pt;mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;
+  mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:calibri;="" mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;mso-bidi-theme-font:="" minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">&nbsp;4.<o:p></o:p></span></p>
+  </td>
+  <td width="143" valign="top" style="width:106.9pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:
+  solid #EDEDED .75pt;mso-border-left-alt:inset windowtext .75pt;mso-border-alt:
+  inset windowtext .75pt;mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;
+  mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:calibri;="" mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;mso-bidi-theme-font:="" minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">&nbsp;4.<o:p></o:p></span></p>
+  </td>
+  <td width="145" valign="top" style="width:108.5pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:
+  solid #EDEDED .75pt;mso-border-left-alt:inset windowtext .75pt;mso-border-alt:
+  inset windowtext .75pt;mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;
+  mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:calibri;="" mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;mso-bidi-theme-font:="" minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">&nbsp;4.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="145" valign="top" style="width:108.5pt;border:inset 1.0pt;border-top:
+  none;mso-border-top-alt:solid #EDEDED .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;
+  mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:calibri;="" mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;mso-bidi-theme-font:="" minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">&nbsp;5.<o:p></o:p></span></p>
+  </td>
+  <td width="142" valign="top" style="width:106.6pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:
+  solid #EDEDED .75pt;mso-border-left-alt:inset windowtext .75pt;mso-border-alt:
+  inset windowtext .75pt;mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;
+  mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:calibri;="" mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;mso-bidi-theme-font:="" minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">&nbsp;5.<o:p></o:p></span></p>
+  </td>
+  <td width="143" valign="top" style="width:106.9pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:
+  solid #EDEDED .75pt;mso-border-left-alt:inset windowtext .75pt;mso-border-alt:
+  inset windowtext .75pt;mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;
+  mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:calibri;="" mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;mso-bidi-theme-font:="" minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">&nbsp;5.<o:p></o:p></span></p>
+  </td>
+  <td width="145" valign="top" style="width:108.5pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:
+  solid #EDEDED .75pt;mso-border-left-alt:inset windowtext .75pt;mso-border-alt:
+  inset windowtext .75pt;mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;
+  mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:calibri;="" mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;mso-bidi-theme-font:="" minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">&nbsp;5.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="145" valign="top" style="width:108.5pt;border:inset 1.0pt;border-top:
+  none;mso-border-top-alt:solid #EDEDED .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;
+  mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:calibri;="" mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;mso-bidi-theme-font:="" minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">&nbsp;6.<o:p></o:p></span></p>
+  </td>
+  <td width="142" valign="top" style="width:106.6pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:
+  solid #EDEDED .75pt;mso-border-left-alt:inset windowtext .75pt;mso-border-alt:
+  inset windowtext .75pt;mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;
+  mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:calibri;="" mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;mso-bidi-theme-font:="" minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">&nbsp;6.<o:p></o:p></span></p>
+  </td>
+  <td width="143" valign="top" style="width:106.9pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:
+  solid #EDEDED .75pt;mso-border-left-alt:inset windowtext .75pt;mso-border-alt:
+  inset windowtext .75pt;mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;
+  mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:calibri;="" mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;mso-bidi-theme-font:="" minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">&nbsp;6.<o:p></o:p></span></p>
+  </td>
+  <td width="145" valign="top" style="width:108.5pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:
+  solid #EDEDED .75pt;mso-border-left-alt:inset windowtext .75pt;mso-border-alt:
+  inset windowtext .75pt;mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;
+  mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:calibri;="" mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;mso-bidi-theme-font:="" minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">&nbsp;6.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="145" valign="top" style="width:108.5pt;border:inset 1.0pt;border-top:
+  none;mso-border-top-alt:solid #EDEDED .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;
+  mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:calibri;="" mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;mso-bidi-theme-font:="" minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">&nbsp;7.<o:p></o:p></span></p>
+  </td>
+  <td width="142" valign="top" style="width:106.6pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:
+  solid #EDEDED .75pt;mso-border-left-alt:inset windowtext .75pt;mso-border-alt:
+  inset windowtext .75pt;mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;
+  mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:calibri;="" mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;mso-bidi-theme-font:="" minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">&nbsp;7.<o:p></o:p></span></p>
+  </td>
+  <td width="143" valign="top" style="width:106.9pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:
+  solid #EDEDED .75pt;mso-border-left-alt:inset windowtext .75pt;mso-border-alt:
+  inset windowtext .75pt;mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;
+  mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:calibri;="" mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;mso-bidi-theme-font:="" minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">&nbsp;7.<o:p></o:p></span></p>
+  </td>
+  <td width="145" valign="top" style="width:108.5pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:
+  solid #EDEDED .75pt;mso-border-left-alt:inset windowtext .75pt;mso-border-alt:
+  inset windowtext .75pt;mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;
+  mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:calibri;="" mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;mso-bidi-theme-font:="" minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">&nbsp;7.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="145" valign="top" style="width:108.5pt;border:inset 1.0pt;border-top:
+  none;mso-border-top-alt:solid #EDEDED .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;
+  mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:calibri;="" mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;mso-bidi-theme-font:="" minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">&nbsp;8.<o:p></o:p></span></p>
+  </td>
+  <td width="142" valign="top" style="width:106.6pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:
+  solid #EDEDED .75pt;mso-border-left-alt:inset windowtext .75pt;mso-border-alt:
+  inset windowtext .75pt;mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;
+  mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:calibri;="" mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;mso-bidi-theme-font:="" minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">&nbsp;8.<o:p></o:p></span></p>
+  </td>
+  <td width="143" valign="top" style="width:106.9pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:
+  solid #EDEDED .75pt;mso-border-left-alt:inset windowtext .75pt;mso-border-alt:
+  inset windowtext .75pt;mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;
+  mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:calibri;="" mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;mso-bidi-theme-font:="" minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">&nbsp;8.<o:p></o:p></span></p>
+  </td>
+  <td width="145" valign="top" style="width:108.5pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:
+  solid #EDEDED .75pt;mso-border-left-alt:inset windowtext .75pt;mso-border-alt:
+  inset windowtext .75pt;mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;
+  mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:calibri;="" mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;mso-bidi-theme-font:="" minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">&nbsp;8.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="145" valign="top" style="width:108.5pt;border:inset 1.0pt;border-top:
+  none;mso-border-top-alt:solid #EDEDED .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;
+  mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:calibri;="" mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;mso-bidi-theme-font:="" minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">&nbsp;9.<o:p></o:p></span></p>
+  </td>
+  <td width="142" valign="top" style="width:106.6pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:
+  solid #EDEDED .75pt;mso-border-left-alt:inset windowtext .75pt;mso-border-alt:
+  inset windowtext .75pt;mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;
+  mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:calibri;="" mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;mso-bidi-theme-font:="" minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">&nbsp;9.<o:p></o:p></span></p>
+  </td>
+  <td width="143" valign="top" style="width:106.9pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:
+  solid #EDEDED .75pt;mso-border-left-alt:inset windowtext .75pt;mso-border-alt:
+  inset windowtext .75pt;mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;
+  mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:calibri;="" mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;mso-bidi-theme-font:="" minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">&nbsp;9.<o:p></o:p></span></p>
+  </td>
+  <td width="145" valign="top" style="width:108.5pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:
+  solid #EDEDED .75pt;mso-border-left-alt:inset windowtext .75pt;mso-border-alt:
+  inset windowtext .75pt;mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;
+  mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:calibri;="" mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;mso-bidi-theme-font:="" minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">&nbsp;9.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="145" valign="top" style="width:108.5pt;border:inset 1.0pt;border-top:
+  none;mso-border-top-alt:solid #EDEDED .75pt;mso-border-alt:inset windowtext .75pt;
+  mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;
+  mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:calibri;="" mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;mso-bidi-theme-font:="" minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">&nbsp;10.<o:p></o:p></span></p>
+  </td>
+  <td width="142" valign="top" style="width:106.6pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:
+  solid #EDEDED .75pt;mso-border-left-alt:inset windowtext .75pt;mso-border-alt:
+  inset windowtext .75pt;mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;
+  mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:calibri;="" mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;mso-bidi-theme-font:="" minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">&nbsp;10.<o:p></o:p></span></p>
+  </td>
+  <td width="143" valign="top" style="width:106.9pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:
+  solid #EDEDED .75pt;mso-border-left-alt:inset windowtext .75pt;mso-border-alt:
+  inset windowtext .75pt;mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;
+  mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:calibri;="" mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;mso-bidi-theme-font:="" minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">&nbsp;10.<o:p></o:p></span></p>
+  </td>
+  <td width="145" valign="top" style="width:108.5pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-top-alt:
+  solid #EDEDED .75pt;mso-border-left-alt:inset windowtext .75pt;mso-border-alt:
+  inset windowtext .75pt;mso-border-top-alt:solid #EDEDED .75pt;padding:4.5pt 7.5pt 4.5pt 0cm">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  200%"><span style="mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;
+  mso-fareast-font-family:" times="" new="" roman";mso-hansi-font-family:calibri;="" mso-hansi-theme-font:minor-latin;mso-bidi-font-family:calibri;mso-bidi-theme-font:="" minor-latin;color:#2a2a2a;mso-fareast-language:es-mx"="">&nbsp;10.<o:p></o:p></span></p>
+  </td>
+ </tr>
+</tbody></table>
+
+</div>
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoListParagraph" style="margin-left:18.0pt;mso-add-space:auto;
+text-indent:-18.0pt;mso-list:l0 level1 lfo1"><!--[if !supportLists]--><b><span style="font-size:14.0pt;mso-bidi-font-size:
+11.0pt;line-height:115%;mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;
+mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:
+Calibri;mso-bidi-theme-font:minor-latin">b)<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: normal; font-stretch: normal; font-size: 7pt; line-height: normal;">&nbsp;&nbsp;&nbsp; </span></span></b><!--[endif]--><b>Responde
+las siguientes preguntas y complementa la información que se solicita<o:p></o:p></b></p>
+
+<p class="MsoNormal"><b>Una
+de las siguientes palabras es aguda:&nbsp;</b><o:p></o:p></p>
+
+<p style="background:white"><span style="font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;&nbsp;&nbsp;</span><input type="radio" name="R1"><span style="font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;Coche<o:p></o:p></span></p>
+
+<p style="background:white"><span style="font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;&nbsp;&nbsp;</span><input type="radio" name="R1"><span style="font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;Fajín<o:p></o:p></span></p>
+
+<p style="background:white"><span style="font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;&nbsp;&nbsp;</span><input type="radio" name="R1"><span style="font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;Cántaro<o:p></o:p></span></p>
+
+<p style="background:white"><span style="font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;&nbsp;&nbsp;</span><input type="radio" name="R1"><span style="font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;Mesa<o:p></o:p></span></p>
+
+<p style="background:white"><b><span style="font-size: 11pt; font-family: Calibri, sans-serif;">Las palabras&nbsp;</span></b><b><input type="text" size="13" name="box1"></b><b><span style="font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;llevan acento gráfico siempre.&nbsp;<o:p></o:p></span></b></p>
+
+<p style="background:white"><b><span style="font-size: 11pt; font-family: Calibri, sans-serif;">Las palabras monosílabas, según las normas de
+acentuación...&nbsp;</span></b><span style="font-size: 11pt; font-family: Calibri, sans-serif;"><o:p></o:p></span></p>
+
+<p style="background:white"><span style="font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;&nbsp;&nbsp;</span><input type="radio" name="R4"><span style="font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;...nunca llevan tilde.<o:p></o:p></span></p>
+
+<p style="background:white"><span style="font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;&nbsp;&nbsp;</span><input type="radio" name="R4"><span style="font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;...siempre llevan tilde.<o:p></o:p></span></p>
+
+<p style="background:white"><span style="font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;&nbsp;&nbsp;</span><input type="radio" name="R4"><span style="font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;...sólo llevan tilde para diferenciarse de otras palabras
+que se escriben igual. (Tilde o acento diacrítico)<o:p></o:p></span></p>
+
+<p style="background:white"><b><span style="font-size: 11pt; font-family: Calibri, sans-serif;">Sólo una de estas palabras está escrita
+correctamente:&nbsp;</span></b><span style="font-size: 11pt; font-family: Calibri, sans-serif;"><o:p></o:p></span></p>
+
+<p style="background:white"><span style="font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;&nbsp;&nbsp;</span><input type="radio" name="R5"><span style="font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;Ágil<o:p></o:p></span></p>
+
+<p style="background:white"><span style="font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;&nbsp;&nbsp;</span><input type="radio" name="R5"><span style="font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;Álto<o:p></o:p></span></p>
+
+<p style="background:white"><span style="font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;&nbsp;&nbsp;</span><input type="radio" name="R5"><span style="font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;Métros<o:p></o:p></span></p>
+
+<p style="background:white"><span style="font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;&nbsp;&nbsp;</span><input type="radio" name="R5"><span style="font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;Alégran<o:p></o:p></span></p>
+
+<p style="background:white"><b><span style="font-size: 11pt; font-family: Calibri, sans-serif;">Sólo una de estas palabras está bien separada
+silábicamente:&nbsp;</span></b><span style="font-size: 11pt; font-family: Calibri, sans-serif;"><o:p></o:p></span></p>
+
+<p style="background:white"><span style="font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;&nbsp;&nbsp;</span><input type="radio" name="R11"><span style="font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;ca-í-a<o:p></o:p></span></p>
+
+<p style="background:white"><span style="font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;&nbsp;&nbsp;</span><input type="radio" name="R11"><span style="font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;ha-bi-ta-ci-ón<o:p></o:p></span></p>
+
+<p style="background:white"><span style="font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;&nbsp;&nbsp;</span><input type="radio" name="R11"><span style="font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;sae-ta<o:p></o:p></span></p>
+
+<p style="background:white"><span style="font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;&nbsp;&nbsp;</span><input type="radio" name="R11"><span style="font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;a-i-re</span></p></div>
+
+<div class="WordSection2">
+
+<p style="margin-left:18.0pt;text-indent:-18.0pt;mso-list:l0 level1 lfo1;
+background:white"><!--[if !supportLists]--><b><span style="font-size: 14pt; font-family: Calibri, sans-serif;">c)<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: " times="" new="" roman";"="">&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></b><!--[endif]--><b><span style="font-size: 11pt; font-family: Calibri, sans-serif;">Escribe correctamente las palabras que llevan acento</span></b></p><ul><li>lapiz</li><li>carcel</li><li>dificil</li><li>instantaneo</li><li>mutuo</li><li>petroleo</li><li>venir</li><li>navio</li><li>pasteleria</li><li>anuncio</li><li>grua</li><li>paisaje</li><li>biologia</li><li>agilidad</li><li>prohibiamos</li><li>cielo</li><li>ahumabamos</li><li>sustituir</li><li>destruir</li><li>incluir</li><li>instruir</li><li>ferreteria</li><li>pasteleria</li><li>buho</li><li>poesia</li><li>cierto</li><li>ilicito</li><li>azar</li></ul><div><br></div></div>
