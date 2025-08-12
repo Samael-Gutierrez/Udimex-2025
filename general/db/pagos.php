@@ -19,16 +19,15 @@ function b_pagos2($id){
 function b_p64($b64){
 	$consulta="SELECT p.*, u.nombre, u.ap_pat, u.ap_mat 
 				FROM pago AS p, usuario AS u 
-				WHERE To_base64(concat(p.id_pago,p.id_usuario,p.f_pago)) = ?
+				WHERE To_base64(concat(p.id_pago,p.id_usuario,p.f_pago)) = '$b64'
 				AND p.id_usuario=u.id_usuario";
-	return ejecuta($consulta, [$b64], 0);
+	return ejecuta($consulta, [], 0);
 }
 
 function b_up($us){
 	$consulta="SELECT max(f_pago) AS r FROM pago WHERE id_usuario = ?;";
 	return ejecuta($consulta, [$us], 0);
 }
-
 
 function colegiatura($us){
 	$consulta="SELECT colegiatura 

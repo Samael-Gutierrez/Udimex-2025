@@ -1,73 +1,22 @@
 <?php 
 session_start();
-include("../funciones.php");
-include("../../general/consultas/basic.php");
-include("../../general/consultas/admin.php");
-include("../../general/consultas/conta.php");
-//permiso();
-cabeza("Contabilidad - Udimex","");
 
+$dir = "../../general/";
+include($dir."php/admin.php");
+include($dir."db/admin.php");
+include($dir."db/basica.php");
+include($dir."db/conta.php");
+
+$referencias = "
+	<link rel='stylesheet' href='estilo.css'>
+	<script type='text/javascript' src='../../general/js/jquery-1.6.4.js'></script> 
+";
+
+cabeza("Contabilidad - Udimex", $referencias, "");
 ?>
-
-
-
-<link rel='stylesheet' href='estilo.css'>
-
-
-
-	<script type='text/javascript' src='../../general/js/jquery-1.6.4.js'></script> 
-	<script>
-		function busca_gasto(){
-			var url = 'b_gas.php';
-        		$.ajax({                        
-		   		type: 'POST',                 
-				url: url,                     
-				data: $('#reporte').serialize(), 
-				success: function(data)             
-				{
-					$('#egreso').html(data); 
-					             
-				}
-			});
-		}
-
-	</script>
-
-	
-
-
-
-	<script type='text/javascript' src='../../general/js/jquery-1.6.4.js'></script> 
-	<script>
-		function busca_ingresos(){
-			var url = 'b_ing.php';
-        		$.ajax({                        
-		   		type: 'POST',                 
-				url: url,                     
-				data: $('#reporte').serialize(), 
-				success: function(data)             
-				{
-					$('#ingreso').html(data); 
-					             
-				}
-			});
-		}
-
-	</script>
-
-
-
-
-
-
-
-
 <body>
-	
-	
-
 <?php
-usuario("../../",1);
+usuario("../../", 0);
 menu_i();
 
 $d=date('d');
@@ -85,11 +34,9 @@ $ff=$a."-".$m."-31";
 $fi1=$a."-".$m."-01";
 $ff1=$a."-".$m."-31";
 
-
 $ing=0;
 $eg_es=0;
 $eg_per=0;
-
 
 $consulta=b_ing($fi,$ff);
 if($fila=mysqli_fetch_assoc($consulta)){
@@ -122,8 +69,6 @@ $neto=number_format($neto, 2, '.', ',');
 
 
 echo " <div class='fondo'>
-
-
 <div class='tabla hover-pointer tod ' style='width:30%; display:inline-block; margin:20px;'>
 	<div class='bordes border'>
 		<div class='w3-padding-large w3-center barra'>
@@ -156,8 +101,8 @@ echo " <div class='fondo'>
 
 </div></div><div class='fondo'>
 ";
-
-?><div >
+?>
+<div>
 <div class='fondo'>
 
 <div class="alinear"><!--animation-->
@@ -235,39 +180,46 @@ echo " <div class='fondo'>
 	</center>
 	<!--TABLAS-->
 	<div>
-<div class="contain1">
-<p class="left1 borde hover-pointer tod ">INGRESOS</p>
- <p class="right1 borde hover-pointer tod ">EGRESOS</p><br><br></div>
-
-<div  id='ingreso' class="left">	</div></div>
-
-
+		<div class="contain1">
+			<p class="left1 borde hover-pointer tod ">INGRESOS</p>
+			<p class="right1 borde hover-pointer tod ">EGRESOS</p><br><br>
+		</div>
+		<div  id='ingreso' class="left"></div>
+	</div>
 
 	<div id='egreso' class="right"></div><br> 
 </div>
+</div>
 
-			
+<script>
+	function busca_gasto(){
+		var url = 'b_gas.php';
+			$.ajax({                        
+			type: 'POST',                 
+			url: url,                     
+			data: $('#reporte').serialize(), 
+			success: function(data)             
+			{
+				$('#egreso').html(data); 
+								
+			}
+		});
+	}
 
-		</div>
-	
+	function busca_ingresos(){
+		var url = 'b_ing.php';
+			$.ajax({                        
+			type: 'POST',                 
+			url: url,                     
+			data: $('#reporte').serialize(), 
+			success: function(data)             
+			{
+				$('#ingreso').html(data); 
+								
+			}
+		});
+	}
 
-
-	
-	
-
-
-
-
-
-
-
-
-	
-
-	
-
-
-
-
+</script>
 </body>
 </html>
