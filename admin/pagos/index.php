@@ -12,8 +12,7 @@ include($dir."db/usuario.php");
 
 //permiso();
 $adicional="<script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>";
-cabeza("Administrar Pagos - Udimex", $adicional);
-
+cabeza("Administrar Pagos - Udimex", $adicional, "");
 
 //Catalogo de estado de alumnos
 $ales = "";
@@ -21,8 +20,6 @@ $datos = b_ales();
 while ($fila = mysqli_fetch_assoc($datos)) {
 	$ales = $ales . "<option value='" . $fila['id_estado'] . "'>" . $fila['descripcion'] . "</option>";
 }
-
-
 
 ?>
 
@@ -120,9 +117,6 @@ while ($fila = mysqli_fetch_assoc($datos)) {
 		}
 	}
 
-
-
-
 	usuario("../../", 1);
 	echo "<center>";
 	menu_i();
@@ -138,8 +132,6 @@ while ($fila = mysqli_fetch_assoc($datos)) {
 	$fact = date('Y-m-d');
 
 	/*Buscar todos los grupos*/
-
-
 	$grupo = "";
 	$cg = "<tr>
 			<th>Matricula</th>
@@ -152,9 +144,11 @@ while ($fila = mysqli_fetch_assoc($datos)) {
 		</tr>";
 	$cg2 = $cg;
 	$sg = "";
+
 	$datos = b_alumno('a.f_pago asc');
 	while ($fila = mysqli_fetch_assoc($datos)) {
 		// Días de sobrecargo
+		$id_alumno = $fila['id_alumno'];
 		$nombre = $fila['nombre'];
 		$sobreCargo = 0;
 		$sobreType = 0;
@@ -215,7 +209,7 @@ while ($fila = mysqli_fetch_assoc($datos)) {
 					<input type='hidden' value='" . $nfp . "' name='nfp'>
 					<input type='hidden' value='" . $fila['id_alumno'] . "' name='alumno'>
 					<input type='submit' value='Guardar'>
-					<input type='button' onclick='openModal(" . $fila['id_alumno'] . ",$sobreCargo, $sobreType)' value='+' $disable>
+					<input type='button' onclick='openModal($id_alumno, $sobreCargo, $sobreType);' value='+' $disable>
 				</form>";
 
 			$edo = "<form method='POST' action='estado_guarda.php'>
@@ -233,7 +227,7 @@ while ($fila = mysqli_fetch_assoc($datos)) {
     			<td> <font color='#0000FF'><a href='http://wa.me/$telefono' target='_blank'>$telefono</a></font></td>
     				<td>
 						" . $fila['nombre'] . " " . $fila['ap_pat'] . " " . $fila['ap_mat'] . "
-						<input type='hidden' value='" . $fila['nombre'] . "' id='nombre-" . $fila['id_alumno'] . "'>
+						<input type='hidden' value='$nombre' id='nombre-$id_alumno'>
 						</td>
     				<td align='center'><a href='../grupos/materia_ver.php?id=$grupo'>$grupo</a></td>
     				<td align='center'>$ac_fp</td>
@@ -270,8 +264,6 @@ while ($fila = mysqli_fetch_assoc($datos)) {
 	}
 
 	echo "<table border='1'>" . $cg . $cg2 . "</table><br>SIN GRUPO<table border='1'><tr><th>Alumno</th><th>Grupo</th><th>Fecha de Ingreso</th><th>Inscripción</th><th>Colegiatura semanal</th></tr>" . $sg . "</table>";
-
-
 	?>
 
 	<script>
@@ -280,16 +272,16 @@ while ($fila = mysqli_fetch_assoc($datos)) {
 		let content = document.getElementById("content-popup");
 
 		function openModal(id, sobreCargo, tipo) {
-			const nombre = document.getElementById('nombre-' + id).value;
+			const nombre = document.getElementById('nombre-'+id);
 
 			content.innerHTML += `
-				<h2 class='modal-title'>Añadir sobrecargo de ${nombre}</h2>
+				<h2 class='modal-title'>Añadir sobrecargo de ${nombre.value}</h2>
 				<div class='separacion'></div>
 				<p>Sobrecargo sobre el ${tipo}% de tu colegiatura por atraso en su pago.</p>
 				<form id='form-${id}'>
 					<input type='hidden' value='${id}' name='id'>
 					<input type='number' value='${sobreCargo}' name='cantidad'>
-					<a onclick='sendForm(${id})'>Añadir</a>
+					<a onclick='sendForm(${id})' class='btn-modal'>Añadir</a>
 				</form>
 			`;
 
