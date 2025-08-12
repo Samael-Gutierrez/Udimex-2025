@@ -1,16 +1,11 @@
 <?php
-$dir="../../general/";
+//campana();
+$dir="../general/";
 include($dir."db/basica.php");
 
-//para probar
-include($dir."db/notificacion.php");
-campana();
-//termina prueba
-
 function campana(){
-        //$id=$_SESSION['ad_id'];
-        $id=1;
-        $datos=b_destinatario($id);
+        $id=$_SESSION['ad_id'];
+        $datos=busca_destinatario($id);
         $fila=mysqli_fetch_assoc($datos);
         $count=$fila['r'];
     echo "
@@ -62,7 +57,7 @@ echo "
     <script type='text/javascript'>
       function myFunction() {
         $.ajax({
-          url: 'notificacion_busca.php',
+          url: 'php/notificaciones.php',
           type: 'POST',
           processData:false,
           success: function(data){
@@ -81,5 +76,8 @@ echo "
         });
       });                                     
     </script>";
+    
+    
+
 }
 ?>

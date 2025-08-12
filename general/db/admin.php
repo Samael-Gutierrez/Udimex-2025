@@ -101,6 +101,39 @@ function b_admin(){
 }
 
 
+//made for boy hasware
+// añadirPublicacion
+
+function añadirPublicacion($nombre, $contenido, $imagen, $prioridad, $n_grupos, $lugar){
+    // Insertar datos en la bd
+    $consulta = "INSERT INTO publicidad_publicidades (nombre, contenido, imagen, prioridad, n_grupos, lugar, estado) VALUES ('$nombre', '$contenido', '$imagen', '$prioridad', '$n_grupos', '$lugar',1)";
+    completa($consulta,0);  
+}
+// Buscar publicidad por estado
+function busca_publicidad($estado){
+    $consulta = "SELECT nombre, contenido, id_publicidad from publicidad_publicidades where estado=$estado";
+    $datos= completa($consulta,0);
+    return $datos;
+}
+// Buscar publicidad por id (editarP)
+function busca_publicidad2($id_publicidad){
+    $consulta = "SELECT nombre, contenido, imagen, n_grupos, prioridad, estado, lugar FROM publicidad_publicidades WHERE id_publicidad = $id_publicidad";
+    $datos= completa($consulta,0);
+    return $datos;
+}
+function actualiza_publicidad($nombre, $contenido, $prioridad, $n_grupos, $lugar, $estado, $id_publicidad){
+    $consulta = "UPDATE publicidad_publicidades SET nombre='$nombre', contenido='$contenido',  prioridad='$prioridad', n_grupos='$n_grupos', lugar='$lugar', estado='$estado' WHERE id_publicidad=$id_publicidad";
+    completa($consulta,0); 
+}
+function actualiza_imagenP($imagen,$id_publicidad){
+    $consulta = "UPDATE publicidad_publicidades SET imagen='$imagen' WHERE id_publicidad=$id_publicidad";
+    return completa($consulta,0);
+}
+// borrar publicacion
+function borrar($id){
+    $consulta="delete from publicidad_publicidades where id_publicidad=$id";
+    completa($consulta,0);
+}
 
 
 ?>

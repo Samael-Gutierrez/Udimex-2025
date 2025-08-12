@@ -1,4 +1,5 @@
 <?php
+// include("basica.php");
 
 function busca_usuario($id){
 	$consulta="SELECT a.id_alumno, nombre, ap_pat, ap_mat
@@ -102,9 +103,16 @@ function fechaEntrega ($tarea, $alumno){
 	return ejecuta($consulta,[$tarea, $alumno ],0);
 }
 
-function getDetails($tarea, $alumno){
-	$consulta = "SELECT calificacion, comentario FROM tarea_alumno WHERE id_alumno = ? AND id_tarea = ? ORDER BY id_talumno DESC LIMIT 1";
-	return ejecuta($consulta,[$alumno, $tarea],0);
+function getTareaUs($idTarus){
+	$consulta = "SELECT tu.id_alumno, tu.id_tarea, tu.descripcion, ta.calificacion, ta.comentario, te.titulo, ma.subtitulo
+				FROM tarea_us tu
+				INNER JOIN tarea_alumno ta ON tu.id_alumno = ta.id_alumno AND tu.id_tarea = ta.id_tarea
+				INNER JOIN tarea_apunte taa ON tu.id_tarea = taa.id_tarea  
+				INNER JOIN material ma ON taa.id_apunte = ma.id_material
+				INNER JOIN tema te ON ma.id_tema = te.id_tema
+				WHERE tu.id_tarus = ?
+				LIMIT 1;";
+	return ejecuta($consulta, [$idTarus], 0);
 }
 
 function getRatingsById($id){
@@ -127,5 +135,10 @@ function totalFocus($al, $mat){
 
 function totalExamenes($id){
 	$consulta = "SELECT COUNT(id_calificacion) AS cal FROM calificacion WHERE id_alumno = ? ;";
+	return ejecuta($consulta,[$id],0);
+}
+
+function getGroupById($id){
+	$consulta = "SELECT id_grupo FROM alumno WHERE id_alumno = ?;";
 	return ejecuta($consulta,[$id],0);
 }

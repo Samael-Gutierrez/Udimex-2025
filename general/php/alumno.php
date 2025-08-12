@@ -87,7 +87,7 @@ function menu($dir){
 
 		$ligas2="
 		
-		  <a href='#' onclick=\"document.getElementById('id01').style.display='block'\"  class='w3-bar-item w3-button'><img src='".$ub."general/imagen/entrar1.png' height='30px'  ALIGN=center> Iniciar Sesión   </a> 
+		  <a href='#' onclick=\"document.getElementById('id01').style.display='block'\"  class='w3-bar-item w3-button'><img src='general/imagen/entrar1.png' height='30px'  ALIGN=center> Iniciar Sesión   </a> 
 		  
 		<hr>
 		<a href='#planes' src='".$dir."imagen/oferta.png' class='w3-bar-item w3-button'>

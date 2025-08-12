@@ -64,8 +64,8 @@ function cues_tot($portada){
 function res($preg,$orden){
 	$consulta="SELECT id_respuesta, respuesta, tipo
 			FROM respuesta
-			WHERE id_pregunta =? $orden;";
-	return ejecuta($consulta, [$preg],0);
+			WHERE id_pregunta = $preg $orden;";
+	return completa($consulta, 0);
 }
 
 /* Busca las respuestas de un custionario */

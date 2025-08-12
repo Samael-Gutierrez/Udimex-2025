@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<?php
+session_start();
+include("../funciones.php");
+include("../../consultas/basic.php");
+include("../../consultas/admin.php");
+include("../../consultas/grupos.php");
+include("../../consultas/carreras.php");
+permiso();
+cabeza();
+
+if ($_POST){
+	if($_POST['con']==5){
+		$dias=$_POST['lu']." ".$_POST['ma']." ".$_POST['mi']." ".$_POST['ju']." ".$_POST['vi']." ".$_POST['sa']." ".$_POST['do'];
+		g_grupo($dias,$_POST['tipo']);
+	}
+	
+	if($_POST['con']==6){
+		e_grupo($_POST['grupo']);
+	}
+header("location:../grupos");	
+}
+
+?>
+
+
+<title>CONTROL DE PAGOS - UDIMEX</title>
+</head>
+<body>
+
+<?php
+	usuario("../../");
+	echo "<center>";
+	menu_i();
+	echo "<br><br><br><br>
+		<fieldset id='subtitulo'>REGISTRO DE GRUPOS</fieldset>";
+
+	$car="";
+	$datos=b_car(">0");
+	while($fila=mysqli_fetch_assoc($datos)){
+		$car=$car."<option value='".$fila['id_carrera']."'>".$fila['nombre']."</option>";
+		//$carrera[$fila['id_carrera']]=$fila['nombre'];
+	}
+?>
+	
+<?php
+$datos=b_grupos();
+echo "<table border='0' bgcolor='#aaaaaa'><tr bgcolor='#ffffff'><th></th><th>#</th><th>Días</th><th>Tipo</th><th></th></tr>";
+while($fila=mysqli_fetch_assoc($datos)){
+	echo "<tr bgcolor='#ffffff'>
+		<td><form method='POST'>
+			<input type='hidden' value='6' name='con'>
+			<input type='hidden' value='".$fila['id_grupo']."' name='grupo'>
+			<input type='submit' value='X'>
+		</form></td>
+		<td>Grupo ".$fila['id_grupo']."</td>
+		<td>".$fila['dias']."</td>
+		<td>".$fila['nombre']."</td>
+		<th><a href='materia_ver.php?id=".$fila['id_grupo']."'><input type='button' value='Ver detalles'></a></th>
+	</tr>";
+}
+?>
+</table>
+<hr>
+<form method='POST'>
+	<table border='0' width='50%'>
+		<tr>
+			<th colspan='2'>Días</th>
+			<th colspan='2'>Plan de Estudios</th>
+		</tr>
+		<tr>
+			<td>
+				<input type='checkbox' name='lu' value='Lunes'> Lunes<br>
+				<input type='checkbox' name='ma' value='Martes'> Martes<br>
+				<input type='checkbox' name='mi' value='Miércoles'> Miércoles<br>
+				<input type='checkbox' name='ju' value='Jueves'> Jueves<br>
+			</td>
+			<td>
+				<input type='checkbox' name='vi' value='Viernes'> Viernes<br>
+				<input type='checkbox' name='sa' value='Sábado'> Sábado<br>
+				<input type='checkbox' name='do' value='Domingo'> Domingo<br><br>
+			</td>
+			<td rowspan='2'>
+				Selecciona el plan de estudios<br>
+				<select name='tipo'>
+					<?php echo $car; ?>
+				</select><br><br><center><input type='submit' value='Guardar'></center>
+				<input type='hidden' value='5' name='con'>
+			</td>
+		</tr>
+	</table>
+</form>		
+</body>
+</html>
+
+

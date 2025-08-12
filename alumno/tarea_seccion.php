@@ -151,7 +151,7 @@
 		}
 		else{
 			$fe=explode('-',$entrega);
-			guarda_tarea_alumno($fichero,$al,$fe[2]."-".$fe[1]."-".$fe[0],0);
+			guarda_tarea_alumno($fichero,$al,$fe[2]."-".$fe[1]."-".$fe[0],0,0);
 		}	
 	}
 

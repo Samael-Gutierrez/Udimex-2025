@@ -1,0 +1,1 @@
+Aqui agregare al session destroy

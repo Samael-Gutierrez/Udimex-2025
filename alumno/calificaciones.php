@@ -1,20 +1,25 @@
 <?php
 	session_start();
-	include("../general/funcion/basica.php");
+    $dir = "../general/";
+	include($dir."php/alumno.php");
+	include($dir."db/seccion_tareas.php");
+	include($dir."db/basica.php");
+
 	carga_estilo('../');
 ?>
     <link rel="stylesheet" href="calificaciones.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../general/js/tareasAlumnos.js"></script>
 </head>
 <body>
 <?php
-include 'funciones.php';
 	permiso();
 	menu('../');
 
 	$id=$_SESSION["g_id"];
+    $ct = 0;
     $gruposs=getGroupById($id);
     while($grupos=mysqli_fetch_assoc($gruposs)){
         $grupo = $grupos['id_grupo'];
@@ -60,12 +65,12 @@ include 'funciones.php';
         </div>
         ";
         
+        $nombreInicial = '';
         $materias2 = obtenMateriasActivas($grupo, $id);
         while($fila1 = mysqli_fetch_assoc($materias2)){
-            $counterMaterias = 1;
-            $tareas = getHomeWorksByMateria($fila1['id_materia'], $id);
+            $counterTareas = 1;
             echo "
-                <div class='mt-3 main-table' id='table-".$fila1['id_materia']."' style='display:none;'>
+            <div class='mt-3 main-table' id='table-".$fila1['id_materia']."' style='display:none;'>
                     <h6 class='materia'>".$fila1['nombre']."</h6>
                     <table class='table table-hover rounded tables'>
                     <tbody>
@@ -79,8 +84,15 @@ include 'funciones.php';
                             <th>Estado</th>
                             <th></th>
                         </tr>
-            ";
+                        ";
+            $tareas = getHomeWorksByMateria($fila1['id_materia'], $id);
             while($tarea = mysqli_fetch_assoc($tareas)){
+
+                $idTu = $tarea['id'];
+
+                $cortador = explode('-', $tarea ['archivo']);
+                $prefijo = $cortador[0]."-".$cortador[1]."-";
+
                 $visto = $tarea['visto'];
                 $idTarea = $tarea['tarea'];
                 $fecha_final = obtenerFechaLimite($idTarea, $id);
@@ -116,18 +128,8 @@ include 'funciones.php';
                     }else{
                         $entrega = "<p style='color:red;'>Tardía</p>";
                     }
-                    $detalles = "
-                        <form action='detalles.php' method='POST'>
-                            <input type='hidden' name='tarea' value='".$tarea['tarea']."'>
-                            <input type='hidden' name='id' value='$id'>
-                            <input type='hidden' name='alumno' value='$fullName'>
-                            <input type='hidden' name='titulo' value='".$tarea['titulo']."'>
-                            <input type='hidden' name='subtitulo' value='".$tarea['subtitulo']."'>
-                            <input type='hidden' name='comentario' value='".$tarea['descripcion']."'>
-                            <input type='hidden' name='grupo' value='$grupo'>
-                            <input type='submit' class='btn btn-warning' value='Detalles'>
-                        </form>
-                    ";
+
+                    $detalles = "<a href='detalles.php?id_tarus=$idTu' class='btn btn-warning'>Detalles</a>";
 
                 }
                 
@@ -137,21 +139,44 @@ include 'funciones.php';
                     $vistos = "<i class='bi bi-flag' style='color:red'></i><p style='display:inline-block'>".$tarea['archivo']."</p>";
                 }
 
-                echo"
+                if($prefijo == $nombreInicial){
+                    echo"
                         <tr>
-                            <td>$counterMaterias</td>
+                            <td>$counterTareas</td>
+                            <td>$vistos</td>
+                            <td>".$tarea['titulo']."</td>
+                            <td>".$tarea['subtitulo']."</td>
+                            <td id='calificacion-$counterTareas'></td>
+                            <td></td>
+                            <td></td>
+                            <td></td> 
+                        </tr>
+                    ";
+                }else{
+                    // Imprime las colimnas con la información de las tareas, visto, detalles, calificacion, esatdo y calificar
+                    echo"
+                        <tr>
+                            <td>$counterTareas</td>
                             <td>$vistos</td>
                             <td>".$tarea['titulo']."</td>
                             <td>".$tarea['subtitulo']."</td>
                             <td>$calificacion</td>
                             <td>$entrega</td>
                             <td>$estado</td>
-                            <td>
-                                $detalles
-                            </td>
+                            <td>$detalles</td> 
                         </tr>
-            ";
-            $counterMaterias ++;
+                    ";
+                }
+            
+
+            if($prefijo != $nombreInicial){
+                // Segundo contador de tareas
+                $ct ++;
+            }
+
+                $counterTareas ++;
+
+                $nombreInicial = $prefijo;
             }
             echo "</tbody>
                 </table>
@@ -222,17 +247,6 @@ include 'funciones.php';
 <br>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <script>
-    function examenes() {
-        const examenes = document.getElementById('examenes');
-        examenes.style.display='block';
-        examenes.scrollIntoView({behavior: 'smooth'});  
-    }
-
-    function examenesOff() {
-        const examenes = document.getElementById('examenes');
-        examenes.style.display='none';
-    }
-
     const tablas = document.querySelectorAll('.tables');
     tablas.forEach(tabla => {
         const tbody = tabla.querySelector('tbody');
@@ -256,15 +270,6 @@ include 'funciones.php';
             newElement.id = 'table-'+id;
             newElement.innerHTML = innerHTML;
             document.body.appendChild(newElement);
-        }
-    }
-
-    function ocultarMaterias(id) {
-        var table = document.getElementById('table-' + id);
-        if (table.style.display === 'block') {
-            table.style.display = 'none';
-        } else {
-            table.style.display = 'block';
         }
     }
 </script>

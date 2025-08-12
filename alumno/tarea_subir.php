@@ -11,36 +11,41 @@
 	$base64_string = $_POST['imagen'];
 
 	if($base64_string === '1'){
-	    
 	    $extension = getExtension(); 
 	    $valido = validation($extension);
-
+		
 	    if ($valido == 1) {
-		$tarea_name = getFileName($id_alumno, $id_tarea, $counter, $extension);
-		$tarea_temp = $_FILES['archivo']['tmp_name'];
-		$route = "tarea-alumno/" . $tarea_name;
-		move_uploaded_file($tarea_temp, $route);
+			$tarea_name = getFileName($id_alumno, $id_tarea, $counter, $extension);
+			$tarea_temp = $_FILES['archivo']['tmp_name'];
+			$route = "tarea-alumno/" . $tarea_name;
 
-		consultaSQL($id_alumno, $id_tarea, $tarea_name, $descripcion);
-		actualizarTarea($id_tarea, $id_alumno);
+			consultaSQL($id_alumno, $id_tarea, $tarea_name, $descripcion);
+			actualizarTarea($id_tarea, $id_alumno);
 
-		$mensaje = message(1);
+			if (!move_uploaded_file($tarea_temp, $route)) {
+    			exit("Error: No se pudo mover el archivo subido, contacte al equipo de sistemas.");
+			}
+			
+			$mensaje = message(1);
 	    } else {
-		$mensaje = message(0);
+			$mensaje = message(0);
 	    }
-	    header("Location:tarea_seccion.php?mensaje=".$mensaje);
 
+	    header("Location:tarea_seccion.php?mensaje=".$mensaje);
+		
 	}else{
 	    $base64_string = preg_replace('/^data:image\/\w+;base64,/', '', $base64_string);
 	    $imagen_decodificada = base64_decode($base64_string);
 
 	    $nombre_archivo = getFileName($id_alumno, $id_tarea, $counter, '.jpeg');
-	    $ruta_archivo = "../../tarea-alumno/" . $nombre_archivo;
+	    $ruta_archivo = "tarea-alumno/" . $nombre_archivo;
 
-	    consultaSQL($id_alumno, $id_tarea, $nombre_archivo, $descripcion);
+		if (file_put_contents($ruta_archivo, $imagen_decodificada) === false) {
+    		exit("Error: No se pudo mover el archivo subido, contacte al equipo de sistemas.");
+		}
+
+		consultaSQL($id_alumno, $id_tarea, $nombre_archivo, $descripcion);
 	    actualizarTarea($id_tarea, $id_alumno);
-
-	    file_put_contents($ruta_archivo, $imagen_decodificada);
 
 	    $mensaje = $mensaje = message(1);
 	    header("Location:tarea_seccion.php?mensaje=".$mensaje);

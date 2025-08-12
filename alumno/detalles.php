@@ -1,7 +1,11 @@
 <?php
 session_start();
 
-include("../general/funcion/basica.php");
+$dir = "../general/";
+include($dir."php/alumno.php");
+include($dir."db/seccion_tareas.php");
+include($dir."db/basica.php");
+
 carga_estilo('../');
 
 ?>
@@ -28,58 +32,60 @@ carga_estilo('../');
 </head>
 <body>
 <?php
-include 'funciones.php';
 permiso();
 menu('../');
 
-$id = $_POST['id'];
-$tarea = $_POST['tarea'];
-$alumno = $_POST['alumno'];
-$titulo = $_POST['titulo'];
-$subtitulo = $_POST['subtitulo'];
-$comentario = $_POST['comentario'];
-$grupo = $_POST['grupo'];
+$idTu = $_GET['id_tarus'];
 
-$getDetails = getDetails($tarea, $id);
+$detalles = getTareaUs($idTu);
 
-while($fila = mysqli_fetch_assoc($getDetails)){
-    echo "
-        <div class='register-form position-relative'>
-            <a class='btn btn-secondary position-absolute top-0 start-100 translate-middle' href='calificaciones.php?id=$id&grupo=$grupo'>Volver</a>
-            <h3 class='text-center'>Detalles de la tarea</h3>
-            <p class='text-center text-muted'>Detalles de la tarea.</p>
-
-            <div class='mb-3'>
-                <label class='form-label'>Título</label>
-                <input type='text' class='form-control' value='$titulo' disabled>
-            </div>
-
-            <div class='mb-3'>
-                <label class='form-label'>Subtitulo</label>
-                <input type='text' class='form-control' value='$subtitulo' disabled>
-            </div>
-
-            <div class='mb-3'>
-                <label class='form-label'>Comentario del alumno:</label>
-                <textarea class='form-control' placeholder='comentario del alumno' disabled>$comentario</textarea>
-            </div>
-            <div class='mb-3'>
-                <label class='form-label'>Calificación</label>
-                <input name='calificacion' type='number' value='".$fila['calificacion']."' min='0' max='10' step='.5' class='form-control' disabled placeholder='Seleccione la calificación alcanzada de 0 a 10'>
-            </div>
-
-            <div class='mb-3'>
-                <label class='form-label'>Comentario del profesor:</label>
-                <textarea disabled name='comentario' class='form-control' placeholder='Coloque un mensaje para su alumno.'>".$fila['comentario']."</textarea>
-            </div>
-
-            <input name='id' type='hidden' value='$id'>
-            <input name='tarea' type='hidden' value='$tarea'>
-
-        </div>
-    ";
-
+if($detalle = mysqli_fetch_assoc($detalles)){
+    $id_alumno = $detalle['id_alumno'];
+    $id_tarea = $detalle['id_tarea'];
+    $descripcion_alumno = $detalle['descripcion'];
+    $calificacion = $detalle['calificacion'];
+    $comentario_profe = $detalle['comentario'];
+    $titulo = $detalle['titulo'];
+    $subtitulo = $detalle['subtitulo'];
 }
+
+echo "
+    <div class='register-form position-relative'>
+        <a class='btn btn-secondary position-absolute top-0 start-100 translate-middle' onclick='redireccionar()'>Volver</a>
+        <h3 class='text-center'>Detalles de la tarea</h3>
+        <p class='text-center text-muted'>Detalles de la tarea.</p>
+
+        <div class='mb-3'>
+            <label class='form-label'>Título</label>
+            <input type='text' class='form-control' value='$titulo' disabled>
+        </div>
+
+        <div class='mb-3'>
+            <label class='form-label'>Subtitulo</label>
+            <input type='text' class='form-control' value='$subtitulo' disabled>
+        </div>
+
+        <div class='mb-3'>
+            <label class='form-label'>Comentario del alumno:</label>
+            <textarea class='form-control' placeholder='Comentario del alumno' disabled>$descripcion_alumno</textarea>
+        </div>
+        <div class='mb-3'>
+            <label class='form-label'>Calificación</label>
+            <input name='calificacion' type='number' value='$calificacion' min='0' max='10' step='.5' class='form-control' disabled placeholder='Seleccione la calificación alcanzada de 0 a 10'>
+        </div>
+
+        <div class='mb-3'>
+            <label class='form-label'>Comentario del profesor:</label>
+            <textarea disabled name='comentario' class='form-control' placeholder='Coloque un mensaje para su alumno.'>$comentario_profe</textarea>
+        </div>
+    </div>
+";
+
 ?>
+<script>
+    function redireccionar(){
+        window.history.back();
+    }
+</script>
 </body>
 </html>
