@@ -1,6 +1,7 @@
 <?php
 session_start();
-include ("modelo/conexion.php");
+include ("../../general/db/nominas.php");
+include ("../../general/db/basica.php");
 
 $concepto=$_POST["concepto"];
 $cantidad=$_POST["cantidad"];
@@ -11,20 +12,11 @@ if ($fila=mysqli_fetch_assoc($registro)){
 else{
     $id_deduccion= guarda_deduccion($concepto);
 }
+
 echo $id_deduccion;
 $periodo=explode(" ",$_SESSION['idp']);
 
- guarda_deduccion_usuario($_SESSION['id_us'],$id_deduccion,$_SESSION['idp'],$cantidad);
+guarda_deduccion_usuario($_SESSION['id_us'],$id_deduccion,$_SESSION['idp'],$cantidad);
 
-//Se obtiene el numero de nomina con respecto al periodo 
-/*if ($periodo[0] == 14) {
-    $periodo[0] = "Segunda quincena ";
-} elseif ($periodo[0] == 29) {
-    $periodo[0] = "Primera quincena  ";
-}
-
-// Imprimir los resultados
-//echo  ' '.$periodo[0].'de'.' '.$periodo[6];
-*/
 header ("location:nominas.php");
 ?>

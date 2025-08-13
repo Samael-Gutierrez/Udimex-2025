@@ -4,7 +4,9 @@ session_start();
 require('./fpdf.php');
 
 // Incluir el archivo de conexión y funciones
-include '../modelo/conexion.php';
+$dir = "../../../general/";
+include($dir."db/basica.php");
+include($dir."db/nominas.php");
 include '../phpqrcode/qrlib.php';
 
 class PDF extends FPDF
