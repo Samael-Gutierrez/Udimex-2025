@@ -7,8 +7,8 @@ function b_alumno($orden){
 	FROM alumno as a, usuario as u 
 	WHERE a.estado>0 
 	and a.id_usuario=u.id_usuario 
-	order by ?";	
-	return ejecuta($consulta,[$orden],0);
+	order by $orden ;";	
+	return ejecuta($consulta,[],0);
 
 }
 

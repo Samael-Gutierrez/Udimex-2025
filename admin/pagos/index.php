@@ -120,7 +120,7 @@ while ($fila = mysqli_fetch_assoc($datos)) {
 	usuario("../../", 1);
 	echo "<center>";
 	menu_i();
-	echo "<br><br><br><br>
+	echo "<br>
 		<fieldset id='subtitulo'>CONTROL DE PAGOS</fieldset>";
 
 	$gr = "";
@@ -145,7 +145,7 @@ while ($fila = mysqli_fetch_assoc($datos)) {
 	$cg2 = $cg;
 	$sg = "";
 
-	$datos = b_alumno('a.f_pago asc');
+	$datos = b_alumno('a.f_pago ASC');
 	while ($fila = mysqli_fetch_assoc($datos)) {
 		// Días de sobrecargo
 		$id_alumno = $fila['id_alumno'];
