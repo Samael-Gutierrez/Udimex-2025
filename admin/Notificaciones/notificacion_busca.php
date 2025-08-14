@@ -7,8 +7,7 @@ include($dir."db/basica.php");
 include($dir."db/notificacion.php");
 
 $id=$_SESSION['ad_id'];
-$datos=b_mensaje($id);
-
+$datos=busca_mensajes($id);
 $response = '';
 
 // Imprimir las notificaciones de admin, bot y alumno y les asigna un color derpendiendo de donde venga el mensaje .

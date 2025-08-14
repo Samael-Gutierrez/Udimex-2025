@@ -1,11 +1,11 @@
 <?php
 session_start();
-include("php/conexion.php");
-include('../../general/consultas/usuario.php');
-include("../funciones.php");
-//usuario("../../",'index.php');
-//menu_i();
-//include('../../general/consultas/basic.php');
+
+$dir = "../../general/";
+include($dir."db/notificacion.php");
+include($dir."db/usuario.php");
+include($dir."db/basica.php");
+include($dir."php/admin.php");
 
 $usuarios='';
 $datos=b_ad();
@@ -19,15 +19,8 @@ while($fila=mysqli_fetch_assoc($datos)){
 <html lang="es">
   <head>
     <meta charset="utf-8">
-
     <title>Sistema de Notificaciones </title>
-
-    <!-- Bootstrap core CSS -->
-   
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <!-- Custom styles for this template -->
-    <link href="css/starter-template.css" rel="stylesheet">
-
     <link href="css/estilos.css" rel="stylesheet">
 
   </head>
@@ -42,16 +35,8 @@ while($fila=mysqli_fetch_assoc($datos)){
 
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <!-- <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> -->
-          </li>          
+          <li class="nav-item active"></li>          
           <li class="nav-item dropdown">
-            <!-- <a class="nav-link dropdown-toggle" href="http://collectivecloudperu.com/blogdevs/" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nosotros</a> -->
-            <!-- <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="#">Misión</a>
-              <a class="dropdown-item" href="#">Prensa</a>
-              <a class="dropdown-item" href="#">Visión</a>              
-            </div> -->
           </li>
           
         </ul>
@@ -81,38 +66,28 @@ while($fila=mysqli_fetch_assoc($datos)){
     <div class="container">
 
       <div class="starter-template">
-          <h1>Sistema de Notificaciones UDIMEX </h1>
+        <h1>Sistema de Notificaciones UDIMEX </h1>
+        <p class="lead">
+        <form name="frmNotification" id="frmNotification" action="php/agregarnotificacion.php" method="POST" >
+              <div class="form-group">
+                  <input type="hidden" class="form-control" name="autor" id="autor" placeholder="Ingresa Autor" required value="<?php echo $_SESSION['ad_nom']; ?>"> 
+              </div> 
+              <div class="form-group">
+                <label for="mensaje">Mensaje </label>
+                <textarea class="form-control" name="mensaje" id="mensaje" rows="5" placeholder="Mensaje" required></textarea>
+              </div>
+              <div class="form-group">
+                <input type="submit" name="add" id="btn-send" value="Enviar">
+              </div>
 
-          <p class="lead">
+              <div class="checador">
+                  <?php echo $usuarios; ?>  
+              </div>
+          </form>             
+        </p>
+      </div>
 
-          <form name="frmNotification" id="frmNotification" action="php/agregarnotificacion.php" method="POST" >
-                <div class="form-group">
-                    <input type="hidden" class="form-control" name="autor" id="autor" placeholder="Ingresa Autor" required value="<?php echo $_SESSION['ad_nom']; ?>"> 
-                </div> 
-                <div class="form-group">
-                  <label for="mensaje">Mensaje </label>
-                  <textarea class="form-control" name="mensaje" id="mensaje" rows="5" placeholder="Mensaje" required></textarea>
-                </div>
-                <div class="form-group">
-                  <input type="submit" name="add" id="btn-send" value="Enviar">
-                </div>
-
-                <div class="checador">
-                    
-                    <?php echo $usuarios; ?>
-  
-               
-                </div>
-                
-              </form>             
-
-          </p>
-
-        </div>
-
-    </div><!-- /.container -->
-
-
+    </div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

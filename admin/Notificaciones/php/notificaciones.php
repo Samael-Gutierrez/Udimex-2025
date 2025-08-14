@@ -1,14 +1,12 @@
-    <script src='https://code.jquery.com/jquery-2.1.1.min.js' crossorigin='anonymous'></script>
-
 <?php
 session_start();
 
+$dir = "../../../general/";
+include($dir."db/notificacion.php");
+include($dir."db/basica.php");
+
 $id=$_SESSION['ad_id'];
-
-include('conexion.php');
-
 $datos=busca_mensajes($id);
-
 $response = '';
 
 // Imprimir las notificaciones de admin, bot y alumno y les asigna un color derpendiendo de donde venga el mensaje .
@@ -53,11 +51,11 @@ while ($fila = mysqli_fetch_assoc ($datos)) {
 
 echo $response;   
 ?>
-
+<script src='https://code.jquery.com/jquery-2.1.1.min.js' crossorigin='anonymous'></script>
 <script>
     function cambia(id){
         $.ajax({
-            url: 'https://udimex.net/admin/Notificaciones/php/actualiza_estado.php',
+            url: 'php/actualiza_estado.php',
             type: 'GET', // Puedes especificar el tipo de solicitud
             data: { id: id }, // Pasar los datos como un objeto
             success: function (data) {

@@ -1,16 +1,51 @@
 <?php
 
-//Usar la nueva función ejecuta(consulta,[argumentos],tipo) en lugar de completa o completa2
+function cuenta_mensajes($id){
+	$consulta="SELECT COUNT(id_destinatario) AS r FROM destinatario WHERE id_usuario = ? AND estados = 0";
+	return ejecuta($consulta, [$id], 0);
+}
+
+function busca_mensajes($id){
+	$consulta="SELECT * FROM destinatario as d, datos as m, usuario as u
+				WHERE d.id_datos = m.id 
+				AND d.id_usuario = ?
+				AND d.estados = 0
+				AND m.autor = u.id_usuario";
+	return ejecuta($consulta, [$id], 0);
+}
+
+function busca_admin($id){
+	$consulta="SELECT COUNT(id_acceso) AS r FROM acceso WHERE id_usuario = ?";
+	return ejecuta($consulta, [$id], 0);
+}
+
+function cambio_de_estado($id){
+	$consulta="UPDATE destinatario SET estados = 1 WHERE id_destinatario = ?";
+	return ejecuta($consulta, [$id], 0);
+}
+function envia_mensaje($id , $mensaje, $destinatario){
+	$consulta="INSERT INTO datos (autor,mensaje) VALUES(?, ?);";
+	return ejecuta($consulta, [$id, $mensaje], 1);
+}
+
+function destinatarios($id , $mensaje){
+	$consulta="INSERT INTO destinatario (id_datos,id_usuario) VALUES( ?, ?);";
+	return ejecuta ($consulta, [$id, $mensaje], 0);
+}
+
+function busca_empleado($id){
+	$consulta="SELECT DISTINCT(a.id_usuario), u.* FROM acceso as a, usuario as u WHERE a.id_usuario = u.id_usuario";
+	return ejecuta($consulta, [], 0);
+}
 
 function guarda_notificacion($mensaje){
-	$consulta="INSERT INTO datos (autor,mensaje) VALUES(483,'$mensaje')";
-	echo $consulta;
-	return completa2($consulta);
+	$consulta="INSERT INTO datos (autor,mensaje) VALUES(?, ?);";
+	return ejecuta($consulta, [483, $mensaje], 1);
 }
 
 function guarda_destinatario($id_mensaje,$id){
-	$consulta="INSERT INTO destinatario (id_datos,id_usuario) VALUES($id_mensaje,$id)";
-	completa($consulta);
+	$consulta="INSERT INTO destinatario (id_datos,id_usuario) VALUES(?, ?);";
+	ejecuta($consulta, [$id_mensaje, $id], 0);
 }
 
 function saveQualification($calificacion, $tema, $id_alumno){
@@ -20,19 +55,17 @@ function saveQualification($calificacion, $tema, $id_alumno){
 }
 
 function getTeacherByCover($id){
-	$consulta = "SELECT id_usuario FROM portada WHERE id_portada = $id";
-	return completa($consulta);
+	$consulta = "SELECT id_usuario FROM portada WHERE id_portada = ?";
+	return ejecuta($consulta, [$id], 0);
 }
 
 function getInfoByCover($id){
 	$consulta = "SELECT ma.nombre_materia AS materia, a.contenido AS tema
                 FROM materias AS ma, portada AS p, adicionales AS a
-                WHERE p.id_portada = $id
+                WHERE p.id_portada = ?
                 AND p.id_portada = a.id_portada
-                AND p.id_materia = ma.id_materia
-	";
-
-	return completa($consulta);
+                AND p.id_materia = ma.id_materia";
+	return ejecuta($consulta, [$id], 0);
 }
 
 function countMessage($mensaje){
@@ -50,20 +83,16 @@ function getDestinatarios($id,$mensaje,$value){
 				FROM destinatario 
 				WHERE id_datos = ?
 				AND id_usuario = ?
-				AND estados = ?
-	";
-
+				AND estados = ?";
 	return ejecuta($consulta, [$mensaje, $id, $value], 0);
 }
 
 function busca_destinatario($id){
-	$consulta="SELECT count(id_destinatario) as r from destinatario where id_usuario=$id and estados=0";
+	$consulta="SELECT count(id_destinatario) as r FROM destinatario WHERE id_usuario = ? AND estados = 0";
 	return ejecuta($consulta,[$id],0);
 }
 
 function changeStatus($id,$mensaje){
-	$consulta = "UPDATE destinatario SET estados = 0 WHERE id_usuario = $id AND id_datos = $mensaje AND estados = 1";
-	completa($consulta);
+	$consulta = "UPDATE destinatario SET estados = 0 WHERE id_usuario = ? AND id_datos = ? AND estados = ?";
+	ejecuta($consulta, [$id, $mensaje, 1], 0);
 }
-
-?>

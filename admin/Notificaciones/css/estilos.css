@@ -1,4 +1,11 @@
- /* div.demo-content{box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.20);color:#8d9090;} */ 
+body {
+  padding-top: 5rem;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
 #notification-header {
 	background: #c5c5c5;
   padding: 6px;

@@ -1,8 +1,8 @@
 <?php
 
 function b_ad(){
-	$consulta="select distinct(a.id_usuario), u.* from acceso as a, usuario as u where a.id_usuario=u.id_usuario order by u.nombre";
-	return completa($consulta,0);
+	$consulta="SELECT DISTINCT(a.id_usuario), u.* FROM acceso AS a, usuario AS u WHERE a.id_usuario = u.id_usuario ORDER BY u.nombre";
+	return ejecuta($consulta, [], 0);
 }
 
 /*Agrega usuario nuevo*/
