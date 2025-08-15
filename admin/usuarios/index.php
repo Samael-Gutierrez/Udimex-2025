@@ -1,14 +1,13 @@
 <?php
 session_start();
-include("../funciones.php");
-include("../../general/consultas/basic.php");
-include("../../general/consultas/admin.php");
-include("../../general/consultas/usuario.php");
-cabeza("Control de Usuarios","");
+$dir = "../../general/";
+include($dir."php/admin.php");
+include($dir."db/admin.php");
+include($dir."db/usuario.php");
+include($dir."db/basica.php");
+
+cabeza("Control de Usuarios", "", "");
 ?>
-
-
-
 <script>
 	function bloquea(id) {
 	    document.getElementById('bloquea').style.display='block';
@@ -16,12 +15,6 @@ cabeza("Control de Usuarios","");
 		document.getElementById('cfoc').focus();
 	}
 </script>
-
-
-
-
-
-
 
 <body>
 
@@ -46,7 +39,6 @@ if ($_POST){
 		}
 	}
 
-
 	if ($_POST['ct']==2){
 		$nom=$_POST['nombre'];
 		$ap=$_POST['ap_pat'];
@@ -59,7 +51,7 @@ if ($_POST){
 		bitacora($id,"ALTA de usuario $nom $ap");
 
 		if ($_POST['prof']==1){
-			$datos=b_app("where id_area=1");
+			$datos=b_app("WHERE id_area=1");
 			while($fila=mysqli_fetch_assoc($datos)){
 				g_acc($id,$fila['id_app']);
 			}
@@ -94,7 +86,6 @@ header("location:../usuarios");
 }
 else{
 
-
 	usuario("../../","index.php");
 	echo "<center>";
 	menu_i();
@@ -127,8 +118,6 @@ else{
 		<input type='submit' value='Actualizar'> &nbsp; &nbsp; &nbsp;<a href=''><input type='button' value='Cancelar'></a>
 		</form></div>";
 
-		
-
 		// BUSCA LAS ÁREAS EXISTENTES
 		$datos2=b_area();
 		$i=1;
@@ -154,8 +143,6 @@ else{
 			//-------------------------------
 		}
 		//-------------------------------
-
-
 
 		echo "<table border='0' width='80%'>
 			<tr>
@@ -188,9 +175,6 @@ else{
 			</form>
 			</table><hr>";
 	}
-
-
-
 }
 
 ?>
@@ -217,7 +201,3 @@ else{
 		</div>
 	</div>
 	<div id='bloquea' class='bloquea'>&nbsp;</div>
-
-	
-
-	
