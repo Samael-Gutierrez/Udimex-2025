@@ -1,18 +1,15 @@
 <?php 
 session_start();
-include("../funciones.php");
-include("../../general/consultas/basic.php");
-include("../../general/consultas/admin.php");
-include("../../general/consultas/promotor.php");
-include("../../general/consultas/carreras.php");
-include("../../general/consultas/usuario.php");
-//permiso();
-cabeza();
+$dir = "../../general/";
+include($dir."php/admin.php");
+include($dir."db/admin.php");
+include($dir."db/basica.php");
+include($dir."db/promotor.php");
+include($dir."db/carreras.php");
+include($dir."db/usuario.php");
+
+cabeza("Promotores", "", "");
 ?>
-
-
-
-
 
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
