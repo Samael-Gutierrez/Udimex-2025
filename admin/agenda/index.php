@@ -1,18 +1,16 @@
 <?php
 session_start();
-include("../funciones.php");
-include("../../general/consultas/calendario.php");
-include("../../general/consultas/usuario.php");
-include('../../general/consultas/admin.php');
-include('../../general/consultas/basic.php');
+
+$dir = "../../general/";
+include($dir."php/admin.php");
+include($dir."db/admin.php");
+include($dir."db/basica.php");
+include($dir."db/calendario.php");
+include($dir."db/usuario.php");
 
 r_evento();
 
-cabeza("Agenda - Udimex","");
-//permiso();
-
-
-
+cabeza("Agenda - Udimex","", "");
 ?>
 
 	<style>

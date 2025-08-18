@@ -1,7 +1,8 @@
 <?php
 session_start();
-include("../../general/consultas/basic.php");
-include("../../general/consultas/calendario.php");
+$dir = "../../general/";
+include($dir."db/basica.php");
+include($dir."db/calendario.php");
 
 //Guarda por primera vez
 if ($_GET){

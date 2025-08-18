@@ -1,9 +1,8 @@
 <?php
 session_start();
-include("../../general/consultas/basic.php");
-include("../../general/consultas/calendario.php");
-
-
+$dir = "../../general/";
+include($dir."db/basica.php");
+include($dir."db/calendario.php");
 
 $red=explode("-",$_POST['fecha']);
 $red="index.php?anio=".$red[0]."&mes=".$red[1]."&dia=".$red[2];
