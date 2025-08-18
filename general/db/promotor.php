@@ -6,7 +6,7 @@ function b_us_ins($prom){
 				and a.id_promotor=?
 				and a.id_usuario=u.id_usuario
 				order by a.id_usuario desc, p.f_pago asc";
-	return completa($consulta, [$prom], 0);
+	return ejecuta($consulta, [$prom], 0);
 }
 
 function b_pago($prom,$edo){
@@ -15,17 +15,17 @@ function b_pago($prom,$edo){
 		where c.id_usuario=?
 		and c.id_egreso=e.id_egreso
 		and e.estado=? order by c.f_at desc";
-	return completa($consulta, [$prom, $edo], 0);
+	return ejecuta($consulta, [$prom, $edo], 0);
 }
 
 function el_sol($id){
 	$consulta="DELETE from conta_comision where id_egreso=?";
-	completa($consulta, [$id], 0);
+	ejecuta($consulta, [$id], 0);
 }
 
 function el_egreso($id){
 	$consulta="DELETE from conta_egreso where id_egreso=?";
-	completa($consulta, [$id], 0);
+	ejecuta($consulta, [$id], 0);
 }
 
 function g_sol($us,$eg,$cta){
@@ -39,7 +39,7 @@ function b_comision($id){
 				from comision as c, alumno as a
 				where a.id_usuario=?
 				and a.id_comision=c.id_comision";
-	return completa($consulta, [$id], 0);
+	return ejecuta($consulta, [$id], 0);
 }
 
 function b_promotor(){
@@ -49,30 +49,35 @@ function b_promotor(){
 
 function b_promotor1($id){
 	$consulta="SELECT * from acceso as a,usuario as u where a.id_app=10 and a.id_usuario=u.id_usuario and a.id_usuario=?;";
-	 return completa($consulta, [$id], 0);
+	 return ejecuta($consulta, [$id], 0);
 }
 
 function b_prom($id){
 	$consulta="SELECT * from acceso as a,usuario as u where a.id_app=10 and a.id_usuario=u.id_usuario and a.id_usuario=?;";
-	return completa($consulta, [$id], 0);
+	return ejecuta($consulta, [$id], 0);
 }
 
 function b_liga($us){
 	$consulta="SELECT * from liga where id_usuario=?;";
-	return completa($consulta, [$us], 0);
+	return ejecuta($consulta, [$us], 0);
 }
 
 function b_liga2($id){
 	$consulta="SELECT * from liga where id_liga=?;";
-	return completa($consulta, [$id], 0);
+	return ejecuta($consulta, [$id], 0);
 }
 
 function b_promocion(){
 	$consulta="SELECT * from promocion where estado>0;";
-	return completa($consulta, [], 0);
+	return ejecuta($consulta, [], 0);
 }
 
 function b_promocion2($id){
 	$consulta="SELECT * from promocion where id_promocion=?;";
-	return completa($consulta, [$id], 0);
+	return ejecuta($consulta, [$id], 0);
+}
+
+function busca_bono($id){
+    $consulta="SELECT * from promotor_bono where id_usuario=? and estado=1";
+	return ejecuta($consulta, [$id], 0);
 }

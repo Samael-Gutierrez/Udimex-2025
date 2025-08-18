@@ -1,15 +1,16 @@
 <?php 
 session_start();
-include("../funciones.php");
-include("../../general/consultas/basic.php");
-include("../../general/consultas/admin.php");
-include("../../general/consultas/promotor.php");
-//permiso();
+$dir = "../../general/";
+
+include ($dir."php/admin.php");
+include ($dir."db/admin.php");
+include ($dir."db/promotor.php");
+include ($dir."db/basica.php");
 
 $adicional="
 <link rel='stylesheet' href='https://www.w3schools.com/w3css/4/w3.css'>
 <link rel='stylesheet' href='../../general/estilo/ad_estilo.css'>";
-cabeza("Promotores - Udimex",$adicional);
+cabeza("Promotores - Udimex", $adicional, "");
 ?>
 
 
@@ -44,10 +45,7 @@ $mensual=0;
 $mensualAnt=0;
 $al="";
 
-//$comision_alumno=0;
 $alumno=0;
-
-
 
 
 $datos=b_us_ins($_SESSION["ad_id"]);
@@ -84,9 +82,6 @@ while($fila=mysqli_fetch_assoc($datos)){
 			if($comi>$fila['cantidad']){
 				$comi=$fila['cantidad'];
 			}
-			/*if($comi>150 && $control==0){
-				$comi=150;
-			}*/
 
 			$comision_alumno=$comision_alumno+$comi;
 			
@@ -120,70 +115,6 @@ while($fila=mysqli_fetch_assoc($datos)){
 
 
 }
-
-
-/*
-	if($actual==$fila['id_usuario']){
-		$contador=$contador+1;
-	}
-	else{
-		$datos2=b_comision($fila['id_usuario']);
-		if($fila2=mysqli_fetch_assoc($datos2)){
-			$com_ins=$fila2['inscripcion'];
-			$com_col=$fila2['colegiatura'];
-			$tope=$fila2['pagos'];
-		}
-		$contador=0;
-	}
-	
-	if($contador<$tope){
-		$actual=$fila['id_usuario'];
-		$ct=0;
-		$comision=0;
-		if ($fila['concepto']=='Colegiatura'){
-			$ct=1;
-			if ($fila['colegiatura']>0){
-				$comision=$fila['cantidad']/$fila['colegiatura']*$com_col;
-			}
-			else{
-				$comisicon=0;
-			}
-
-			if ($comision>$fila['colegiatura']){
-				$comision=$fila['colegiatura'];
-			}
-		}
-
-
-		if ($fila['concepto']=='Inscripción'){
-			$ct=1;
-			if ($fila['inscripcion']>0){
-				$comision=$fila['cantidad']/$fila['inscripcion']*$com_ins;
-			}
-			else{
-				$comisicon=0;
-			}
-			if ($comision>$fila['inscripcion']){
-				$comision=$fila['inscripcion'];
-			}
-			if ($comision<150){
-				$comision=150;
-			}
-		}
-
-		if ($ct==1){
-			$cant=number_format($comision, 2, '.', ',');
-			$al=$al."<tr><td>".$fila['nombre']."</td><td>".$fila['f_pago']."</td><td>".$fila['concepto']."</td><td>$ $cant</td></tr>";
-		}
-
-		
-	}
-}
-
-
-
-
-*/
 
 $sol="";
 $solicitado=0;
