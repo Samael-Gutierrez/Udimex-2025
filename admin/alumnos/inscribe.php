@@ -1,13 +1,15 @@
 <?php
 session_start();
-include('../funciones.php');
-include('../../general/consultas/basic.php');
-include('../../general/consultas/usuario.php');
-include('../../general/consultas/promotor.php');
-include('../../general/consultas/carreras.php');
-include('../../general/consultas/admin.php');
-include('../../general/consultas/alumno.php');
-  
+
+$dir = "../../general/";
+include($dir."php/admin.php");
+include($dir."db/basica.php");
+include($dir."db/admin.php");
+include($dir."db/carreras.php");
+include($dir."db/promotor.php");
+include($dir."db/usuario.php");
+include($dir."db/alumno.php");
+
 $prom = "";
 
 $datos = b_promotor();
@@ -26,10 +28,9 @@ $extras = "
 	<link rel='stylesheet' href='assets/css/inscribe.css'>
 ";
 
-cabeza("Formato de inscripción - Udimex",$extras);
+cabeza("Formato de inscripción - Udimex",$extras, "");
 
 ?>
-<title></title>
 <body>
 <?php
 usuario("../../", 'index.php');
