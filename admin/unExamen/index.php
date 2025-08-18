@@ -1,10 +1,17 @@
 <?php
 session_start();
-include("funciones.php");
-include("../funciones.php");
-include("../../general/consultas/admin.php");
+$dir = "../../general/";
 
-cabeza("Un Examen - Udimex", "<link rel='stylesheet' href='style.css'>");
+include ($dir."php/admin.php");
+include ($dir."db/admin.php");
+include ($dir."db/unExamen.php");
+include ($dir."db/basica.php");
+
+$referencias = "
+    <link rel='stylesheet' href='style.css'>
+    ";
+
+cabeza("Un Examen - Udimex", $referencias, "");
 
 usuario("../../", 'index.php');
 menu_i();
@@ -121,7 +128,6 @@ if($cont_proximos === 0){
 }
 
 ?>
-
 <body>
     <a class='btn' onclick='cambios();'>Vista</a>
     <div class="main-container" id='part1'>

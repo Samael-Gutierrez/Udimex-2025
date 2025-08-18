@@ -1,5 +1,7 @@
 <?php
-include "funciones.php";
+$dir = "../../general/";
+include($dir."db/unExamen.php");
+include($dir."db/basica.php");
 
 if($_POST['type'] == 1){
     $id = $_POST['id'];
