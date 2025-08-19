@@ -1,6 +1,4 @@
 <?php
-// include("basica.php");
-
 function busca_usuario($id){
 	$consulta="SELECT a.id_alumno, nombre, ap_pat, ap_mat
 		FROM usuario AS u, alumno AS a
@@ -141,4 +139,41 @@ function totalExamenes($id){
 function getGroupById($id){
 	$consulta = "SELECT id_grupo FROM alumno WHERE id_alumno = ?;";
 	return ejecuta($consulta,[$id],0);
+}
+
+function asignarVisto($id){
+	$consulta = "UPDATE tarea_us SET visto = 1 WHERE id_tarus=?";
+	ejecuta($consulta, [$id], 0);
+}
+
+function actualizarDetalles($tarea, $id, $calificacion, $comentario, $revision){
+    $consulta = "UPDATE tarea_alumno 
+                SET calificacion = ?,
+                comentario = ?,
+                fecha_revision = ?
+                WHERE id_tarea = ? 
+                AND id_alumno = ? ;";
+    ejecuta($consulta, [$calificacion, $comentario, $revision, $tarea, $id], 0);
+}
+
+function asignarCalificacion($revision, $calificacion, $comentario, $tarea, $alumno, $profe){
+    $consulta = "UPDATE tarea_alumno 
+                SET fecha_revision = ?,
+                calificacion = ?, 
+                comentario = ?,
+                estado = 1,
+                id_reviso = ?
+                WHERE id_tarea = ?
+                AND id_alumno = ?
+                ";
+    ejecuta($consulta, [$revision, $calificacion, $comentario, $profe, $tarea, $alumno], 0);
+}
+
+function cambiarEstado($alumno, $tarus){
+    $consulta = "UPDATE tarea_us
+                SET estado = 1
+                WHERE id_tarus = ?
+                AND id_alumno = ?
+                ";
+    ejecuta($consulta, [$tarus, $alumno], 0);
 }

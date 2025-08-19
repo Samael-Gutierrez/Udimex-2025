@@ -1,6 +1,9 @@
 <?php
-include("../../general/consultas/basic.php");
-include("../../general/consultas/materias.php");
+
+$dir = "../../general/";
+include($dir."db/basica.php");
+include($dir."db/materias.php");
+
 
 if ($_GET){
 	q_matgr2($_GET['gr'], $_GET['mt']);
