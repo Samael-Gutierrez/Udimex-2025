@@ -10,10 +10,6 @@ function sesion_inicio($us,$pas){
 	
 }
 
-/*--------------------------MODULO DE PUBLICIDAD----------------------------------------------------------------------------------------*/
-/*Busca aplicaciones para acceso de cada usuario
-admin/menu.php
-*/
 function b_acceso($id){
 	$consulta="SELECT distinct(pl.id_app), nombre, url, icono, ar.descripcion as descr, ar.id_area
 	FROM acceso as a, app as pl, area as ar 
@@ -94,39 +90,5 @@ function g_banco($us,$bn,$cta){
 function b_admin(){
 	$consulta="SELECT DISTINCT(a.id_usuario), u.* FROM acceso as a, usuario as u WHERE a.id_usuario=u.id_usuario order by u.nombre;";
 	return ejecuta($consulta, [], 0);
-}
-
-//made for boy hasware
-// añadirPublicacion
-
-function añadirPublicacion($nombre, $contenido, $imagen, $prioridad, $n_grupos, $lugar){
-    // Insertar datos en la bd
-    $consulta = "INSERT INTO publicidad_publicidades (nombre, contenido, imagen, prioridad, n_grupos, lugar, estado) VALUES (?, ?, ?, ?, ?, ?, 1)";
-    ejecuta($consulta, [$nombre, $contenido, $imagen, $prioridad, $n_grupos, $lugar], 0);  
-}
-// Buscar publicidad por estado
-function busca_publicidad($estado){
-    $consulta = "SELECT nombre, contenido, id_publicidad from publicidad_publicidades where estado=?";
-    $datos= ejecuta($consulta,[$estado], 0);
-    return $datos;
-}
-// Buscar publicidad por id (editarP)
-function busca_publicidad2($id_publicidad){
-    $consulta = "SELECT nombre, contenido, imagen, n_grupos, prioridad, estado, lugar FROM publicidad_publicidades WHERE id_publicidad = ?";
-    $datos= ejecuta($consulta, [$id_publicidad], 0);
-    return $datos;
-}
-function actualiza_publicidad($nombre, $contenido, $prioridad, $n_grupos, $lugar, $estado, $id_publicidad){
-    $consulta = "UPDATE publicidad_publicidades SET nombre=?, contenido=?,  prioridad=?, n_grupos=?, lugar=?, estado=? WHERE id_publicidad=?";
-    ejecuta($consulta, [$nombre, $contenido, $prioridad, $n_grupos, $lugar, $estado, $id_publicidad], 0); 
-}
-function actualiza_imagenP($imagen,$id_publicidad){
-    $consulta = "UPDATE publicidad_publicidades SET imagen=? WHERE id_publicidad=?";
-    return ejecuta($consulta, [$imagen, $id_publicidad], 0);
-}
-// borrar publicacion
-function borrar($id){
-    $consulta="DELETE from publicidad_publicidades where id_publicidad=?";
-    ejecuta($consulta, [$id], 0);
 }
 ?>
