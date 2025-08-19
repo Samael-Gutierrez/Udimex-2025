@@ -196,11 +196,11 @@ function q_almat($al){
 
 /*Guarda una materia nueva*/
 function g_mat($car,$nom,$dur,$tip,$sem,$ba){
-	$consulta="insert into materia values ('',?,0,?,?,?)";
+	$consulta="INSERT into materia values (NULL,?,0,?,?,?)";
 	$mat=ejecuta($consulta,[$nom,$dur,$tip,$car],1);
 
-	$consulta="insert into dmateria values ('',?,?,?)";
-	completa($consulta,[$sem,$ba,$mat],0);
+	$consulta="INSERT into dmateria values(NULL,?,?,?)";
+	ejecuta($consulta,[$sem,$ba,$mat],0);
 }
 
 function m_vacio(){

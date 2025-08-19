@@ -1,6 +1,8 @@
 <?php
-include("../../general/consultas/materias.php");
-include("../../general/consultas/basic.php");
+$dir = "../../general/";
+include($dir."db/basica.php");
+include($dir."db/materias.php");
+
 $car=$_GET['car'];
 
 

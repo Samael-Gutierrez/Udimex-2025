@@ -1,12 +1,12 @@
 <?php 
 session_start();
-include("../funciones.php");
-include("../../general/consultas/carreras.php");
-include("../../general/consultas/basic.php");
-include("../../general/consultas/admin.php");
-include("../../general/funcion/basica.php");
-//permiso();
-cabeza("Plan de estudios - Udimex","");
+$dir = "../../general/";
+include($dir."db/admin.php");
+include($dir."db/carreras.php");
+include($dir."db/basica.php");
+include($dir."php/admin.php");
+
+cabeza("Plan de estudios - Udimex","", "");
 ?>
 </head>
 <body>

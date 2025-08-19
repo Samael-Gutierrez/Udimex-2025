@@ -1,13 +1,13 @@
 <?php 
 session_start();
-include("../funciones.php");
-include("../../general/consultas/materias.php");
-include("../../general/consultas/carreras.php");
-include("../../general/consultas/basic.php");
-include("../../general/consultas/admin.php");
-include("../../general/funcion/basica.php");
-//permiso();
-cabeza("Carreras-Udimex","");
+$dir = "../../general/";
+include($dir."db/admin.php");
+include($dir."db/materias.php");
+include($dir."db/carreras.php");
+include($dir."db/basica.php");
+include($dir."php/admin.php");
+
+cabeza("Carreras-Udimex","", "");
 
 if ($_POST){
 	$id=$_POST['id'];
