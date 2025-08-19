@@ -1,6 +1,7 @@
 <?php
 session_start();
-include "funciones/funciones_examenes.php";
+$dir = "../../general/";
+include($dir."db/examenes.php");
 
 if (!isset($_SESSION["ad_id"]) || $_SESSION["ad_id"] == 0) {
     header('Location: iniciaSesion.php');
@@ -31,8 +32,38 @@ function obtener_letra($indice)
     <script type="text/javascript" src="../../general/js/editor.js"></script>
     <title>Vista de Examen</title>
 </head>
+<style>
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.loader::after {
+  content: '';
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #3498db;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+</style>
 
 <body>
+    <div id='loader' class='loader'></div>
     <div id="modal-for" class="modal">
         <div class="modal-content">
             <a onclick='closeModal()' class="close dfrc">x</a>
@@ -284,6 +315,7 @@ function obtener_letra($indice)
             const numero = document.getElementById('numero'+id).value;
             const canvas = document.getElementById('miCanvas'+id);
             const contenedor = document.getElementById('container-div-'+id);
+            showLoader();
 
             const ctx = canvas.getContext('2d');
             ctx.font = "30px Arial";
@@ -335,7 +367,8 @@ function obtener_letra($indice)
             const imagenHTML = `<img src="${imagenBase64}" style="vertical-align: middle; width:80px;">`;
 
             contenedor.insertAdjacentHTML('beforeend', imagenHTML);
-            closeModal()
+            closeModal();
+            hiddeLoader();
         }
 
         function dibujarFraccionComoImagen(id) {
@@ -343,6 +376,7 @@ function obtener_letra($indice)
             const denominador = document.getElementById('denominador'+id).value;
             const canvas = document.getElementById('miCanvas'+id);
             const contenedor = document.getElementById('container-div-'+id);
+            showLoader();
 
             if (numerador === "" || denominador === "" || isNaN(numerador) || isNaN(denominador)) {
                 alert("Por favor, ingresa números válidos.");
@@ -390,6 +424,7 @@ function obtener_letra($indice)
             const imagenHTML = `<img src="${imagenBase64}" alt="${numerador}/${denominador}" style="vertical-align: middle; width:80px;">`;
 
             contenedor.insertAdjacentHTML('beforeend', imagenHTML);
+            hiddeLoader();
             closeModal();
         }
 
@@ -401,6 +436,7 @@ function obtener_letra($indice)
             var form = $('#formImagen-' + id)[0];
             var data = new FormData(form);
             data.append("control", "correcto");
+            showLoader();
             $.ajax({
                 url: 'carga-imagen.php',
                 type: 'POST',
@@ -414,6 +450,7 @@ function obtener_letra($indice)
                     ima = data;
                     media(ima, id);
                     form.reset();
+                    hiddeLoader();
                 },
                 error: function() {
                     alert("No se pudo cargar el archivo, intenta de nuevo");
@@ -503,6 +540,17 @@ function obtener_letra($indice)
 
         function mostrarAlerta() {
             alert('De momento nos encontramos trabajando en añadir imagenes desde tu dispositivo, por medio de copiar, pegar y por capturas si funciona, le invitamos a leer el manual para que de momento pueda editar las imagenes de las preguntas por esos medios, muchas gracias.')
+        }
+
+        function showLoader(){
+            document.getElementById('loader').style.display = 'flex';
+            hiddeLoader('Todo listo');
+        }
+
+        function hiddeLoader(){
+            setTimeout(function() {
+                document.getElementById('loader').style.display = 'none';
+            }, 500);
         }
     </script>
 </body>

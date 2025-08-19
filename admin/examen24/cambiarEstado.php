@@ -1,5 +1,6 @@
 <?php
-include "funciones/funciones_examenes.php";
+$dir = "../../general/";
+include($dir."db/examenes.php");
 
 if($_POST){
     $id = $_POST['id'];

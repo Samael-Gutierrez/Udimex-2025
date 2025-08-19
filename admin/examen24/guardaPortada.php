@@ -1,7 +1,8 @@
 <?php
 session_start();
-include "funciones/funcionesPortada.php";
 
+$dir = "../../general/";
+include($dir."db/portada.php");
 
 $id_escuela = $id_profesor = $id_materia = 0;
 

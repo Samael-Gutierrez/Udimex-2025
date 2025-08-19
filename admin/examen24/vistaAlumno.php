@@ -1,9 +1,8 @@
 <?php
 session_start();
-
-include "funciones/funcionesPortada.php";
-include("../../general/consultas/admin.php");
-include("../../general/consultas/usuario.php");
+$dir = "../../general/";
+include($dir."db/portada.php");
+include($dir."db/usuario.php");
 
 $portada = $_GET["id"];
 

@@ -31,3 +31,19 @@ function actualizar_respuesta($respuesta, $id){
     $consulta = "UPDATE respuesta SET respuesta = ? WHERE id_respuesta = ?;";
     ejecuta($consulta, [$respuesta, $id], 0);
 }
+
+function borrar($pregunta){
+    $consulta = "DELETE FROM cuestionario WHERE id_pregunta=?";
+    ejecuta($consulta, [$pregunta], 0);
+}
+
+function borrar2($pregunta){
+    $consulta = "DELETE FROM respuesta WHERE id_pregunta=?";
+    ejecuta($consulta, [$pregunta], 0);
+}
+
+function obtenerPregunta($id_pregunta){
+    $consulta = "SELECT * FROM cuestionario WHERE id_pregunta = ?";
+    $resultado = ejecuta($consulta, [$id_pregunta], 0);
+    return $resultado;
+}

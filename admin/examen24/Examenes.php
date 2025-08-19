@@ -1,9 +1,8 @@
 <?php
 session_start();
 
-include "funciones/funciones_examenes.php";
-
-
+$dir = "../../general/";
+include($dir."db/examenes.php");
 
 if (!isset($_SESSION["ad_id"]) || $_SESSION["ad_id"] == 0) {
     header('Location: iniciaSesion.php');
