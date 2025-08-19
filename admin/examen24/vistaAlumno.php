@@ -1,8 +1,10 @@
 <?php
 session_start();
 $dir = "../../general/";
+include($dir."db/basica.php");
 include($dir."db/portada.php");
 include($dir."db/usuario.php");
+include($dir."db/examenes.php");
 
 $portada = $_GET["id"];
 

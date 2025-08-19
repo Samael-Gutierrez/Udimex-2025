@@ -1,5 +1,6 @@
 <?php
 $dir = "../../general/";
+include($dir."db/basica.php");
 include($dir."db/preguntas.php");
 
 if (isset($_GET['id_pregunta'])) {

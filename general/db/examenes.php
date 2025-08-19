@@ -1,6 +1,4 @@
 <?php
-include "basica.php";
-
 function obtener_examenes($id_usuario) {
   $consulta= "SELECT po.id_portada, ma.nombre_materia, ad.contenido FROM portada AS po, materias AS ma, adicionales AS ad
               WHERE po.id_usuario = ?
@@ -63,7 +61,7 @@ function guardar_datos($nombre, $apellido_paterno, $apellido_materno, $correo, $
 }
 
 function sesion_inicio($us, $pas) {
-   $consulta="SELECT id_usuario, nombre, ap_pat,ap_mat FROM usuario WHERE correo=? AND clave=? ";
+   $consulta="SELECT id_usuario, nombre, ap_pat,ap_mat FROM usuario WHERE usuario=? AND clave=? ";
    return ejecuta($consulta, [$us, $pas], 0);
 }
 

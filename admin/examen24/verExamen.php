@@ -1,6 +1,7 @@
 <?php
 session_start();
 $dir = "../../general/";
+include($dir."db/basica.php");
 include($dir."db/examenes.php");
 
 if (!isset($_SESSION["ad_id"]) || $_SESSION["ad_id"] == 0) {

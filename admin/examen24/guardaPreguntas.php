@@ -2,7 +2,7 @@
 session_start();
 
 $dir = "../../general/";
-
+include($dir."db/basica.php");
 include($dir."db/preguntas.php");
 
 if ($_POST) {

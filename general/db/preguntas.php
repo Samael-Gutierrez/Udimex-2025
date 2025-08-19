@@ -1,6 +1,4 @@
 <?php
-include("basica.php");
-
 function guardar_pregunta($escribir, $tipo, $id_portada) {
     $consulta = "INSERT INTO cuestionario (id_pregunta, pregunta, tipo, id_material) VALUES (NULL, ?, ?, ?);";
     return ejecuta($consulta, [$escribir, $tipo, $id_portada], 1);

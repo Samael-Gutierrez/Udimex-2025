@@ -1,10 +1,11 @@
 <?php
 session_start();
 $dir = "../../general/";
+include($dir."db/basica.php");
 include($dir."db/examenes.php");
 
+
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-            echo "a";
     if (isset($_POST['register'])) {
 
         $nombre = $_POST['name'];
@@ -14,6 +15,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $contraseña = $_POST['password'];
 
         guardar_datos($nombre, $apellido_paterno, $apellido_materno, $correo, $contraseña);
+
+        if (mysqli_affected_rows(abrir()) > 0) {
+            $_SESSION['mensaje'] = "Usuario creado correctamente";
+        } else {
+            $_SESSION['mensaje'] = "Error al crear el usuario";
+        }
 
         header('Location: index.php');
         exit();

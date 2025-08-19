@@ -2,6 +2,7 @@
 session_start();
 
 $dir = "../../general/";
+include($dir."db/basica.php");
 include($dir."db/portada.php");
 
 $id_escuela = $id_profesor = $id_materia = 0;

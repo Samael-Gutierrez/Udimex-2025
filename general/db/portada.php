@@ -1,6 +1,4 @@
 <?php
-include("basica.php");
-
 function guardarEscuela($nombreEscuela, $logotipo) {
     $consulta = "INSERT INTO escuela_log (id_escuela, nombre_escuela, logotipo) VALUES (NULL, ?, ?)";
     return ejecuta($consulta, [$nombreEscuela, $logotipo], 1);
