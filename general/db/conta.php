@@ -31,9 +31,9 @@ function g_ingreso1($cant1,$fecha1,$descu){
 	if ($fecha1==''){
 		$fecha1=date('Y-m-d');
 	}
-	$consulta="INSERT INTO pago VALUES(NULL, ?, ?, NULL, ?,0)";
+	$consulta="INSERT INTO pago VALUES(NULL, ?, ?, ?, ?,0)";
 	echo $consulta;
-	return ejecuta($consulta, [$cant1, $fecha1, $descu], 0);
+	return ejecuta($consulta, [$cant1, $fecha1, $fecha1, $descu], 0);
 }
 
 function b_sobrecargos($fi,$ff){

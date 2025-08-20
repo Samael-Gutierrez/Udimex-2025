@@ -1,11 +1,12 @@
 <?php
 session_start();
-include ("../../general/consultas/basic.php");
-include ("../../general/consultas/certificados.php");
-include("../../general/consultas/admin.php");
-include("../../general/consultas/usuario.php");
-include ("../../general/funcion/basica.php");
-include("../funciones.php");
+$dir = "../../general/";
+include($dir."db/basica.php");
+include($dir."db/certificados.php");
+include($dir."db/admin.php");
+include($dir."php/admin.php");
+include($dir."db/usuario.php");
+
 ?>
 
 <head>
@@ -13,7 +14,7 @@ include("../funciones.php");
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 <?php
-carga_estilo("../../");
+carga_estilo2("../../");
 usuario("../../",'index.php');
 menu_i("../../");
 ?>

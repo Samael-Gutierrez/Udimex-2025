@@ -152,6 +152,17 @@ function aleatorio($longitud){
 	return $cadena;
 }
 
+function carga_estilo2($ub){
+	echo "
+	<link rel='stylesheet' href='https://www.w3schools.com/w3css/4/w3.css'>
+	<link rel='preconnect' href='https://fonts.googleapis.com'>
+	<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+	<link href='https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap' rel='stylesheet'>
+	<link rel='stylesheet' href='".$ub."general/estilo/estilo2.css'>
+	<link rel='icon' href='$ub/general/imagen/icono.png' type='image/png' sizes='16x16'>
+	<meta charset='utf-8'>";
+}
+
 ?>
 
 

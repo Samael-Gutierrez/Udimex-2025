@@ -1,7 +1,8 @@
 <?php
-include ("../../general/consultas/basic.php");
-include ("../../general/consultas/certificados.php");
-
+ob_start();
+$dir = "../../general/";
+include($dir."db/basica.php");
+include($dir."db/certificados.php");
 $control=$_POST['control'];
 for($i=1;$i<$control;$i++){
 	$edo=$_POST['op'.$i];
@@ -11,6 +12,7 @@ for($i=1;$i<$control;$i++){
 		guarda_seguimiento($id,$edo,$obs);
 	}
 }
-
 header("location:index.php");
+exit;
+ob_end_flush();
 ?>
