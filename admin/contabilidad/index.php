@@ -173,11 +173,6 @@ echo " <div class='fondo'>
 			?>
 			</center>
 		</select>
-	<center><script> busca_gasto(); 
-	
-	
-	busca_ingresos(); </script>
-	</center>
 	<!--TABLAS-->
 	<div>
 		<div class="contain1">
@@ -192,6 +187,12 @@ echo " <div class='fondo'>
 </div>
 
 <script>
+
+	document.addEventListener('DOMContentLoaded', function () {
+  		busca_gasto();
+		busca_ingresos();
+	});
+
 	function busca_gasto(){
 		var url = 'b_gas.php';
 			$.ajax({                        
