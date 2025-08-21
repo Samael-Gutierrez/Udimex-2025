@@ -1,7 +1,11 @@
 <?php
-include('../../general/consultas/basic.php');
-include('../../general/consultas/usuario.php');
-include('../../general/consultas/alumno.php');
+
+$dir = "../../general/";
+include($dir."db/admin.php");
+include($dir."db/basica.php");
+include($dir."db/usuario.php");
+include($dir."db/alumno.php");
+
 
  //Datos para tabla de usuario
 $usuario=$_POST["user"];

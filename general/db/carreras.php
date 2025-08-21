@@ -7,8 +7,8 @@ function b_car($id){
 
 /* Busca una carrera por estado */
 function b_carrera($edo){
-	$consulta="select * from carrera where estado$edo order by rank desc";
-	return ejecuta($consulta,[],0);
+	$consulta="select * from carrera where estado = ? order by rank desc";
+	return ejecuta($consulta,[$edo],0);
 }
 
 

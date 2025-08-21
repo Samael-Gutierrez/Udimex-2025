@@ -1,13 +1,12 @@
 <?php
-include('../funciones.php');
-include('../../general/consultas/basic.php');
-include('../../general/consultas/usuario.php');
-include('../../general/consultas/alumno.php');
-include('../../general/consultas/promotor.php');
-include('../../general/consultas/carreras.php');
-//include('/TICS/WEB/2111udim/admin/alumnos/guarda.php');
 
-
+$dir = "../../general/";
+include($dir."db/admin.php");
+include($dir."db/basica.php");
+include($dir."db/usuario.php");
+include($dir."db/alumno.php");
+include($dir."db/promotor.php");
+include($dir."db/carreras.php");
 
 if($_GET){
 	$id=$_GET['id']; 

@@ -1,9 +1,15 @@
 <?php
 session_start();
-include('../funciones.php');
-include('../../general/consultas/basic.php');
-include('../../general/consultas/admin.php');
-include('../../general/consultas/carreras.php');
+$dir = "../../general/";
+include($dir."db/admin.php");
+include($dir."php/admin.php");
+include($dir."db/basica.php");
+include($dir."db/carreras.php");
+
+// include('../funciones.php');
+// include('../../general/consultas/basic.php');
+// include('../../general/consultas/admin.php');
+// include('../../general/consultas/carreras.php');
 ?>
 
 
@@ -15,7 +21,7 @@ include('../../general/consultas/carreras.php');
 	<meta charset='utf-8'>
 
 	<?php
-	cabeza('../');
+	cabeza('../', "","");
 	?>
 	<title>Inscripciones</title>
 
@@ -154,7 +160,7 @@ include('../../general/consultas/carreras.php');
 
 		$i=0;
 		$carreras="";
-		$datos=b_carrrera(1);
+		$datos=b_carrera(1);
 		while($fila=mysqli_fetch_assoc($datos)){
 			$i=$i+1;
 			$carreras=$carreras.
