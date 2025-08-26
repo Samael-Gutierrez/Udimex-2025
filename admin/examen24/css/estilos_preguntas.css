@@ -105,6 +105,7 @@ textarea::placeholder {
     border-radius: 10px;
     transition: background-color 0.3s, transform 0.3s;
     display: inline-block;
+    text-decoration: none;
 }
 
 .boton:hover {
@@ -361,6 +362,10 @@ text-transform: uppercase;
 font-weight: bolder;
 cursor: pointer;
 transition: all ease 0.3s;
+}
+
+.openModal {
+    max-width: 50px;
 }
 
 .openModal:hover, .modal-btn:hover {

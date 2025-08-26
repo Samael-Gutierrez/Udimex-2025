@@ -59,7 +59,6 @@ if ($_POST) {
     if ($id_escuela && $id_profesor && $id_materia) {
         $tiempo = $_POST['tiempo'];
         $id_portada = recuperar_id($id_escuela, $id_profesor, $id_materia, $tiempo);
-            $_SESSION["id_portada"] = $id_portada;
 
         if ($id_portada) {
             echo "Datos guardados correctamente.";
@@ -75,7 +74,7 @@ if ($_POST) {
                 datos_adicionales($id_portada, $contenido, $valor);
             }
         }
-        header("Location: preguntas.php");   
+        header("Location: preguntas.php?id_portada=".$id_portada);   
     } 
 } 
 ?>

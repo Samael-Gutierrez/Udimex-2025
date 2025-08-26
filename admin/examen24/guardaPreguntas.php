@@ -15,9 +15,7 @@ if ($_POST) {
     $op3 = $_POST['option3'];
     $op4 = $_POST['option4'];
     $op = isset ($_POST['op']) ? $_POST['op'] : '';
-    $preguntas = $_POST['pregunta'];
-    $opciones = $_POST['opcion'];
-    $id_portada= $_SESSION["id_portada"] ;
+    $id_portada= $_POST["id_portada"] ;
 
     if (strlen($escribir) > 0) {
         $id = guardar_pregunta($escribir, $tipo, $id_portada);
@@ -30,29 +28,29 @@ if ($_POST) {
             if (strlen($op4) > 0) guarda_respuesta($op4, 0, $id);
         }
 
-        if ($tipo == 3) {
-            if (strlen($op) > 0) {
-                if ($op == "True") {
-                    guarda_respuesta("Verdadero", 1, $id);
-                    guarda_respuesta("Falso", 0, $id);
-                } else {
-                    guarda_respuesta("Falso", 1, $id);
-                    guarda_respuesta("Verdadero", 0, $id);
-                }
-            }
-        }
+        // if ($tipo == 3) {
+        //     if (strlen($op) > 0) {
+        //         if ($op == "True") {
+        //             guarda_respuesta("Verdadero", 1, $id);
+        //             guarda_respuesta("Falso", 0, $id);
+        //         } else {
+        //             guarda_respuesta("Falso", 1, $id);
+        //             guarda_respuesta("Verdadero", 0, $id);
+        //         }
+        //     }
+        // }
 
-        if ($tipo == 4) {
-            $preguntas = $_POST['pregunta'];
-            $opciones = $_POST['opcion'];
+        // if ($tipo == 4) {
+        //     $preguntas = $_POST['pregunta'];
+        //     $opciones = $_POST['opcion'];
 
-            $i=0;
-            while($preguntas  [$i]){
-                g_respuestas($preguntas[$i], $opciones[$i], $id);
-                $i++; 
+        //     $i=0;
+        //     while($preguntas  [$i]){
+        //         g_respuestas($preguntas[$i], $opciones[$i], $id);
+        //         $i++; 
  
-            }
-        }
+        //     }
+        // }
     }
 }
 ?>

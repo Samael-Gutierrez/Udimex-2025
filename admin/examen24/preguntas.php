@@ -20,9 +20,10 @@
         <hr class="blue-line">
     </div><br> 
     <h2 class="subtitulo">Crea tu Examen!</h2>
-    <p onclick='openModal(3)' class="openModal"><i class="bi bi-images"></i></p>
-    <p onclick="openModal(1)" class='openModal'>√</p>
-    <p onclick="openModal(2)" class='openModal'>a/b</p>
+    <p onclick='openModal(3,0)' class="openModal"><i class="bi bi-images"></i></p>
+    <p onclick="openModal(1,0)" class='openModal'>√</p>
+    <p onclick="openModal(2,0)" class='openModal'>/</p>
+    <p onclick="openModal(4, 0)" class='openModal'>^</p>
 
     <div id="modal-for" class="modal">
         <div class="modal-content">
@@ -46,7 +47,8 @@
         <div class="cuadro">
             <h2>Pregunta</h2>
             <input id='escrip_p' type="hidden" name="escri_p" rows="4" cols="50"></input>
-            <div class="container-div" id="container-div" contenteditable="true" rows="4" cols="50"></div>
+            <input type="hidden" name="id_portada" value=' <?php echo $_GET['id_portada'];?> '></input>
+            <div class="container-div" id="editor-0" contenteditable="true" rows="4" cols="50"></div>
         </div>
         <input type="hidden" name="tipo" value="1"> <!-- <strong> Opción Múltiple &nbsp; &nbsp; </strong> -->
         <!-- <input type="radio" name="tipo" id="abiertas" value="2" style='display:none;'> <strong style='display:none;'> Abierta &nbsp; &nbsp; </strong> 
@@ -58,20 +60,28 @@
                 <br>
                 <h2>Opciones</h2>
                 <div id="closed-options" class="options">
-                    <div class="option">
-                        <input type="text" name="option1" placeholder= "Aqui va la respuesta Correcta" autocomplete="off">
+                    <p onclick="openModal(4, 1)" class='openModal'>^</p>
+                    <div class="">
+                        <div id="editor-1" contenteditable="true" class='option'></div>
+                        <input type="hidden" name="option1" id='op-1'>  
                         <input type="hidden" name="value1" value="1">
                     </div>
-                    <div class="option">
-                        <input type="text" name="option2" placeholder="Aqui va la respuesta Incorrecta" autocomplete="off">
+                    <p onclick="openModal(4, 2)" class='openModal'>^</p>
+                    <div class="">
+                        <div id="editor-2" contenteditable="true" class='option'></div>
+                        <input type="hidden" name="option2" id='op-2'>
                         <input type="hidden" name="value2" value="0">
                     </div>
-                    <div class="option">
-                        <input type="text" name="option3" placeholder="Aqui va la respuesta Incorrecta" autocomplete="off">
+                    <p onclick="openModal(4, 3)" class='openModal'>^</p>
+                    <div class="">
+                        <div id="editor-3" contenteditable="true" class='option'></div>
+                        <input type="hidden" name="option3" id='op-3'>
                         <input type="hidden" name="value3" value="0">
                     </div>
-                    <div class="option">
-                        <input type="text" name="option4" placeholder="Aqui va la respuesta Incorrecta" autocomplete="off">
+                    <p onclick="openModal(4, 4)" class='openModal'>^</p>
+                    <div class="">
+                        <div id="editor-4" contenteditable="true" class='option'></div>
+                        <input type="hidden" name="option4" id='op-4'>
                         <input type="hidden" name="value4" value="0">
                     </div>
                 </div>
@@ -80,7 +90,7 @@
 
         <div id="vista-abierta" style="display: none;"></div>
 
-        <div id="vista-vf" style="display: none;">
+        <!-- <div id="vista-vf" style="display: none;">
             <div id="true-false-options" class="options"> <br> <br>
                 <h2>Selecciona la respuesta:</h2>
                 <div class="option">
@@ -90,9 +100,9 @@
                     <input type="radio" id="false" name="op" value="False"> Falso
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <div id="vista-columna" style="display: none;">
+        <!-- <div id="vista-columna" style="display: none;">
             <br><br>
             <div class="RC">
             </div>
@@ -114,8 +124,9 @@
             <div id="add-remove-btn-container">
                 <button type="button" class="add-btn" onclick="agregar_textArea()">+</button>
             </div>
-        </div>
-        <div id="submit-reset-container">
+        </div> -->
+        <a class="boton" id='btn-hidden' onclick="mostrar()">Confirmar</a>
+        <div id="submit-reset-container" style='display:none;'>
             <div id="submit-btn-container"> 
                 <button type="button" class="boton" onclick="guardarPregunta()">Enviar</button>
             </div>
@@ -149,8 +160,16 @@
 </div>
 <script>
     // -----------------------Guardado de div a input oculto-----------------------
-const divEditable = document.getElementById('container-div');
+const divEditable = document.getElementById('editor-0');
 const inputOculto = document.getElementById('escrip_p');
+
+function mostrar(){
+    const btn = document.getElementById('btn-hidden');
+    const dis = document.getElementById('submit-reset-container');
+
+    btn.style.display = 'none';
+    dis.style.display = 'block';
+}
 
 function guardarEnInput() {
     inputOculto.value = divEditable.innerHTML;
@@ -158,24 +177,15 @@ function guardarEnInput() {
 
 divEditable.addEventListener('blur', guardarEnInput);
 
+
+
 // -----------------------JS de Preguntas-----------------------
 function muestra(tp) {
-    // oculta();
     document.getElementById("vista-om").style.display = "block" ;
-    // document.getElementById("vista-om").style.display = (tp == 1) ? "block" : "none";
-    // document.getElementById("vista-abierta").style.display = (tp == 2) ? "block" : "none";
-    // document.getElementById("vista-vf").style.display = (tp == 3) ? "block" : "none";
-    // document.getElementById("vista-columna").style.display = (tp == 4) ? "block" : "none";
-
-    // localStorage.setItem('ultimaVista', tp);
 }
 
 function oculta() {
     document.getElementById("vista-om").style.display = "block";
-    // document.getElementById("vista-om").style.display = "none";
-    // document.getElementById("vista-abierta").style.display = "none";
-    // document.getElementById("vista-vf").style.display = "none";
-    // document.getElementById("vista-columna").style.display = "none";
 }
 
 function agregar_textArea() {
@@ -214,7 +224,7 @@ function mostrarBotonQuitar() {
 
 function guardarPregunta() {
     var formData = new FormData(document.getElementById('formulario-preguntas'));
-    var formDiv = document.getElementById('container-div');
+    var formDiv = document.getElementById('editor-0');
     var formCarga = document.getElementById('cargarImagen');
 
     var xhr = new XMLHttpRequest();
@@ -232,6 +242,10 @@ function guardarPregunta() {
     formDiv.innerHTML='';
     formCarga.reset();
 
+    document.getElementById('editor-1').innerHTML='';
+    document.getElementById('editor-2').innerHTML='';
+    document.getElementById('editor-3').innerHTML='';
+    document.getElementById('editor-4').innerHTML='';
 }
 
 document.getElementById('confirmFinish').addEventListener('click', function() {
@@ -246,7 +260,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // -----------------------JS de cargar imagen a DIV-----------------------
 $('#subir').click(function() {  
-    document.getElementById("container-div").focus();
+    document.getElementById("editor-0").focus();
 
     var form = $('#cargarImagen')[0];
     var data = new FormData(form);
@@ -292,7 +306,7 @@ function hiddeImage(){
 const modal = document.getElementById('modal-for');
 let content = document.getElementById("content-popup");
 
-function openModal(tipo){
+function openModal(tipo, id){
     if(tipo == 1){
         content.innerHTML += `
             <h2 class='modal-title'>Añadir Raíz Cuadrada</h2>
@@ -328,11 +342,111 @@ function openModal(tipo){
     if(tipo == 3){
         showImage();
     }
+
+    if(tipo == 4){
+        content.innerHTML += `
+            <h2 class='modal-title'>Añadir Exponentes</h2>
+            <div class='separacion'></div>
+            <div class='dfrc'>
+                <label for="numer">Num: </label>
+                <input type="text" id="numer-${id}" step="any" class='ml-10'>
+                <label for="exponente">Expo: </label>
+                <input type="text" id="exponente-${id}" step="any" class='ml-10'>
+            </div>
+            <button onclick="dibujarPotencia(${id})" class='modal-btn'>Generar</button>
+
+            <canvas id="canvas-${id}" style="display:none;"></canvas>
+
+        `;
+    }
     
     modal.style.display = 'block';
     setTimeout(() => modal.classList.add('show'), 10);
 }
 
+const editor1 = document.getElementById('editor-1');
+const editor2 = document.getElementById('editor-2');
+const editor3 = document.getElementById('editor-3');
+const editor4 = document.getElementById('editor-4');
+
+editor1.addEventListener('blur', function () {
+    colocarInfo(1);
+});
+
+editor2.addEventListener('blur', function () {
+    colocarInfo(2);
+});
+
+editor3.addEventListener('blur', function () {
+    colocarInfo(3);
+});
+
+editor4.addEventListener('blur', function () {
+    colocarInfo(4);
+});
+
+function colocarInfo(id){
+    const editor = document.getElementById("editor-"+id);
+    const input = document.getElementById("op-"+id);
+
+    input.value = editor.innerHTML;
+}
+
+function dibujarPotencia(id) {
+    const base = document.getElementById('numer-'+id).value;
+    const exponente = document.getElementById('exponente-'+id).value;
+    const canvas = document.getElementById('canvas-'+id);
+    const editor = document.getElementById('editor-'+id);
+
+    const ctx = canvas.getContext('2d');
+
+    const baseFont = 30;
+    const expFont = 14;
+    const padding = 2;
+
+    ctx.font = `${baseFont}px Arial`;
+    const baseWidth = ctx.measureText(base).width;
+    const baseHeight = baseFont;
+
+    ctx.font = `${expFont}px Arial`;
+    const expWidth = ctx.measureText(exponente).width;
+    const expHeight = expFont;
+
+    const canvasWidthCSS = baseWidth + expWidth + padding * 4;
+    const canvasHeightCSS = Math.max(baseHeight, expHeight * 1.2) + padding * 4;
+
+    const dpr = window.devicePixelRatio || 1;
+
+    canvas.width = canvasWidthCSS * dpr;
+    canvas.height = canvasHeightCSS * dpr;
+
+    canvas.style.width = canvasWidthCSS + 'px';
+    canvas.style.height = canvasHeightCSS + 'px';
+
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+
+    ctx.fillStyle = "#ffffff";
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+    ctx.fillStyle = "#000000";
+    ctx.font = `${baseFont}px Arial`;
+    const baseY = canvasHeightCSS - padding * 2;
+    ctx.fillText(base, padding * 2, baseY);
+
+    ctx.font = `${expFont}px Arial`;
+    const expX = padding * 2 + baseWidth;
+    const expY = baseY - baseFont * 0.6;
+    ctx.fillText(exponente, expX, expY);
+
+    // Obtener la imagen como base64 completa
+    const dataURL = canvas.toDataURL("image/png");
+
+    // Insertar la imagen directamente en el div editable como HTML
+    editor.innerHTML += `<img src="${dataURL}" style="vertical-align: middle; width: 80px; height: auto;">`;
+
+    closeModal();
+    editor.focus();
+}
 
 function closeModal() {
     modal.classList.remove('show');
@@ -344,7 +458,7 @@ function closeModal() {
         vaciar();
         hiddeImage();
     }, 1000);
-    document.getElementById("container-div").focus();
+    document.getElementById("editor-0").focus();
 }
 
 function vaciar() {
@@ -367,7 +481,7 @@ window.onclick = function(event) {
 function dibujarRaizComoImagen() {
     const numero = document.getElementById('numero').value;
     const canvas = document.getElementById('miCanvas');
-    const contenedor = document.getElementById('container-div');
+    const contenedor = document.getElementById('editor-0');
 
     const ctx = canvas.getContext('2d');
     ctx.font = "30px Arial";
@@ -426,7 +540,7 @@ function dibujarFraccionComoImagen() {
     const numerador = document.getElementById('numerador').value;
     const denominador = document.getElementById('denominador').value;
     const canvas = document.getElementById('miCanvas');
-    const contenedor = document.getElementById('container-div');
+    const contenedor = document.getElementById('editor-0');
 
     if (numerador === "" || denominador === "" || isNaN(numerador) || isNaN(denominador)) {
     alert("Por favor, ingresa números válidos.");
