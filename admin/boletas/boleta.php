@@ -1,13 +1,12 @@
 
 <?php
 session_start();
-include('../../general/consultas/basic.php');
-include('../../general/consultas/boletas.php');
-include('../../general/consultas/carreras.php');
-include('../../general/consultas/usuario.php');
-include('../funciones.php');
 
-
+$dir = "../../general/";
+include($dir."db/admin.php");
+include($dir."db/basica.php");
+include($dir."db/boletas.php");
+include($dir."db/usuario.php");
 
 $id=$_GET['ver'];
 
