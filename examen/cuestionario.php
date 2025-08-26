@@ -54,6 +54,15 @@ $tema = $_SESSION['tema'];
 			transition: color 0.3s;
 		}
 
+		@media screen and (max-width: 768px){
+			#temporizador {
+				position: fixed;
+				right: 20px;
+				bottom: 50px;
+				top: auto;
+			}
+		}
+
 		.alerta {
 			color: #ff0000;
 		}
