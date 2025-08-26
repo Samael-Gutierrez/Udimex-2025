@@ -3,6 +3,7 @@ session_start();
 
 $dir = "../../general/";
 
+include($dir."php/admin.php");
 include($dir."db/admin.php");
 include($dir."db/basica.php");
 include($dir."db/boletas.php");
