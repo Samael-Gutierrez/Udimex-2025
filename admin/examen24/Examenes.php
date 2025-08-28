@@ -93,7 +93,7 @@ while ($fila = mysqli_fetch_assoc($datos)) {
                 <div class='separacion'></div>
                 <div>
                     <p>Comparte la liga con tus alumnos, para que puedan ingresar al examen.</p>
-                    <a class='referencia' href='https://udimex.net/admin/examen24/vistaAlumno.php?id=${id}'>https://udimex.net/admin/examen24/vistaAlumno.php?id=${id}</a>
+                    <a class='referencia' onclick='copiarLink(${id});'>Copiar Link</a>
                     <p>O si prefieres puedes incluir el siguiente código en tu página web.</p>
                     <textarea style='min-width:80%; min-height:60px; max-width:80%; max-height:60px;'><iframe id="examenUdimex" title="Examen Udimex" width="100%" height="600" src="https://udimex.net/admin/examen24/vistaAlumno.php?id=${id}"></iframe></textarea>
                 </div>
@@ -104,6 +104,15 @@ while ($fila = mysqli_fetch_assoc($datos)) {
             setTimeout(() => modal.classList.add('show'), 10);
         }
 
+        function copiarLink(id) {
+            const link = `https://udimex.net/admin/examen24/vistaAlumno.php?id=${id}`
+
+            navigator.clipboard.writeText(link).then(() => {
+                alert("¡Link copiado al portapapeles!");
+            }).catch(err => {
+                console.error("Error al copiar el link:", err);
+            });
+        }
 
         function closeModal() {
             modal.classList.remove('show');

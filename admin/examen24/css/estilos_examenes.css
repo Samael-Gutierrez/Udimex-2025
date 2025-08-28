@@ -282,11 +282,21 @@ h1 {
 }
 
 .referencia {
-    color: black;
+    color: white;
+    background-color: #072e6d;
     margin-top: 20px;
-    cursor: default;
+    padding: 5px 8px;
+    cursor: pointer;
     text-decoration: none;
     font-weight: bold;
+    margin: auto;
+    border-radius: 10px;
+    transition: all 1s;
+}
+
+.referencia:hover {
+    background-color: #d60c45;
+    scale: 1.1;
 }
 
 .separacion {
