@@ -64,6 +64,11 @@ function b_cad($us){
 	return ejecuta($consulta,[$us,$fecha],0);
 }
 
+function getADate($idPago){
+	$consulta = "SELECT id_pago, f_pago, f_caducidad FROM pago WHERE id_pago = ?";
+	return ejecuta($consulta, [$idPago], 0);
+}
+
 function totalesAntesPago($id,$pago){
 	$pago ++;
 	$consulta="SELECT COUNT(id_pago) AS totales FROM pago WHERE id_usuario = ? AND id_pago < ? ORDER BY id_pago DESC limit 2";
@@ -85,10 +90,6 @@ function normalizarFecha($f1, $f2){
 	$segundoMes=str_replace($search, $replace, $segundaFecha[1]);
 	$fechas_finales = $primerFecha[2] . " del " . $primerMes . " del " . $primerFecha[0] . " al " . $segundaFecha[2] . " del " . $segundoMes . " del " . $segundaFecha[0];
 	return $fechas_finales;
-}
-
-function b_ufp($us){
-	echo "consulta duplicada, cambiar por b_cad";
 }
 
 function ordenFecha($fecha){
