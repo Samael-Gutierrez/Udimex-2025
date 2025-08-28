@@ -81,10 +81,10 @@ else{
     <strong>Alumno: </strong>
     <div class='info-box'>
         <form method='POST'>
-            <input type='text' name='us' placeholder='Usuario'> &nbsp; &nbsp;
-            <input type='password' name='pas' placeholder='Contraseña'>
+            <input type='text' id='us' name='us' placeholder='Usuario' required> &nbsp; &nbsp;
+            <input type='password' id='pas' name='pas' placeholder='Contraseña' required>
         
-        &nbsp; &nbsp; <input type='submit' value='Entrar' class='boton'>
+        &nbsp; &nbsp; <button type='submit' id='btn' class='boton' disabled>Entrar</button>
         </form>
     </div></div>";
 }
@@ -141,5 +141,21 @@ else{
         </header>
 
     </div>
+    <script>
+        const us = document.getElementById('us');
+        const pas = document.getElementById('pas');
+        const btn = document.getElementById('btn');
+
+        function verificarInputs() {
+            if (us.value.trim() !== '' && pas.value.trim() !== '') {
+                btn.disabled = false;
+            } else {
+                btn.disabled = true;
+            }
+        }
+
+        us.addEventListener('input', verificarInputs);
+        pas.addEventListener('input', verificarInputs);
+    </script>
 </body>
 </html>
