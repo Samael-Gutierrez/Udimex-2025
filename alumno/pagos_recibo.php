@@ -102,30 +102,17 @@ if ($_GET){
 
 	}
 }
-
-
-	echo "
-		<table align='center' width='100%'>
-		<p><h2> <font color='#ff1100'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Conoce más de nuestros servicios!</font></h2></p>
+echo "
+	<table align='center' width='100%'>
+		<p><h2><font color='#ff1100'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Conoce más de nuestros servicios!</font></h2></p>
 		<tr>
-	";
-
-
-		echo "
-			<td>&nbsp;&nbsp;&nbsp;<img class='mar ul' width='210px'   src='../general/imagen/publicidad-r/administracion.png'></td>
-		";
-
-		echo "
-			<td>&nbsp;&nbsp;&nbsp;<img class='mar ul' width='210px'   src='../general/imagen/publicidad-r/industrial.png'></td>
-		";
-
-		echo "
-			<td>&nbsp;&nbsp;&nbsp;<img class='mar ul' width='210px'   src='../general/imagen/publicidad-r/pedagogia.png'></td>
-		";
-
-	echo "</tr></table>";
+			<td>&nbsp;&nbsp;&nbsp;<img class='mar ul' width='210px' src='../general/imagen/publicidad-r/administracion.png'></td>
+			<td>&nbsp;&nbsp;&nbsp;<img class='mar ul' width='210px' src='../general/imagen/publicidad-r/industrial.png'></td>
+			<td>&nbsp;&nbsp;&nbsp;<img class='mar ul' width='210px' src='../general/imagen/publicidad-r/pedagogia.png'></td>
+		</tr>
+	</table>";
 ?>
-
-</div></div>
+	</div>
+</div>
 </body>
 </html>
