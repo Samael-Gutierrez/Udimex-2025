@@ -13,7 +13,11 @@
     <script type='text/javascript' src='../../general/js/jquery-1.6.4.js'></script>
 </head>
 <body>
-
+<?php 
+echo "
+    <input type='hidden' value='".$_GET['id_portada']."' id='idPortada'>
+";
+?>
 <div class="main-container">
     <div class="horizontal-lines">
         <hr class="red-line">
@@ -248,9 +252,11 @@ function guardarPregunta() {
     document.getElementById('editor-4').innerHTML='';
 }
 
+const idPortada = document.getElementById("idPortada").value;
+
 document.getElementById('confirmFinish').addEventListener('click', function() {
     document.getElementById('accion').value = 'finalizar';
-    document.getElementById('formulario-preguntas').action = 'crearLiga.php';
+    document.getElementById('formulario-preguntas').action = `crearLiga.php?id_portada=${idPortada}`;
     document.getElementById('formulario-preguntas').submit(); 
 });
 

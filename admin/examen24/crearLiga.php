@@ -2,7 +2,7 @@
 
 session_start();
 
-$id= $_SESSION['id_portada'];
+$id= $_GET['id_portada'];
 $liga="https://udimex.net/admin/examen24/vistaAlumno.php?id=$id";
 
 ?>
